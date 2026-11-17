@@ -1,45 +1,15 @@
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test } from "@playwright/test";
+import { drawStroke, inkPixels, onboard } from "./helpers";
 
-/** 첫 번째 필기 줄 위에 사선 한 획을 긋는다. 기기에 따라 마우스 또는 실제 터치 이벤트(CDP)를 사용한다. */
-async function drawStroke(page: Page, lineIndex = 0, from = [0.1, 0.3], to = [0.4, 0.8]) {
-  const canvas = page.locator(".writing-line .ink-live").nth(lineIndex);
-  await canvas.scrollIntoViewIfNeeded();
-  const box = (await canvas.boundingBox())!;
-  const pts = Array.from({ length: 12 }, (_, i) => {
-    const t = i / 11;
-    return {
-      x: box.x + box.width * (from[0] + (to[0] - from[0]) * t),
-      y: box.y + box.height * (from[1] + (to[1] - from[1]) * t),
-    };
-  });
-  const hasTouch = await page.evaluate(() => navigator.maxTouchPoints > 0);
-  if (hasTouch) {
-    const cdp = await page.context().newCDPSession(page);
-    await cdp.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [pts[0]] });
-    for (const p of pts.slice(1)) await cdp.send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: [p] });
-    await cdp.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] });
-  } else {
-    await page.mouse.move(pts[0].x, pts[0].y);
-    await page.mouse.down();
-    for (const p of pts.slice(1)) await page.mouse.move(p.x, p.y);
-    await page.mouse.up();
-  }
-}
-
-/** 확정 스트로크 캔버스에서 잉크가 칠해진 픽셀 수 */
-async function inkPixels(page: Page, lineIndex = 0, selector = ".stage .writing-line"): Promise<number> {
-  return page.locator(selector).nth(lineIndex).locator("canvas.ink").first().evaluate((c: HTMLCanvasElement) => {
-    const d = c.getContext("2d")!.getImageData(0, 0, c.width, c.height).data;
-    let n = 0;
-    for (let i = 3; i < d.length; i += 4) if (d[i] > 0) n++;
-    return n;
-  });
-}
+// 펜글씨 모드: 한국어 사용자가 한국어를 연습
+test.beforeEach(async ({ page }) => {
+  await onboard(page, "ko", "ko", "한국어");
+});
 
 test("3단계 훈련을 마치고 결과를 비교할 수 있다", async ({ page }) => {
-  await page.goto("/#practice-ko-word-hangeul");
+  await page.goto("/#practice-ko-word-01");
   await expect(page.locator(".writing-line")).toHaveCount(1);
-  await expect(page.locator(".guide-solid")).toHaveText("한글");
+  await expect(page.locator(".guide-solid")).toHaveText("사람");
 
   // STEP 1: 따라 쓰기
   await drawStroke(page);
@@ -68,11 +38,11 @@ test("3단계 훈련을 마치고 결과를 비교할 수 있다", async ({ page
   for (const step of ["trace", "hint", "free"]) {
     await expect.poll(() => inkPixels(page, 0, `.compare-row.step-${step} .writing-line`)).toBeGreaterThan(50);
   }
-  await expect(page.locator(".compare-row.original .guide-solid")).toHaveText("한글");
+  await expect(page.locator(".compare-row.original .guide-solid")).toHaveText("사람");
 });
 
 test("되돌리기는 한 획씩, 전체 지우기는 모두 지운다", async ({ page }) => {
-  await page.goto("/#practice-ko-char-ga");
+  await page.goto("/#practice-ko-syl-01");
   await expect(page.locator(".writing-line")).toHaveCount(1);
   await drawStroke(page, 0, [0.2, 0.2], [0.3, 0.8]);
   const one = await inkPixels(page);
@@ -86,7 +56,7 @@ test("되돌리기는 한 획씩, 전체 지우기는 모두 지운다", async (
 });
 
 test("필기 중 페이지가 스크롤되지 않는다", async ({ page }) => {
-  await page.goto("/#practice-ko-para-1");
+  await page.goto("/#practice-ko-para-01");
   await expect(page.locator(".writing-line").first()).toBeVisible();
   await page.locator(".writing-line").nth(1).scrollIntoViewIfNeeded();
   const before = await page.evaluate(() => window.scrollY);
@@ -97,7 +67,7 @@ test("필기 중 페이지가 스크롤되지 않는다", async ({ page }) => {
 });
 
 test("화면 크기가 바뀌어도 필기가 같은 상대 위치에 다시 그려진다", async ({ page }) => {
-  await page.goto("/#practice-ko-word-hangeul");
+  await page.goto("/#practice-ko-word-01");
   await expect(page.locator(".writing-line")).toHaveCount(1);
   await drawStroke(page, 0, [0.1, 0.5], [0.3, 0.5]);
   const sampleAt = (fx: number, fy: number) =>
@@ -113,16 +83,15 @@ test("화면 크기가 바뀌어도 필기가 같은 상대 위치에 다시 그
 });
 
 test("글씨체를 손글씨로 바꿀 수 있다", async ({ page }) => {
-  await page.goto("/#practice-ko-word-annyeong");
-  await expect(page.locator(".guide-solid")).toBeVisible();
+  await page.goto("/#practice-ko-short-01");
+  await expect(page.locator(".guide-solid").first()).toBeVisible();
   await page.getByRole("radiogroup", { name: "글씨체" }).getByRole("radio", { name: "손글씨" }).click();
-  await expect(page.locator(".guide-solid")).toHaveAttribute("font-family", /Nanum Pen Script/);
+  await expect(page.locator(".guide-solid").first()).toHaveAttribute("font-family", /Nanum Pen Script/);
   const loaded = await page.evaluate(() => document.fonts.check('100px "Nanum Pen Script"', "안녕하세요"));
   expect(loaded).toBe(true);
 });
 
 test("직접 입력한 문장으로 연습할 수 있다", async ({ page }) => {
-  await page.goto("/");
   await page.locator("#custom-text").fill("나만의 연습 문장");
   await page.getByRole("button", { name: "이 문장으로 연습" }).click();
   await expect(page).toHaveURL(/#practice-custom$/);

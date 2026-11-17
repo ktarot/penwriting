@@ -12,6 +12,8 @@ export interface WritingLineOptions {
   guide: GuideOptions;
   /** 한 em의 최대 표시 크기(px). 컨테이너가 좁으면 자동으로 줄어든다. */
   maxEmPx: number;
+  /** 접근성 이름 (인터페이스 언어) */
+  label?: string;
   getStyle(): StrokeStyle;
 }
 
@@ -41,7 +43,7 @@ export class WritingLine {
     this.committed.className = "ink";
     this.live = document.createElement("canvas");
     this.live.className = "ink ink-live";
-    this.live.setAttribute("aria-label", `필기 영역 ${opts.lineIndex + 1}번째 줄: ${opts.line.text}`);
+    this.live.setAttribute("aria-label", `${opts.label ?? `#${opts.lineIndex + 1}`}: ${opts.line.text}`);
     this.live.setAttribute("role", "img");
     this.el.append(this.guideEl, this.committed, this.live);
 

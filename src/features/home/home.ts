@@ -1,46 +1,20 @@
 import { h } from "../../app/dom";
 import { hrefFor, navigate } from "../../app/router";
-import { customDraft, settings } from "../../app/state";
-import { LEVEL_LABELS, SAMPLE_ITEMS } from "../../engines/language/samples";
-import { FONT_LABELS } from "../../engines/writing/fonts";
-import type { FontStyle, LearningItem } from "../../types";
+import { customDraft, settings, t } from "../../app/state";
+import { fill } from "../../i18n/strings";
+import { loadPack } from "../../engines/language/loader";
+import { itemInfo } from "../../engines/language/pronunciation";
+import type { LanguagePack, LearningItem } from "../../types";
 
 export function renderHome(root: HTMLElement): () => void {
-  const fontToggle = h(
-    "div",
-    { class: "segmented", role: "radiogroup", "aria-label": "글씨체" },
-    ...(Object.keys(FONT_LABELS) as FontStyle[]).map((style) =>
-      h(
-        "button",
-        {
-          type: "button",
-          role: "radio",
-          class: `seg font-${style}`,
-          "aria-checked": String(settings.fontStyle === style),
-          onclick: () => {
-            settings.fontStyle = style;
-            fontToggle.querySelectorAll("button").forEach((b) => {
-              b.setAttribute("aria-checked", String(b.classList.contains(`font-${style}`)));
-            });
-          },
-        },
-        FONT_LABELS[style],
-      ),
-    ),
-  );
+  const s = t();
+  const lang = settings.learningLanguage;
+  const native = settings.nativeLanguage;
+  let disposed = false;
 
-  const groups = new Map<LearningItem["level"], LearningItem[]>();
-  for (const it of SAMPLE_ITEMS) {
-    if (!groups.has(it.level)) groups.set(it.level, []);
-    groups.get(it.level)!.push(it);
-  }
+  const lessons = h("div", { class: "lessons" }, h("p", { class: "loading" }, s.loadingPack));
 
-  const textarea = h("textarea", {
-    id: "custom-text",
-    rows: 3,
-    maxlength: 400,
-    placeholder: "연습할 글자, 단어, 문장을 입력하세요",
-  });
+  const textarea = h("textarea", { id: "custom-text", rows: 3, maxlength: 400, placeholder: s.customPlaceholder, lang });
   textarea.value = customDraft.text;
   textarea.addEventListener("input", () => (customDraft.text = textarea.value));
 
@@ -48,34 +22,18 @@ export function renderHome(root: HTMLElement): () => void {
     h(
       "main",
       { class: "page home" },
-      h("header", { class: "app-header" }, h("h1", {}, "PenWriting"), h("p", { class: "sub" }, "따라 쓰고, 힌트 보고, 혼자 쓰는 3단계 펜글씨 연습")),
-      h("section", { class: "card" }, h("h2", {}, "글씨체"), fontToggle),
-      ...[...groups.entries()].map(([level, items]) =>
-        h(
-          "section",
-          { class: "card" },
-          h("h2", {}, LEVEL_LABELS[level]),
-          h(
-            "ul",
-            { class: `item-list level-${level}` },
-            ...items.map((it) =>
-              h(
-                "li",
-                {},
-                h(
-                  "a",
-                  { class: "item-link", href: hrefFor.practice(it.id), lang: it.language },
-                  it.text.split("\n")[0] + (it.text.includes("\n") ? " …" : ""),
-                ),
-              ),
-            ),
-          ),
-        ),
+      h(
+        "header",
+        { class: "app-header row" },
+        h("div", {}, h("h1", {}, "PenWriting"), h("p", { class: "sub" }, s.tagline)),
+        h("a", { class: "btn", href: hrefFor.options() }, `⚙ ${s.settings}`),
       ),
+      h("p", { class: "pair" }, fill(s.learningPair, { native: s.langName[native], learning: s.langName[lang] })),
+      lessons,
       h(
         "section",
         { class: "card" },
-        h("h2", {}, h("label", { for: "custom-text" }, "직접 입력")),
+        h("h2", {}, h("label", { for: "custom-text" }, s.custom)),
         textarea,
         h(
           "button",
@@ -83,17 +41,53 @@ export function renderHome(root: HTMLElement): () => void {
             type: "button",
             class: "btn primary",
             onclick: () => {
-              if (!textarea.value.trim()) {
-                textarea.focus();
-                return;
-              }
+              if (!textarea.value.trim()) return textarea.focus();
               navigate(hrefFor.practice("custom"));
             },
           },
-          "이 문장으로 연습",
+          s.customStart,
         ),
       ),
     ),
   );
-  return () => {};
+
+  const itemLabel = (it: LearningItem, pack: LanguagePack) => {
+    const info = itemInfo(it, native, pack);
+    const hint = settings.showNativeReading && !info.sameLanguage ? info.nameReading ?? info.nativePronunciation : undefined;
+    const meaning = settings.showMeaning && it.level === "word" ? info.meaning : undefined;
+    const sub = [hint, meaning].filter(Boolean).join(" · ");
+    return h(
+      "a",
+      { class: "item-link", href: hrefFor.practice(it.id) },
+      h("span", { class: "item-text", lang }, it.text.split("\n")[0] + (it.text.includes("\n") ? " …" : "")),
+      sub ? h("span", { class: "item-sub", lang: native }, sub) : null,
+    );
+  };
+
+  const show = async () => {
+    lessons.replaceChildren(h("p", { class: "loading" }, s.loadingPack));
+    try {
+      const pack = await loadPack(lang);
+      if (disposed) return;
+      const note = pack.review.status === "draft" ? pack.review.note?.[native] : undefined;
+      lessons.replaceChildren(
+        note ? h("p", { class: "draft-note" }, h("span", { class: "tag draft" }, s.draft), " ", note) : "",
+        ...pack.categories.map((c) =>
+          h(
+            "section",
+            { class: "card" },
+            h("h2", {}, c.title[native] ?? c.title.en ?? c.id),
+            h("ul", { class: `item-list level-${c.level}` }, ...c.items.map((it) => h("li", {}, itemLabel(it, pack)))),
+          ),
+        ),
+      );
+    } catch {
+      if (disposed) return;
+      lessons.replaceChildren(h("p", { class: "error", role: "alert" }, s.packError), h("button", { type: "button", class: "btn", onclick: show }, s.retry));
+    }
+  };
+  void show();
+  return () => {
+    disposed = true;
+  };
 }

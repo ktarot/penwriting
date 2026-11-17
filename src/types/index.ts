@@ -1,6 +1,23 @@
 // 계획서 15장 데이터 모델. Phase 1에서 쓰는 부분 + 줄 단위 필기를 위한 확장.
 
 export type LanguageCode = "ko" | "en" | "ja" | "vi";
+export const LANGUAGES: readonly LanguageCode[] = ["ko", "en", "ja", "vi"];
+
+export function isLanguageCode(v: unknown): v is LanguageCode {
+  return typeof v === "string" && (LANGUAGES as readonly string[]).includes(v);
+}
+
+/** 발음·뜻 데이터의 검수 상태 */
+export type ReviewStatus = "draft" | "reviewed";
+
+export interface NativeGuide {
+  /** 문자 이름을 모국어로 적은 것 (예: ㄱ → giyeok) */
+  nameReading?: string;
+  /** 실제 소리의 모국어 근사 표기 */
+  pronunciation?: string;
+  meaning?: string;
+  explanation?: string;
+}
 export type FontStyle = "standard" | "handwriting";
 export type PracticeStep = "trace" | "hint" | "free";
 
@@ -21,11 +38,44 @@ export interface LearningItem {
   characterName?: string;
   standardReading?: string;
   phonemes?: string[];
-  nativeGuides: Record<
-    string,
-    { nameReading?: string; pronunciation?: string; meaning?: string; explanation?: string }
-  >;
-  speech?: { locale: string; audioAsset?: string };
+  nativeGuides: Partial<Record<LanguageCode, NativeGuide>>;
+  /** 음성 재생용. text가 있으면 원문 대신 그 텍스트를 읽는다 (예: ㄱ → "기역") */
+  speech?: { locale?: string; text?: string; audioAsset?: string };
+  /** 없으면 언어팩의 검수 상태를 따른다 */
+  review?: ReviewStatus;
+}
+
+export interface LessonCategory {
+  id: string;
+  level: LearningLevel;
+  title: Partial<Record<LanguageCode, string>>;
+  items: LearningItem[];
+}
+
+export interface LanguagePack {
+  language: LanguageCode;
+  version: string;
+  locale: string;
+  review: { status: ReviewStatus; note?: Partial<Record<LanguageCode, string>> };
+  categories: LessonCategory[];
+}
+
+/** 계획서 15장 UserSettings + 필기 도구 설정 */
+export interface UserSettings {
+  nativeLanguage: LanguageCode;
+  learningLanguage: LanguageCode;
+  fontStyle: FontStyle;
+  /** 단어·문장 기준 1em 최대 표시 크기(px) */
+  fontSize: number;
+  guideOpacity: { trace: number; hint: number };
+  highContrast: boolean;
+  showNativeReading: boolean;
+  showMeaning: boolean;
+  speechRate: number;
+  inkColor: string;
+  /** 줄 높이 대비 선 굵기 */
+  inkWidth: number;
+  onboarded: boolean;
 }
 
 /**

@@ -1,0 +1,2306 @@
+{
+ "language": "ja",
+ "version": "0.1.0",
+ "locale": "ja-JP",
+ "review": {
+  "status": "draft",
+  "note": {
+   "ko": "초안 데이터입니다. 원어민·전문가 검수 전이며, 모국어 발음 표기는 근사 표기입니다. 로마자는 헵번식입니다.",
+   "en": "Draft data. Not yet reviewed by native speakers; native-script readings are approximations. Romanization follows Hepburn.",
+   "ja": "下書きデータです。ネイティブ・専門家の確認前で、母語の発音表記は近似表記です。 ローマ字はヘボン式です。",
+   "vi": "Dữ liệu bản nháp. Chưa được người bản ngữ kiểm duyệt; cách ghi phát âm bằng tiếng mẹ đẻ chỉ là gần đúng. La-tinh hóa theo kiểu Hepburn."
+  }
+ },
+ "categories": [
+  {
+   "id": "hiragana",
+   "level": "character",
+   "title": {
+    "ko": "히라가나",
+    "en": "Hiragana",
+    "ja": "ひらがな",
+    "vi": "Hiragana"
+   },
+   "items": [
+    {
+     "id": "ja-hira-a",
+     "language": "ja",
+     "level": "character",
+     "text": "あ",
+     "standardReading": "a",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아"
+      },
+      "en": {
+       "pronunciation": "a"
+      },
+      "vi": {
+       "pronunciation": "a"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-i",
+     "language": "ja",
+     "level": "character",
+     "text": "い",
+     "standardReading": "i",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이"
+      },
+      "en": {
+       "pronunciation": "i"
+      },
+      "vi": {
+       "pronunciation": "i"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-u",
+     "language": "ja",
+     "level": "character",
+     "text": "う",
+     "standardReading": "u",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "우",
+       "explanation": "입술을 둥글게 하지 않는 '우'"
+      },
+      "en": {
+       "pronunciation": "u",
+       "explanation": "lips not rounded"
+      },
+      "vi": {
+       "pronunciation": "ư"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-e",
+     "language": "ja",
+     "level": "character",
+     "text": "え",
+     "standardReading": "e",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "에"
+      },
+      "en": {
+       "pronunciation": "e"
+      },
+      "vi": {
+       "pronunciation": "ê"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-o",
+     "language": "ja",
+     "level": "character",
+     "text": "お",
+     "standardReading": "o",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오"
+      },
+      "en": {
+       "pronunciation": "o"
+      },
+      "vi": {
+       "pronunciation": "ô"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ka",
+     "language": "ja",
+     "level": "character",
+     "text": "か",
+     "standardReading": "ka",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카"
+      },
+      "en": {
+       "pronunciation": "ka"
+      },
+      "vi": {
+       "pronunciation": "ca"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ki",
+     "language": "ja",
+     "level": "character",
+     "text": "き",
+     "standardReading": "ki",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "키"
+      },
+      "en": {
+       "pronunciation": "ki"
+      },
+      "vi": {
+       "pronunciation": "ki"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ku",
+     "language": "ja",
+     "level": "character",
+     "text": "く",
+     "standardReading": "ku",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠"
+      },
+      "en": {
+       "pronunciation": "ku"
+      },
+      "vi": {
+       "pronunciation": "cư"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ke",
+     "language": "ja",
+     "level": "character",
+     "text": "け",
+     "standardReading": "ke",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "케"
+      },
+      "en": {
+       "pronunciation": "ke"
+      },
+      "vi": {
+       "pronunciation": "kê"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ko",
+     "language": "ja",
+     "level": "character",
+     "text": "こ",
+     "standardReading": "ko",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "코"
+      },
+      "en": {
+       "pronunciation": "ko"
+      },
+      "vi": {
+       "pronunciation": "cô"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-sa",
+     "language": "ja",
+     "level": "character",
+     "text": "さ",
+     "standardReading": "sa",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "사"
+      },
+      "en": {
+       "pronunciation": "sa"
+      },
+      "vi": {
+       "pronunciation": "xa"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-shi",
+     "language": "ja",
+     "level": "character",
+     "text": "し",
+     "standardReading": "shi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "시"
+      },
+      "en": {
+       "pronunciation": "shi",
+       "explanation": "like 'she'"
+      },
+      "vi": {
+       "pronunciation": "si"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-su",
+     "language": "ja",
+     "level": "character",
+     "text": "す",
+     "standardReading": "su",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스"
+      },
+      "en": {
+       "pronunciation": "su"
+      },
+      "vi": {
+       "pronunciation": "xư"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-se",
+     "language": "ja",
+     "level": "character",
+     "text": "せ",
+     "standardReading": "se",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "세"
+      },
+      "en": {
+       "pronunciation": "se"
+      },
+      "vi": {
+       "pronunciation": "xê"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-so",
+     "language": "ja",
+     "level": "character",
+     "text": "そ",
+     "standardReading": "so",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "소"
+      },
+      "en": {
+       "pronunciation": "so"
+      },
+      "vi": {
+       "pronunciation": "xô"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ta",
+     "language": "ja",
+     "level": "character",
+     "text": "た",
+     "standardReading": "ta",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "타"
+      },
+      "en": {
+       "pronunciation": "ta"
+      },
+      "vi": {
+       "pronunciation": "ta"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-chi",
+     "language": "ja",
+     "level": "character",
+     "text": "ち",
+     "standardReading": "chi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "치"
+      },
+      "en": {
+       "pronunciation": "chi",
+       "explanation": "like 'chee'"
+      },
+      "vi": {
+       "pronunciation": "chi"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-tsu",
+     "language": "ja",
+     "level": "character",
+     "text": "つ",
+     "standardReading": "tsu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "츠",
+       "explanation": "'츠'와 '쓰' 사이 소리"
+      },
+      "en": {
+       "pronunciation": "tsu",
+       "explanation": "'ts' as in 'cats'"
+      },
+      "vi": {
+       "pronunciation": "chư",
+       "explanation": "âm 'ts' như 'cats' trong tiếng Anh"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-te",
+     "language": "ja",
+     "level": "character",
+     "text": "て",
+     "standardReading": "te",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "테"
+      },
+      "en": {
+       "pronunciation": "te"
+      },
+      "vi": {
+       "pronunciation": "tê"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-to",
+     "language": "ja",
+     "level": "character",
+     "text": "と",
+     "standardReading": "to",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "토"
+      },
+      "en": {
+       "pronunciation": "to"
+      },
+      "vi": {
+       "pronunciation": "tô"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-na",
+     "language": "ja",
+     "level": "character",
+     "text": "な",
+     "standardReading": "na",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "나"
+      },
+      "en": {
+       "pronunciation": "na"
+      },
+      "vi": {
+       "pronunciation": "na"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ni",
+     "language": "ja",
+     "level": "character",
+     "text": "に",
+     "standardReading": "ni",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "니"
+      },
+      "en": {
+       "pronunciation": "ni"
+      },
+      "vi": {
+       "pronunciation": "ni"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-nu",
+     "language": "ja",
+     "level": "character",
+     "text": "ぬ",
+     "standardReading": "nu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "누"
+      },
+      "en": {
+       "pronunciation": "nu"
+      },
+      "vi": {
+       "pronunciation": "nư"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ne",
+     "language": "ja",
+     "level": "character",
+     "text": "ね",
+     "standardReading": "ne",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "네"
+      },
+      "en": {
+       "pronunciation": "ne"
+      },
+      "vi": {
+       "pronunciation": "nê"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-no",
+     "language": "ja",
+     "level": "character",
+     "text": "の",
+     "standardReading": "no",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "노"
+      },
+      "en": {
+       "pronunciation": "no"
+      },
+      "vi": {
+       "pronunciation": "nô"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ha",
+     "language": "ja",
+     "level": "character",
+     "text": "は",
+     "standardReading": "ha",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하",
+       "explanation": "조사로 쓰일 때는 '와'"
+      },
+      "en": {
+       "pronunciation": "ha",
+       "explanation": "read 'wa' as a particle"
+      },
+      "vi": {
+       "pronunciation": "ha",
+       "explanation": "đọc là 'oa' khi làm trợ từ"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-hi",
+     "language": "ja",
+     "level": "character",
+     "text": "ひ",
+     "standardReading": "hi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "히"
+      },
+      "en": {
+       "pronunciation": "hi"
+      },
+      "vi": {
+       "pronunciation": "hi"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-fu",
+     "language": "ja",
+     "level": "character",
+     "text": "ふ",
+     "standardReading": "fu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "후",
+       "explanation": "f와 h 사이 소리"
+      },
+      "en": {
+       "pronunciation": "fu",
+       "explanation": "between 'f' and 'h'"
+      },
+      "vi": {
+       "pronunciation": "phư",
+       "explanation": "giữa 'ph' và 'h'"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-he",
+     "language": "ja",
+     "level": "character",
+     "text": "へ",
+     "standardReading": "he",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "헤",
+       "explanation": "조사로 쓰일 때는 '에'"
+      },
+      "en": {
+       "pronunciation": "he",
+       "explanation": "read 'e' as a particle"
+      },
+      "vi": {
+       "pronunciation": "hê"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ho",
+     "language": "ja",
+     "level": "character",
+     "text": "ほ",
+     "standardReading": "ho",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "호"
+      },
+      "en": {
+       "pronunciation": "ho"
+      },
+      "vi": {
+       "pronunciation": "hô"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ma",
+     "language": "ja",
+     "level": "character",
+     "text": "ま",
+     "standardReading": "ma",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "마"
+      },
+      "en": {
+       "pronunciation": "ma"
+      },
+      "vi": {
+       "pronunciation": "ma"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-mi",
+     "language": "ja",
+     "level": "character",
+     "text": "み",
+     "standardReading": "mi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "미"
+      },
+      "en": {
+       "pronunciation": "mi"
+      },
+      "vi": {
+       "pronunciation": "mi"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-mu",
+     "language": "ja",
+     "level": "character",
+     "text": "む",
+     "standardReading": "mu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "무"
+      },
+      "en": {
+       "pronunciation": "mu"
+      },
+      "vi": {
+       "pronunciation": "mư"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-me",
+     "language": "ja",
+     "level": "character",
+     "text": "め",
+     "standardReading": "me",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "메"
+      },
+      "en": {
+       "pronunciation": "me"
+      },
+      "vi": {
+       "pronunciation": "mê"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-mo",
+     "language": "ja",
+     "level": "character",
+     "text": "も",
+     "standardReading": "mo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "모"
+      },
+      "en": {
+       "pronunciation": "mo"
+      },
+      "vi": {
+       "pronunciation": "mô"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ya",
+     "language": "ja",
+     "level": "character",
+     "text": "や",
+     "standardReading": "ya",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "야"
+      },
+      "en": {
+       "pronunciation": "ya"
+      },
+      "vi": {
+       "pronunciation": "ia"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-yu",
+     "language": "ja",
+     "level": "character",
+     "text": "ゆ",
+     "standardReading": "yu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "유"
+      },
+      "en": {
+       "pronunciation": "yu"
+      },
+      "vi": {
+       "pronunciation": "iu"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-yo",
+     "language": "ja",
+     "level": "character",
+     "text": "よ",
+     "standardReading": "yo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "요"
+      },
+      "en": {
+       "pronunciation": "yo"
+      },
+      "vi": {
+       "pronunciation": "iô"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ra",
+     "language": "ja",
+     "level": "character",
+     "text": "ら",
+     "standardReading": "ra",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "라",
+       "explanation": "혀끝으로 가볍게 튕기는 ㄹ"
+      },
+      "en": {
+       "pronunciation": "ra",
+       "explanation": "a light tap between 'r' and 'l'"
+      },
+      "vi": {
+       "pronunciation": "ra",
+       "explanation": "âm vỗ nhẹ, giữa 'r' và 'l'"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ri",
+     "language": "ja",
+     "level": "character",
+     "text": "り",
+     "standardReading": "ri",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "리"
+      },
+      "en": {
+       "pronunciation": "ri"
+      },
+      "vi": {
+       "pronunciation": "ri"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ru",
+     "language": "ja",
+     "level": "character",
+     "text": "る",
+     "standardReading": "ru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "루"
+      },
+      "en": {
+       "pronunciation": "ru"
+      },
+      "vi": {
+       "pronunciation": "rư"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-re",
+     "language": "ja",
+     "level": "character",
+     "text": "れ",
+     "standardReading": "re",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "레"
+      },
+      "en": {
+       "pronunciation": "re"
+      },
+      "vi": {
+       "pronunciation": "rê"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-ro",
+     "language": "ja",
+     "level": "character",
+     "text": "ろ",
+     "standardReading": "ro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "로"
+      },
+      "en": {
+       "pronunciation": "ro"
+      },
+      "vi": {
+       "pronunciation": "rô"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-wa",
+     "language": "ja",
+     "level": "character",
+     "text": "わ",
+     "standardReading": "wa",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "와"
+      },
+      "en": {
+       "pronunciation": "wa"
+      },
+      "vi": {
+       "pronunciation": "oa"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-wo",
+     "language": "ja",
+     "level": "character",
+     "text": "を",
+     "standardReading": "wo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오",
+       "explanation": "조사 전용, '오'로 발음"
+      },
+      "en": {
+       "pronunciation": "wo",
+       "explanation": "pronounced 'o'; used as a particle"
+      },
+      "vi": {
+       "pronunciation": "ô",
+       "explanation": "chỉ dùng làm trợ từ, đọc là 'ô'"
+      }
+     }
+    },
+    {
+     "id": "ja-hira-n",
+     "language": "ja",
+     "level": "character",
+     "text": "ん",
+     "standardReading": "n",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응(ㄴ·ㅁ·ㅇ 받침)",
+       "explanation": "뒤 소리에 따라 ㄴ·ㅁ·ㅇ 받침처럼 소리남"
+      },
+      "en": {
+       "pronunciation": "n",
+       "explanation": "nasal: n, m or ng depending on the next sound"
+      },
+      "vi": {
+       "pronunciation": "n / m / ng",
+       "explanation": "đọc n/m/ng tùy âm sau"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "katakana",
+   "level": "character",
+   "title": {
+    "ko": "가타카나",
+    "en": "Katakana",
+    "ja": "カタカナ",
+    "vi": "Katakana"
+   },
+   "items": [
+    {
+     "id": "ja-kata-a",
+     "language": "ja",
+     "level": "character",
+     "text": "ア",
+     "standardReading": "a",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아"
+      },
+      "en": {
+       "pronunciation": "a"
+      },
+      "vi": {
+       "pronunciation": "a"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-i",
+     "language": "ja",
+     "level": "character",
+     "text": "イ",
+     "standardReading": "i",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이"
+      },
+      "en": {
+       "pronunciation": "i"
+      },
+      "vi": {
+       "pronunciation": "i"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-u",
+     "language": "ja",
+     "level": "character",
+     "text": "ウ",
+     "standardReading": "u",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "우",
+       "explanation": "입술을 둥글게 하지 않는 '우'"
+      },
+      "en": {
+       "pronunciation": "u",
+       "explanation": "lips not rounded"
+      },
+      "vi": {
+       "pronunciation": "ư"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-e",
+     "language": "ja",
+     "level": "character",
+     "text": "エ",
+     "standardReading": "e",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "에"
+      },
+      "en": {
+       "pronunciation": "e"
+      },
+      "vi": {
+       "pronunciation": "ê"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-o",
+     "language": "ja",
+     "level": "character",
+     "text": "オ",
+     "standardReading": "o",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오"
+      },
+      "en": {
+       "pronunciation": "o"
+      },
+      "vi": {
+       "pronunciation": "ô"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ka",
+     "language": "ja",
+     "level": "character",
+     "text": "カ",
+     "standardReading": "ka",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카"
+      },
+      "en": {
+       "pronunciation": "ka"
+      },
+      "vi": {
+       "pronunciation": "ca"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ki",
+     "language": "ja",
+     "level": "character",
+     "text": "キ",
+     "standardReading": "ki",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "키"
+      },
+      "en": {
+       "pronunciation": "ki"
+      },
+      "vi": {
+       "pronunciation": "ki"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ku",
+     "language": "ja",
+     "level": "character",
+     "text": "ク",
+     "standardReading": "ku",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠"
+      },
+      "en": {
+       "pronunciation": "ku"
+      },
+      "vi": {
+       "pronunciation": "cư"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ke",
+     "language": "ja",
+     "level": "character",
+     "text": "ケ",
+     "standardReading": "ke",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "케"
+      },
+      "en": {
+       "pronunciation": "ke"
+      },
+      "vi": {
+       "pronunciation": "kê"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ko",
+     "language": "ja",
+     "level": "character",
+     "text": "コ",
+     "standardReading": "ko",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "코"
+      },
+      "en": {
+       "pronunciation": "ko"
+      },
+      "vi": {
+       "pronunciation": "cô"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-sa",
+     "language": "ja",
+     "level": "character",
+     "text": "サ",
+     "standardReading": "sa",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "사"
+      },
+      "en": {
+       "pronunciation": "sa"
+      },
+      "vi": {
+       "pronunciation": "xa"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-shi",
+     "language": "ja",
+     "level": "character",
+     "text": "シ",
+     "standardReading": "shi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "시"
+      },
+      "en": {
+       "pronunciation": "shi",
+       "explanation": "like 'she'"
+      },
+      "vi": {
+       "pronunciation": "si"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-su",
+     "language": "ja",
+     "level": "character",
+     "text": "ス",
+     "standardReading": "su",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스"
+      },
+      "en": {
+       "pronunciation": "su"
+      },
+      "vi": {
+       "pronunciation": "xư"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-se",
+     "language": "ja",
+     "level": "character",
+     "text": "セ",
+     "standardReading": "se",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "세"
+      },
+      "en": {
+       "pronunciation": "se"
+      },
+      "vi": {
+       "pronunciation": "xê"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-so",
+     "language": "ja",
+     "level": "character",
+     "text": "ソ",
+     "standardReading": "so",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "소"
+      },
+      "en": {
+       "pronunciation": "so"
+      },
+      "vi": {
+       "pronunciation": "xô"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ta",
+     "language": "ja",
+     "level": "character",
+     "text": "タ",
+     "standardReading": "ta",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "타"
+      },
+      "en": {
+       "pronunciation": "ta"
+      },
+      "vi": {
+       "pronunciation": "ta"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-chi",
+     "language": "ja",
+     "level": "character",
+     "text": "チ",
+     "standardReading": "chi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "치"
+      },
+      "en": {
+       "pronunciation": "chi",
+       "explanation": "like 'chee'"
+      },
+      "vi": {
+       "pronunciation": "chi"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-tsu",
+     "language": "ja",
+     "level": "character",
+     "text": "ツ",
+     "standardReading": "tsu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "츠",
+       "explanation": "'츠'와 '쓰' 사이 소리"
+      },
+      "en": {
+       "pronunciation": "tsu",
+       "explanation": "'ts' as in 'cats'"
+      },
+      "vi": {
+       "pronunciation": "chư",
+       "explanation": "âm 'ts' như 'cats' trong tiếng Anh"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-te",
+     "language": "ja",
+     "level": "character",
+     "text": "テ",
+     "standardReading": "te",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "테"
+      },
+      "en": {
+       "pronunciation": "te"
+      },
+      "vi": {
+       "pronunciation": "tê"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-to",
+     "language": "ja",
+     "level": "character",
+     "text": "ト",
+     "standardReading": "to",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "토"
+      },
+      "en": {
+       "pronunciation": "to"
+      },
+      "vi": {
+       "pronunciation": "tô"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-na",
+     "language": "ja",
+     "level": "character",
+     "text": "ナ",
+     "standardReading": "na",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "나"
+      },
+      "en": {
+       "pronunciation": "na"
+      },
+      "vi": {
+       "pronunciation": "na"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ni",
+     "language": "ja",
+     "level": "character",
+     "text": "ニ",
+     "standardReading": "ni",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "니"
+      },
+      "en": {
+       "pronunciation": "ni"
+      },
+      "vi": {
+       "pronunciation": "ni"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-nu",
+     "language": "ja",
+     "level": "character",
+     "text": "ヌ",
+     "standardReading": "nu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "누"
+      },
+      "en": {
+       "pronunciation": "nu"
+      },
+      "vi": {
+       "pronunciation": "nư"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ne",
+     "language": "ja",
+     "level": "character",
+     "text": "ネ",
+     "standardReading": "ne",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "네"
+      },
+      "en": {
+       "pronunciation": "ne"
+      },
+      "vi": {
+       "pronunciation": "nê"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-no",
+     "language": "ja",
+     "level": "character",
+     "text": "ノ",
+     "standardReading": "no",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "노"
+      },
+      "en": {
+       "pronunciation": "no"
+      },
+      "vi": {
+       "pronunciation": "nô"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ha",
+     "language": "ja",
+     "level": "character",
+     "text": "ハ",
+     "standardReading": "ha",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하",
+       "explanation": "조사로 쓰일 때는 '와'"
+      },
+      "en": {
+       "pronunciation": "ha",
+       "explanation": "read 'wa' as a particle"
+      },
+      "vi": {
+       "pronunciation": "ha",
+       "explanation": "đọc là 'oa' khi làm trợ từ"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-hi",
+     "language": "ja",
+     "level": "character",
+     "text": "ヒ",
+     "standardReading": "hi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "히"
+      },
+      "en": {
+       "pronunciation": "hi"
+      },
+      "vi": {
+       "pronunciation": "hi"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-fu",
+     "language": "ja",
+     "level": "character",
+     "text": "フ",
+     "standardReading": "fu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "후",
+       "explanation": "f와 h 사이 소리"
+      },
+      "en": {
+       "pronunciation": "fu",
+       "explanation": "between 'f' and 'h'"
+      },
+      "vi": {
+       "pronunciation": "phư",
+       "explanation": "giữa 'ph' và 'h'"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-he",
+     "language": "ja",
+     "level": "character",
+     "text": "ヘ",
+     "standardReading": "he",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "헤",
+       "explanation": "조사로 쓰일 때는 '에'"
+      },
+      "en": {
+       "pronunciation": "he",
+       "explanation": "read 'e' as a particle"
+      },
+      "vi": {
+       "pronunciation": "hê"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ho",
+     "language": "ja",
+     "level": "character",
+     "text": "ホ",
+     "standardReading": "ho",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "호"
+      },
+      "en": {
+       "pronunciation": "ho"
+      },
+      "vi": {
+       "pronunciation": "hô"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ma",
+     "language": "ja",
+     "level": "character",
+     "text": "マ",
+     "standardReading": "ma",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "마"
+      },
+      "en": {
+       "pronunciation": "ma"
+      },
+      "vi": {
+       "pronunciation": "ma"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-mi",
+     "language": "ja",
+     "level": "character",
+     "text": "ミ",
+     "standardReading": "mi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "미"
+      },
+      "en": {
+       "pronunciation": "mi"
+      },
+      "vi": {
+       "pronunciation": "mi"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-mu",
+     "language": "ja",
+     "level": "character",
+     "text": "ム",
+     "standardReading": "mu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "무"
+      },
+      "en": {
+       "pronunciation": "mu"
+      },
+      "vi": {
+       "pronunciation": "mư"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-me",
+     "language": "ja",
+     "level": "character",
+     "text": "メ",
+     "standardReading": "me",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "메"
+      },
+      "en": {
+       "pronunciation": "me"
+      },
+      "vi": {
+       "pronunciation": "mê"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-mo",
+     "language": "ja",
+     "level": "character",
+     "text": "モ",
+     "standardReading": "mo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "모"
+      },
+      "en": {
+       "pronunciation": "mo"
+      },
+      "vi": {
+       "pronunciation": "mô"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ya",
+     "language": "ja",
+     "level": "character",
+     "text": "ヤ",
+     "standardReading": "ya",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "야"
+      },
+      "en": {
+       "pronunciation": "ya"
+      },
+      "vi": {
+       "pronunciation": "ia"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-yu",
+     "language": "ja",
+     "level": "character",
+     "text": "ユ",
+     "standardReading": "yu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "유"
+      },
+      "en": {
+       "pronunciation": "yu"
+      },
+      "vi": {
+       "pronunciation": "iu"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-yo",
+     "language": "ja",
+     "level": "character",
+     "text": "ヨ",
+     "standardReading": "yo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "요"
+      },
+      "en": {
+       "pronunciation": "yo"
+      },
+      "vi": {
+       "pronunciation": "iô"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ra",
+     "language": "ja",
+     "level": "character",
+     "text": "ラ",
+     "standardReading": "ra",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "라",
+       "explanation": "혀끝으로 가볍게 튕기는 ㄹ"
+      },
+      "en": {
+       "pronunciation": "ra",
+       "explanation": "a light tap between 'r' and 'l'"
+      },
+      "vi": {
+       "pronunciation": "ra",
+       "explanation": "âm vỗ nhẹ, giữa 'r' và 'l'"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ri",
+     "language": "ja",
+     "level": "character",
+     "text": "リ",
+     "standardReading": "ri",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "리"
+      },
+      "en": {
+       "pronunciation": "ri"
+      },
+      "vi": {
+       "pronunciation": "ri"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ru",
+     "language": "ja",
+     "level": "character",
+     "text": "ル",
+     "standardReading": "ru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "루"
+      },
+      "en": {
+       "pronunciation": "ru"
+      },
+      "vi": {
+       "pronunciation": "rư"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-re",
+     "language": "ja",
+     "level": "character",
+     "text": "レ",
+     "standardReading": "re",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "레"
+      },
+      "en": {
+       "pronunciation": "re"
+      },
+      "vi": {
+       "pronunciation": "rê"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-ro",
+     "language": "ja",
+     "level": "character",
+     "text": "ロ",
+     "standardReading": "ro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "로"
+      },
+      "en": {
+       "pronunciation": "ro"
+      },
+      "vi": {
+       "pronunciation": "rô"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-wa",
+     "language": "ja",
+     "level": "character",
+     "text": "ワ",
+     "standardReading": "wa",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "와"
+      },
+      "en": {
+       "pronunciation": "wa"
+      },
+      "vi": {
+       "pronunciation": "oa"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-wo",
+     "language": "ja",
+     "level": "character",
+     "text": "ヲ",
+     "standardReading": "wo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오",
+       "explanation": "조사 전용, '오'로 발음"
+      },
+      "en": {
+       "pronunciation": "wo",
+       "explanation": "pronounced 'o'; used as a particle"
+      },
+      "vi": {
+       "pronunciation": "ô",
+       "explanation": "chỉ dùng làm trợ từ, đọc là 'ô'"
+      }
+     }
+    },
+    {
+     "id": "ja-kata-n",
+     "language": "ja",
+     "level": "character",
+     "text": "ン",
+     "standardReading": "n",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응(ㄴ·ㅁ·ㅇ 받침)",
+       "explanation": "뒤 소리에 따라 ㄴ·ㅁ·ㅇ 받침처럼 소리남"
+      },
+      "en": {
+       "pronunciation": "n",
+       "explanation": "nasal: n, m or ng depending on the next sound"
+      },
+      "vi": {
+       "pronunciation": "n / m / ng",
+       "explanation": "đọc n/m/ng tùy âm sau"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "kanji",
+   "level": "character",
+   "title": {
+    "ko": "기초 한자",
+    "en": "Basic kanji",
+    "ja": "基本の漢字",
+    "vi": "Hán tự cơ bản"
+   },
+   "items": [
+    {
+     "id": "ja-kanji-01",
+     "language": "ja",
+     "level": "character",
+     "text": "一",
+     "standardReading": "音: イチ / 訓: ひと(つ)",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이치 / 히토(츠)",
+       "meaning": "하나 (한 일)"
+      },
+      "en": {
+       "pronunciation": "ichi / hito(tsu)",
+       "meaning": "one"
+      },
+      "vi": {
+       "pronunciation": "i-chi / hi-tô(chư)",
+       "meaning": "một"
+      }
+     }
+    },
+    {
+     "id": "ja-kanji-02",
+     "language": "ja",
+     "level": "character",
+     "text": "二",
+     "standardReading": "音: ニ / 訓: ふた(つ)",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "니 / 후타(츠)",
+       "meaning": "둘 (두 이)"
+      },
+      "en": {
+       "pronunciation": "ni / futa(tsu)",
+       "meaning": "two"
+      },
+      "vi": {
+       "pronunciation": "ni / phư-ta(chư)",
+       "meaning": "hai"
+      }
+     }
+    },
+    {
+     "id": "ja-kanji-03",
+     "language": "ja",
+     "level": "character",
+     "text": "三",
+     "standardReading": "音: サン / 訓: みっ(つ)",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "산 / 밋(츠)",
+       "meaning": "셋 (석 삼)"
+      },
+      "en": {
+       "pronunciation": "san / mit(tsu)",
+       "meaning": "three"
+      },
+      "vi": {
+       "pronunciation": "xan / mít(chư)",
+       "meaning": "ba"
+      }
+     }
+    },
+    {
+     "id": "ja-kanji-04",
+     "language": "ja",
+     "level": "character",
+     "text": "人",
+     "standardReading": "音: ジン・ニン / 訓: ひと",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "진·닌 / 히토",
+       "meaning": "사람 (사람 인)"
+      },
+      "en": {
+       "pronunciation": "jin, nin / hito",
+       "meaning": "person"
+      },
+      "vi": {
+       "pronunciation": "gin, nin / hi-tô",
+       "meaning": "người"
+      }
+     }
+    },
+    {
+     "id": "ja-kanji-05",
+     "language": "ja",
+     "level": "character",
+     "text": "日",
+     "standardReading": "音: ニチ・ジツ / 訓: ひ・か",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "니치·지츠 / 히·카",
+       "meaning": "날, 해 (날 일)"
+      },
+      "en": {
+       "pronunciation": "nichi, jitsu / hi, ka",
+       "meaning": "day, sun"
+      },
+      "vi": {
+       "pronunciation": "ni-chi, gi-chư / hi, ca",
+       "meaning": "ngày, mặt trời"
+      }
+     }
+    },
+    {
+     "id": "ja-kanji-06",
+     "language": "ja",
+     "level": "character",
+     "text": "月",
+     "standardReading": "音: ゲツ・ガツ / 訓: つき",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "게츠·가츠 / 츠키",
+       "meaning": "달 (달 월)"
+      },
+      "en": {
+       "pronunciation": "getsu, gatsu / tsuki",
+       "meaning": "moon, month"
+      },
+      "vi": {
+       "pronunciation": "ghê-chư, ga-chư / chư-ki",
+       "meaning": "mặt trăng, tháng"
+      }
+     }
+    },
+    {
+     "id": "ja-kanji-07",
+     "language": "ja",
+     "level": "character",
+     "text": "山",
+     "standardReading": "音: サン / 訓: やま",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "산 / 야마",
+       "meaning": "산 (메 산)"
+      },
+      "en": {
+       "pronunciation": "san / yama",
+       "meaning": "mountain"
+      },
+      "vi": {
+       "pronunciation": "xan / ia-ma",
+       "meaning": "núi"
+      }
+     }
+    },
+    {
+     "id": "ja-kanji-08",
+     "language": "ja",
+     "level": "character",
+     "text": "川",
+     "standardReading": "音: セン / 訓: かわ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "센 / 카와",
+       "meaning": "내, 강 (내 천)"
+      },
+      "en": {
+       "pronunciation": "sen / kawa",
+       "meaning": "river"
+      },
+      "vi": {
+       "pronunciation": "xen / ca-oa",
+       "meaning": "sông"
+      }
+     }
+    },
+    {
+     "id": "ja-kanji-09",
+     "language": "ja",
+     "level": "character",
+     "text": "水",
+     "standardReading": "音: スイ / 訓: みず",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스이 / 미즈",
+       "meaning": "물 (물 수)"
+      },
+      "en": {
+       "pronunciation": "sui / mizu",
+       "meaning": "water"
+      },
+      "vi": {
+       "pronunciation": "xư-i / mi-dư",
+       "meaning": "nước"
+      }
+     }
+    },
+    {
+     "id": "ja-kanji-10",
+     "language": "ja",
+     "level": "character",
+     "text": "火",
+     "standardReading": "音: カ / 訓: ひ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카 / 히",
+       "meaning": "불 (불 화)"
+      },
+      "en": {
+       "pronunciation": "ka / hi",
+       "meaning": "fire"
+      },
+      "vi": {
+       "pronunciation": "ca / hi",
+       "meaning": "lửa"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "words",
+   "level": "word",
+   "title": {
+    "ko": "단어",
+    "en": "Words",
+    "ja": "単語",
+    "vi": "Từ"
+   },
+   "items": [
+    {
+     "id": "ja-word-01",
+     "language": "ja",
+     "level": "word",
+     "text": "ありがとう",
+     "standardReading": "arigatō",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아리가토오",
+       "meaning": "고마워 / 감사합니다"
+      },
+      "en": {
+       "pronunciation": "arigatō",
+       "meaning": "thank you"
+      },
+      "vi": {
+       "pronunciation": "a-ri-ga-tô-ô",
+       "meaning": "cảm ơn"
+      }
+     }
+    },
+    {
+     "id": "ja-word-02",
+     "language": "ja",
+     "level": "word",
+     "text": "こんにちは",
+     "standardReading": "konnichiwa",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "콘니치와",
+       "meaning": "안녕하세요 (낮 인사)",
+       "explanation": "끝의 'は'는 '와'로 읽음"
+      },
+      "en": {
+       "pronunciation": "konnichiwa",
+       "meaning": "hello, good afternoon"
+      },
+      "vi": {
+       "pronunciation": "côn-ni-chi-oa",
+       "meaning": "xin chào"
+      }
+     }
+    },
+    {
+     "id": "ja-word-03",
+     "language": "ja",
+     "level": "word",
+     "text": "みず",
+     "standardReading": "mizu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "미즈",
+       "meaning": "물"
+      },
+      "en": {
+       "pronunciation": "mizu",
+       "meaning": "water"
+      },
+      "vi": {
+       "pronunciation": "mi-dư",
+       "meaning": "nước"
+      }
+     }
+    },
+    {
+     "id": "ja-word-04",
+     "language": "ja",
+     "level": "word",
+     "text": "ねこ",
+     "standardReading": "neko",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "네코",
+       "meaning": "고양이"
+      },
+      "en": {
+       "pronunciation": "neko",
+       "meaning": "cat"
+      },
+      "vi": {
+       "pronunciation": "nê-cô",
+       "meaning": "con mèo"
+      }
+     }
+    },
+    {
+     "id": "ja-word-05",
+     "language": "ja",
+     "level": "word",
+     "text": "いぬ",
+     "standardReading": "inu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이누",
+       "meaning": "개"
+      },
+      "en": {
+       "pronunciation": "inu",
+       "meaning": "dog"
+      },
+      "vi": {
+       "pronunciation": "i-nư",
+       "meaning": "con chó"
+      }
+     }
+    },
+    {
+     "id": "ja-word-06",
+     "language": "ja",
+     "level": "word",
+     "text": "せんせい",
+     "standardReading": "sensei",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "센세에",
+       "meaning": "선생님",
+       "explanation": "'えい'는 보통 길게 '에-'로 발음"
+      },
+      "en": {
+       "pronunciation": "sensei",
+       "meaning": "teacher"
+      },
+      "vi": {
+       "pronunciation": "xen-xê",
+       "meaning": "giáo viên"
+      }
+     }
+    },
+    {
+     "id": "ja-word-07",
+     "language": "ja",
+     "level": "word",
+     "text": "がっこう",
+     "standardReading": "gakkō",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "각코오",
+       "meaning": "학교",
+       "explanation": "작은 'っ'은 한 박자 멈춤"
+      },
+      "en": {
+       "pronunciation": "gakkō",
+       "meaning": "school"
+      },
+      "vi": {
+       "pronunciation": "gắc-cô-ô",
+       "meaning": "trường học"
+      }
+     }
+    },
+    {
+     "id": "ja-word-08",
+     "language": "ja",
+     "level": "word",
+     "text": "ともだち",
+     "standardReading": "tomodachi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "토모다치",
+       "meaning": "친구"
+      },
+      "en": {
+       "pronunciation": "tomodachi",
+       "meaning": "friend"
+      },
+      "vi": {
+       "pronunciation": "tô-mô-đa-chi",
+       "meaning": "bạn"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "short",
+   "level": "short-sentence",
+   "title": {
+    "ko": "짧은 문장",
+    "en": "Short sentences",
+    "ja": "短い文",
+    "vi": "Câu ngắn"
+   },
+   "items": [
+    {
+     "id": "ja-short-01",
+     "language": "ja",
+     "level": "short-sentence",
+     "text": "おはようございます。",
+     "standardReading": "ohayō gozaimasu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오하요오 고자이마스",
+       "meaning": "안녕하세요 (아침 인사)"
+      },
+      "en": {
+       "pronunciation": "ohayō gozaimasu",
+       "meaning": "Good morning."
+      },
+      "vi": {
+       "pronunciation": "ô-ha-iô-ô gô-dai-mát",
+       "meaning": "Chào buổi sáng."
+      }
+     }
+    },
+    {
+     "id": "ja-short-02",
+     "language": "ja",
+     "level": "short-sentence",
+     "text": "はじめまして。",
+     "standardReading": "hajimemashite",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하지메마시테",
+       "meaning": "처음 뵙겠습니다."
+      },
+      "en": {
+       "pronunciation": "hajimemashite",
+       "meaning": "Nice to meet you."
+      },
+      "vi": {
+       "pronunciation": "ha-gi-mê-ma-si-tê",
+       "meaning": "Rất vui được gặp bạn (lần đầu)."
+      }
+     }
+    },
+    {
+     "id": "ja-short-03",
+     "language": "ja",
+     "level": "short-sentence",
+     "text": "わたしはがくせいです。",
+     "standardReading": "watashi wa gakusei desu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "와타시와 가쿠세에 데스",
+       "meaning": "저는 학생입니다.",
+       "explanation": "조사 'は'는 '와'로 읽음"
+      },
+      "en": {
+       "pronunciation": "watashi wa gakusei desu",
+       "meaning": "I am a student."
+      },
+      "vi": {
+       "pronunciation": "oa-ta-si oa gác-xê đét",
+       "meaning": "Tôi là học sinh."
+      }
+     }
+    },
+    {
+     "id": "ja-short-04",
+     "language": "ja",
+     "level": "short-sentence",
+     "text": "きょうはいいてんきですね。",
+     "standardReading": "kyō wa ii tenki desu ne",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿄오와 이이 텐키 데스네",
+       "meaning": "오늘은 날씨가 좋네요."
+      },
+      "en": {
+       "pronunciation": "kyō wa ii tenki desu ne",
+       "meaning": "It's nice weather today, isn't it?"
+      },
+      "vi": {
+       "pronunciation": "kiô-ô oa i-i ten-ki đét nê",
+       "meaning": "Hôm nay trời đẹp nhỉ."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "long",
+   "level": "long-sentence",
+   "title": {
+    "ko": "긴 문장",
+    "en": "Long sentences",
+    "ja": "長い文",
+    "vi": "Câu dài"
+   },
+   "items": [
+    {
+     "id": "ja-long-01",
+     "language": "ja",
+     "level": "long-sentence",
+     "text": "まいにちすこしずつれんしゅうすると、じがきれいになります。",
+     "standardReading": "mainichi sukoshi zutsu renshū suru to, ji ga kirei ni narimasu",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "매일 조금씩 연습하면 글씨가 예뻐집니다."
+      },
+      "en": {
+       "meaning": "If you practice a little every day, your handwriting becomes beautiful."
+      },
+      "vi": {
+       "meaning": "Nếu luyện tập mỗi ngày một chút, chữ sẽ trở nên đẹp."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "paragraph",
+   "level": "paragraph",
+   "title": {
+    "ko": "단락",
+    "en": "Paragraphs",
+    "ja": "段落",
+    "vi": "Đoạn văn"
+   },
+   "items": [
+    {
+     "id": "ja-para-01",
+     "language": "ja",
+     "level": "paragraph",
+     "text": "手紙を書くのが好きです。\nていねいに書いた字は、読む人の心に届きます。",
+     "standardReading": "Tegami o kaku no ga suki desu. Teinei ni kaita ji wa, yomu hito no kokoro ni todokimasu.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "편지 쓰는 것을 좋아합니다. 정성껏 쓴 글씨는 읽는 사람의 마음에 닿습니다."
+      },
+      "en": {
+       "meaning": "I like writing letters. Carefully written characters reach the heart of the reader."
+      },
+      "vi": {
+       "meaning": "Tôi thích viết thư. Những con chữ được viết cẩn thận sẽ chạm đến trái tim người đọc."
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

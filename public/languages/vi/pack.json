@@ -1,0 +1,1255 @@
+{
+ "language": "vi",
+ "version": "0.1.0",
+ "locale": "vi-VN",
+ "review": {
+  "status": "draft",
+  "note": {
+   "ko": "초안 데이터입니다. 원어민·전문가 검수 전이며, 모국어 발음 표기는 근사 표기입니다. 발음은 북부(하노이) 기준입니다.",
+   "en": "Draft data. Not yet reviewed by native speakers; native-script readings are approximations. Pronunciation follows the Northern (Hanoi) standard.",
+   "ja": "下書きデータです。ネイティブ・専門家の確認前で、母語の発音表記は近似表記です。 発音は北部(ハノイ)基準です。",
+   "vi": "Dữ liệu bản nháp. Chưa được người bản ngữ kiểm duyệt; cách ghi phát âm bằng tiếng mẹ đẻ chỉ là gần đúng. Phát âm theo chuẩn miền Bắc (Hà Nội)."
+  }
+ },
+ "categories": [
+  {
+   "id": "alphabet",
+   "level": "character",
+   "title": {
+    "ko": "알파벳",
+    "en": "Alphabet",
+    "ja": "アルファベット",
+    "vi": "Bảng chữ cái"
+   },
+   "items": [
+    {
+     "id": "vi-abc-a",
+     "language": "vi",
+     "level": "character",
+     "text": "Aa",
+     "characterName": "a",
+     "standardReading": "/aː/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "아",
+       "pronunciation": "아"
+      },
+      "en": {
+       "nameReading": "ah",
+       "pronunciation": "'a' as in 'father'"
+      },
+      "ja": {
+       "nameReading": "ア",
+       "pronunciation": "ア"
+      }
+     },
+     "speech": {
+      "text": "a"
+     }
+    },
+    {
+     "id": "vi-abc-a-breve",
+     "language": "vi",
+     "level": "character",
+     "text": "Ăă",
+     "characterName": "á",
+     "standardReading": "/a/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "아(짧게)",
+       "pronunciation": "짧은 아"
+      },
+      "en": {
+       "nameReading": "ah (short)",
+       "pronunciation": "short 'a'"
+      },
+      "ja": {
+       "nameReading": "短いア",
+       "pronunciation": "短いア"
+      }
+     },
+     "speech": {
+      "text": "ă"
+     }
+    },
+    {
+     "id": "vi-abc-a-circ",
+     "language": "vi",
+     "level": "character",
+     "text": "Ââ",
+     "characterName": "ớ",
+     "standardReading": "/ə/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "어(짧게)",
+       "pronunciation": "짧은 어"
+      },
+      "en": {
+       "nameReading": "uh (short)",
+       "pronunciation": "short 'uh'"
+      },
+      "ja": {
+       "nameReading": "短いア(曖昧)",
+       "pronunciation": "短く曖昧なア"
+      }
+     },
+     "speech": {
+      "text": "â"
+     }
+    },
+    {
+     "id": "vi-abc-b",
+     "language": "vi",
+     "level": "character",
+     "text": "Bb",
+     "characterName": "bê",
+     "standardReading": "/ɓ/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "베",
+       "pronunciation": "ㅂ"
+      },
+      "en": {
+       "nameReading": "bay",
+       "pronunciation": "b"
+      },
+      "ja": {
+       "nameReading": "ベー",
+       "pronunciation": "バ行"
+      }
+     },
+     "speech": {
+      "text": "b"
+     }
+    },
+    {
+     "id": "vi-abc-c",
+     "language": "vi",
+     "level": "character",
+     "text": "Cc",
+     "characterName": "xê",
+     "standardReading": "/k/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "쎄",
+       "pronunciation": "ㄲ (숨을 내뱉지 않는 k)"
+      },
+      "en": {
+       "nameReading": "say",
+       "pronunciation": "k without a puff of air"
+      },
+      "ja": {
+       "nameReading": "セー",
+       "pronunciation": "息を出さないカ行"
+      }
+     },
+     "speech": {
+      "text": "c"
+     }
+    },
+    {
+     "id": "vi-abc-d",
+     "language": "vi",
+     "level": "character",
+     "text": "Dd",
+     "characterName": "dê",
+     "standardReading": "/z/ (북부), /j/ (남부)",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "제",
+       "pronunciation": "z (북부), 반모음 '이' (남부)"
+      },
+      "en": {
+       "nameReading": "zay",
+       "pronunciation": "z (North), y (South)"
+      },
+      "ja": {
+       "nameReading": "ゼー",
+       "pronunciation": "ザ行(北部)、ヤ行(南部)"
+      }
+     },
+     "speech": {
+      "text": "d"
+     }
+    },
+    {
+     "id": "vi-abc-d-stroke",
+     "language": "vi",
+     "level": "character",
+     "text": "Đđ",
+     "characterName": "đê",
+     "standardReading": "/ɗ/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "데",
+       "pronunciation": "ㄷ"
+      },
+      "en": {
+       "nameReading": "day",
+       "pronunciation": "d"
+      },
+      "ja": {
+       "nameReading": "デー",
+       "pronunciation": "ダ行"
+      }
+     },
+     "speech": {
+      "text": "đ"
+     }
+    },
+    {
+     "id": "vi-abc-e",
+     "language": "vi",
+     "level": "character",
+     "text": "Ee",
+     "characterName": "e",
+     "standardReading": "/ɛ/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "애",
+       "pronunciation": "입을 크게 벌린 애"
+      },
+      "en": {
+       "nameReading": "eh",
+       "pronunciation": "'e' as in 'bed', open"
+      },
+      "ja": {
+       "nameReading": "エ",
+       "pronunciation": "口を大きく開けたエ"
+      }
+     },
+     "speech": {
+      "text": "e"
+     }
+    },
+    {
+     "id": "vi-abc-e-circ",
+     "language": "vi",
+     "level": "character",
+     "text": "Êê",
+     "characterName": "ê",
+     "standardReading": "/e/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "에",
+       "pronunciation": "에"
+      },
+      "en": {
+       "nameReading": "ay",
+       "pronunciation": "'ay' without the glide"
+      },
+      "ja": {
+       "nameReading": "エー",
+       "pronunciation": "エ"
+      }
+     },
+     "speech": {
+      "text": "ê"
+     }
+    },
+    {
+     "id": "vi-abc-g",
+     "language": "vi",
+     "level": "character",
+     "text": "Gg",
+     "characterName": "giê",
+     "standardReading": "/ɣ/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "제(gi)",
+       "pronunciation": "목 안쪽에서 마찰하는 ㄱ"
+      },
+      "en": {
+       "nameReading": "zyeh",
+       "pronunciation": "soft 'g' with friction"
+      },
+      "ja": {
+       "nameReading": "ジエ",
+       "pronunciation": "摩擦気味のガ行"
+      }
+     },
+     "speech": {
+      "text": "g"
+     }
+    },
+    {
+     "id": "vi-abc-h",
+     "language": "vi",
+     "level": "character",
+     "text": "Hh",
+     "characterName": "hát",
+     "standardReading": "/h/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "핫",
+       "pronunciation": "ㅎ"
+      },
+      "en": {
+       "nameReading": "haht",
+       "pronunciation": "h"
+      },
+      "ja": {
+       "nameReading": "ハット",
+       "pronunciation": "ハ行"
+      }
+     },
+     "speech": {
+      "text": "h"
+     }
+    },
+    {
+     "id": "vi-abc-i",
+     "language": "vi",
+     "level": "character",
+     "text": "Ii",
+     "characterName": "i ngắn",
+     "standardReading": "/i/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "이",
+       "pronunciation": "이"
+      },
+      "en": {
+       "nameReading": "ee (short i)",
+       "pronunciation": "'ee'"
+      },
+      "ja": {
+       "nameReading": "イ(短いi)",
+       "pronunciation": "イ"
+      }
+     },
+     "speech": {
+      "text": "i"
+     }
+    },
+    {
+     "id": "vi-abc-k",
+     "language": "vi",
+     "level": "character",
+     "text": "Kk",
+     "characterName": "ca",
+     "standardReading": "/k/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "까",
+       "pronunciation": "ㄲ"
+      },
+      "en": {
+       "nameReading": "kah",
+       "pronunciation": "k without a puff of air"
+      },
+      "ja": {
+       "nameReading": "カー",
+       "pronunciation": "息を出さないカ行"
+      }
+     },
+     "speech": {
+      "text": "k"
+     }
+    },
+    {
+     "id": "vi-abc-l",
+     "language": "vi",
+     "level": "character",
+     "text": "Ll",
+     "characterName": "e-lờ",
+     "standardReading": "/l/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "애-러",
+       "pronunciation": "ㄹ (l)"
+      },
+      "en": {
+       "nameReading": "eh-luh",
+       "pronunciation": "l"
+      },
+      "ja": {
+       "nameReading": "エ・ロ",
+       "pronunciation": "ラ行(l)"
+      }
+     },
+     "speech": {
+      "text": "l"
+     }
+    },
+    {
+     "id": "vi-abc-m",
+     "language": "vi",
+     "level": "character",
+     "text": "Mm",
+     "characterName": "em-mờ",
+     "standardReading": "/m/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "앰-머",
+       "pronunciation": "ㅁ"
+      },
+      "en": {
+       "nameReading": "em-muh",
+       "pronunciation": "m"
+      },
+      "ja": {
+       "nameReading": "エム・モ",
+       "pronunciation": "マ行"
+      }
+     },
+     "speech": {
+      "text": "m"
+     }
+    },
+    {
+     "id": "vi-abc-n",
+     "language": "vi",
+     "level": "character",
+     "text": "Nn",
+     "characterName": "en-nờ",
+     "standardReading": "/n/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "앤-너",
+       "pronunciation": "ㄴ"
+      },
+      "en": {
+       "nameReading": "en-nuh",
+       "pronunciation": "n"
+      },
+      "ja": {
+       "nameReading": "エン・ノ",
+       "pronunciation": "ナ行"
+      }
+     },
+     "speech": {
+      "text": "n"
+     }
+    },
+    {
+     "id": "vi-abc-o",
+     "language": "vi",
+     "level": "character",
+     "text": "Oo",
+     "characterName": "o",
+     "standardReading": "/ɔ/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "어",
+       "pronunciation": "입을 크게 벌린 오(어에 가까움)"
+      },
+      "en": {
+       "nameReading": "aw",
+       "pronunciation": "'aw' as in 'law'"
+      },
+      "ja": {
+       "nameReading": "オ",
+       "pronunciation": "口を大きく開けたオ"
+      }
+     },
+     "speech": {
+      "text": "o"
+     }
+    },
+    {
+     "id": "vi-abc-o-circ",
+     "language": "vi",
+     "level": "character",
+     "text": "Ôô",
+     "characterName": "ô",
+     "standardReading": "/o/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "오",
+       "pronunciation": "오"
+      },
+      "en": {
+       "nameReading": "oh",
+       "pronunciation": "'o' without the glide"
+      },
+      "ja": {
+       "nameReading": "オー",
+       "pronunciation": "オ"
+      }
+     },
+     "speech": {
+      "text": "ô"
+     }
+    },
+    {
+     "id": "vi-abc-o-horn",
+     "language": "vi",
+     "level": "character",
+     "text": "Ơơ",
+     "characterName": "ơ",
+     "standardReading": "/əː/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "어-",
+       "pronunciation": "어"
+      },
+      "en": {
+       "nameReading": "uh",
+       "pronunciation": "'uh' (long)"
+      },
+      "ja": {
+       "nameReading": "アー(曖昧)",
+       "pronunciation": "曖昧なアー"
+      }
+     },
+     "speech": {
+      "text": "ơ"
+     }
+    },
+    {
+     "id": "vi-abc-p",
+     "language": "vi",
+     "level": "character",
+     "text": "Pp",
+     "characterName": "pê",
+     "standardReading": "/p/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "뻬",
+       "pronunciation": "ㅃ (주로 받침)"
+      },
+      "en": {
+       "nameReading": "peh",
+       "pronunciation": "p (mostly at the end of a syllable)"
+      },
+      "ja": {
+       "nameReading": "ペー",
+       "pronunciation": "パ行(主に音節末)"
+      }
+     },
+     "speech": {
+      "text": "p"
+     }
+    },
+    {
+     "id": "vi-abc-q",
+     "language": "vi",
+     "level": "character",
+     "text": "Qq",
+     "characterName": "quy",
+     "standardReading": "/k/ (qu = /kw/)",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "꾸이",
+       "pronunciation": "qu: 꾸(kw)"
+      },
+      "en": {
+       "nameReading": "kwee",
+       "pronunciation": "'qu' = 'kw'"
+      },
+      "ja": {
+       "nameReading": "クイ",
+       "pronunciation": "qu: クw"
+      }
+     },
+     "speech": {
+      "text": "q"
+     }
+    },
+    {
+     "id": "vi-abc-r",
+     "language": "vi",
+     "level": "character",
+     "text": "Rr",
+     "characterName": "e-rờ",
+     "standardReading": "/z/ (북부), /r/ (남부)",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "애-러",
+       "pronunciation": "z (북부), ㄹ (남부)"
+      },
+      "en": {
+       "nameReading": "eh-ruh",
+       "pronunciation": "z (North), r (South)"
+      },
+      "ja": {
+       "nameReading": "エ・ロ",
+       "pronunciation": "ザ行(北部)、ラ行(南部)"
+      }
+     },
+     "speech": {
+      "text": "r"
+     }
+    },
+    {
+     "id": "vi-abc-s",
+     "language": "vi",
+     "level": "character",
+     "text": "Ss",
+     "characterName": "ét-xì",
+     "standardReading": "/s/ (북부), /ʂ/ (남부)",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "앳-씨",
+       "pronunciation": "ㅅ"
+      },
+      "en": {
+       "nameReading": "et-see",
+       "pronunciation": "s"
+      },
+      "ja": {
+       "nameReading": "エット・シー",
+       "pronunciation": "サ行"
+      }
+     },
+     "speech": {
+      "text": "s"
+     }
+    },
+    {
+     "id": "vi-abc-t",
+     "language": "vi",
+     "level": "character",
+     "text": "Tt",
+     "characterName": "tê",
+     "standardReading": "/t/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "떼",
+       "pronunciation": "ㄸ"
+      },
+      "en": {
+       "nameReading": "teh",
+       "pronunciation": "t without a puff of air"
+      },
+      "ja": {
+       "nameReading": "テー",
+       "pronunciation": "息を出さないタ行"
+      }
+     },
+     "speech": {
+      "text": "t"
+     }
+    },
+    {
+     "id": "vi-abc-u",
+     "language": "vi",
+     "level": "character",
+     "text": "Uu",
+     "characterName": "u",
+     "standardReading": "/u/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "우",
+       "pronunciation": "우"
+      },
+      "en": {
+       "nameReading": "oo",
+       "pronunciation": "'oo' as in 'moon'"
+      },
+      "ja": {
+       "nameReading": "ウ",
+       "pronunciation": "唇を丸めたウ"
+      }
+     },
+     "speech": {
+      "text": "u"
+     }
+    },
+    {
+     "id": "vi-abc-u-horn",
+     "language": "vi",
+     "level": "character",
+     "text": "Ưư",
+     "characterName": "ư",
+     "standardReading": "/ɨ/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "으",
+       "pronunciation": "으"
+      },
+      "en": {
+       "nameReading": "eu (lips spread)",
+       "pronunciation": "'oo' with lips spread"
+      },
+      "ja": {
+       "nameReading": "ウ(唇を横に)",
+       "pronunciation": "唇を横に引いたウ"
+      }
+     },
+     "speech": {
+      "text": "ư"
+     }
+    },
+    {
+     "id": "vi-abc-v",
+     "language": "vi",
+     "level": "character",
+     "text": "Vv",
+     "characterName": "vê",
+     "standardReading": "/v/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "베(v)",
+       "pronunciation": "v: 윗니를 아랫입술에 대는 ㅂ"
+      },
+      "en": {
+       "nameReading": "vay",
+       "pronunciation": "v"
+      },
+      "ja": {
+       "nameReading": "ヴェー",
+       "pronunciation": "ヴ"
+      }
+     },
+     "speech": {
+      "text": "v"
+     }
+    },
+    {
+     "id": "vi-abc-x",
+     "language": "vi",
+     "level": "character",
+     "text": "Xx",
+     "characterName": "ích-xì",
+     "standardReading": "/s/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "익-씨",
+       "pronunciation": "ㅆ"
+      },
+      "en": {
+       "nameReading": "ick-see",
+       "pronunciation": "s"
+      },
+      "ja": {
+       "nameReading": "イック・シー",
+       "pronunciation": "サ行"
+      }
+     },
+     "speech": {
+      "text": "x"
+     }
+    },
+    {
+     "id": "vi-abc-y",
+     "language": "vi",
+     "level": "character",
+     "text": "Yy",
+     "characterName": "i dài",
+     "standardReading": "/i/",
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "이 자이",
+       "pronunciation": "이"
+      },
+      "en": {
+       "nameReading": "ee (long i)",
+       "pronunciation": "'ee'"
+      },
+      "ja": {
+       "nameReading": "イ・ザイ",
+       "pronunciation": "イ"
+      }
+     },
+     "speech": {
+      "text": "y"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tones",
+   "level": "character",
+   "title": {
+    "ko": "성조 기호",
+    "en": "Tone marks",
+    "ja": "声調記号",
+    "vi": "Dấu thanh"
+   },
+   "items": [
+    {
+     "id": "vi-tone-1",
+     "language": "vi",
+     "level": "character",
+     "text": "a",
+     "characterName": "dấu ngang (không dấu)",
+     "standardReading": "thanh ngang",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "평평한 중간 높이",
+       "explanation": "성조: ngang"
+      },
+      "en": {
+       "pronunciation": "level, mid pitch",
+       "explanation": "tone: ngang"
+      },
+      "ja": {
+       "pronunciation": "平らな中くらいの高さ",
+       "explanation": "声調: ngang"
+      }
+     }
+    },
+    {
+     "id": "vi-tone-2",
+     "language": "vi",
+     "level": "character",
+     "text": "à",
+     "characterName": "dấu huyền",
+     "standardReading": "thanh huyền",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "낮게 천천히 내려감",
+       "explanation": "성조: huyền"
+      },
+      "en": {
+       "pronunciation": "low, falling",
+       "explanation": "tone: huyền"
+      },
+      "ja": {
+       "pronunciation": "低くゆっくり下がる",
+       "explanation": "声調: huyền"
+      }
+     }
+    },
+    {
+     "id": "vi-tone-3",
+     "language": "vi",
+     "level": "character",
+     "text": "á",
+     "characterName": "dấu sắc",
+     "standardReading": "thanh sắc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "높게 올라감",
+       "explanation": "성조: sắc"
+      },
+      "en": {
+       "pronunciation": "high, rising",
+       "explanation": "tone: sắc"
+      },
+      "ja": {
+       "pronunciation": "高く上がる",
+       "explanation": "声調: sắc"
+      }
+     }
+    },
+    {
+     "id": "vi-tone-4",
+     "language": "vi",
+     "level": "character",
+     "text": "ả",
+     "characterName": "dấu hỏi",
+     "standardReading": "thanh hỏi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "내려갔다가 다시 올라감",
+       "explanation": "성조: hỏi"
+      },
+      "en": {
+       "pronunciation": "dipping, then rising",
+       "explanation": "tone: hỏi"
+      },
+      "ja": {
+       "pronunciation": "下がってから上がる",
+       "explanation": "声調: hỏi"
+      }
+     }
+    },
+    {
+     "id": "vi-tone-5",
+     "language": "vi",
+     "level": "character",
+     "text": "ã",
+     "characterName": "dấu ngã",
+     "standardReading": "thanh ngã",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "올라가다 목에서 끊기듯 다시 올라감",
+       "explanation": "성조: ngã"
+      },
+      "en": {
+       "pronunciation": "rising with a break in the voice",
+       "explanation": "tone: ngã"
+      },
+      "ja": {
+       "pronunciation": "上がる途中で喉を詰めてまた上がる",
+       "explanation": "声調: ngã"
+      }
+     }
+    },
+    {
+     "id": "vi-tone-6",
+     "language": "vi",
+     "level": "character",
+     "text": "ạ",
+     "characterName": "dấu nặng",
+     "standardReading": "thanh nặng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "낮고 짧게 목을 막듯 끊음",
+       "explanation": "성조: nặng"
+      },
+      "en": {
+       "pronunciation": "low, short, with a catch in the throat",
+       "explanation": "tone: nặng"
+      },
+      "ja": {
+       "pronunciation": "低く短く喉を詰める",
+       "explanation": "声調: nặng"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "words",
+   "level": "word",
+   "title": {
+    "ko": "단어",
+    "en": "Words",
+    "ja": "単語",
+    "vi": "Từ"
+   },
+   "items": [
+    {
+     "id": "vi-word-01",
+     "language": "vi",
+     "level": "word",
+     "text": "xin chào",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "씬 짜오",
+       "meaning": "안녕하세요",
+       "explanation": "xin: 평평한 중간 높이 (ngang), chào: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "sin chow",
+       "meaning": "hello",
+       "explanation": "xin: level, mid pitch (ngang), chào: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "シン チャオ",
+       "meaning": "こんにちは",
+       "explanation": "xin: 平らな中くらいの高さ (ngang), chào: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-word-02",
+     "language": "vi",
+     "level": "word",
+     "text": "cảm ơn",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "깜 언",
+       "meaning": "감사합니다",
+       "explanation": "cảm: 내려갔다가 다시 올라감 (hỏi), ơn: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "gahm uhn",
+       "meaning": "thank you",
+       "explanation": "cảm: dipping, then rising (hỏi), ơn: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "カム オン",
+       "meaning": "ありがとう",
+       "explanation": "cảm: 下がってから上がる (hỏi), ơn: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-word-03",
+     "language": "vi",
+     "level": "word",
+     "text": "nước",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "느억",
+       "meaning": "물",
+       "explanation": "nước: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "nuh-uhk",
+       "meaning": "water",
+       "explanation": "nước: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ヌオック",
+       "meaning": "水",
+       "explanation": "nước: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-word-04",
+     "language": "vi",
+     "level": "word",
+     "text": "mẹ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "메",
+       "meaning": "어머니",
+       "explanation": "mẹ: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "meh",
+       "meaning": "mother",
+       "explanation": "mẹ: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "メ",
+       "meaning": "母",
+       "explanation": "mẹ: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-word-05",
+     "language": "vi",
+     "level": "word",
+     "text": "bạn",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "반",
+       "meaning": "친구, 너",
+       "explanation": "bạn: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "bahn",
+       "meaning": "friend, you",
+       "explanation": "bạn: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "バン",
+       "meaning": "友達、あなた",
+       "explanation": "bạn: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-word-06",
+     "language": "vi",
+     "level": "word",
+     "text": "nhà",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "냐",
+       "meaning": "집",
+       "explanation": "nhà: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "nyah",
+       "meaning": "house, home",
+       "explanation": "nhà: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ニャー",
+       "meaning": "家",
+       "explanation": "nhà: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-word-07",
+     "language": "vi",
+     "level": "word",
+     "text": "học",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "혹",
+       "meaning": "공부하다, 배우다",
+       "explanation": "học: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "hawk",
+       "meaning": "to study, to learn",
+       "explanation": "học: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ホック",
+       "meaning": "勉強する、学ぶ",
+       "explanation": "học: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-word-08",
+     "language": "vi",
+     "level": "word",
+     "text": "Việt Nam",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "비엣 남",
+       "meaning": "베트남",
+       "explanation": "Việt: 낮고 짧게 목을 막듯 끊음 (nặng), Nam: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "vyet nahm",
+       "meaning": "Vietnam",
+       "explanation": "Việt: low, short, with a catch in the throat (nặng), Nam: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ヴィエット ナム",
+       "meaning": "ベトナム",
+       "explanation": "Việt: 低く短く喉を詰める (nặng), Nam: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "short",
+   "level": "short-sentence",
+   "title": {
+    "ko": "짧은 문장",
+    "en": "Short sentences",
+    "ja": "短い文",
+    "vi": "Câu ngắn"
+   },
+   "items": [
+    {
+     "id": "vi-short-01",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Xin chào.",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "씬 짜오",
+       "meaning": "안녕하세요.",
+       "explanation": "Xin: 평평한 중간 높이 (ngang), chào: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "sin chow",
+       "meaning": "Hello.",
+       "explanation": "Xin: level, mid pitch (ngang), chào: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "シン チャオ",
+       "meaning": "こんにちは。",
+       "explanation": "Xin: 平らな中くらいの高さ (ngang), chào: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-short-02",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Cảm ơn bạn.",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "깜 언 반",
+       "meaning": "고마워요.",
+       "explanation": "Cảm: 내려갔다가 다시 올라감 (hỏi), ơn: 평평한 중간 높이 (ngang), bạn: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "gahm uhn bahn",
+       "meaning": "Thank you.",
+       "explanation": "Cảm: dipping, then rising (hỏi), ơn: level, mid pitch (ngang), bạn: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "カム オン バン",
+       "meaning": "ありがとう。",
+       "explanation": "Cảm: 下がってから上がる (hỏi), ơn: 平らな中くらいの高さ (ngang), bạn: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-short-03",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Tôi là học sinh.",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "또이 라 혹 신",
+       "meaning": "저는 학생입니다.",
+       "explanation": "Tôi: 평평한 중간 높이 (ngang), là: 낮게 천천히 내려감 (huyền), học: 낮고 짧게 목을 막듯 끊음 (nặng), sinh: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "toy lah hawk sing",
+       "meaning": "I am a student.",
+       "explanation": "Tôi: level, mid pitch (ngang), là: low, falling (huyền), học: low, short, with a catch in the throat (nặng), sinh: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "トイ ラー ホック シン",
+       "meaning": "私は学生です。",
+       "explanation": "Tôi: 平らな中くらいの高さ (ngang), là: 低くゆっくり下がる (huyền), học: 低く短く喉を詰める (nặng), sinh: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-short-04",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Rất vui được gặp bạn.",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "젓 부이 드억 갑 반",
+       "meaning": "만나서 반갑습니다.",
+       "explanation": "Rất: 높게 올라감 (sắc), vui: 평평한 중간 높이 (ngang), được: 낮고 짧게 목을 막듯 끊음 (nặng), gặp: 낮고 짧게 목을 막듯 끊음 (nặng), bạn: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "zuht vooee duhk gahp bahn",
+       "meaning": "Nice to meet you.",
+       "explanation": "Rất: high, rising (sắc), vui: level, mid pitch (ngang), được: low, short, with a catch in the throat (nặng), gặp: low, short, with a catch in the throat (nặng), bạn: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ザット ヴイ ドゥオック ガップ バン",
+       "meaning": "お会いできてうれしいです。",
+       "explanation": "Rất: 高く上がる (sắc), vui: 平らな中くらいの高さ (ngang), được: 低く短く喉を詰める (nặng), gặp: 低く短く喉を詰める (nặng), bạn: 低く短く喉を詰める (nặng)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "long",
+   "level": "long-sentence",
+   "title": {
+    "ko": "긴 문장",
+    "en": "Long sentences",
+    "ja": "長い文",
+    "vi": "Câu dài"
+   },
+   "items": [
+    {
+     "id": "vi-long-01",
+     "language": "vi",
+     "level": "long-sentence",
+     "text": "Luyện chữ mỗi ngày giúp chữ viết đẹp hơn.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "매일 글씨를 연습하면 글씨가 더 예뻐집니다."
+      },
+      "en": {
+       "meaning": "Practicing writing every day makes your handwriting more beautiful."
+      },
+      "ja": {
+       "meaning": "毎日字を練習すると、字がもっときれいになります。"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "paragraph",
+   "level": "paragraph",
+   "title": {
+    "ko": "단락",
+    "en": "Paragraphs",
+    "ja": "段落",
+    "vi": "Đoạn văn"
+   },
+   "items": [
+    {
+     "id": "vi-para-01",
+     "language": "vi",
+     "level": "paragraph",
+     "text": "Chữ viết là tấm gương của tâm hồn.\nKhi viết từng nét cẩn thận, bàn tay sẽ ghi nhớ hình dáng của chữ.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "글씨는 마음의 거울입니다. 한 획 한 획 정성껏 쓰면 손이 글자의 모양을 기억하게 됩니다."
+      },
+      "en": {
+       "meaning": "Handwriting is a mirror of the soul. When you write each stroke with care, your hand will remember the shape of the letters."
+      },
+      "ja": {
+       "meaning": "字は心の鏡です。一画一画ていねいに書くと、手が文字の形を覚えます。"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

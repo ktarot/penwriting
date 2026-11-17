@@ -1,9 +1,14 @@
-import "./fonts-bundled";
 import "../styles/main.css";
+import { setFontCssLoader } from "../engines/writing/fonts";
 import { renderComparison } from "../features/comparison/comparison";
 import { renderHome } from "../features/home/home";
+import { renderOnboarding } from "../features/onboarding/onboarding";
 import { renderPractice } from "../features/practice/practice";
-import { parseRoute } from "./router";
+import { renderSettings } from "../features/settings/settings";
+import { defaultSettings, detectNativeLanguage, loadSettings } from "../storage/repositories/settings";
+import { loadFontCss } from "./fonts-bundled";
+import { hrefFor, navigate, parseRoute } from "./router";
+import { setSettings, settings } from "./state";
 
 const root = document.getElementById("app")!;
 let cleanup: () => void = () => {};
@@ -13,10 +18,34 @@ function render() {
   root.replaceChildren();
   window.scrollTo(0, 0);
   const route = parseRoute(location.hash);
-  if (route.name === "practice") cleanup = renderPractice(root, route.itemId);
-  else if (route.name === "compare") cleanup = renderComparison(root);
-  else cleanup = renderHome(root);
+  if (!settings.onboarded && route.name !== "welcome") {
+    navigate(hrefFor.welcome());
+    return;
+  }
+  switch (route.name) {
+    case "welcome":
+      cleanup = renderOnboarding(root);
+      break;
+    case "options":
+      cleanup = renderSettings(root);
+      break;
+    case "practice":
+      cleanup = renderPractice(root, route.itemId);
+      break;
+    case "compare":
+      cleanup = renderComparison(root);
+      break;
+    default:
+      cleanup = renderHome(root);
+  }
 }
 
-window.addEventListener("hashchange", render);
-render();
+async function boot() {
+  setFontCssLoader(loadFontCss);
+  const saved = await loadSettings();
+  setSettings(saved ?? defaultSettings(detectNativeLanguage()));
+  window.addEventListener("hashchange", render);
+  render();
+}
+
+void boot();

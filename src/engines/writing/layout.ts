@@ -24,21 +24,31 @@ export function lineWidthEm(line: LineLayout): number {
   return line.aspect * LINE_HEIGHT_EM;
 }
 
+/** 줄 맨 앞에 오면 안 되는 닫는 문장부호 */
+const NO_LINE_START = new Set(Array.from(".,!?;:)]}%»」』）】〉》、。，．！？；：…‥ー・ゃゅょっぁぃぅぇぉャュョッァィゥェォ"));
+
+export interface BreakOptions {
+  /** 한 단어가 한계를 이만큼 넘는 정도는 자르지 않고 축소해서 보여 준다 */
+  tolerance?: number;
+}
+
 /**
  * 텍스트를 줄 단위로 나눈다.
  * - 명시적 줄바꿈 유지
- * - 공백이 있으면 단어 단위로, 한 단어가 너무 길면 글자 단위로 나눈다.
- * maxEm: 한 줄 글자 영역의 최대 너비(em, 패딩 제외)
+ * - 공백이 있으면 단어 단위로 나눈다.
+ * - 한 단어가 너무 길면 글자 단위로 고르게 나눈다 (한 글자만 남는 줄을 피함)
+ * - 닫는 문장부호는 줄 맨 앞에 오지 않는다
+ * maxEm: 한 줄 글자 영역의 최대 너비(em, 패딩 제외). Infinity면 줄바꿈 문자에서만 나눈다.
  */
-export function breakLines(text: string, measure: MeasureFn, maxEm: number): string[] {
+export function breakLines(text: string, measure: MeasureFn, maxEm: number, opts: BreakOptions = {}): string[] {
   const out: string[] = [];
   const limit = Math.max(maxEm, 1);
+  const tolerance = opts.tolerance ?? 1.25;
   for (const rawPara of text.replace(/\r\n?/g, "\n").split("\n")) {
     const para = rawPara.replace(/[ \t]+/g, " ").trim();
     if (!para) continue;
-    const tokens = para.split(" ");
     let current = "";
-    for (const token of tokens) {
+    for (const token of para.split(" ")) {
       const candidate = current ? `${current} ${token}` : token;
       if (measure(candidate) <= limit) {
         current = candidate;
@@ -46,24 +56,38 @@ export function breakLines(text: string, measure: MeasureFn, maxEm: number): str
       }
       if (current) out.push(current);
       current = "";
-      if (measure(token) <= limit) {
+      if (measure(token) <= limit * tolerance) {
         current = token;
         continue;
       }
-      // 긴 단어(또는 공백 없는 문장)는 글자 단위로 자른다.
-      for (const ch of Array.from(token)) {
-        const c2 = current + ch;
-        if (current && measure(c2) > limit) {
-          out.push(current);
-          current = ch;
-        } else {
-          current = c2;
-        }
-      }
+      const chunks = splitBalanced(token, measure, limit);
+      out.push(...chunks.slice(0, -1));
+      current = chunks[chunks.length - 1];
     }
     if (current) out.push(current);
   }
   return out;
+}
+
+/** 긴 단어를 비슷한 길이의 조각으로 나눈다 */
+function splitBalanced(token: string, measure: MeasureFn, limit: number): string[] {
+  const chars = Array.from(token);
+  const n = Math.max(1, Math.ceil(measure(token) / limit));
+  // 나머지를 앞 조각부터 하나씩 나눠 줘서 조각 길이 차이를 1 이하로 만든다
+  const base = Math.floor(chars.length / n);
+  const extra = chars.length % n;
+  const chunks: string[][] = [];
+  let pos = 0;
+  for (let i = 0; i < n; i++) {
+    const len = base + (i < extra ? 1 : 0);
+    chunks.push(chars.slice(pos, pos + len));
+    pos += len;
+  }
+  // 닫는 문장부호가 줄 맨 앞에 오면 앞 줄로 붙인다
+  for (let i = 1; i < chunks.length; i++) {
+    while (chunks[i].length && NO_LINE_START.has(chunks[i][0])) chunks[i - 1].push(chunks[i].shift()!);
+  }
+  return chunks.filter((c) => c.length).map((c) => c.join(""));
 }
 
 const round = (v: number) => Math.round(v * 10000) / 10000;

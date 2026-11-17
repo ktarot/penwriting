@@ -1,0 +1,1116 @@
+{
+ "language": "en",
+ "version": "0.1.0",
+ "locale": "en-US",
+ "review": {
+  "status": "draft",
+  "note": {
+   "ko": "초안 데이터입니다. 원어민·전문가 검수 전이며, 모국어 발음 표기는 근사 표기입니다. 발음 기호는 미국식 기준입니다.",
+   "en": "Draft data. Not yet reviewed by native speakers; native-script readings are approximations. IPA follows General American.",
+   "ja": "下書きデータです。ネイティブ・専門家の確認前で、母語の発音表記は近似表記です。 発音記号はアメリカ英語基準です。",
+   "vi": "Dữ liệu bản nháp. Chưa được người bản ngữ kiểm duyệt; cách ghi phát âm bằng tiếng mẹ đẻ chỉ là gần đúng. Phiên âm IPA theo giọng Mỹ."
+  }
+ },
+ "categories": [
+  {
+   "id": "alphabet",
+   "level": "character",
+   "title": {
+    "ko": "알파벳",
+    "en": "Alphabet",
+    "ja": "アルファベット",
+    "vi": "Bảng chữ cái"
+   },
+   "items": [
+    {
+     "id": "en-abc-a",
+     "language": "en",
+     "level": "character",
+     "text": "Aa",
+     "characterName": "A",
+     "standardReading": "/eɪ/",
+     "phonemes": [
+      "/æ/ cat",
+      "/eɪ/ cake"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "에이",
+       "pronunciation": "애(cat), 에이(cake)"
+      },
+      "ja": {
+       "nameReading": "エー",
+       "pronunciation": "エァ(cat)、エイ(cake)"
+      },
+      "vi": {
+       "nameReading": "ây",
+       "pronunciation": "e (cat), ây (cake)"
+      }
+     },
+     "speech": {
+      "text": "A"
+     }
+    },
+    {
+     "id": "en-abc-b",
+     "language": "en",
+     "level": "character",
+     "text": "Bb",
+     "characterName": "B",
+     "standardReading": "/biː/",
+     "phonemes": [
+      "/b/ bed"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "비",
+       "pronunciation": "ㅂ"
+      },
+      "ja": {
+       "nameReading": "ビー",
+       "pronunciation": "バ行"
+      },
+      "vi": {
+       "nameReading": "bi",
+       "pronunciation": "b"
+      }
+     },
+     "speech": {
+      "text": "B"
+     }
+    },
+    {
+     "id": "en-abc-c",
+     "language": "en",
+     "level": "character",
+     "text": "Cc",
+     "characterName": "C",
+     "standardReading": "/siː/",
+     "phonemes": [
+      "/k/ cat",
+      "/s/ city"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "씨",
+       "pronunciation": "ㅋ(cat), ㅅ(city)"
+      },
+      "ja": {
+       "nameReading": "シー",
+       "pronunciation": "カ行(cat)、サ行(city)"
+      },
+      "vi": {
+       "nameReading": "xi",
+       "pronunciation": "c (cat), x (city)"
+      }
+     },
+     "speech": {
+      "text": "C"
+     }
+    },
+    {
+     "id": "en-abc-d",
+     "language": "en",
+     "level": "character",
+     "text": "Dd",
+     "characterName": "D",
+     "standardReading": "/diː/",
+     "phonemes": [
+      "/d/ dog"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "디",
+       "pronunciation": "ㄷ"
+      },
+      "ja": {
+       "nameReading": "ディー",
+       "pronunciation": "ダ行"
+      },
+      "vi": {
+       "nameReading": "đi",
+       "pronunciation": "đ"
+      }
+     },
+     "speech": {
+      "text": "D"
+     }
+    },
+    {
+     "id": "en-abc-e",
+     "language": "en",
+     "level": "character",
+     "text": "Ee",
+     "characterName": "E",
+     "standardReading": "/iː/",
+     "phonemes": [
+      "/ɛ/ bed",
+      "/iː/ me"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "이",
+       "pronunciation": "에(bed), 이-(me)"
+      },
+      "ja": {
+       "nameReading": "イー",
+       "pronunciation": "エ(bed)、イー(me)"
+      },
+      "vi": {
+       "nameReading": "i",
+       "pronunciation": "e (bed), i (me)"
+      }
+     },
+     "speech": {
+      "text": "E"
+     }
+    },
+    {
+     "id": "en-abc-f",
+     "language": "en",
+     "level": "character",
+     "text": "Ff",
+     "characterName": "F",
+     "standardReading": "/ɛf/",
+     "phonemes": [
+      "/f/ fish"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "에프",
+       "pronunciation": "f: 윗니를 아랫입술에 대고 내는 ㅍ"
+      },
+      "ja": {
+       "nameReading": "エフ",
+       "pronunciation": "下唇を軽くかむフ(f)"
+      },
+      "vi": {
+       "nameReading": "ép",
+       "pronunciation": "ph"
+      }
+     },
+     "speech": {
+      "text": "F"
+     }
+    },
+    {
+     "id": "en-abc-g",
+     "language": "en",
+     "level": "character",
+     "text": "Gg",
+     "characterName": "G",
+     "standardReading": "/dʒiː/",
+     "phonemes": [
+      "/ɡ/ go",
+      "/dʒ/ gem"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "지",
+       "pronunciation": "ㄱ(go), ㅈ(gem)"
+      },
+      "ja": {
+       "nameReading": "ジー",
+       "pronunciation": "ガ行(go)、ジャ行(gem)"
+      },
+      "vi": {
+       "nameReading": "di",
+       "pronunciation": "g (go), gi (gem)"
+      }
+     },
+     "speech": {
+      "text": "G"
+     }
+    },
+    {
+     "id": "en-abc-h",
+     "language": "en",
+     "level": "character",
+     "text": "Hh",
+     "characterName": "H",
+     "standardReading": "/eɪtʃ/",
+     "phonemes": [
+      "/h/ hat"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "에이치",
+       "pronunciation": "ㅎ"
+      },
+      "ja": {
+       "nameReading": "エイチ",
+       "pronunciation": "ハ行"
+      },
+      "vi": {
+       "nameReading": "ết-ch",
+       "pronunciation": "h"
+      }
+     },
+     "speech": {
+      "text": "H"
+     }
+    },
+    {
+     "id": "en-abc-i",
+     "language": "en",
+     "level": "character",
+     "text": "Ii",
+     "characterName": "I",
+     "standardReading": "/aɪ/",
+     "phonemes": [
+      "/ɪ/ sit",
+      "/aɪ/ time"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "아이",
+       "pronunciation": "이(sit), 아이(time)"
+      },
+      "ja": {
+       "nameReading": "アイ",
+       "pronunciation": "イ(sit)、アイ(time)"
+      },
+      "vi": {
+       "nameReading": "ai",
+       "pronunciation": "i (sit), ai (time)"
+      }
+     },
+     "speech": {
+      "text": "I"
+     }
+    },
+    {
+     "id": "en-abc-j",
+     "language": "en",
+     "level": "character",
+     "text": "Jj",
+     "characterName": "J",
+     "standardReading": "/dʒeɪ/",
+     "phonemes": [
+      "/dʒ/ jam"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "제이",
+       "pronunciation": "ㅈ"
+      },
+      "ja": {
+       "nameReading": "ジェー",
+       "pronunciation": "ジャ行"
+      },
+      "vi": {
+       "nameReading": "giây",
+       "pronunciation": "gi (dj)"
+      }
+     },
+     "speech": {
+      "text": "J"
+     }
+    },
+    {
+     "id": "en-abc-k",
+     "language": "en",
+     "level": "character",
+     "text": "Kk",
+     "characterName": "K",
+     "standardReading": "/keɪ/",
+     "phonemes": [
+      "/k/ kite"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "케이",
+       "pronunciation": "ㅋ"
+      },
+      "ja": {
+       "nameReading": "ケー",
+       "pronunciation": "カ行"
+      },
+      "vi": {
+       "nameReading": "kây",
+       "pronunciation": "k"
+      }
+     },
+     "speech": {
+      "text": "K"
+     }
+    },
+    {
+     "id": "en-abc-l",
+     "language": "en",
+     "level": "character",
+     "text": "Ll",
+     "characterName": "L",
+     "standardReading": "/ɛl/",
+     "phonemes": [
+      "/l/ leg"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "엘",
+       "pronunciation": "ㄹ(l): 혀끝을 윗잇몸에 댐"
+      },
+      "ja": {
+       "nameReading": "エル",
+       "pronunciation": "舌先を上の歯ぐきにつけるラ行(l)"
+      },
+      "vi": {
+       "nameReading": "eo",
+       "pronunciation": "l"
+      }
+     },
+     "speech": {
+      "text": "L"
+     }
+    },
+    {
+     "id": "en-abc-m",
+     "language": "en",
+     "level": "character",
+     "text": "Mm",
+     "characterName": "M",
+     "standardReading": "/ɛm/",
+     "phonemes": [
+      "/m/ man"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "엠",
+       "pronunciation": "ㅁ"
+      },
+      "ja": {
+       "nameReading": "エム",
+       "pronunciation": "マ行"
+      },
+      "vi": {
+       "nameReading": "em",
+       "pronunciation": "m"
+      }
+     },
+     "speech": {
+      "text": "M"
+     }
+    },
+    {
+     "id": "en-abc-n",
+     "language": "en",
+     "level": "character",
+     "text": "Nn",
+     "characterName": "N",
+     "standardReading": "/ɛn/",
+     "phonemes": [
+      "/n/ net"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "엔",
+       "pronunciation": "ㄴ"
+      },
+      "ja": {
+       "nameReading": "エヌ",
+       "pronunciation": "ナ行"
+      },
+      "vi": {
+       "nameReading": "en",
+       "pronunciation": "n"
+      }
+     },
+     "speech": {
+      "text": "N"
+     }
+    },
+    {
+     "id": "en-abc-o",
+     "language": "en",
+     "level": "character",
+     "text": "Oo",
+     "characterName": "O",
+     "standardReading": "/oʊ/",
+     "phonemes": [
+      "/ɑ/ hot",
+      "/oʊ/ go"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "오",
+       "pronunciation": "아(hot), 오우(go)"
+      },
+      "ja": {
+       "nameReading": "オー",
+       "pronunciation": "ア/オ(hot)、オウ(go)"
+      },
+      "vi": {
+       "nameReading": "âu",
+       "pronunciation": "o (hot), âu (go)"
+      }
+     },
+     "speech": {
+      "text": "O"
+     }
+    },
+    {
+     "id": "en-abc-p",
+     "language": "en",
+     "level": "character",
+     "text": "Pp",
+     "characterName": "P",
+     "standardReading": "/piː/",
+     "phonemes": [
+      "/p/ pen"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "피",
+       "pronunciation": "ㅍ"
+      },
+      "ja": {
+       "nameReading": "ピー",
+       "pronunciation": "パ行"
+      },
+      "vi": {
+       "nameReading": "pi",
+       "pronunciation": "p"
+      }
+     },
+     "speech": {
+      "text": "P"
+     }
+    },
+    {
+     "id": "en-abc-q",
+     "language": "en",
+     "level": "character",
+     "text": "Qq",
+     "characterName": "Q",
+     "standardReading": "/kjuː/",
+     "phonemes": [
+      "/kw/ queen"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "큐",
+       "pronunciation": "쿠(kw)"
+      },
+      "ja": {
+       "nameReading": "キュー",
+       "pronunciation": "クw(kw)"
+      },
+      "vi": {
+       "nameReading": "kiu",
+       "pronunciation": "qu"
+      }
+     },
+     "speech": {
+      "text": "Q"
+     }
+    },
+    {
+     "id": "en-abc-r",
+     "language": "en",
+     "level": "character",
+     "text": "Rr",
+     "characterName": "R",
+     "standardReading": "/ɑːr/",
+     "phonemes": [
+      "/r/ red"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "아르",
+       "pronunciation": "r: 혀를 말고 입술을 둥글게 하는 ㄹ"
+      },
+      "ja": {
+       "nameReading": "アール",
+       "pronunciation": "舌を巻くようなラ行(r)"
+      },
+      "vi": {
+       "nameReading": "a",
+       "pronunciation": "r (uốn lưỡi)"
+      }
+     },
+     "speech": {
+      "text": "R"
+     }
+    },
+    {
+     "id": "en-abc-s",
+     "language": "en",
+     "level": "character",
+     "text": "Ss",
+     "characterName": "S",
+     "standardReading": "/ɛs/",
+     "phonemes": [
+      "/s/ sun",
+      "/z/ is"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "에스",
+       "pronunciation": "ㅅ(sun), z(is)"
+      },
+      "ja": {
+       "nameReading": "エス",
+       "pronunciation": "サ行(sun)、ザ行(is)"
+      },
+      "vi": {
+       "nameReading": "ét",
+       "pronunciation": "x (sun), d (is)"
+      }
+     },
+     "speech": {
+      "text": "S"
+     }
+    },
+    {
+     "id": "en-abc-t",
+     "language": "en",
+     "level": "character",
+     "text": "Tt",
+     "characterName": "T",
+     "standardReading": "/tiː/",
+     "phonemes": [
+      "/t/ top"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "티",
+       "pronunciation": "ㅌ"
+      },
+      "ja": {
+       "nameReading": "ティー",
+       "pronunciation": "タ行"
+      },
+      "vi": {
+       "nameReading": "ti",
+       "pronunciation": "th"
+      }
+     },
+     "speech": {
+      "text": "T"
+     }
+    },
+    {
+     "id": "en-abc-u",
+     "language": "en",
+     "level": "character",
+     "text": "Uu",
+     "characterName": "U",
+     "standardReading": "/juː/",
+     "phonemes": [
+      "/ʌ/ cup",
+      "/juː/ use"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "유",
+       "pronunciation": "어(cup), 유-(use)"
+      },
+      "ja": {
+       "nameReading": "ユー",
+       "pronunciation": "ア(cup)、ユー(use)"
+      },
+      "vi": {
+       "nameReading": "diu",
+       "pronunciation": "â (cup), iu (use)"
+      }
+     },
+     "speech": {
+      "text": "U"
+     }
+    },
+    {
+     "id": "en-abc-v",
+     "language": "en",
+     "level": "character",
+     "text": "Vv",
+     "characterName": "V",
+     "standardReading": "/viː/",
+     "phonemes": [
+      "/v/ van"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "브이",
+       "pronunciation": "v: 윗니를 아랫입술에 대고 내는 ㅂ"
+      },
+      "ja": {
+       "nameReading": "ブイ",
+       "pronunciation": "下唇を軽くかむヴ(v)"
+      },
+      "vi": {
+       "nameReading": "vi",
+       "pronunciation": "v"
+      }
+     },
+     "speech": {
+      "text": "V"
+     }
+    },
+    {
+     "id": "en-abc-w",
+     "language": "en",
+     "level": "character",
+     "text": "Ww",
+     "characterName": "W",
+     "standardReading": "/ˈdʌbəl.juː/",
+     "phonemes": [
+      "/w/ wet"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "더블유",
+       "pronunciation": "우(w)"
+      },
+      "ja": {
+       "nameReading": "ダブリュー",
+       "pronunciation": "ワ行(w)"
+      },
+      "vi": {
+       "nameReading": "đắp-bồ-liu",
+       "pronunciation": "u/o (w)"
+      }
+     },
+     "speech": {
+      "text": "W"
+     }
+    },
+    {
+     "id": "en-abc-x",
+     "language": "en",
+     "level": "character",
+     "text": "Xx",
+     "characterName": "X",
+     "standardReading": "/ɛks/",
+     "phonemes": [
+      "/ks/ box"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "엑스",
+       "pronunciation": "ㅋㅅ(ks)"
+      },
+      "ja": {
+       "nameReading": "エックス",
+       "pronunciation": "クス(ks)"
+      },
+      "vi": {
+       "nameReading": "ích",
+       "pronunciation": "c + x (ks)"
+      }
+     },
+     "speech": {
+      "text": "X"
+     }
+    },
+    {
+     "id": "en-abc-y",
+     "language": "en",
+     "level": "character",
+     "text": "Yy",
+     "characterName": "Y",
+     "standardReading": "/waɪ/",
+     "phonemes": [
+      "/j/ yes",
+      "/aɪ/ my"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "와이",
+       "pronunciation": "이(yes의 반모음), 아이(my)"
+      },
+      "ja": {
+       "nameReading": "ワイ",
+       "pronunciation": "ヤ行(yes)、アイ(my)"
+      },
+      "vi": {
+       "nameReading": "oai",
+       "pronunciation": "d/i (yes), ai (my)"
+      }
+     },
+     "speech": {
+      "text": "Y"
+     }
+    },
+    {
+     "id": "en-abc-z",
+     "language": "en",
+     "level": "character",
+     "text": "Zz",
+     "characterName": "Z",
+     "standardReading": "/ziː/",
+     "phonemes": [
+      "/z/ zoo"
+     ],
+     "nativeGuides": {
+      "ko": {
+       "nameReading": "지 (영국: 제드)",
+       "pronunciation": "z: 성대를 울리는 ㅈ"
+      },
+      "ja": {
+       "nameReading": "ズィー(英: ゼッド)",
+       "pronunciation": "ザ行"
+      },
+      "vi": {
+       "nameReading": "di (Anh: dét)",
+       "pronunciation": "d/z"
+      }
+     },
+     "speech": {
+      "text": "Z"
+     }
+    }
+   ]
+  },
+  {
+   "id": "words",
+   "level": "word",
+   "title": {
+    "ko": "단어",
+    "en": "Words",
+    "ja": "単語",
+    "vi": "Từ"
+   },
+   "items": [
+    {
+     "id": "en-word-01",
+     "language": "en",
+     "level": "word",
+     "text": "hello",
+     "standardReading": "/həˈloʊ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "헬로우",
+       "meaning": "안녕하세요(인사)"
+      },
+      "ja": {
+       "pronunciation": "ハロー",
+       "meaning": "こんにちは"
+      },
+      "vi": {
+       "pronunciation": "hơ-lâu",
+       "meaning": "xin chào"
+      }
+     }
+    },
+    {
+     "id": "en-word-02",
+     "language": "en",
+     "level": "word",
+     "text": "apple",
+     "standardReading": "/ˈæpəl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "애플",
+       "meaning": "사과"
+      },
+      "ja": {
+       "pronunciation": "アップル",
+       "meaning": "りんご"
+      },
+      "vi": {
+       "pronunciation": "áp-pồ",
+       "meaning": "quả táo"
+      }
+     }
+    },
+    {
+     "id": "en-word-03",
+     "language": "en",
+     "level": "word",
+     "text": "book",
+     "standardReading": "/bʊk/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "북",
+       "meaning": "책"
+      },
+      "ja": {
+       "pronunciation": "ブック",
+       "meaning": "本"
+      },
+      "vi": {
+       "pronunciation": "búc",
+       "meaning": "quyển sách"
+      }
+     }
+    },
+    {
+     "id": "en-word-04",
+     "language": "en",
+     "level": "word",
+     "text": "water",
+     "standardReading": "/ˈwɔːtər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "워터",
+       "meaning": "물"
+      },
+      "ja": {
+       "pronunciation": "ウォーター",
+       "meaning": "水"
+      },
+      "vi": {
+       "pronunciation": "oa-tơ",
+       "meaning": "nước"
+      }
+     }
+    },
+    {
+     "id": "en-word-05",
+     "language": "en",
+     "level": "word",
+     "text": "friend",
+     "standardReading": "/frɛnd/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "프렌드",
+       "meaning": "친구"
+      },
+      "ja": {
+       "pronunciation": "フレンド",
+       "meaning": "友達"
+      },
+      "vi": {
+       "pronunciation": "phren",
+       "meaning": "bạn"
+      }
+     }
+    },
+    {
+     "id": "en-word-06",
+     "language": "en",
+     "level": "word",
+     "text": "family",
+     "standardReading": "/ˈfæməli/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "패밀리",
+       "meaning": "가족"
+      },
+      "ja": {
+       "pronunciation": "ファミリー",
+       "meaning": "家族"
+      },
+      "vi": {
+       "pronunciation": "phe-mơ-li",
+       "meaning": "gia đình"
+      }
+     }
+    },
+    {
+     "id": "en-word-07",
+     "language": "en",
+     "level": "word",
+     "text": "school",
+     "standardReading": "/skuːl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스쿨",
+       "meaning": "학교"
+      },
+      "ja": {
+       "pronunciation": "スクール",
+       "meaning": "学校"
+      },
+      "vi": {
+       "pronunciation": "xcun",
+       "meaning": "trường học"
+      }
+     }
+    },
+    {
+     "id": "en-word-08",
+     "language": "en",
+     "level": "word",
+     "text": "love",
+     "standardReading": "/lʌv/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "러브",
+       "meaning": "사랑"
+      },
+      "ja": {
+       "pronunciation": "ラブ",
+       "meaning": "愛"
+      },
+      "vi": {
+       "pronunciation": "lâv",
+       "meaning": "tình yêu"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "short",
+   "level": "short-sentence",
+   "title": {
+    "ko": "짧은 문장",
+    "en": "Short sentences",
+    "ja": "短い文",
+    "vi": "Câu ngắn"
+   },
+   "items": [
+    {
+     "id": "en-short-01",
+     "language": "en",
+     "level": "short-sentence",
+     "text": "Thank you.",
+     "standardReading": "/θæŋk juː/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "땡큐",
+       "meaning": "감사합니다."
+      },
+      "ja": {
+       "pronunciation": "サンキュー",
+       "meaning": "ありがとう。"
+      },
+      "vi": {
+       "pronunciation": "thanh-kiu",
+       "meaning": "Cảm ơn."
+      }
+     }
+    },
+    {
+     "id": "en-short-02",
+     "language": "en",
+     "level": "short-sentence",
+     "text": "Nice to meet you.",
+     "standardReading": "/naɪs tə miːt juː/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "나이스 투 밋 유",
+       "meaning": "만나서 반가워요."
+      },
+      "ja": {
+       "pronunciation": "ナイス トゥ ミート ユー",
+       "meaning": "はじめまして。"
+      },
+      "vi": {
+       "pronunciation": "nai-xơ tu mít diu",
+       "meaning": "Rất vui được gặp bạn."
+      }
+     }
+    },
+    {
+     "id": "en-short-03",
+     "language": "en",
+     "level": "short-sentence",
+     "text": "I am a student.",
+     "standardReading": "/aɪ æm ə ˈstuːdənt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아이 앰 어 스튜던트",
+       "meaning": "저는 학생입니다."
+      },
+      "ja": {
+       "pronunciation": "アイ アム ア ステューデント",
+       "meaning": "私は学生です。"
+      },
+      "vi": {
+       "pronunciation": "ai em ơ xtiu-đần",
+       "meaning": "Tôi là học sinh."
+      }
+     }
+    },
+    {
+     "id": "en-short-04",
+     "language": "en",
+     "level": "short-sentence",
+     "text": "Practice makes perfect.",
+     "standardReading": "/ˈpræktɪs meɪks ˈpɜːrfɪkt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "프랙티스 메익스 퍼펙트",
+       "meaning": "연습이 완벽을 만든다."
+      },
+      "ja": {
+       "pronunciation": "プラクティス メイクス パーフェクト",
+       "meaning": "練習が完璧をつくる。"
+      },
+      "vi": {
+       "pronunciation": "pờ-réc-tít mếch pơ-phéct",
+       "meaning": "Luyện tập tạo nên sự hoàn hảo."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "long",
+   "level": "long-sentence",
+   "title": {
+    "ko": "긴 문장",
+    "en": "Long sentences",
+    "ja": "長い文",
+    "vi": "Câu dài"
+   },
+   "items": [
+    {
+     "id": "en-long-01",
+     "language": "en",
+     "level": "long-sentence",
+     "text": "Writing slowly and carefully helps you form beautiful letters.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "천천히 정성껏 쓰면 아름다운 글자를 쓰는 데 도움이 됩니다."
+      },
+      "ja": {
+       "meaning": "ゆっくりていねいに書くと、きれいな文字が書けるようになります。"
+      },
+      "vi": {
+       "meaning": "Viết chậm rãi và cẩn thận giúp bạn tạo nên những con chữ đẹp."
+      }
+     }
+    },
+    {
+     "id": "en-long-02",
+     "language": "en",
+     "level": "long-sentence",
+     "text": "Let's write each new word three times.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "새 단어를 세 번씩 써 봅시다."
+      },
+      "ja": {
+       "meaning": "新しい単語を三回ずつ書いてみましょう。"
+      },
+      "vi": {
+       "meaning": "Hãy viết mỗi từ mới ba lần."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "paragraph",
+   "level": "paragraph",
+   "title": {
+    "ko": "단락",
+    "en": "Paragraphs",
+    "ja": "段落",
+    "vi": "Đoạn văn"
+   },
+   "items": [
+    {
+     "id": "en-para-01",
+     "language": "en",
+     "level": "paragraph",
+     "text": "Handwriting is a mirror of the mind.\nWhen you write each stroke with care, your hand learns to remember the shape of every letter.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "글씨는 마음의 거울입니다. 한 획 한 획 정성껏 쓰면 손이 모든 글자의 모양을 기억하게 됩니다."
+      },
+      "ja": {
+       "meaning": "字は心の鏡です。一画一画ていねいに書くと、手がすべての文字の形を覚えていきます。"
+      },
+      "vi": {
+       "meaning": "Chữ viết là tấm gương của tâm hồn. Khi viết từng nét cẩn thận, bàn tay sẽ học cách ghi nhớ hình dáng của từng chữ."
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

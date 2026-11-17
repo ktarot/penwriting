@@ -10,7 +10,10 @@ export default defineConfig(({ mode }) => ({
         ? [{ find: /^\.\/fonts-bundled$/, replacement: fileURLToPath(new URL("./src/app/fonts-none.ts", import.meta.url)) }]
         : [],
   },
-  build: mode === "artifact" ? { outDir: "dist-artifact", assetsInlineLimit: 100_000_000, modulePreload: false } : {},
+  build:
+    mode === "artifact"
+      ? { outDir: "dist-artifact", assetsInlineLimit: 100_000_000, modulePreload: false, copyPublicDir: false, rollupOptions: { output: { inlineDynamicImports: true } } }
+      : {},
   test: {
     include: ["tests/unit/**/*.test.ts"],
     environment: "node",

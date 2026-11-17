@@ -1,0 +1,1185 @@
+{
+ "language": "ko",
+ "version": "0.1.0",
+ "locale": "ko-KR",
+ "review": {
+  "status": "draft",
+  "note": {
+   "ko": "초안 데이터입니다. 원어민·전문가 검수 전이며, 모국어 발음 표기는 근사 표기입니다.",
+   "en": "Draft data. Not yet reviewed by native speakers; native-script readings are approximations.",
+   "ja": "下書きデータです。ネイティブ・専門家の確認前で、母語の発音表記は近似表記です。",
+   "vi": "Dữ liệu bản nháp. Chưa được người bản ngữ kiểm duyệt; cách ghi phát âm bằng tiếng mẹ đẻ chỉ là gần đúng."
+  }
+ },
+ "categories": [
+  {
+   "id": "consonants",
+   "level": "character",
+   "title": {
+    "ko": "자음",
+    "en": "Consonants",
+    "ja": "子音",
+    "vi": "Phụ âm"
+   },
+   "items": [
+    {
+     "id": "ko-cons-01",
+     "language": "ko",
+     "level": "character",
+     "text": "ㄱ",
+     "characterName": "기역",
+     "standardReading": "[k]~[g], 받침 [k̚]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "giyeok",
+       "pronunciation": "g/k — 'k' at the start, 'g' between vowels"
+      },
+      "ja": {
+       "nameReading": "キヨク",
+       "pronunciation": "カ行/ガ行に近い子音(k・g)"
+      },
+      "vi": {
+       "nameReading": "ki-yơc",
+       "pronunciation": "giữa k và g"
+      }
+     },
+     "speech": {
+      "text": "기역"
+     }
+    },
+    {
+     "id": "ko-cons-02",
+     "language": "ko",
+     "level": "character",
+     "text": "ㄴ",
+     "characterName": "니은",
+     "standardReading": "[n]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "nieun",
+       "pronunciation": "n"
+      },
+      "ja": {
+       "nameReading": "ニウン",
+       "pronunciation": "ナ行の子音(n)"
+      },
+      "vi": {
+       "nameReading": "ni-ưn",
+       "pronunciation": "n"
+      }
+     },
+     "speech": {
+      "text": "니은"
+     }
+    },
+    {
+     "id": "ko-cons-03",
+     "language": "ko",
+     "level": "character",
+     "text": "ㄷ",
+     "characterName": "디귿",
+     "standardReading": "[t]~[d], 받침 [t̚]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "digeut",
+       "pronunciation": "d/t — 't' at the start, 'd' between vowels"
+      },
+      "ja": {
+       "nameReading": "ティグッ",
+       "pronunciation": "タ行/ダ行に近い子音(t・d)"
+      },
+      "vi": {
+       "nameReading": "ti-cưt",
+       "pronunciation": "giữa t và đ"
+      }
+     },
+     "speech": {
+      "text": "디귿"
+     }
+    },
+    {
+     "id": "ko-cons-04",
+     "language": "ko",
+     "level": "character",
+     "text": "ㄹ",
+     "characterName": "리을",
+     "standardReading": "[ɾ], 받침 [l]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "rieul",
+       "pronunciation": "light tapped 'r' before vowels, 'l' at the end"
+      },
+      "ja": {
+       "nameReading": "リウル",
+       "pronunciation": "ラ行(r)、パッチムでは l"
+      },
+      "vi": {
+       "nameReading": "ri-ưl",
+       "pronunciation": "r nhẹ (đầu âm), l (cuối âm tiết)"
+      }
+     },
+     "speech": {
+      "text": "리을"
+     }
+    },
+    {
+     "id": "ko-cons-05",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅁ",
+     "characterName": "미음",
+     "standardReading": "[m]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "mieum",
+       "pronunciation": "m"
+      },
+      "ja": {
+       "nameReading": "ミウム",
+       "pronunciation": "マ行の子音(m)"
+      },
+      "vi": {
+       "nameReading": "mi-ưm",
+       "pronunciation": "m"
+      }
+     },
+     "speech": {
+      "text": "미음"
+     }
+    },
+    {
+     "id": "ko-cons-06",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅂ",
+     "characterName": "비읍",
+     "standardReading": "[p]~[b], 받침 [p̚]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "bieup",
+       "pronunciation": "b/p — 'p' at the start, 'b' between vowels"
+      },
+      "ja": {
+       "nameReading": "ピウプ",
+       "pronunciation": "パ行/バ行に近い子音(p・b)"
+      },
+      "vi": {
+       "nameReading": "pi-ưp",
+       "pronunciation": "giữa p và b"
+      }
+     },
+     "speech": {
+      "text": "비읍"
+     }
+    },
+    {
+     "id": "ko-cons-07",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅅ",
+     "characterName": "시옷",
+     "standardReading": "[s], ㅣ 앞 [ɕ], 받침 [t̚]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "siot",
+       "pronunciation": "s ('sh' before ㅣ)"
+      },
+      "ja": {
+       "nameReading": "シオッ",
+       "pronunciation": "サ行の子音(s)、イの前では「シ」"
+      },
+      "vi": {
+       "nameReading": "xi-ốt",
+       "pronunciation": "x (trước ㅣ gần 's' cong)"
+      }
+     },
+     "speech": {
+      "text": "시옷"
+     }
+    },
+    {
+     "id": "ko-cons-08",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅇ",
+     "characterName": "이응",
+     "standardReading": "초성: 소리 없음, 받침 [ŋ]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "ieung",
+       "pronunciation": "silent at the start, 'ng' at the end"
+      },
+      "ja": {
+       "nameReading": "イウン",
+       "pronunciation": "初声では無音、パッチムでは「ン」(ng)"
+      },
+      "vi": {
+       "nameReading": "i-ưng",
+       "pronunciation": "câm ở đầu âm tiết, 'ng' ở cuối"
+      }
+     },
+     "speech": {
+      "text": "이응"
+     }
+    },
+    {
+     "id": "ko-cons-09",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅈ",
+     "characterName": "지읒",
+     "standardReading": "[tɕ]~[dʑ]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "jieut",
+       "pronunciation": "j/ch — 'ch' at the start, 'j' between vowels"
+      },
+      "ja": {
+       "nameReading": "チウッ",
+       "pronunciation": "チャ行/ジャ行に近い子音"
+      },
+      "vi": {
+       "nameReading": "chi-ưt",
+       "pronunciation": "giữa ch và gi"
+      }
+     },
+     "speech": {
+      "text": "지읒"
+     }
+    },
+    {
+     "id": "ko-cons-10",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅊ",
+     "characterName": "치읓",
+     "standardReading": "[tɕʰ]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "chieut",
+       "pronunciation": "ch with a strong puff of air"
+      },
+      "ja": {
+       "nameReading": "チウッ(激音)",
+       "pronunciation": "息を強く出すチャ行"
+      },
+      "vi": {
+       "nameReading": "ch'i-ưt",
+       "pronunciation": "ch bật hơi mạnh"
+      }
+     },
+     "speech": {
+      "text": "치읓"
+     }
+    },
+    {
+     "id": "ko-cons-11",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅋ",
+     "characterName": "키읔",
+     "standardReading": "[kʰ]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "kieuk",
+       "pronunciation": "k with a strong puff of air"
+      },
+      "ja": {
+       "nameReading": "キウク",
+       "pronunciation": "息を強く出すカ行"
+      },
+      "vi": {
+       "nameReading": "k'i-ưc",
+       "pronunciation": "k bật hơi mạnh"
+      }
+     },
+     "speech": {
+      "text": "키읔"
+     }
+    },
+    {
+     "id": "ko-cons-12",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅌ",
+     "characterName": "티읕",
+     "standardReading": "[tʰ]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "tieut",
+       "pronunciation": "t with a strong puff of air"
+      },
+      "ja": {
+       "nameReading": "ティウッ",
+       "pronunciation": "息を強く出すタ行"
+      },
+      "vi": {
+       "nameReading": "thi-ưt",
+       "pronunciation": "th (bật hơi)"
+      }
+     },
+     "speech": {
+      "text": "티읕"
+     }
+    },
+    {
+     "id": "ko-cons-13",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅍ",
+     "characterName": "피읖",
+     "standardReading": "[pʰ]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "pieup",
+       "pronunciation": "p with a strong puff of air"
+      },
+      "ja": {
+       "nameReading": "ピウプ",
+       "pronunciation": "息を強く出すパ行"
+      },
+      "vi": {
+       "nameReading": "p'i-ưp",
+       "pronunciation": "p bật hơi mạnh"
+      }
+     },
+     "speech": {
+      "text": "피읖"
+     }
+    },
+    {
+     "id": "ko-cons-14",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅎ",
+     "characterName": "히읗",
+     "standardReading": "[h]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "hieut",
+       "pronunciation": "h"
+      },
+      "ja": {
+       "nameReading": "ヒウッ",
+       "pronunciation": "ハ行の子音(h)"
+      },
+      "vi": {
+       "nameReading": "hi-ưt",
+       "pronunciation": "h"
+      }
+     },
+     "speech": {
+      "text": "히읗"
+     }
+    }
+   ]
+  },
+  {
+   "id": "vowels",
+   "level": "character",
+   "title": {
+    "ko": "모음",
+    "en": "Vowels",
+    "ja": "母音",
+    "vi": "Nguyên âm"
+   },
+   "items": [
+    {
+     "id": "ko-vow-01",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅏ",
+     "characterName": "아",
+     "standardReading": "[a]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "a",
+       "pronunciation": "'a' as in 'father'"
+      },
+      "ja": {
+       "nameReading": "ア",
+       "pronunciation": "ア"
+      },
+      "vi": {
+       "nameReading": "a",
+       "pronunciation": "a"
+      }
+     },
+     "speech": {
+      "text": "아"
+     }
+    },
+    {
+     "id": "ko-vow-02",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅑ",
+     "characterName": "야",
+     "standardReading": "[ja]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "ya",
+       "pronunciation": "'ya' as in 'yard'"
+      },
+      "ja": {
+       "nameReading": "ヤ",
+       "pronunciation": "ヤ"
+      },
+      "vi": {
+       "nameReading": "ia",
+       "pronunciation": "ia"
+      }
+     },
+     "speech": {
+      "text": "야"
+     }
+    },
+    {
+     "id": "ko-vow-03",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅓ",
+     "characterName": "어",
+     "standardReading": "[ʌ]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "eo",
+       "pronunciation": "like 'u' in 'up', mouth open"
+      },
+      "ja": {
+       "nameReading": "オ(口を大きく開ける)",
+       "pronunciation": "口を大きく開けたオ"
+      },
+      "vi": {
+       "nameReading": "ơ (gần 'o' mở)",
+       "pronunciation": "ơ (gần 'o' mở)"
+      }
+     },
+     "speech": {
+      "text": "어"
+     }
+    },
+    {
+     "id": "ko-vow-04",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅕ",
+     "characterName": "여",
+     "standardReading": "[jʌ]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "yeo",
+       "pronunciation": "'y' + ㅓ, like 'yuh'"
+      },
+      "ja": {
+       "nameReading": "ヨ(口を大きく開ける)",
+       "pronunciation": "口を大きく開けたヨ"
+      },
+      "vi": {
+       "nameReading": "iơ",
+       "pronunciation": "iơ"
+      }
+     },
+     "speech": {
+      "text": "여"
+     }
+    },
+    {
+     "id": "ko-vow-05",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅗ",
+     "characterName": "오",
+     "standardReading": "[o]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "o",
+       "pronunciation": "'o' as in 'go', without the glide"
+      },
+      "ja": {
+       "nameReading": "オ(唇を丸める)",
+       "pronunciation": "唇を丸めたオ"
+      },
+      "vi": {
+       "nameReading": "ô",
+       "pronunciation": "ô"
+      }
+     },
+     "speech": {
+      "text": "오"
+     }
+    },
+    {
+     "id": "ko-vow-06",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅛ",
+     "characterName": "요",
+     "standardReading": "[jo]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "yo",
+       "pronunciation": "'yo' as in 'yoke'"
+      },
+      "ja": {
+       "nameReading": "ヨ(唇を丸める)",
+       "pronunciation": "唇を丸めたヨ"
+      },
+      "vi": {
+       "nameReading": "iô",
+       "pronunciation": "iô"
+      }
+     },
+     "speech": {
+      "text": "요"
+     }
+    },
+    {
+     "id": "ko-vow-07",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅜ",
+     "characterName": "우",
+     "standardReading": "[u]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "u",
+       "pronunciation": "'oo' as in 'moon'"
+      },
+      "ja": {
+       "nameReading": "ウ(唇を丸める)",
+       "pronunciation": "唇を丸めて突き出すウ"
+      },
+      "vi": {
+       "nameReading": "u",
+       "pronunciation": "u"
+      }
+     },
+     "speech": {
+      "text": "우"
+     }
+    },
+    {
+     "id": "ko-vow-08",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅠ",
+     "characterName": "유",
+     "standardReading": "[ju]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "yu",
+       "pronunciation": "'you'"
+      },
+      "ja": {
+       "nameReading": "ユ",
+       "pronunciation": "ユ"
+      },
+      "vi": {
+       "nameReading": "iu",
+       "pronunciation": "iu"
+      }
+     },
+     "speech": {
+      "text": "유"
+     }
+    },
+    {
+     "id": "ko-vow-09",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅡ",
+     "characterName": "으",
+     "standardReading": "[ɯ]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "eu",
+       "pronunciation": "'oo' with lips spread flat"
+      },
+      "ja": {
+       "nameReading": "ウ(唇を横に引く)",
+       "pronunciation": "唇を横に引いたウ"
+      },
+      "vi": {
+       "nameReading": "ư",
+       "pronunciation": "ư"
+      }
+     },
+     "speech": {
+      "text": "으"
+     }
+    },
+    {
+     "id": "ko-vow-10",
+     "language": "ko",
+     "level": "character",
+     "text": "ㅣ",
+     "characterName": "이",
+     "standardReading": "[i]",
+     "nativeGuides": {
+      "en": {
+       "nameReading": "i",
+       "pronunciation": "'ee' as in 'see'"
+      },
+      "ja": {
+       "nameReading": "イ",
+       "pronunciation": "イ"
+      },
+      "vi": {
+       "nameReading": "i",
+       "pronunciation": "i"
+      }
+     },
+     "speech": {
+      "text": "이"
+     }
+    }
+   ]
+  },
+  {
+   "id": "syllables",
+   "level": "character",
+   "title": {
+    "ko": "음절",
+    "en": "Syllables",
+    "ja": "音節",
+    "vi": "Âm tiết"
+   },
+   "items": [
+    {
+     "id": "ko-syl-01",
+     "language": "ko",
+     "level": "character",
+     "text": "가",
+     "standardReading": "ga",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ga"
+      },
+      "ja": {
+       "pronunciation": "カ"
+      },
+      "vi": {
+       "pronunciation": "ca"
+      }
+     }
+    },
+    {
+     "id": "ko-syl-02",
+     "language": "ko",
+     "level": "character",
+     "text": "나",
+     "standardReading": "na",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "na"
+      },
+      "ja": {
+       "pronunciation": "ナ"
+      },
+      "vi": {
+       "pronunciation": "na"
+      }
+     }
+    },
+    {
+     "id": "ko-syl-03",
+     "language": "ko",
+     "level": "character",
+     "text": "다",
+     "standardReading": "da",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "da"
+      },
+      "ja": {
+       "pronunciation": "タ"
+      },
+      "vi": {
+       "pronunciation": "ta"
+      }
+     }
+    },
+    {
+     "id": "ko-syl-04",
+     "language": "ko",
+     "level": "character",
+     "text": "라",
+     "standardReading": "ra",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ra"
+      },
+      "ja": {
+       "pronunciation": "ラ"
+      },
+      "vi": {
+       "pronunciation": "ra"
+      }
+     }
+    },
+    {
+     "id": "ko-syl-05",
+     "language": "ko",
+     "level": "character",
+     "text": "마",
+     "standardReading": "ma",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ma"
+      },
+      "ja": {
+       "pronunciation": "マ"
+      },
+      "vi": {
+       "pronunciation": "ma"
+      }
+     }
+    },
+    {
+     "id": "ko-syl-06",
+     "language": "ko",
+     "level": "character",
+     "text": "바",
+     "standardReading": "ba",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ba"
+      },
+      "ja": {
+       "pronunciation": "パ"
+      },
+      "vi": {
+       "pronunciation": "pa"
+      }
+     }
+    },
+    {
+     "id": "ko-syl-07",
+     "language": "ko",
+     "level": "character",
+     "text": "사",
+     "standardReading": "sa",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sa"
+      },
+      "ja": {
+       "pronunciation": "サ"
+      },
+      "vi": {
+       "pronunciation": "xa"
+      }
+     }
+    },
+    {
+     "id": "ko-syl-08",
+     "language": "ko",
+     "level": "character",
+     "text": "아",
+     "standardReading": "a",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "a"
+      },
+      "ja": {
+       "pronunciation": "ア"
+      },
+      "vi": {
+       "pronunciation": "a"
+      }
+     }
+    },
+    {
+     "id": "ko-syl-09",
+     "language": "ko",
+     "level": "character",
+     "text": "한",
+     "standardReading": "han",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "han"
+      },
+      "ja": {
+       "pronunciation": "ハン"
+      },
+      "vi": {
+       "pronunciation": "han"
+      }
+     }
+    },
+    {
+     "id": "ko-syl-10",
+     "language": "ko",
+     "level": "character",
+     "text": "글",
+     "standardReading": "geul",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "geul"
+      },
+      "ja": {
+       "pronunciation": "クル"
+      },
+      "vi": {
+       "pronunciation": "cưl"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "words",
+   "level": "word",
+   "title": {
+    "ko": "단어",
+    "en": "Words",
+    "ja": "単語",
+    "vi": "Từ"
+   },
+   "items": [
+    {
+     "id": "ko-word-01",
+     "language": "ko",
+     "level": "word",
+     "text": "사람",
+     "standardReading": "saram",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "saram",
+       "meaning": "person"
+      },
+      "ja": {
+       "pronunciation": "サラム",
+       "meaning": "人"
+      },
+      "vi": {
+       "pronunciation": "xa-ram",
+       "meaning": "người"
+      }
+     }
+    },
+    {
+     "id": "ko-word-02",
+     "language": "ko",
+     "level": "word",
+     "text": "학교",
+     "standardReading": "hakgyo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "hakgyo",
+       "meaning": "school"
+      },
+      "ja": {
+       "pronunciation": "ハッキョ",
+       "meaning": "学校"
+      },
+      "vi": {
+       "pronunciation": "hắc-kiô",
+       "meaning": "trường học"
+      }
+     }
+    },
+    {
+     "id": "ko-word-03",
+     "language": "ko",
+     "level": "word",
+     "text": "물",
+     "standardReading": "mul",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "mul",
+       "meaning": "water"
+      },
+      "ja": {
+       "pronunciation": "ムル",
+       "meaning": "水"
+      },
+      "vi": {
+       "pronunciation": "mul",
+       "meaning": "nước"
+      }
+     }
+    },
+    {
+     "id": "ko-word-04",
+     "language": "ko",
+     "level": "word",
+     "text": "사랑",
+     "standardReading": "sarang",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sarang",
+       "meaning": "love"
+      },
+      "ja": {
+       "pronunciation": "サラン",
+       "meaning": "愛"
+      },
+      "vi": {
+       "pronunciation": "xa-rang",
+       "meaning": "tình yêu"
+      }
+     }
+    },
+    {
+     "id": "ko-word-05",
+     "language": "ko",
+     "level": "word",
+     "text": "친구",
+     "standardReading": "chingu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "chingu",
+       "meaning": "friend"
+      },
+      "ja": {
+       "pronunciation": "チング",
+       "meaning": "友達"
+      },
+      "vi": {
+       "pronunciation": "ch'in-cu",
+       "meaning": "bạn"
+      }
+     }
+    },
+    {
+     "id": "ko-word-06",
+     "language": "ko",
+     "level": "word",
+     "text": "가족",
+     "standardReading": "gajok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gajok",
+       "meaning": "family"
+      },
+      "ja": {
+       "pronunciation": "カジョク",
+       "meaning": "家族"
+      },
+      "vi": {
+       "pronunciation": "ca-chốc",
+       "meaning": "gia đình"
+      }
+     }
+    },
+    {
+     "id": "ko-word-07",
+     "language": "ko",
+     "level": "word",
+     "text": "한국어",
+     "standardReading": "hangugeo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "hangugeo",
+       "meaning": "Korean (language)"
+      },
+      "ja": {
+       "pronunciation": "ハングゴ",
+       "meaning": "韓国語"
+      },
+      "vi": {
+       "pronunciation": "han-cu-gơ",
+       "meaning": "tiếng Hàn"
+      }
+     }
+    },
+    {
+     "id": "ko-word-08",
+     "language": "ko",
+     "level": "word",
+     "text": "감사",
+     "standardReading": "gamsa",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gamsa",
+       "meaning": "gratitude, thanks"
+      },
+      "ja": {
+       "pronunciation": "カムサ",
+       "meaning": "感謝"
+      },
+      "vi": {
+       "pronunciation": "cam-xa",
+       "meaning": "sự biết ơn"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "short",
+   "level": "short-sentence",
+   "title": {
+    "ko": "짧은 문장",
+    "en": "Short sentences",
+    "ja": "短い文",
+    "vi": "Câu ngắn"
+   },
+   "items": [
+    {
+     "id": "ko-short-01",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "안녕하세요.",
+     "standardReading": "annyeonghaseyo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "annyeonghaseyo",
+       "meaning": "Hello."
+      },
+      "ja": {
+       "pronunciation": "アンニョンハセヨ",
+       "meaning": "こんにちは。"
+      },
+      "vi": {
+       "pronunciation": "an-niơng-ha-xê-iô",
+       "meaning": "Xin chào."
+      }
+     }
+    },
+    {
+     "id": "ko-short-02",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "감사합니다.",
+     "standardReading": "gamsahamnida",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gamsahamnida",
+       "meaning": "Thank you."
+      },
+      "ja": {
+       "pronunciation": "カムサハムニダ",
+       "meaning": "ありがとうございます。"
+      },
+      "vi": {
+       "pronunciation": "cam-xa-ham-ni-đa",
+       "meaning": "Cảm ơn."
+      }
+     }
+    },
+    {
+     "id": "ko-short-03",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "만나서 반갑습니다.",
+     "standardReading": "mannaseo bangapseumnida",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "mannaseo bangapseumnida",
+       "meaning": "Nice to meet you."
+      },
+      "ja": {
+       "pronunciation": "マンナソ パンガプスムニダ",
+       "meaning": "お会いできてうれしいです。"
+      },
+      "vi": {
+       "pronunciation": "man-na-xơ pan-cáp-xưm-ni-đa",
+       "meaning": "Rất vui được gặp bạn."
+      }
+     }
+    },
+    {
+     "id": "ko-short-04",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "저는 학생입니다.",
+     "standardReading": "jeoneun haksaengimnida",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "jeoneun haksaengimnida",
+       "meaning": "I am a student."
+      },
+      "ja": {
+       "pronunciation": "チョヌン ハクセンイムニダ",
+       "meaning": "私は学生です。"
+      },
+      "vi": {
+       "pronunciation": "chơ-nưn hắc-xeng-im-ni-đa",
+       "meaning": "Tôi là học sinh."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "long",
+   "level": "long-sentence",
+   "title": {
+    "ko": "긴 문장",
+    "en": "Long sentences",
+    "ja": "長い文",
+    "vi": "Câu dài"
+   },
+   "items": [
+    {
+     "id": "ko-long-01",
+     "language": "ko",
+     "level": "long-sentence",
+     "text": "천천히 바르게 쓰는 연습이 좋은 글씨를 만듭니다.",
+     "standardReading": "cheoncheonhi bareuge sseuneun yeonseubi joeun geulssireul mandeumnida",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Practicing slow, careful writing makes good handwriting."
+      },
+      "ja": {
+       "meaning": "ゆっくり正しく書く練習が、きれいな字をつくります。"
+      },
+      "vi": {
+       "meaning": "Luyện viết chậm rãi và đúng cách sẽ tạo nên nét chữ đẹp."
+      }
+     }
+    },
+    {
+     "id": "ko-long-02",
+     "language": "ko",
+     "level": "long-sentence",
+     "text": "오늘 배운 단어를 세 번씩 써 봅시다.",
+     "standardReading": "oneul baeun daneoreul se beonssik sseo bopsida",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Let's write each word we learned today three times."
+      },
+      "ja": {
+       "meaning": "今日習った単語を三回ずつ書いてみましょう。"
+      },
+      "vi": {
+       "meaning": "Hãy viết mỗi từ đã học hôm nay ba lần."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "paragraph",
+   "level": "paragraph",
+   "title": {
+    "ko": "단락",
+    "en": "Paragraphs",
+    "ja": "段落",
+    "vi": "Đoạn văn"
+   },
+   "items": [
+    {
+     "id": "ko-para-01",
+     "language": "ko",
+     "level": "paragraph",
+     "text": "글씨는 마음의 거울이라고 합니다.\n한 획 한 획 정성을 들여 쓰다 보면 손이 글자의 모양을 기억하게 됩니다.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "They say handwriting is a mirror of the mind. If you write each stroke with care, your hand comes to remember the shapes of the letters."
+      },
+      "ja": {
+       "meaning": "字は心の鏡だと言われます。一画一画ていねいに書いていくと、手が文字の形を覚えるようになります。"
+      },
+      "vi": {
+       "meaning": "Người ta nói chữ viết là tấm gương của tâm hồn. Khi viết từng nét cẩn thận, bàn tay sẽ ghi nhớ hình dáng của chữ."
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

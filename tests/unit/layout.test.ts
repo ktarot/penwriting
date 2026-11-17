@@ -17,13 +17,30 @@ describe("breakLines", () => {
     expect(breakLines("가나\n\n다라  마", mono, 10)).toEqual(["가나", "다라 마"]);
   });
 
-  it("너무 긴 단어는 글자 단위로 자른다", () => {
-    expect(breakLines("가나다라마바사", mono, 3)).toEqual(["가나다", "라마바", "사"]);
+  it("너무 긴 단어는 글자 단위로 고르게 자른다 (한 글자만 남는 줄 없음)", () => {
+    const lines = breakLines("가나다라마바사", mono, 3);
+    expect(lines.join("")).toBe("가나다라마바사");
+    expect(Math.min(...lines.map((l) => l.length))).toBeGreaterThanOrEqual(2);
+  });
+
+  it("한계를 조금 넘는 단어는 자르지 않는다", () => {
+    expect(breakLines("ありがとう", mono, 4.5)).toEqual(["ありがとう"]);
+  });
+
+  it("닫는 문장부호는 줄 맨 앞에 오지 않는다", () => {
+    const lines = breakLines("안녕하세요.", mono, 2);
+    expect(lines.join("")).toBe("안녕하세요.");
+    for (const l of lines) expect(l.startsWith(".")).toBe(false);
+    expect(breakLines("わたしはがくせいです。", mono, 3).some((l) => l.startsWith("。"))).toBe(false);
+  });
+
+  it("maxEm이 Infinity면 줄바꿈 문자에서만 나눈다", () => {
+    expect(breakLines("아주 긴 문장도 한 줄로\n둘째 줄", mono, Infinity)).toEqual(["아주 긴 문장도 한 줄로", "둘째 줄"]);
   });
 
   it("서로게이트 쌍 문자를 깨뜨리지 않는다", () => {
-    const lines = breakLines("𠀀𠀁𠀂", mono, 2);
-    expect(lines).toEqual(["𠀀𠀁", "𠀂"]);
+    const lines = breakLines("𠀀𠀁𠀂𠀃", mono, 2, { tolerance: 1 });
+    expect(lines).toEqual(["𠀀𠀁", "𠀂𠀃"]);
   });
 });
 

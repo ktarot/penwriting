@@ -4,6 +4,8 @@
  */
 export type Route =
   | { name: "home" }
+  | { name: "welcome" }
+  | { name: "options" }
   | { name: "practice"; itemId: string }
   | { name: "compare" };
 
@@ -15,11 +17,15 @@ export function parseRoute(hash: string): Route {
     return { name: "practice", itemId: name.slice(PRACTICE_PREFIX.length) };
   }
   if (name === "compare") return { name: "compare" };
+  if (name === "welcome") return { name: "welcome" };
+  if (name === "options") return { name: "options" };
   return { name: "home" };
 }
 
 export const hrefFor = {
   home: () => "#",
+  welcome: () => "#welcome",
+  options: () => "#options",
   practice: (itemId: string) => `#${PRACTICE_PREFIX}${itemId}`,
   compare: () => "#compare",
 };

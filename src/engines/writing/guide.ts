@@ -1,5 +1,5 @@
-import type { FontStyle, LineLayout } from "../../types";
-import { FONT_FAMILIES, FONT_SCALE } from "./fonts";
+import type { FontStyle, LanguageCode, LineLayout } from "../../types";
+import { fontFor } from "./fonts";
 import { BASELINE_EM, LINE_HEIGHT_EM, MIDLINE_EM, PADDING_X_EM, TOPLINE_EM, lineWidthEm } from "./layout";
 
 /**
@@ -13,6 +13,7 @@ export type GuideMode = "solid" | "outline" | "none";
 export interface GuideOptions {
   mode: GuideMode;
   fontStyle: FontStyle;
+  language: LanguageCode;
   /** 0..1 */
   opacity: number;
   color?: string;
@@ -53,8 +54,11 @@ export function createGuideSvg(line: LineLayout, opts: GuideOptions): SVGSVGElem
     text.textContent = line.text;
     text.setAttribute("x", String(PADDING_X_EM * U));
     text.setAttribute("y", String(BASELINE_EM * U));
-    text.setAttribute("font-size", String(U * FONT_SCALE[opts.fontStyle]));
-    text.setAttribute("font-family", FONT_FAMILIES[opts.fontStyle]);
+    const font = fontFor(opts.language, opts.fontStyle);
+    text.setAttribute("font-size", String(U * font.scale));
+    text.setAttribute("font-family", font.family);
+    text.setAttribute("font-weight", String(font.weight));
+    text.setAttribute("lang", opts.language);
     text.setAttribute("class", `guide-text guide-${opts.mode}`);
     const color = opts.color ?? "currentColor";
     if (opts.mode === "solid") {
