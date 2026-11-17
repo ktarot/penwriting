@@ -302,3 +302,69 @@ dialog.confirm p { margin: 0 0 16px; }
 .vc-result.ok { color: var(--ok); font-weight: 600; }
 .vc-result.bad { color: var(--error); }
 .vc-all { font-size: 0.8125rem; color: var(--muted); max-height: 240px; overflow: auto; padding-left: 1.2em; }
+
+/* 학습 단위 탭 */
+.tabs { display: flex; gap: 4px; overflow-x: auto; border-bottom: var(--border-w) solid var(--line); margin: 0 0 12px; scrollbar-width: thin; }
+.tab {
+  flex: none; min-height: var(--tap); padding: 0 18px; border: 0; border-bottom: 3px solid transparent; background: transparent;
+  color: var(--muted); font: inherit; font-size: 1.0625rem; font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.tab[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+.tab:hover { color: var(--text); }
+.subtabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+.subtab {
+  min-height: 2.5rem; padding: 0 14px; border: var(--border-w) solid var(--line); border-radius: 99px; background: var(--surface);
+  color: var(--text); font: inherit; font-size: 0.9375rem; cursor: pointer;
+}
+.subtab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+.subtab[aria-selected="true"]::before { content: "✓ "; }
+.tab-panel:focus { outline: none; }
+
+/* 획순 (일본어 기초 문자) */
+.so-wrap:empty { display: none; }
+.so-wrap { flex: none; }
+.stroke-order { margin: 0; width: 12.5rem; padding: 8px 10px 6px; background: var(--surface); border: var(--border-w) solid var(--line); border-radius: var(--radius); }
+.stroke-order figcaption { display: flex; justify-content: space-between; align-items: baseline; font-size: 0.875rem; font-weight: 600; color: var(--muted); margin-bottom: 4px; }
+.so-count { font-variant-numeric: tabular-nums; }
+.so-svg { display: block; width: 100%; height: auto; aspect-ratio: 1; background: var(--paper); border-radius: 6px; }
+.so-frame { fill: none; stroke: var(--paper-line); stroke-width: 0.6; }
+.so-cross { stroke: var(--rule-aux); stroke-width: 0.5; stroke-dasharray: 2 2; }
+.so-ghost { fill: none; stroke: var(--rule-aux); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; opacity: 0.6; }
+.so-ink { fill: none; stroke: var(--guide); stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; }
+.so-ink.hidden { visibility: hidden; }
+.so-ink.current { stroke: var(--accent); }
+:root[data-paper="board"] .so-ink.current { stroke: #ffd27a; }
+.so-start { fill: var(--accent); }
+.so-arrow { fill: var(--accent); }
+.so-shaft { stroke: var(--accent); stroke-width: 1.6; stroke-linecap: round; }
+:root[data-paper="board"] .so-start, :root[data-paper="board"] .so-arrow { fill: #ffd27a; }
+:root[data-paper="board"] .so-shaft { stroke: #ffd27a; }
+.so-mark:not(.current) { opacity: 0.6; }
+.so-num { font-size: 7px; font-weight: 700; fill: var(--muted); font-family: system-ui, sans-serif; }
+:root[data-paper="board"] .so-num { fill: #cfe0d6; }
+.so-mark.current .so-num { fill: var(--accent); font-size: 8.5px; }
+.so-controls { display: flex; justify-content: space-between; gap: 4px; margin-top: 6px; }
+.btn.small { min-height: 2.75rem; min-width: 2.75rem; padding: 0 10px; font-size: 0.875rem; }
+.so-credit { margin: 4px 0 0; font-size: 0.6875rem; color: var(--muted); }
+
+/* 좁은 화면(휴대폰): 원본과 연습 칸을 위아래로 */
+.stage[data-layout="compact"] { gap: 6px; align-items: stretch; }
+.stage[data-layout="compact"] .writing-line { align-self: center; }
+.model-line { align-self: center; border-style: dashed; }
+.model-line .guide-text { fill-opacity: 1; }
+.rep-label { margin: 8px 0 0; font-size: 0.875rem; font-weight: 600; color: var(--muted); align-self: flex-start; }
+.stage[data-layout="compact"] .writing-line:not(.model-line) { margin-bottom: 6px; }
+/* 필기 영역 + 획순: 넓은 화면에서는 나란히, 좁은 화면에서는 획순을 위에 */
+.stage-area { display: flex; flex-direction: column-reverse; gap: 12px; min-width: 0; }
+.stage-area .so-wrap { display: flex; justify-content: center; }
+@media (min-width: 600px) {
+  .stage-area { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 16px; }
+  .stage-area .so-wrap { position: sticky; top: max(12px, env(safe-area-inset-top, 0px)); }
+}
+@media (max-width: 599px) {
+  .stroke-order { width: 100%; max-width: 15rem; }
+}
+@media (max-width: 599px) {
+  .tabs { gap: 0; }
+  .tab { flex: 1 0 auto; padding: 0 10px; font-size: 0.9375rem; }
+}

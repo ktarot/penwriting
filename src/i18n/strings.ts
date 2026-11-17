@@ -131,6 +131,16 @@ const ko = {
   test: "테스트",
   testOk: "재생 시작됨",
   voiceList: "전체 음성 목록",
+  tabsLabel: "학습 단위",
+  tabSentences: "문장",
+  suggested: "추천",
+  strokeOrder: "획순",
+  strokeReplay: "다시 보기",
+  strokePrev: "이전 획",
+  strokeNext: "다음 획",
+  strokeCredit: "획순 데이터:",
+  attemptN: "{n}번째 연습",
+  modelLabel: "원본",
 };
 
 export type Strings = typeof ko;
@@ -259,6 +269,16 @@ const en: Strings = {
   test: "Test",
   testOk: "Playback started",
   voiceList: "All voices",
+  tabsLabel: "Lesson type",
+  tabSentences: "Sentences",
+  suggested: "Suggested",
+  strokeOrder: "Stroke order",
+  strokeReplay: "Replay",
+  strokePrev: "Previous stroke",
+  strokeNext: "Next stroke",
+  strokeCredit: "Stroke data:",
+  attemptN: "Try {n}",
+  modelLabel: "Model",
 };
 
 const ja: Strings = {
@@ -385,6 +405,16 @@ const ja: Strings = {
   test: "テスト",
   testOk: "再生を開始しました",
   voiceList: "すべての音声",
+  tabsLabel: "学習の種類",
+  tabSentences: "文",
+  suggested: "おすすめ",
+  strokeOrder: "書き順",
+  strokeReplay: "もう一度",
+  strokePrev: "前の画",
+  strokeNext: "次の画",
+  strokeCredit: "書き順データ:",
+  attemptN: "{n}回目",
+  modelLabel: "手本",
 };
 
 const vi: Strings = {
@@ -511,6 +541,16 @@ const vi: Strings = {
   test: "Thử",
   testOk: "Đã bắt đầu phát",
   voiceList: "Tất cả giọng đọc",
+  tabsLabel: "Loại bài học",
+  tabSentences: "Câu",
+  suggested: "Gợi ý",
+  strokeOrder: "Thứ tự nét",
+  strokeReplay: "Xem lại",
+  strokePrev: "Nét trước",
+  strokeNext: "Nét sau",
+  strokeCredit: "Dữ liệu nét:",
+  attemptN: "Lần {n}",
+  modelLabel: "Mẫu",
 };
 
 export const STRINGS: Record<LanguageCode, Strings> = { ko, en, ja, vi };

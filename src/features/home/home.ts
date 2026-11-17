@@ -9,7 +9,43 @@ import { itemInfo } from "../../engines/language/pronunciation";
 import { createCustomLesson, deleteCustomLesson, listCustomLessons, updateCustomLesson } from "../../storage/repositories/custom-lessons";
 import { latestDraft } from "../../storage/repositories/drafts";
 import { getProgressMap } from "../../storage/repositories/progress";
-import type { CustomLesson, LanguagePack, LearningItem, ProgressEntry } from "../../types";
+import type { CustomLesson, LanguagePack, LearningItem, LessonCategory, ProgressEntry } from "../../types";
+
+type TabKey = "character" | "word" | "sentence" | "paragraph" | "mine";
+
+const tabStoreKey = (lang: string) => `penwriting.tab.${lang}`;
+function readTab(lang: string): string | null {
+  try {
+    return localStorage.getItem(tabStoreKey(lang));
+  } catch {
+    return null;
+  }
+}
+function writeTab(lang: string, v: string): void {
+  try {
+    localStorage.setItem(tabStoreKey(lang), v);
+  } catch {
+    /* 기억 못 해도 동작에는 문제없음 */
+  }
+}
+
+/** 키보드(←/→/Home/End)로 탭 사이를 움직인다 */
+function tablistKeys(list: HTMLElement): void {
+  list.addEventListener("keydown", (e) => {
+    const tabs = [...list.querySelectorAll<HTMLButtonElement>("[role=tab]")];
+    const i = tabs.indexOf(document.activeElement as HTMLButtonElement);
+    if (i < 0) return;
+    let j = -1;
+    if (e.key === "ArrowRight") j = (i + 1) % tabs.length;
+    else if (e.key === "ArrowLeft") j = (i - 1 + tabs.length) % tabs.length;
+    else if (e.key === "Home") j = 0;
+    else if (e.key === "End") j = tabs.length - 1;
+    if (j < 0) return;
+    e.preventDefault();
+    tabs[j].focus();
+    tabs[j].click();
+  });
+}
 
 export function renderHome(root: HTMLElement): () => void {
   const s = t();
@@ -96,7 +132,9 @@ export function renderHome(root: HTMLElement): () => void {
       h("p", { class: "pair" }, fill(s.learningPair, { native: s.langName[native], learning: s.langName[lang] })),
       continueEl,
       lessons,
-      h(
+    ),
+  );
+  const customCard = h(
         "section",
         { class: "card" },
         h("h2", {}, s.myLessons),
@@ -122,9 +160,7 @@ export function renderHome(root: HTMLElement): () => void {
           saveCustomBtn,
           cancelEditBtn,
         ),
-      ),
-    ),
-  );
+      );
 
   const itemLabel = (it: LearningItem, pack: LanguagePack, p?: ProgressEntry) => {
     const info = itemInfo(it, native, pack);
@@ -150,7 +186,7 @@ export function renderHome(root: HTMLElement): () => void {
     } else {
       const recent = [...progress.values()].filter((p) => p.language === lang).sort((a, b) => b.lastPracticedAt.localeCompare(a.lastPracticedAt))[0];
       const next = recent && findItem(pack, recent.learningItemId) ? nextItem(pack, recent.learningItemId) : undefined;
-      if (next) target = { id: next.id, text: next.text, label: s.nextItem };
+      if (next) target = { id: next.id, text: next.text, label: `${s.suggested} · ${s.nextItem}` };
     }
     if (!target) return continueEl.replaceChildren();
     continueEl.replaceChildren(
@@ -163,6 +199,89 @@ export function renderHome(root: HTMLElement): () => void {
     );
   };
 
+  /** 학습 단위 탭 + (기초 문자) 분류 탭. 순서대로 해야 한다는 인상을 주지 않도록 한 번에 한 묶음만 보여 준다 */
+  const drawTabs = (pack: LanguagePack, progress: Map<string, ProgressEntry>) => {
+    const groups: { key: TabKey; label: string; cats: LessonCategory[] }[] = [
+      { key: "character", label: s.level.character, cats: pack.categories.filter((c) => c.level === "character") },
+      { key: "word", label: s.level.word, cats: pack.categories.filter((c) => c.level === "word") },
+      { key: "sentence", label: s.tabSentences, cats: pack.categories.filter((c) => c.level === "short-sentence" || c.level === "long-sentence") },
+      { key: "paragraph", label: s.level.paragraph, cats: pack.categories.filter((c) => c.level === "paragraph") },
+    ];
+    const tabs = [...groups.filter((g) => g.cats.length), { key: "mine" as TabKey, label: s.myLessons, cats: [] }];
+    const saved = readTab(lang) ?? "";
+    let [cur, sub] = saved.split(":") as [TabKey, string | undefined];
+    if (!tabs.some((t) => t.key === cur)) cur = tabs[0].key;
+
+    const tablist = h("div", { class: "tabs", role: "tablist", "aria-label": s.tabsLabel });
+    const panel = h("div", { class: "tab-panel", role: "tabpanel", id: "lesson-panel", tabindex: "-1" });
+    tablistKeys(tablist);
+
+    const catSection = (c: LessonCategory, withTitle: boolean) =>
+      h(
+        "section",
+        { class: "card", "data-category": c.id },
+        withTitle ? h("h2", {}, c.title[native] ?? c.title.en ?? c.id) : null,
+        h("ul", { class: `item-list level-${c.level}` }, ...c.items.map((it) => h("li", {}, itemLabel(it, pack, progress.get(it.id))))),
+      );
+
+    const select = (key: TabKey, subKey?: string) => {
+      cur = key;
+      tablist.querySelectorAll<HTMLButtonElement>("[role=tab]").forEach((b) => {
+        const on = b.dataset.tab === key;
+        b.setAttribute("aria-selected", String(on));
+        b.tabIndex = on ? 0 : -1;
+      });
+      const g = tabs.find((t) => t.key === key)!;
+      panel.setAttribute("aria-labelledby", `tab-${key}`);
+      if (key === "mine") {
+        writeTab(lang, key);
+        panel.replaceChildren(customCard);
+        return;
+      }
+      if (g.cats.length > 1 && key === "character") {
+        // 분류 탭 (예: 히라가나 / 가타카나 / 한자)
+        const subCur = g.cats.find((c) => c.id === subKey) ?? g.cats[0];
+        writeTab(lang, `${key}:${subCur.id}`);
+        const subs = h(
+          "div",
+          { class: "subtabs", role: "tablist", "aria-label": g.label },
+          ...g.cats.map((c) =>
+            h(
+              "button",
+              {
+                type: "button",
+                role: "tab",
+                class: "subtab",
+                "data-sub": c.id,
+                "aria-selected": String(c === subCur),
+                tabindex: c === subCur ? 0 : -1,
+                onclick: () => select(key, c.id),
+              },
+              c.title[native] ?? c.title.en ?? c.id,
+            ),
+          ),
+        );
+        tablistKeys(subs);
+        panel.replaceChildren(subs, catSection(subCur, false));
+        return;
+      }
+      writeTab(lang, key);
+      panel.replaceChildren(...g.cats.map((c) => catSection(c, g.cats.length > 1)));
+    };
+
+    tablist.replaceChildren(
+      ...tabs.map((t) =>
+        h(
+          "button",
+          { type: "button", role: "tab", class: "tab", id: `tab-${t.key}`, "data-tab": t.key, "aria-controls": "lesson-panel", onclick: () => select(t.key) },
+          t.label,
+        ),
+      ),
+    );
+    select(cur, sub);
+    return [tablist, panel];
+  };
+
   const show = async () => {
     lessons.replaceChildren(h("p", { class: "loading" }, s.loadingPack));
     try {
@@ -171,14 +290,7 @@ export function renderHome(root: HTMLElement): () => void {
       const note = pack.review.status === "draft" ? pack.review.note?.[native] : undefined;
       lessons.replaceChildren(
         note ? h("p", { class: "draft-note" }, h("span", { class: "tag draft" }, s.draft), " ", note) : "",
-        ...pack.categories.map((c) =>
-          h(
-            "section",
-            { class: "card" },
-            h("h2", {}, c.title[native] ?? c.title.en ?? c.id),
-            h("ul", { class: `item-list level-${c.level}` }, ...c.items.map((it) => h("li", {}, itemLabel(it, pack, progress.get(it.id))))),
-          ),
-        ),
+        ...drawTabs(pack, progress),
       );
       void drawContinue(pack, progress);
     } catch {

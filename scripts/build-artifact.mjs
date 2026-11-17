@@ -16,7 +16,12 @@ const style = readFileSync(join(out, css), "utf8");
 const packs = Object.fromEntries(
   readdirSync("public/languages").map((l) => [l, JSON.parse(readFileSync(join("public/languages", l, "pack.json"), "utf8"))]),
 );
-const packScript = `window.__PENWRITING_PACKS__=${JSON.stringify(packs).replace(/</g, "\\u003c")};`;
+const strokes = Object.fromEntries(
+  readdirSync("public/strokes")
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => [f.replace(".json", ""), JSON.parse(readFileSync(join("public/strokes", f), "utf8"))]),
+);
+const packScript = `window.__PENWRITING_PACKS__=${JSON.stringify(packs).replace(/</g, "\\u003c")};window.__PENWRITING_STROKES__=${JSON.stringify(strokes).replace(/</g, "\\u003c")};`;
 
 const html = `<title>PenWriting</title>
 <meta name="claude:viewport-fit-sides" content="cover">

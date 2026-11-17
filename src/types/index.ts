@@ -85,6 +85,8 @@ export interface UserSettings {
   handedness: "right" | "left";
 }
 
+export type PracticeLayout = "wide" | "compact";
+
 export type PaperColor = "cream" | "white" | "green" | "yellow" | "board";
 
 /** 사용자가 저장한 연습 문장 */
@@ -114,6 +116,8 @@ export interface PracticeDraft {
   fontStyle: FontStyle;
   lines: LineLayout[];
   maxEmPx: number;
+  /** 좁은 화면(휴대폰) 배치: 원본과 연습 칸을 위아래로 */
+  layout?: PracticeLayout;
   step: PracticeStep;
   attempts: Record<PracticeStep, Stroke[]>;
   completed: Partial<Record<PracticeStep, string>>;
@@ -160,6 +164,7 @@ export interface PracticeRecord {
   /** 비교 화면 표시용 */
   level?: LearningLevel;
   maxEmPx?: number;
+  layout?: PracticeLayout;
   learningItemId: string | null;
   sourceText: string;
   language: LanguageCode;

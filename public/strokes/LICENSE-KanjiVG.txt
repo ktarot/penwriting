@@ -1,0 +1,13 @@
+public/strokes/ja.json 의 획순 데이터는 KanjiVG에서 가져와 형식만 바꾼 것입니다.
+The stroke order data in public/strokes/ja.json is derived from KanjiVG (format conversion only).
+
+KanjiVG
+Copyright (C) 2009-2024 Ulrich Apel
+https://kanjivg.tagaini.net
+License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+https://creativecommons.org/licenses/by-sa/3.0/
+
+이 파일(public/strokes/ja.json)도 같은 CC BY-SA 3.0 조건으로 배포됩니다.
+This derived data file is distributed under the same CC BY-SA 3.0 license.
+Converted with scripts/kanjivg-extract.py from files fetched from
+https://github.com/KanjiVG/kanjivg (master) on 2026-11-18.

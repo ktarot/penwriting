@@ -54,6 +54,13 @@ npm run build
 - [ ] 음성 속도 조절 — 계획서 9.2에 따라 2차 개발
 - [ ] 데이터 내보내기·가져오기 — 2차 개발
 
+### 화면 개선 (Phase 3 이후 요청 반영) ✅ 구현 · ✅ 자동 테스트 · ⬜ 실기기 확인
+
+- [x] 학습 단위 탭: 기초 문자 · 단어 · 문장 · 단락 · 내 문장 (기초 문자는 분류 탭, 마지막 탭 기억)
+- [x] 좁은 화면(폭 600px 미만) 배치: 글자·단어는 원본/연습/원본/연습(같은 항목 2회), 문장은 줄마다 원본/연습. 3단계는 원본 숨김
+- [x] 일본어 기초 문자(히라가나·가타카나·한자 102자) 획순: 번호, 시작점, 방향 화살표, 한 획씩 애니메이션
+  - 데이터: KanjiVG (CC BY-SA 3.0). 다른 언어는 검증된 데이터가 없어 제공하지 않음 (계획서 7.5)
+
 ### 언어팩 검수 방법
 
 `public/languages/<언어>/pack.json`을 직접 고친다. 검수가 끝난 항목은 `"review": "reviewed"`를 넣고,
@@ -87,3 +94,10 @@ Android Chrome·iOS Safari·데스크톱 실기기 테스트, 화면 회전, 다
 
 모두 OFL로 웹 배포 및 앱 내장(Capacitor) 재배포가 가능하다(글꼴 단독 판매 금지).
 unicode-range 서브셋으로 필요한 글자 범위만 내려받는다.
+
+## 획순 데이터 라이선스
+
+`public/strokes/ja.json`은 [KanjiVG](https://kanjivg.tagaini.net) (© Ulrich Apel, **CC BY-SA 3.0**)에서 형식만 바꾼 데이터입니다.
+이 파일은 같은 CC BY-SA 3.0 조건으로 배포되며, 앱의 획순 그림 아래에 출처를 표시합니다.
+자세한 내용은 `public/strokes/LICENSE-KanjiVG.txt`, 변환 방법은 `scripts/kanjivg-extract.py`.
+

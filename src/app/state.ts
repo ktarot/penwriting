@@ -1,7 +1,7 @@
 import { STRINGS, type Strings } from "../i18n/strings";
 import { applyAppearance } from "./appearance";
 import { defaultSettings, saveSettings } from "../storage/repositories/settings";
-import type { FontStyle, LanguagePack, LearningItem, LineLayout, PracticeStep, Stroke, UserSettings } from "../types";
+import type { FontStyle, LanguagePack, LearningItem, LineLayout, PracticeLayout, PracticeStep, Stroke, UserSettings } from "../types";
 
 /** 현재 설정 (앱 시작 시 IndexedDB에서 불러온다) */
 export let settings: UserSettings = defaultSettings();
@@ -28,6 +28,7 @@ export interface PracticeSession {
   fontStyle: FontStyle;
   lines: LineLayout[];
   maxEmPx: number;
+  layout: PracticeLayout;
   attempts: Record<PracticeStep, Stroke[]>;
   completed: Partial<Record<PracticeStep, string>>;
   startedAt: string;

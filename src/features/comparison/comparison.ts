@@ -23,6 +23,7 @@ function compareBody(data: CompareData): { el: HTMLElement; overlayBtn: HTMLButt
   const s = t();
   const compareEmPx = Math.min(data.maxEmPx, 64);
   let overlay = false;
+  const repeated = data.lines.length > 1 && data.lines.every((l) => l.text === data.lines[0].text);
   const body = h("div", { class: "compare-body" });
   const draw = () => {
     body.replaceChildren(
@@ -30,7 +31,7 @@ function compareBody(data: CompareData): { el: HTMLElement; overlayBtn: HTMLButt
         h(
           "section",
           { class: "compare-line card", "data-line": String(i) },
-          data.lines.length > 1 ? h("h2", {}, fill(s.lineN, { n: i + 1 })) : null,
+          data.lines.length > 1 ? h("h2", {}, fill(repeated ? s.attemptN : s.lineN, { n: i + 1 })) : null,
           h(
             "div",
             { class: "compare-row original" },
@@ -73,6 +74,7 @@ export function sessionToRecord(session: PracticeSession, now = new Date()): Pra
     canvasAspectRatio: session.lines[0]?.aspect ?? 1,
     lines: session.lines,
     maxEmPx: session.maxEmPx,
+    layout: session.layout,
     attempts: PRACTICE_STEPS.map((step) => ({ step, strokes: session.attempts[step], completedAt: session.completed[step] })),
     createdAt: now.toISOString(),
   };

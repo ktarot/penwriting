@@ -9,13 +9,15 @@ import { CUSTOM_PREFIX, getCustomLesson } from "../../storage/repositories/custo
 import { deleteDraft, getDraft, saveDraft } from "../../storage/repositories/drafts";
 import { recordCompletion } from "../../storage/repositories/progress";
 import { itemInfo, visibilityFor } from "../../engines/language/pronunciation";
-import { WritingLine } from "../../engines/writing/canvas";
+import { loadStrokeOrder } from "../../engines/language/stroke-order";
+import { renderStaticLine, WritingLine } from "../../engines/writing/canvas";
 import { createMeasure, ensureFont } from "../../engines/writing/fonts";
 import type { GuideOptions } from "../../engines/writing/guide";
 import { breakLines, lineFromText, PADDING_X_EM } from "../../engines/writing/layout";
 import { StrokeStore } from "../../engines/writing/strokes";
-import { PRACTICE_STEPS, type FontStyle, type LanguageCode, type LanguagePack, type LearningItem, type PracticeDraft, type PracticeStep } from "../../types";
+import { PRACTICE_STEPS, type FontStyle, type LanguageCode, type LanguagePack, type LearningItem, type PracticeDraft, type PracticeLayout, type PracticeStep } from "../../types";
 import { renderInfoPanel } from "./info-panel";
+import { renderStrokeOrder } from "./stroke-order-view";
 
 export const STEP_NO: Record<PracticeStep, number> = { trace: 1, hint: 2, free: 3 };
 
@@ -52,15 +54,28 @@ async function loadItem(id: string): Promise<{ item: LearningItem; pack: Languag
   }
 }
 
+/** 휴대폰 세로 화면처럼 좁은 화면 */
+export const COMPACT_QUERY = "(max-width: 599px)";
+/** 좁은 화면에서 글자·단어를 반복해 쓰는 횟수 (원본/연습 × 2 = 4단) */
+export const COMPACT_REPEATS = 2;
+
+export function practiceLayout(): PracticeLayout {
+  return typeof matchMedia === "function" && matchMedia(COMPACT_QUERY).matches ? "compact" : "wide";
+}
+
 async function buildSession(item: LearningItem, pack: LanguagePack | null, fontStyle: FontStyle, availableWidth: number): Promise<PracticeSession> {
   await ensureFont(item.language, fontStyle, item.text);
   const measure = createMeasure(item.language, fontStyle);
-  const maxEmPx = item.level === "character" ? Math.round(settings.fontSize * 2.4) : settings.fontSize;
+  const layout = practiceLayout();
+  const charScale = layout === "compact" ? 1.3 : 2.4;
+  const maxEmPx = item.level === "character" ? Math.round(settings.fontSize * charScale) : settings.fontSize;
   // 기초 문자·단어는 나누지 않고 화면에 맞게 줄여서 보여 준다
   const keepWhole = item.level === "character" || item.level === "word";
   const maxEm = keepWhole ? Infinity : availableWidth / maxEmPx - PADDING_X_EM * 2;
-  const lines = breakLines(item.text, measure, maxEm).map((tx) => lineFromText(tx, measure));
-  return { item, pack, fontStyle, lines, maxEmPx, attempts: { trace: [], hint: [], free: [] }, completed: {}, startedAt: new Date().toISOString() };
+  let lines = breakLines(item.text, measure, maxEm).map((tx) => lineFromText(tx, measure));
+  // 좁은 화면: 글자·단어는 같은 항목을 두 번 (원본/연습/원본/연습)
+  if (layout === "compact" && keepWhole) lines = Array.from({ length: COMPACT_REPEATS }, () => lines).flat();
+  return { item, pack, fontStyle, lines, maxEmPx, layout, attempts: { trace: [], hint: [], free: [] }, completed: {}, startedAt: new Date().toISOString() };
 }
 
 export function renderPractice(root: HTMLElement, itemId: string): () => void {
@@ -106,6 +121,11 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
     const readingBtn = h("button", { type: "button", class: "btn toggle", "aria-pressed": "false" }, s.showReading);
     const meaningBtn = h("button", { type: "button", class: "btn toggle", "aria-pressed": "false" }, s.showMeaning);
     const listenBtn = h("button", { type: "button", class: "btn listen" }, `🔊 ${s.listen}`);
+    const strokeBtn = h("button", { type: "button", class: "btn toggle stroke-toggle", "aria-pressed": "false", hidden: true }, s.strokeOrder);
+    const strokeWrap = h("div", { class: "so-wrap" });
+    const strokeOverride: Partial<Record<PracticeStep, boolean>> = {};
+    let strokeView: (HTMLElement & { stopAnimation?: () => void }) | null = null;
+    const singleChar = item.level === "character" && Array.from(item.text).length === 1;
     const ttsMsg = h("p", { class: "tts-msg", role: "status", hidden: true });
     const noticeEl = h("div", { class: "notice-wrap" });
     const undoBtn = h("button", { type: "button", class: "btn tool", "aria-label": s.undo }, `↶ ${s.undo}`);
@@ -161,10 +181,10 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
         "div",
         { class: "info-bar" },
         infoEl,
-        h("div", { class: "info-toggles" }, ...(pack ? [readingBtn, meaningBtn] : []), listenBtn),
+        h("div", { class: "info-toggles" }, ...(pack ? [readingBtn, meaningBtn] : []), strokeBtn, listenBtn),
         ttsMsg,
       ),
-      h("div", { class: "workspace" }, h("div", { class: "toolbar" }, undoBtn, clearBtn, colorGroup.el, widthGroup.el, fontGroup.el, opacityRow), stageEl),
+      h("div", { class: "workspace" }, h("div", { class: "toolbar" }, undoBtn, clearBtn, colorGroup.el, widthGroup.el, fontGroup.el, opacityRow), h("div", { class: "stage-area" }, stageEl, strokeWrap)),
       h("footer", { class: "practice-footer" }, prevBtn, nextBtn),
     );
 
@@ -187,6 +207,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
         fontStyle: session.fontStyle,
         lines: session.lines,
         maxEmPx: session.maxEmPx,
+        layout: session.layout,
         step,
         attempts: session.attempts,
         completed: session.completed,
@@ -210,6 +231,19 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
       meaningBtn.setAttribute("aria-pressed", String(vis.meaning));
       const panel = renderInfoPanel(info, vis, s, item.language, native);
       infoEl.replaceChildren(...(panel ? [panel] : []));
+      renderStroke();
+    }
+
+    /** 획순: 1·2단계 기본 표시, 3단계(혼자 쓰기) 기본 숨김 */
+    function renderStroke() {
+      if (!strokeView) return;
+      const on = strokeOverride[step] ?? step !== "free";
+      strokeBtn.setAttribute("aria-pressed", String(on));
+      if (on && !strokeView.isConnected) strokeWrap.replaceChildren(strokeView);
+      if (!on) {
+        strokeView.stopAnimation?.();
+        strokeWrap.replaceChildren();
+      }
     }
 
     function renderStepper() {
@@ -254,8 +288,27 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
             getStyle: () => ({ color: settings.inkColor, width: settings.inkWidth }),
           }),
       );
-      stageEl.replaceChildren(...lines.map((l) => l.el));
+      const compact = session.layout === "compact";
+      // 좁은 화면: 각 연습 칸 위에 원본을 따로 둔다. 3단계(혼자 쓰기)는 기억으로 쓰므로 원본을 숨긴다.
+      const showModel = compact && step !== "free";
+      const repeated = session.lines.length > 1 && session.lines.every((l) => l.text === session!.lines[0].text);
+      stageEl.replaceChildren(
+        ...lines.flatMap((l, i) => {
+          const parts: HTMLElement[] = [];
+          if (compact && repeated) parts.push(h("p", { class: "rep-label" }, fill(s.attemptN, { n: i + 1 })));
+          if (showModel) {
+            const model = renderStaticLine(session!.lines[i], [], { mode: "solid", fontStyle: session!.fontStyle, language: item.language, opacity: 1 }, session!.maxEmPx);
+            model.classList.add("model-line");
+            model.setAttribute("role", "img");
+            model.setAttribute("aria-label", `${s.modelLabel}: ${session!.lines[i].text}`);
+            parts.push(model);
+          }
+          parts.push(l.el);
+          return parts;
+        }),
+      );
       stageEl.dataset.step = step;
+      stageEl.dataset.layout = session.layout;
     }
 
     function updateControls() {
@@ -304,6 +357,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
           fontStyle: draft.fontStyle,
           lines: draft.lines,
           maxEmPx: draft.maxEmPx,
+          layout: draft.layout ?? "wide",
           attempts: draft.attempts,
           completed: draft.completed,
           startedAt: draft.updatedAt,
@@ -372,6 +426,21 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
       for (const l of lines) l.setGuide(g);
     });
     opacityInput.addEventListener("change", () => void updateSettings({ guideOpacity: { ...settings.guideOpacity } }));
+
+    strokeBtn.addEventListener("click", () => {
+      const on = strokeOverride[step] ?? step !== "free";
+      strokeOverride[step] = !on;
+      renderStroke();
+    });
+    if (singleChar) {
+      void loadStrokeOrder(item.language).then((data) => {
+        if (disposed || !data) return;
+        strokeView = renderStrokeOrder(item.text, data, s);
+        if (!strokeView) return;
+        strokeBtn.hidden = false;
+        renderStroke();
+      });
+    }
 
     listenBtn.addEventListener("click", async () => {
       ttsMsg.hidden = true;

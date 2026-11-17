@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { choose, drawStroke, inkPixels, onboard } from "./helpers";
+import { PRACTICE_GUIDE, PRACTICE_LINE, choose, drawStroke, inkPixels, onboard, openMine } from "./helpers";
 
 async function finishThreeSteps(page: Page) {
   for (let i = 0; i < 3; i++) {
@@ -83,21 +83,25 @@ test.describe("기록·진도", () => {
 
 test("내 문장을 저장·수정·연습·삭제할 수 있다", async ({ page }) => {
   await onboard(page, "ko", "en", "영어");
+  await openMine(page);
   await page.locator("#custom-text").fill("The quick brown fox");
   await page.getByRole("button", { name: /내 문장에 저장/ }).click();
   const row = page.locator(".custom-list li");
   await expect(row).toHaveCount(1);
   await expect(row.locator(".c-text")).toHaveText("The quick brown fox");
   await row.getByRole("button", { name: "수정" }).click();
+  await openMine(page);
   await page.locator("#custom-text").fill("The quick brown fox jumps");
   await page.getByRole("button", { name: /^✓ 저장$/ }).click();
   await expect(row.locator(".c-text")).toHaveText("The quick brown fox jumps");
   await page.reload();
+  await openMine(page);
   await expect(page.locator(".custom-list .c-text")).toHaveText("The quick brown fox jumps");
   await page.locator(".custom-list").getByRole("link", { name: "연습" }).click();
   await expect(page).toHaveURL(/#practice-custom-/);
-  await expect(page.locator(".guide-solid").first()).toHaveAttribute("lang", "en");
+  await expect(page.locator(PRACTICE_GUIDE).first()).toHaveAttribute("lang", "en");
   await page.goto("/");
+  await openMine(page);
   await page.locator(".custom-list").getByRole("button", { name: /삭제/ }).click();
   await page.locator("dialog.confirm").getByRole("button", { name: "삭제" }).click();
   await expect(page.locator(".custom-list li")).toHaveCount(0);
@@ -123,7 +127,7 @@ test("접근성 설정: 화면 글자 크기, 테마, 고대비, 칠판, 왼손�
 
   await page.reload();
   await page.goto("/#practice-ko-word-01");
-  const line = page.locator(".writing-line").first();
+  const line = page.locator(PRACTICE_LINE).first();
   await expect(line).toBeVisible();
   expect(await line.evaluate((el) => getComputedStyle(el).backgroundColor)).toBe("rgb(0, 0, 0)");
   // 칠판을 고르면 펜이 흰색으로
@@ -210,14 +214,14 @@ test("오프라인: 한 번 연 학습 내용은 인터넷 없이도 열린다",
   await page.reload(); // 서비스 워커가 페이지를 제어하도록
   await expect.poll(() => page.evaluate(() => Boolean(navigator.serviceWorker.controller))).toBe(true);
   await page.goto("/#practice-ja-hira-a");
-  await expect(page.locator(".guide-solid")).toHaveText("あ");
+  await expect(page.locator(PRACTICE_GUIDE).first()).toHaveText("あ");
   await page.waitForTimeout(500);
 
   await context.setOffline(true);
   await page.goto("/");
-  await expect(page.getByRole("heading", { name: "히라가나" })).toBeVisible();
+  await expect(page.getByRole("tab", { name: /히라가나/ })).toBeVisible();
   await page.goto("/#practice-ja-hira-ka");
-  await expect(page.locator(".guide-solid")).toHaveText("か");
+  await expect(page.locator(PRACTICE_GUIDE).first()).toHaveText("か");
   await drawStroke(page);
   await expect.poll(() => inkPixels(page)).toBeGreaterThan(30);
   expect(await page.evaluate(() => document.fonts.check('400 100px "Noto Sans JP"', "か"))).toBe(true);
