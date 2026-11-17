@@ -1,5 +1,5 @@
 import { h } from "../../app/dom";
-import { navigate } from "../../app/router";
+import { hrefFor, navigate } from "../../app/router";
 import { customDraft, settings } from "../../app/state";
 import { LEVEL_LABELS, SAMPLE_ITEMS } from "../../engines/language/samples";
 import { FONT_LABELS } from "../../engines/writing/fonts";
@@ -64,7 +64,7 @@ export function renderHome(root: HTMLElement): () => void {
                 {},
                 h(
                   "a",
-                  { class: "item-link", href: `#/practice/${encodeURIComponent(it.id)}`, lang: it.language },
+                  { class: "item-link", href: hrefFor.practice(it.id), lang: it.language },
                   it.text.split("\n")[0] + (it.text.includes("\n") ? " …" : ""),
                 ),
               ),
@@ -87,7 +87,7 @@ export function renderHome(root: HTMLElement): () => void {
                 textarea.focus();
                 return;
               }
-              navigate("/practice/custom");
+              navigate(hrefFor.practice("custom"));
             },
           },
           "이 문장으로 연습",

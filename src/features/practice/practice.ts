@@ -1,5 +1,6 @@
+import { confirmDialog } from "../../app/dialog";
 import { h } from "../../app/dom";
-import { navigate } from "../../app/router";
+import { hrefFor, navigate } from "../../app/router";
 import { customDraft, setSession, settings, type PracticeSession } from "../../app/state";
 import { findSampleItem, LEVEL_LABELS } from "../../engines/language/samples";
 import { WritingLine } from "../../engines/writing/canvas";
@@ -62,7 +63,7 @@ async function buildSession(item: LearningItem, fontStyle: FontStyle, availableW
 export function renderPractice(root: HTMLElement, itemId: string): () => void {
   const item = resolveItem(itemId);
   if (!item) {
-    navigate("/");
+    navigate(hrefFor.home());
     return () => {};
   }
 
@@ -141,7 +142,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
     h(
       "header",
       { class: "practice-header" },
-      h("a", { class: "btn ghost", href: "#/" }, "← 목록"),
+      h("a", { class: "btn ghost", href: hrefFor.home() }, "← 목록"),
       h("div", { class: "title" }, h("span", { class: "badge" }, LEVEL_LABELS[item.level]), h("span", { class: "src", lang: item.language }, item.text.replace(/\n/g, " "))),
     ),
     stepperEl,
@@ -224,7 +225,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
   async function switchFont(style: FontStyle) {
     if (style === session.fontStyle) return;
     const hasInk = PRACTICE_STEPS.some((s) => stores[s].count > 0);
-    if (hasInk && !confirm("글씨체를 바꾸면 줄 배치가 달라져 지금까지 쓴 필기가 지워집니다. 바꿀까요?")) return;
+    if (hasInk && !(await confirmDialog("글씨체를 바꾸면 줄 배치가 달라져 지금까지 쓴 필기가 지워집니다. 바꿀까요?", "바꾸기"))) return;
     settings.fontStyle = style;
     await start(style);
   }
@@ -260,7 +261,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
     session.completed[step] = new Date().toISOString();
     syncAttempts();
     const i = PRACTICE_STEPS.indexOf(step);
-    if (step === "free") navigate("/compare");
+    if (step === "free") navigate(hrefFor.compare());
     else goStep(PRACTICE_STEPS[i + 1]);
   });
   opacityInput.addEventListener("input", () => {

@@ -26,7 +26,7 @@ body {
   line-height: 1.5;
 }
 
-.page { max-width: 960px; margin: 0 auto; padding: 16px 16px calc(24px + env(safe-area-inset-bottom)); }
+.page { max-width: 960px; margin: 0 auto; padding-block: 16px calc(24px + env(safe-area-inset-bottom, 0px)); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 
 .app-header h1 { margin: 8px 0 0; font-size: 28px; letter-spacing: -0.01em; }
 .sub { margin: 4px 0 16px; color: var(--muted); }
@@ -131,3 +131,8 @@ textarea {
   .step-tab { flex-direction: column; gap: 2px; font-size: 14px; }
   .range input { width: 110px; }
 }
+
+dialog.confirm { border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; max-width: min(420px, calc(100vw - 32px)); background: var(--surface); color: var(--text); }
+dialog.confirm::backdrop { background: rgba(20, 24, 28, 0.45); }
+dialog.confirm p { margin: 0 0 16px; }
+.confirm-actions { display: flex; justify-content: flex-end; gap: 8px; }

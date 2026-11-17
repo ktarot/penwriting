@@ -37,7 +37,7 @@ async function inkPixels(page: Page, lineIndex = 0, selector = ".stage .writing-
 }
 
 test("3단계 훈련을 마치고 결과를 비교할 수 있다", async ({ page }) => {
-  await page.goto("/#/practice/ko-word-hangeul");
+  await page.goto("/#practice-ko-word-hangeul");
   await expect(page.locator(".writing-line")).toHaveCount(1);
   await expect(page.locator(".guide-solid")).toHaveText("한글");
 
@@ -64,7 +64,7 @@ test("3단계 훈련을 마치고 결과를 비교할 수 있다", async ({ page
   await page.locator('.step-tab[data-step="free"]').click();
 
   await page.locator("button.next").click();
-  await expect(page).toHaveURL(/#\/compare$/);
+  await expect(page).toHaveURL(/#compare$/);
   for (const step of ["trace", "hint", "free"]) {
     await expect.poll(() => inkPixels(page, 0, `.compare-row.step-${step} .writing-line`)).toBeGreaterThan(50);
   }
@@ -72,7 +72,7 @@ test("3단계 훈련을 마치고 결과를 비교할 수 있다", async ({ page
 });
 
 test("되돌리기는 한 획씩, 전체 지우기는 모두 지운다", async ({ page }) => {
-  await page.goto("/#/practice/ko-char-ga");
+  await page.goto("/#practice-ko-char-ga");
   await expect(page.locator(".writing-line")).toHaveCount(1);
   await drawStroke(page, 0, [0.2, 0.2], [0.3, 0.8]);
   const one = await inkPixels(page);
@@ -86,7 +86,7 @@ test("되돌리기는 한 획씩, 전체 지우기는 모두 지운다", async (
 });
 
 test("필기 중 페이지가 스크롤되지 않는다", async ({ page }) => {
-  await page.goto("/#/practice/ko-para-1");
+  await page.goto("/#practice-ko-para-1");
   await expect(page.locator(".writing-line").first()).toBeVisible();
   await page.locator(".writing-line").nth(1).scrollIntoViewIfNeeded();
   const before = await page.evaluate(() => window.scrollY);
@@ -97,7 +97,7 @@ test("필기 중 페이지가 스크롤되지 않는다", async ({ page }) => {
 });
 
 test("화면 크기가 바뀌어도 필기가 같은 상대 위치에 다시 그려진다", async ({ page }) => {
-  await page.goto("/#/practice/ko-word-hangeul");
+  await page.goto("/#practice-ko-word-hangeul");
   await expect(page.locator(".writing-line")).toHaveCount(1);
   await drawStroke(page, 0, [0.1, 0.5], [0.3, 0.5]);
   const sampleAt = (fx: number, fy: number) =>
@@ -113,7 +113,7 @@ test("화면 크기가 바뀌어도 필기가 같은 상대 위치에 다시 그
 });
 
 test("글씨체를 손글씨로 바꿀 수 있다", async ({ page }) => {
-  await page.goto("/#/practice/ko-word-annyeong");
+  await page.goto("/#practice-ko-word-annyeong");
   await expect(page.locator(".guide-solid")).toBeVisible();
   await page.getByRole("radiogroup", { name: "글씨체" }).getByRole("radio", { name: "손글씨" }).click();
   await expect(page.locator(".guide-solid")).toHaveAttribute("font-family", /Nanum Pen Script/);
@@ -125,7 +125,7 @@ test("직접 입력한 문장으로 연습할 수 있다", async ({ page }) => {
   await page.goto("/");
   await page.locator("#custom-text").fill("나만의 연습 문장");
   await page.getByRole("button", { name: "이 문장으로 연습" }).click();
-  await expect(page).toHaveURL(/#\/practice\/custom$/);
+  await expect(page).toHaveURL(/#practice-custom$/);
   await expect(page.locator(".guide-solid").first()).toBeVisible();
   const text = await page.locator(".guide-solid").allTextContents();
   expect(text.join(" ")).toBe("나만의 연습 문장");

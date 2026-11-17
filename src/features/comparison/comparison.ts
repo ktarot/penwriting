@@ -1,5 +1,5 @@
 import { h } from "../../app/dom";
-import { navigate } from "../../app/router";
+import { hrefFor, navigate } from "../../app/router";
 import { getSession } from "../../app/state";
 import { SAMPLE_ITEMS } from "../../engines/language/samples";
 import { renderStaticLine } from "../../engines/writing/canvas";
@@ -10,7 +10,7 @@ import { guideFor, STEP_INFO } from "../practice/practice";
 export function renderComparison(root: HTMLElement): () => void {
   const session = getSession();
   if (!session) {
-    navigate("/");
+    navigate(hrefFor.home());
     return () => {};
   }
   const { item, fontStyle } = session;
@@ -72,17 +72,17 @@ export function renderComparison(root: HTMLElement): () => void {
     h(
       "main",
       { class: "page compare" },
-      h("header", { class: "practice-header" }, h("a", { class: "btn ghost", href: "#/" }, "← 목록"), h("h1", { class: "title" }, "결과 비교")),
+      h("header", { class: "practice-header" }, h("a", { class: "btn ghost", href: hrefFor.home() }, "← 목록"), h("h1", { class: "title" }, "결과 비교")),
       h("p", { class: "step-desc" }, "원본과 단계별로 쓴 글씨를 눈으로 비교해 보세요."),
       h("div", { class: "toolbar" }, overlayBtn),
       body,
       h(
         "footer",
         { class: "practice-footer" },
-        h("button", { type: "button", class: "btn", onclick: () => navigate(`/practice/${encodeURIComponent(item.id)}`) }, "↻ 다시 연습"),
+        h("button", { type: "button", class: "btn", onclick: () => navigate(hrefFor.practice(item.id)) }, "↻ 다시 연습"),
         next
-          ? h("button", { type: "button", class: "btn primary", onclick: () => navigate(`/practice/${encodeURIComponent(next.id)}`) }, "다음 학습 →")
-          : h("a", { class: "btn primary", href: "#/" }, "목록으로"),
+          ? h("button", { type: "button", class: "btn primary", onclick: () => navigate(hrefFor.practice(next.id)) }, "다음 학습 →")
+          : h("a", { class: "btn primary", href: hrefFor.home() }, "목록으로"),
       ),
       h("p", { class: "note" }, "학습 기록 저장은 다음 단계(Phase 3)에서 지원됩니다. 지금은 화면을 벗어나면 필기가 사라집니다."),
     ),

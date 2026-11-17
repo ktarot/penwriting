@@ -1,5 +1,4 @@
-import "@fontsource/noto-sans-kr/400.css";
-import "@fontsource/nanum-pen-script/400.css";
+import "./fonts-bundled";
 import "../styles/main.css";
 import { renderComparison } from "../features/comparison/comparison";
 import { renderHome } from "../features/home/home";
