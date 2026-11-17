@@ -2,6 +2,7 @@ import { h } from "../../app/dom";
 import { hrefFor, navigate } from "../../app/router";
 import { settings, t, updateSettings } from "../../app/state";
 import { settingsForm } from "./form";
+import { voiceCheckSection } from "./voice-check";
 
 export function renderSettings(root: HTMLElement): () => void {
   const form = settingsForm(
@@ -24,6 +25,7 @@ export function renderSettings(root: HTMLElement): () => void {
       { class: "page narrow" },
       h("header", { class: "practice-header" }, h("a", { class: "btn ghost", href: hrefFor.home() }, `← ${t().back}`), h("h1", { class: "title" }, t().settings)),
       form,
+      h("div", { style: "margin-top:20px" }, voiceCheckSection()),
     ),
   );
   return () => {};

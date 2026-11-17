@@ -137,41 +137,70 @@ test("접근성 설정: 화면 글자 크기, 테마, 고대비, 칠판, 왼손�
   }
 });
 
-test.describe("음성", () => {
-  test("항목의 재생용 텍스트(문자 이름)를 학습 언어 음성으로 읽는다", async ({ page }) => {
-    await page.addInitScript(() => {
+/** 브라우저 음성 기능을 흉내 낸다. voices: 목록에 보일 음성, canPlay: 실제로 재생이 시작되는지 */
+async function fakeSpeech(page: Page, voices: { lang: string; name: string }[], canPlay: boolean) {
+  await page.addInitScript(
+    ([voices, canPlay]) => {
       const spoken: { text: string; lang: string }[] = [];
       (window as unknown as { __spoken: typeof spoken }).__spoken = spoken;
-      const voices = [{ lang: "ko-KR", name: "Korean", localService: true, default: false, voiceURI: "ko" }];
       Object.defineProperty(window, "speechSynthesis", {
         value: {
+          speaking: false,
+          pending: false,
           getVoices: () => voices,
           addEventListener: () => {},
           cancel: () => {},
           speak: (u: SpeechSynthesisUtterance) => {
+            if (!canPlay) return; // 아무 이벤트도 오지 않음
             spoken.push({ text: u.text, lang: u.lang });
-            setTimeout(() => u.onend?.(new Event("end") as SpeechSynthesisEvent), 10);
+            setTimeout(() => u.onstart?.(new Event("start") as SpeechSynthesisEvent), 10);
           },
         },
       });
-    });
+    },
+    [voices, canPlay] as const,
+  );
+}
+const spokenOf = (page: Page) => page.evaluate(() => (window as unknown as { __spoken: unknown[] }).__spoken);
+
+test.describe("음성", () => {
+  test("항목의 재생용 텍스트(문자 이름)를 학습 언어 음성으로 읽는다", async ({ page }) => {
+    await fakeSpeech(page, [{ lang: "ko-KR", name: "Korean" }], true);
     await onboard(page, "en", "ko", "Korean");
     await page.goto("/#practice-ko-cons-01");
     await page.getByRole("button", { name: /Listen/ }).click();
-    await expect.poll(() => page.evaluate(() => (window as unknown as { __spoken: unknown[] }).__spoken)).toEqual([{ text: "기역", lang: "ko-KR" }]);
+    await expect.poll(() => spokenOf(page)).toEqual([{ text: "기역", lang: "ko-KR" }]);
     await expect(page.locator(".tts-msg")).toBeHidden();
   });
 
-  test("음성이 없는 기기에서는 안내를 보여 준다", async ({ page }) => {
-    await page.addInitScript(() => {
-      Object.defineProperty(window, "speechSynthesis", {
-        value: { getVoices: () => [], addEventListener: () => {}, cancel: () => {}, speak: () => {} },
-      });
-    });
+  test("음성 목록이 비어 있어도(Android) 언어를 지정해 재생을 시도한다", async ({ page }) => {
+    await fakeSpeech(page, [], true);
+    await onboard(page, "ko", "ja", "일본어");
+    await page.goto("/#practice-ja-word-01");
+    await page.getByRole("button", { name: /듣기/ }).click();
+    await expect.poll(() => spokenOf(page)).toEqual([{ text: "ありがとう", lang: "ja-JP" }]);
+    await expect(page.locator(".tts-msg")).toBeHidden();
+  });
+
+  test("재생이 시작되지 않으면 음성이 없다고 안내한다", async ({ page }) => {
+    await fakeSpeech(page, [], false);
     await onboard(page, "ko", "vi", "베트남어");
     await page.goto("/#practice-vi-word-01");
     await page.getByRole("button", { name: /듣기/ }).click();
-    await expect(page.locator(".tts-msg")).toContainText("베트남어 음성이 없습니다");
+    await expect(page.locator(".tts-msg")).toContainText("베트남어 음성이 없습니다", { timeout: 8000 });
+  });
+
+  test("설정의 음성 확인: 언어별 음성과 테스트 재생", async ({ page }) => {
+    await fakeSpeech(page, [{ lang: "ko-KR", name: "Korean" }, { lang: "en-US", name: "English" }], true);
+    await onboard(page, "ko", "en", "영어");
+    await page.goto("/#options");
+    const vc = page.locator("#voice-check");
+    await expect(vc.locator(".vc-count")).toHaveText("2");
+    await expect(vc.locator('tr[data-lang="ko"] td').first()).toContainText("Korean (ko-KR)");
+    await expect(vc.locator('tr[data-lang="vi"] td').first()).toContainText("없음");
+    await vc.locator('tr[data-lang="en"]').getByRole("button", { name: /테스트/ }).click();
+    await expect(vc.locator('tr[data-lang="en"] .vc-result')).toContainText("재생 시작됨");
+    await expect.poll(() => spokenOf(page)).toEqual([{ text: "Hello", lang: "en-US" }]);
   });
 });
 

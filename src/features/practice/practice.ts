@@ -382,7 +382,13 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
       listenBtn.disabled = false;
       if (result === "ok") return;
       ttsMsg.textContent =
-        result === "unsupported" ? s.ttsUnsupported : result === "no-voice" ? fill(s.ttsNoVoice, { lang: s.langName[item.language] }) : s.ttsError;
+        result === "unsupported"
+          ? s.ttsUnsupported
+          : result === "no-voice"
+            ? fill(s.ttsNoVoice, { lang: s.langName[item.language] })
+            : result === "blocked"
+              ? s.ttsBlocked
+              : s.ttsError;
       ttsMsg.hidden = false;
     });
 

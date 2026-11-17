@@ -292,3 +292,13 @@ dialog.confirm p { margin: 0 0 16px; }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+
+/* 음성 확인 */
+.table-wrap { overflow-x: auto; }
+.vc-table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
+.vc-table th, .vc-table td { text-align: left; padding: 6px 8px; border-top: 1px solid var(--line); vertical-align: middle; }
+.vc-table thead th { border-top: 0; color: var(--muted); font-weight: 600; }
+.vc-result { font-size: 0.875rem; }
+.vc-result.ok { color: var(--ok); font-weight: 600; }
+.vc-result.bad { color: var(--error); }
+.vc-all { font-size: 0.8125rem; color: var(--muted); max-height: 240px; overflow: auto; padding-left: 1.2em; }

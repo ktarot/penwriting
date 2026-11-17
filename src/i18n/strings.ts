@@ -119,6 +119,18 @@ const ko = {
   handQ: "도구 위치",
   hands: { right: "오른손잡이", left: "왼손잡이" } as Record<"right" | "left", string>,
   handHelp: "왼손잡이를 고르면 도구와 이동 버튼이 반대쪽으로 옮겨집니다.",
+  ttsBlocked: "브라우저가 음성 재생을 막았습니다. 듣기 버튼을 한 번 더 눌러 주세요.",
+  voiceCheck: "음성 확인",
+  voiceCheckHelp: "이 기기에서 쓸 수 있는 음성을 확인하고 언어별로 들어 봅니다. 문제가 있으면 이 화면을 캡처해 알려 주세요.",
+  voiceSupported: "브라우저 음성 기능",
+  yes: "있음",
+  no: "없음",
+  voiceTotal: "찾은 음성",
+  voiceFor: "사용할 음성",
+  voiceMissing: "없음 (언어만 지정해 시도)",
+  test: "테스트",
+  testOk: "재생 시작됨",
+  voiceList: "전체 음성 목록",
 };
 
 export type Strings = typeof ko;
@@ -235,6 +247,18 @@ const en: Strings = {
   handQ: "Tool position",
   hands: { right: "Right-handed", left: "Left-handed" },
   handHelp: "Left-handed moves the tools and step buttons to the other side.",
+  ttsBlocked: "The browser blocked playback. Tap Listen once more.",
+  voiceCheck: "Voice check",
+  voiceCheckHelp: "See which voices this device offers and test each language. If something is wrong, send a screenshot of this section.",
+  voiceSupported: "Browser speech support",
+  yes: "Yes",
+  no: "No",
+  voiceTotal: "Voices found",
+  voiceFor: "Voice used",
+  voiceMissing: "None (tries with language only)",
+  test: "Test",
+  testOk: "Playback started",
+  voiceList: "All voices",
 };
 
 const ja: Strings = {
@@ -349,6 +373,18 @@ const ja: Strings = {
   handQ: "道具の位置",
   hands: { right: "右利き", left: "左利き" },
   handHelp: "左利きを選ぶと、道具と移動ボタンが反対側に移ります。",
+  ttsBlocked: "ブラウザが再生をブロックしました。もう一度[聞く]を押してください。",
+  voiceCheck: "音声の確認",
+  voiceCheckHelp: "この端末で使える音声を確認し、言語ごとに試聴します。問題があればこの画面をキャプチャして送ってください。",
+  voiceSupported: "ブラウザの音声機能",
+  yes: "あり",
+  no: "なし",
+  voiceTotal: "見つかった音声",
+  voiceFor: "使用する音声",
+  voiceMissing: "なし(言語指定のみで試行)",
+  test: "テスト",
+  testOk: "再生を開始しました",
+  voiceList: "すべての音声",
 };
 
 const vi: Strings = {
@@ -463,6 +499,18 @@ const vi: Strings = {
   handQ: "Vị trí công cụ",
   hands: { right: "Thuận tay phải", left: "Thuận tay trái" },
   handHelp: "Chọn thuận tay trái để chuyển công cụ và nút bước sang phía bên kia.",
+  ttsBlocked: "Trình duyệt đã chặn phát âm thanh. Hãy nhấn Nghe thêm một lần.",
+  voiceCheck: "Kiểm tra giọng đọc",
+  voiceCheckHelp: "Xem các giọng đọc có trên thiết bị và nghe thử từng ngôn ngữ. Nếu có lỗi, hãy chụp màn hình phần này và gửi lại.",
+  voiceSupported: "Trình duyệt hỗ trợ giọng nói",
+  yes: "Có",
+  no: "Không",
+  voiceTotal: "Số giọng tìm thấy",
+  voiceFor: "Giọng sẽ dùng",
+  voiceMissing: "Không có (thử với mã ngôn ngữ)",
+  test: "Thử",
+  testOk: "Đã bắt đầu phát",
+  voiceList: "Tất cả giọng đọc",
 };
 
 export const STRINGS: Record<LanguageCode, Strings> = { ko, en, ja, vi };

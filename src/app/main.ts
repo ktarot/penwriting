@@ -1,4 +1,5 @@
 import "../styles/main.css";
+import { speech } from "../engines/speech/tts";
 import { setFontCssLoader } from "../engines/writing/fonts";
 import { renderComparison, renderRecord } from "../features/comparison/comparison";
 import { renderHistory } from "../features/history/history";
@@ -50,6 +51,7 @@ function render() {
 
 async function boot() {
   setFontCssLoader(loadFontCss);
+  speech().warmUp();
   const saved = await loadSettings();
   setSettings(saved ?? defaultSettings(detectNativeLanguage()));
   window.addEventListener("hashchange", render);
