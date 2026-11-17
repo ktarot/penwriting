@@ -76,6 +76,48 @@ export interface UserSettings {
   /** 줄 높이 대비 선 굵기 */
   inkWidth: number;
   onboarded: boolean;
+  /** 화면 글자 배율 (큰 글씨) */
+  uiScale: number;
+  theme: "system" | "light" | "dark";
+  /** 필기 종이 색 */
+  paperColor: PaperColor;
+  /** 왼손잡이면 도구를 반대쪽에 둔다 */
+  handedness: "right" | "left";
+}
+
+export type PaperColor = "cream" | "white" | "green" | "yellow" | "board";
+
+/** 사용자가 저장한 연습 문장 */
+export interface CustomLesson {
+  id: string;
+  text: string;
+  language: LanguageCode;
+  createdAt: string;
+  updatedAt: string;
+}
+
+/** 항목별 학습 진도 */
+export interface ProgressEntry {
+  learningItemId: string;
+  language: LanguageCode;
+  text: string;
+  completedSteps: PracticeStep[];
+  practiceCount: number;
+  lastPracticedAt: string;
+}
+
+/** 진행 중인 필기 임시 저장 (이어서 쓰기) */
+export interface PracticeDraft {
+  learningItemId: string;
+  sourceText: string;
+  language: LanguageCode;
+  fontStyle: FontStyle;
+  lines: LineLayout[];
+  maxEmPx: number;
+  step: PracticeStep;
+  attempts: Record<PracticeStep, Stroke[]>;
+  completed: Partial<Record<PracticeStep, string>>;
+  updatedAt: string;
 }
 
 /**
@@ -115,6 +157,9 @@ export interface LineLayout {
 
 export interface PracticeRecord {
   id: string;
+  /** 비교 화면 표시용 */
+  level?: LearningLevel;
+  maxEmPx?: number;
   learningItemId: string | null;
   sourceText: string;
   language: LanguageCode;

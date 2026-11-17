@@ -4,18 +4,25 @@ import { hrefFor, navigate } from "../../app/router";
 import { customDraft, setSession, settings, t, updateSettings, type PracticeSession } from "../../app/state";
 import { fill } from "../../i18n/strings";
 import { resolveItem } from "../../engines/language/lessons";
+import { speech } from "../../engines/speech/tts";
+import { CUSTOM_PREFIX, getCustomLesson } from "../../storage/repositories/custom-lessons";
+import { deleteDraft, getDraft, saveDraft } from "../../storage/repositories/drafts";
+import { recordCompletion } from "../../storage/repositories/progress";
 import { itemInfo, visibilityFor } from "../../engines/language/pronunciation";
 import { WritingLine } from "../../engines/writing/canvas";
 import { createMeasure, ensureFont } from "../../engines/writing/fonts";
 import type { GuideOptions } from "../../engines/writing/guide";
 import { breakLines, lineFromText, PADDING_X_EM } from "../../engines/writing/layout";
 import { StrokeStore } from "../../engines/writing/strokes";
-import { PRACTICE_STEPS, type FontStyle, type LanguageCode, type LanguagePack, type LearningItem, type PracticeStep } from "../../types";
+import { PRACTICE_STEPS, type FontStyle, type LanguageCode, type LanguagePack, type LearningItem, type PracticeDraft, type PracticeStep } from "../../types";
 import { renderInfoPanel } from "./info-panel";
 
 export const STEP_NO: Record<PracticeStep, number> = { trace: 1, hint: 2, free: 3 };
 
-const INK_COLORS = ["#1d2b53", "#111111", "#1565c0", "#b3261e"];
+const INK_COLORS = ["#1d2b53", "#111111", "#1565c0", "#b3261e", "#ffffff"];
+
+/** 언어팩이 없는 항목(직접 입력)의 음성 지역 */
+export const DEFAULT_LOCALE: Record<LanguageCode, string> = { ko: "ko-KR", en: "en-US", ja: "ja-JP", vi: "vi-VN" };
 const INK_WIDTHS = [0.022, 0.035, 0.055];
 
 export function guideFor(step: PracticeStep, fontStyle: FontStyle, language: LanguageCode): GuideOptions {
@@ -29,6 +36,14 @@ async function loadItem(id: string): Promise<{ item: LearningItem; pack: Languag
     const text = customDraft.text.trim();
     if (!text) return null;
     return { item: { id: "custom", language: settings.learningLanguage, level: "short-sentence", text, nativeGuides: {} }, pack: null };
+  }
+  if (id.startsWith(CUSTOM_PREFIX)) {
+    try {
+      const c = await getCustomLesson(id);
+      return c ? { item: { id: c.id, language: c.language, level: "short-sentence", text: c.text, nativeGuides: {} }, pack: null } : null;
+    } catch {
+      return null;
+    }
   }
   try {
     return await resolveItem(id);
@@ -62,6 +77,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
   const stageEl = h("div", { class: "stage" }, h("p", { class: "loading" }, s.loadingFont));
   page.append(stageEl);
 
+  let flushDraft = () => {};
   const onKey = (e: KeyboardEvent) => {
     if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "z" && stores) {
       e.preventDefault();
@@ -89,6 +105,9 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
     const infoEl = h("div", { class: "info-wrap", "aria-live": "polite" });
     const readingBtn = h("button", { type: "button", class: "btn toggle", "aria-pressed": "false" }, s.showReading);
     const meaningBtn = h("button", { type: "button", class: "btn toggle", "aria-pressed": "false" }, s.showMeaning);
+    const listenBtn = h("button", { type: "button", class: "btn listen" }, `🔊 ${s.listen}`);
+    const ttsMsg = h("p", { class: "tts-msg", role: "status", hidden: true });
+    const noticeEl = h("div", { class: "notice-wrap" });
     const undoBtn = h("button", { type: "button", class: "btn tool", "aria-label": s.undo }, `↶ ${s.undo}`);
     const clearBtn = h("button", { type: "button", class: "btn tool", "aria-label": s.clear }, `✕ ${s.clear}`);
     const opacityInput = h("input", { type: "range", min: 5, max: 90, step: 5, id: "guide-opacity" });
@@ -124,7 +143,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
       sync();
       return { el: group, sync };
     };
-    const colorGroup = radios(s.inkColor, "swatches", INK_COLORS, s.colors, () => settings.inkColor, (v) => void updateSettings({ inkColor: v }), (v) => `--c:${v}`);
+    const colorGroup = radios(s.inkColor, "swatches", INK_COLORS, s.colors, () => settings.inkColor, (v) => void updateSettings({ inkColor: v }), (v) => `--c:${v};--c-ink:${v === "#ffffff" ? "#111" : "#fff"}`);
     const widthGroup = radios(s.inkWidth, "segmented small", INK_WIDTHS, s.widths, () => settings.inkWidth, (v) => void updateSettings({ inkWidth: v }));
     const fontGroup = radios(s.fontQ, "segmented small", ["standard", "handwriting"] as FontStyle[], [s.font.standard, s.font.handwriting], () => session?.fontStyle ?? settings.fontStyle, (v) => void switchFont(v));
 
@@ -137,15 +156,52 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
       ),
       stepperEl,
       descEl,
-      h("div", { class: "info-bar" }, infoEl, item.id !== "custom" ? h("div", { class: "info-toggles" }, readingBtn, meaningBtn) : null),
-      h("div", { class: "toolbar" }, undoBtn, clearBtn, colorGroup.el, widthGroup.el, fontGroup.el, opacityRow),
-      stageEl,
+      noticeEl,
+      h(
+        "div",
+        { class: "info-bar" },
+        infoEl,
+        h("div", { class: "info-toggles" }, ...(pack ? [readingBtn, meaningBtn] : []), listenBtn),
+        ttsMsg,
+      ),
+      h("div", { class: "workspace" }, h("div", { class: "toolbar" }, undoBtn, clearBtn, colorGroup.el, widthGroup.el, fontGroup.el, opacityRow), stageEl),
       h("footer", { class: "practice-footer" }, prevBtn, nextBtn),
     );
 
     const syncAttempts = () => {
       if (!session || !stores) return;
       for (const st of PRACTICE_STEPS) session.attempts[st] = stores[st].toJSON();
+    };
+
+    // 진행 중인 필기는 자동으로 임시 저장한다 (이어서 쓰기)
+    let draftTimer = 0;
+    const writeDraft = () => {
+      draftTimer = 0;
+      if (!session) return;
+      const hasInk = PRACTICE_STEPS.some((st) => session!.attempts[st].length > 0);
+      if (!hasInk) return void deleteDraft(item.id);
+      void saveDraft({
+        learningItemId: item.id,
+        sourceText: item.text,
+        language: item.language,
+        fontStyle: session.fontStyle,
+        lines: session.lines,
+        maxEmPx: session.maxEmPx,
+        step,
+        attempts: session.attempts,
+        completed: session.completed,
+        updatedAt: new Date().toISOString(),
+      });
+    };
+    const scheduleDraft = () => {
+      clearTimeout(draftTimer);
+      draftTimer = window.setTimeout(writeDraft, 400);
+    };
+    // 화면을 떠나거나 앱이 백그라운드로 갈 때는 기다리지 않고 저장
+    flushDraft = () => {
+      if (!draftTimer) return;
+      clearTimeout(draftTimer);
+      writeDraft();
     };
 
     function renderInfo() {
@@ -218,6 +274,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
     function goStep(st: PracticeStep) {
       if (st === step) return;
       step = st;
+      scheduleDraft();
       renderLines();
       renderStepper();
       renderInfo();
@@ -229,25 +286,50 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
       const hasInk = PRACTICE_STEPS.some((st) => stores![st].count > 0);
       if (hasInk && !(await confirmDialog(s.fontSwitchConfirm, s.switchFont, s.cancel))) return fontGroup.sync();
       void updateSettings({ fontStyle: style });
+      clearTimeout(draftTimer);
+      draftTimer = 0;
+      await deleteDraft(item.id);
       await start(style);
     }
 
-    async function start(fontStyle: FontStyle) {
+    async function start(fontStyle: FontStyle, draft?: PracticeDraft) {
       stageEl.replaceChildren(h("p", { class: "loading" }, s.loadingFont));
-      const width = stageEl.getBoundingClientRect().width || page.getBoundingClientRect().width || window.innerWidth;
-      const next = await buildSession(item, pack, fontStyle, width);
+      let next: PracticeSession;
+      if (draft) {
+        // 임시 저장된 줄 배치를 그대로 써야 필기 위치가 맞는다
+        await ensureFont(item.language, draft.fontStyle, item.text);
+        next = {
+          item,
+          pack,
+          fontStyle: draft.fontStyle,
+          lines: draft.lines,
+          maxEmPx: draft.maxEmPx,
+          attempts: draft.attempts,
+          completed: draft.completed,
+          startedAt: draft.updatedAt,
+        };
+      } else {
+        const width = stageEl.getBoundingClientRect().width || page.getBoundingClientRect().width || window.innerWidth;
+        next = await buildSession(item, pack, fontStyle, width);
+      }
       if (disposed) return;
       session = next;
       setSession(session);
-      stores = { trace: new StrokeStore(), hint: new StrokeStore(), free: new StrokeStore() };
+      stores = {
+        trace: new StrokeStore(next.attempts.trace),
+        hint: new StrokeStore(next.attempts.hint),
+        free: new StrokeStore(next.attempts.free),
+      };
       for (const st of PRACTICE_STEPS) {
         stores[st].onChange(() => {
           syncAttempts();
           renderStepper();
           updateControls();
+          scheduleDraft();
         });
       }
-      step = "trace";
+      step = draft?.step ?? "trace";
+      fontGroup.sync();
       renderLines();
       renderStepper();
       renderInfo();
@@ -275,8 +357,12 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
       session.completed[step] = new Date().toISOString();
       syncAttempts();
       const i = PRACTICE_STEPS.indexOf(step);
-      if (step === "free") navigate(hrefFor.compare());
-      else goStep(PRACTICE_STEPS[i + 1]);
+      if (step === "free") {
+        clearTimeout(draftTimer);
+        draftTimer = 0;
+        const done = PRACTICE_STEPS.filter((st) => session!.attempts[st].length > 0 || session!.completed[st]);
+        void Promise.allSettled([deleteDraft(item.id), recordCompletion(item, done)]).then(() => navigate(hrefFor.compare()));
+      } else goStep(PRACTICE_STEPS[i + 1]);
     });
     opacityInput.addEventListener("input", () => {
       if (step === "free" || !session) return;
@@ -287,11 +373,59 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
     });
     opacityInput.addEventListener("change", () => void updateSettings({ guideOpacity: { ...settings.guideOpacity } }));
 
-    void start(settings.fontStyle);
+    listenBtn.addEventListener("click", async () => {
+      ttsMsg.hidden = true;
+      const locale = pack?.locale ?? DEFAULT_LOCALE[item.language];
+      const text = item.speech?.text ?? item.text;
+      listenBtn.disabled = true;
+      const result = await speech().speak(text, locale, settings.speechRate);
+      listenBtn.disabled = false;
+      if (result === "ok") return;
+      ttsMsg.textContent =
+        result === "unsupported" ? s.ttsUnsupported : result === "no-voice" ? fill(s.ttsNoVoice, { lang: s.langName[item.language] }) : s.ttsError;
+      ttsMsg.hidden = false;
+    });
+
+    void (async () => {
+      const draft = await getDraft(item.id);
+      const usable = draft && draft.sourceText === item.text && draft.language === item.language && draft.lines?.length ? draft : undefined;
+      if (disposed) return;
+      if (usable) {
+        noticeEl.replaceChildren(
+          h(
+            "p",
+            { class: "notice", role: "status" },
+            h("span", {}, s.draftRestored),
+            h(
+              "button",
+              {
+                type: "button",
+                class: "btn",
+                onclick: async () => {
+                  noticeEl.replaceChildren();
+                  await deleteDraft(item.id);
+                  await start(settings.fontStyle);
+                },
+              },
+              `↺ ${s.startOver}`,
+            ),
+          ),
+        );
+      }
+      await start(usable?.fontStyle ?? settings.fontStyle, usable);
+    })();
   }
 
+  const onHide = () => {
+    if (document.visibilityState === "hidden") flushDraft();
+  };
+  document.addEventListener("visibilitychange", onHide);
+
   return () => {
+    flushDraft();
     disposed = true;
+    document.removeEventListener("visibilitychange", onHide);
+    speech().stop();
     window.removeEventListener("keydown", onKey);
     for (const l of lines) l.destroy();
     lines = [];

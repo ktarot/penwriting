@@ -1,6 +1,7 @@
 import { h } from "../../app/dom";
 import { STRINGS } from "../../i18n/strings";
 import { ensureFont, fontFor } from "../../engines/writing/fonts";
+import { PAPER_COLORS, UI_SCALES } from "../../storage/repositories/settings";
 import { LANGUAGES, type FontStyle, type LanguageCode, type UserSettings } from "../../types";
 
 /** 모국어 선택지는 각 언어 자신의 이름으로 보여 준다 */
@@ -13,7 +14,23 @@ export const FONT_SIZES = [
   { value: 116, key: "sizeXLarge" },
 ] as const;
 
-type Draft = Pick<UserSettings, "nativeLanguage" | "learningLanguage" | "fontStyle" | "fontSize" | "showNativeReading" | "showMeaning">;
+export type SettingsDraft = Pick<
+  UserSettings,
+  | "nativeLanguage"
+  | "learningLanguage"
+  | "fontStyle"
+  | "fontSize"
+  | "showNativeReading"
+  | "showMeaning"
+  | "uiScale"
+  | "theme"
+  | "highContrast"
+  | "paperColor"
+  | "handedness"
+>;
+type Draft = SettingsDraft;
+
+const PAPER_SWATCH: Record<string, string> = { cream: "#fffdf7", white: "#ffffff", green: "#f1f7ee", yellow: "#fff8d9", board: "#23302a" };
 
 let uid = 0;
 
@@ -60,14 +77,38 @@ export function settingsForm(
   submitKey: "start" | "saveSettings",
   onSubmit: (d: Draft) => void,
   onCancel?: () => void,
+  extended = false,
 ): HTMLFormElement {
-  const draft: Draft = { ...initial };
+  const draft: Draft = {
+    nativeLanguage: initial.nativeLanguage,
+    learningLanguage: initial.learningLanguage,
+    fontStyle: initial.fontStyle,
+    fontSize: initial.fontSize,
+    showNativeReading: initial.showNativeReading,
+    showMeaning: initial.showMeaning,
+    uiScale: initial.uiScale,
+    theme: initial.theme,
+    highContrast: initial.highContrast,
+    paperColor: initial.paperColor,
+    handedness: initial.handedness,
+  };
   const form = h("form", { class: "settings-form" });
 
   const draw = () => {
     const s = STRINGS[draft.nativeLanguage];
     const learning = draft.learningLanguage;
+    const display = extended
+      ? [
+          h("h2", { class: "form-section-title" }, s.sectionDisplay),
+          radioGroup("uiscale", s.uiScaleQ, null, UI_SCALES.map((v) => ({ value: v, label: `${Math.round(v * 100)}%` })), draft.uiScale, (v) => (draft.uiScale = v)),
+          radioGroup("theme", s.themeQ, null, (["system", "light", "dark"] as const).map((v) => ({ value: v, label: s.themes[v] })), draft.theme, (v) => (draft.theme = v)),
+          h("fieldset", { class: "field" }, toggle(s.contrastQ, draft.highContrast, (v) => (draft.highContrast = v), "contrast")),
+          radioGroup("paper", s.paperQ, null, PAPER_COLORS.map((v) => ({ value: v, label: s.papers[v], style: `--dot:${PAPER_SWATCH[v]}` })), draft.paperColor, (v) => (draft.paperColor = v), "papers"),
+          radioGroup("hand", s.handQ, s.handHelp, (["right", "left"] as const).map((v) => ({ value: v, label: s.hands[v] })), draft.handedness, (v) => (draft.handedness = v)),
+        ]
+      : [];
     form.replaceChildren(
+      ...(extended ? [h("h2", { class: "form-section-title" }, s.sectionLearning)] : []),
       radioGroup("native", s.nativeQ, s.nativeHelp, LANGUAGES.map((l) => ({ value: l, label: ENDONYMS[l], lang: l })), draft.nativeLanguage, (v) => {
         draft.nativeLanguage = v;
         draw();
@@ -95,11 +136,12 @@ export function settingsForm(
         toggle(s.readingQ, draft.showNativeReading, (v) => (draft.showNativeReading = v), "reading"),
         toggle(s.meaningQ, draft.showMeaning, (v) => (draft.showMeaning = v), "meaning"),
       ),
+      ...display,
       h("p", { class: "help" }, s.storageNote),
       h(
         "div",
         { class: "form-actions" },
-        onCancel ? h("button", { type: "button", class: "btn", onclick: onCancel }, s.cancel) : null,
+        onCancel ? h("button", { type: "button", class: "btn", onclick: onCancel }, s.cancel) : "",
         h("button", { type: "submit", class: "btn primary" }, s[submitKey]),
       ),
     );

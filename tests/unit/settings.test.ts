@@ -23,4 +23,11 @@ describe("settings", () => {
     expect(s.onboarded).toBe(true);
     expect(sanitizeSettings(null, base)).toBe(base);
   });
+  it("접근성 설정을 정리한다", () => {
+    const base = defaultSettings("ko");
+    expect(base).toMatchObject({ uiScale: 1, theme: "system", paperColor: "cream", handedness: "right", highContrast: false });
+    const s = sanitizeSettings({ uiScale: 3, theme: "neon", paperColor: "board", handedness: "left", highContrast: true }, base);
+    expect(s).toMatchObject({ uiScale: 1.5, theme: "system", paperColor: "board", handedness: "left", highContrast: true });
+    expect(sanitizeSettings({ paperColor: "purple" }, base).paperColor).toBe("cream");
+  });
 });

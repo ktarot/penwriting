@@ -1,4 +1,5 @@
 import { STRINGS, type Strings } from "../i18n/strings";
+import { applyAppearance } from "./appearance";
 import { defaultSettings, saveSettings } from "../storage/repositories/settings";
 import type { FontStyle, LanguagePack, LearningItem, LineLayout, PracticeStep, Stroke, UserSettings } from "../types";
 
@@ -7,7 +8,7 @@ export let settings: UserSettings = defaultSettings();
 
 export function setSettings(next: UserSettings): void {
   settings = next;
-  document.documentElement.lang = next.nativeLanguage;
+  applyAppearance(next);
 }
 
 /** 설정 일부를 바꾸고 저장한다 */

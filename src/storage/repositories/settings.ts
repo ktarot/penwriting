@@ -1,4 +1,7 @@
-import { isLanguageCode, LANGUAGES, type LanguageCode, type UserSettings } from "../../types";
+import { isLanguageCode, LANGUAGES, type LanguageCode, type PaperColor, type UserSettings } from "../../types";
+
+export const PAPER_COLORS: readonly PaperColor[] = ["cream", "white", "green", "yellow", "board"];
+export const UI_SCALES = [1, 1.25, 1.5] as const;
 import { dbGet, dbPut } from "../database";
 
 const KEY = "user";
@@ -25,6 +28,10 @@ export function defaultSettings(native: LanguageCode = "ko"): UserSettings {
     inkColor: "#1d2b53",
     inkWidth: 0.035,
     onboarded: false,
+    uiScale: 1,
+    theme: "system",
+    paperColor: "cream",
+    handedness: "right",
   };
 }
 
@@ -51,6 +58,10 @@ export function sanitizeSettings(raw: unknown, base: UserSettings): UserSettings
     inkColor: typeof r.inkColor === "string" && /^#[0-9a-f]{6}$/i.test(r.inkColor) ? r.inkColor : base.inkColor,
     inkWidth: num(r.inkWidth, 0.01, 0.1, base.inkWidth),
     onboarded: bool(r.onboarded, false),
+    uiScale: num(r.uiScale, 1, 1.5, base.uiScale),
+    theme: r.theme === "light" || r.theme === "dark" ? r.theme : "system",
+    paperColor: PAPER_COLORS.includes(r.paperColor as PaperColor) ? (r.paperColor as PaperColor) : base.paperColor,
+    handedness: r.handedness === "left" ? "left" : "right",
   };
 }
 
@@ -66,7 +77,7 @@ export async function loadSettings(): Promise<UserSettings | null> {
 /** 저장 실패(사생활 보호 모드 등)는 앱 동작을 막지 않는다 */
 export async function saveSettings(s: UserSettings): Promise<boolean> {
   try {
-    await dbPut("settings", JSON.parse(JSON.stringify(s)), KEY);
+    await dbPut("settings", s, KEY);
     return true;
   } catch {
     return false;

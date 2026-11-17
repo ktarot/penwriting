@@ -7,7 +7,9 @@ export type Route =
   | { name: "welcome" }
   | { name: "options" }
   | { name: "practice"; itemId: string }
-  | { name: "compare" };
+  | { name: "compare" }
+  | { name: "history" }
+  | { name: "record"; id: string };
 
 const PRACTICE_PREFIX = "practice-";
 
@@ -17,6 +19,8 @@ export function parseRoute(hash: string): Route {
     return { name: "practice", itemId: name.slice(PRACTICE_PREFIX.length) };
   }
   if (name === "compare") return { name: "compare" };
+  if (name === "history") return { name: "history" };
+  if (name.startsWith("record-") && name.length > 7) return { name: "record", id: name.slice(7) };
   if (name === "welcome") return { name: "welcome" };
   if (name === "options") return { name: "options" };
   return { name: "home" };
@@ -28,6 +32,8 @@ export const hrefFor = {
   options: () => "#options",
   practice: (itemId: string) => `#${PRACTICE_PREFIX}${itemId}`,
   compare: () => "#compare",
+  history: () => "#history",
+  record: (id: string) => `#record-${id}`,
 };
 
 export function navigate(href: string): void {

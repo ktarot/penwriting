@@ -14,10 +14,12 @@ export async function onboard(page: Page, native: Lang, learning: Lang, learning
   void learning;
 }
 
-/** 설정 폼 n번째 질문에서 선택지를 고른다 */
-export async function choose(page: Page, fieldset: number, label: string) {
-  const esc = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  await page.locator("fieldset").nth(fieldset).locator("label.choice", { hasText: new RegExp(`^${esc}$`) }).click();
+const exact = (t: string) => new RegExp(`^${t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`);
+
+/** 설정 폼에서 선택지를 고른다. 질문은 순서(번호) 또는 질문 문구로 지정한다 */
+export async function choose(page: Page, fieldset: number | string, label: string) {
+  const fs = typeof fieldset === "number" ? page.locator("fieldset").nth(fieldset) : page.locator("fieldset", { has: page.locator("legend", { hasText: exact(fieldset) }) });
+  await fs.locator("label.choice", { hasText: exact(label) }).click();
 }
 
 /** 필기 줄 위에 한 획을 긋는다. 기기에 따라 마우스 또는 실제 터치 이벤트(CDP)를 사용한다. */

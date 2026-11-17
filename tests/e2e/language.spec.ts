@@ -85,5 +85,7 @@ test("사용자 입력 문장은 학습 언어로 연습하고 발음 안내를 
   await page.getByRole("button", { name: "이 문장으로 연습" }).click();
   await expect(page.locator(".guide-solid").first()).toHaveAttribute("lang", "vi");
   await expect(page.locator(".info-panel")).toHaveCount(0);
-  await expect(page.locator(".info-toggles")).toHaveCount(0);
+  // 언어팩 정보가 없으므로 발음·뜻 버튼은 없고 듣기만 있다
+  await expect(page.locator(".info-toggles .toggle")).toHaveCount(0);
+  await expect(page.locator(".info-toggles .listen")).toHaveCount(1);
 });

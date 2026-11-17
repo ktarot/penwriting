@@ -1,12 +1,14 @@
 import "../styles/main.css";
 import { setFontCssLoader } from "../engines/writing/fonts";
-import { renderComparison } from "../features/comparison/comparison";
+import { renderComparison, renderRecord } from "../features/comparison/comparison";
+import { renderHistory } from "../features/history/history";
 import { renderHome } from "../features/home/home";
 import { renderOnboarding } from "../features/onboarding/onboarding";
 import { renderPractice } from "../features/practice/practice";
 import { renderSettings } from "../features/settings/settings";
 import { defaultSettings, detectNativeLanguage, loadSettings } from "../storage/repositories/settings";
 import { loadFontCss } from "./fonts-bundled";
+import { registerServiceWorker } from "./pwa";
 import { hrefFor, navigate, parseRoute } from "./router";
 import { setSettings, settings } from "./state";
 
@@ -35,6 +37,12 @@ function render() {
     case "compare":
       cleanup = renderComparison(root);
       break;
+    case "history":
+      cleanup = renderHistory(root);
+      break;
+    case "record":
+      cleanup = renderRecord(root, route.id);
+      break;
     default:
       cleanup = renderHome(root);
   }
@@ -48,4 +56,5 @@ async function boot() {
   render();
 }
 
+registerServiceWorker();
 void boot();
