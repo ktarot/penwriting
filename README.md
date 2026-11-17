@@ -2,6 +2,11 @@
 
 다국어 펜글씨·언어학습 PWA. 웹 우선, 서버·회원가입 없이 동작.
 
+## 웹에서 바로 쓰기
+
+https://ktarot.github.io/penwriting/  
+`main`에 push하면 GitHub Actions가 테스트·빌드 후 자동 배포한다.
+
 ## 실행
 
 ```bash
