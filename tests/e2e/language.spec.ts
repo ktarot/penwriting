@@ -76,7 +76,7 @@ test("일본어 손글씨 글꼴과 베트남어 성조 문자를 렌더링한�
   await expect(page).not.toHaveURL(/#options$/);
   await page.goto("/#area-character");
   await expect(page.getByRole("tab", { name: /성조 기호/ })).toBeVisible();
-  await page.goto("/#practice-vi-w-places-02");
+  await page.goto("/#practice-vi-w-places-bus");
   await expect(page.locator(PRACTICE_GUIDE).first()).toHaveText("xe buýt");
   await expect(page.locator(".info-row.note")).toContainText("ngang");
   expect(await page.evaluate(() => document.fonts.check('400 100px "Noto Sans"', "ảãạ"))).toBe(true);

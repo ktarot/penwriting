@@ -1,0 +1,26 @@
+# 방향·위치: 동서남북, 좌우·위아래·앞뒤·안팎, 옆·사이·맞은편·가운데·모퉁이, 똑바로, 여기·거기·저기, 가까이·멀리, 이쪽·저쪽
+east | 동쪽;dongjjok;トンチョク;đông-chốc | east;/iːst/;이스트;イースト;ít | 東;ひがし | đông;동;dohng;ドン
+west | 서쪽;seojjok;ソチョク;xơ-chốc | west;/wɛst/;웨스트;ウェスト;ou-ét | 西;にし | tây;떠이;tay;タイ
+south | 남쪽;namjjok;ナムチョク;nam-chốc | south;/saʊθ/;사우스;サウス;xao-th | 南;みなみ | nam;남;nahm;ナム
+north | 북쪽;bukjjok;プクチョク;búc-chốc | north;/nɔːrθ/;노스;ノース;no-th | 北;きた | bắc;박;bahk;バック
+left | 왼쪽;oenjjok;ウェンチョク;uên-chốc | left;/lɛft/;레프트;レフト;lép | 左;ひだり | trái;짜이;chai;チャイ
+right | 오른쪽;oreunjjok;オルンチョク;ô-rưn-chốc | right;/raɪt/;라이트;ライト;rai | 右;みぎ | phải;파이;fai;ファイ
+up | 위;wi;ウィ;uy | up;/ʌp/;업;アップ;ấp | 上;うえ | trên;쩬;chen;チェン
+down | 아래;arae;アレ;a-re | down;/daʊn/;다운;ダウン;đao | 下;した | dưới;즈어이;zuh-oy;ズオイ
+front | 앞;ap;アプ;áp | front;/frʌnt/;프런트;フロント;phrân | 前;まえ | trước;쯔억;chuh-uhk;チュオック
+back | 뒤;dwi;トゥィ;tuy | back;/bæk/;백;バック;béc | 後ろ;うしろ | sau;사우;sow;サウ
+inside | 안;an;アン;an | inside;/ɪnˈsaɪd/;인사이드;インサイド;in-xai | 中;なか | trong;쫑;chong;チョン
+outside | 밖;bak;パク;bác | outside;/ˌaʊtˈsaɪd/;아웃사이드;アウトサイド;ao-xai | 外;そと | ngoài;응오아이;ngwai;ゴアイ
+next-to | 옆;yeop;ヨプ;iớp | next to;/ˈnɛkst tuː/;넥스트 투;ネクストトゥー;néc-xtu | 隣;となり | bên cạnh;벤 까잉;ben kahn;ベン カイン
+between | 사이;sai;サイ;xa-i | between;/bɪˈtwiːn/;비트윈;ビトウィーン;bi-tuyn | 間;あいだ | giữa;즈어;zuh-uh;ズア
+across | 맞은편;majeunpyeon;マジュンピョン;ma-chưn-piơn | across from;/əˈkrɒs frəm/;어크로스 프럼;アクロスフロム;ơ-crót phrâm | 向かい;むかい | đối diện;도이 지엔;doy zee-en;ドイ ジエン
+middle | 가운데;gaunde;カウンデ;ca-un-đê | middle;/ˈmɪdəl/;미들;ミドル;mít-đồ | 真ん中;まんなか | chính giữa;찡 즈어;ching zuh-uh;チン ズア
+corner | 모퉁이;motungi;モトゥンイ;mô-tung-i | corner;/ˈkɔːrnər/;코너;コーナー;co-nơ | 角;かど | góc;곱;gawp;ゴック
+straight | 똑바로;ttokbaro;トッパロ;tốc-ba-rô | straight ahead;/streɪt əˈhɛd/;스트레이트 어헤드;ストレートアヘッド;xtrây ơ-hét | まっすぐ;まっすぐ | thẳng;탕;tahng;タン
+here | 여기;yeogi;ヨギ;iơ-ghi | here;/hɪr/;히어;ヒア;hia | ここ;ここ | đây;더이;day;ダイ
+there | 거기;geogi;コギ;cơ-ghi | there;/ðɛr/;데어;ゼア;đe | そこ;そこ | đó;도;daw;ドー
+over-there | 저기;jeogi;チョギ;chơ-ghi | over there;/ˈoʊvər ðɛr/;오버 데어;オーバーゼア;âu-vơ đe | あそこ;あそこ | kia;끼어;kee-uh;キア
+near | 가까이;gakkai;カッカイ;cát-cai | near;/nɪr/;니어;ニア;nia | 近く;ちかく | gần;건;guhn;ガン
+far | 멀리;meolli;モルリ;mơn-li | far;/fɑːr/;파;ファー;pha | 遠く;とおく | xa;싸;sah;サー
+this-way | 이쪽;ijjok;イッチョク;ít-chốc | this way;/ðɪs weɪ/;디스 웨이;ディスウェイ;đít uây | こちら;こちら | bên này;벤 나이;ben nigh;ベン ナイ
+that-way | 저쪽;jeojjok;チョッチョク;chớt-chốc | that way;/ðæt weɪ/;댓 웨이;ザットウェイ;đét uây | あちら;あちら | bên kia;벤 끼어;ben kee-uh;ベン キア

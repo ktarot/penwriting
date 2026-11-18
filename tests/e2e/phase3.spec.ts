@@ -191,7 +191,7 @@ test.describe("음성", () => {
   test("재생이 시작되지 않으면 음성이 없다고 안내한다", async ({ page }) => {
     await fakeSpeech(page, [], false);
     await onboard(page, "ko", "vi", "베트남어");
-    await page.goto("/#practice-vi-w-places-02");
+    await page.goto("/#practice-vi-w-places-bus");
     await page.getByRole("button", { name: /듣기/ }).click();
     await expect(page.locator(".tts-msg")).toContainText("베트남어 음성이 없습니다", { timeout: 8000 });
   });

@@ -1,0 +1,46 @@
+# 가족·사람: 가족 관계(부모·형제·조부모·친척), 남녀·아이·어른, 친구·이웃·선생님·학생, 나·우리, 이름·나이 + 말하는 사람에 따라 달라지는 호칭
+family | 가족;gajok;カジョク;ca-chốc | family;/ˈfæməli/;패밀리;ファミリー;phe-mơ-li | 家族;かぞく | gia đình;자 딩;zah ding;ザー ディン
+parents | 부모님;bumonim;プモニム;bu-mô-nim | parents;/ˈpɛrənts/;페어런츠;ペアレンツ;pe-rần | 両親;りょうしん | bố mẹ;보 메;boh meh;ボー メ
+father | 아버지;abeoji;アボジ;a-bơ-chi | father;/ˈfɑːðər/;파더;ファーザー;pha-đơ | 父;ちち | bố;보;boh;ボー
+mother | 어머니;eomeoni;オモニ;ơ-mơ-ni | mother;/ˈmʌðər/;마더;マザー;mâ-đơ | 母;はは | mẹ;메;meh;メ
+child | 아이;ai;アイ;a-i | child;/tʃaɪld/;차일드;チャイルド;chai | 子ども;こども | con;꼰;kon;コン
+son | 아들;adeul;アドゥル;a-đưn | son;/sʌn/;선;サン;xân | 息子;むすこ | con trai;꼰 짜이;kon chai;コン チャイ
+daughter | 딸;ttal;タル;tan | daughter;/ˈdɔːtər/;도터;ドーター;đo-tơ | 娘;むすめ | con gái;꼰 가이;kon guy;コン ガイ
+husband | 남편;nampyeon;ナムピョン;nam-piơn | husband;/ˈhʌzbənd/;허즈번드;ハズバンド;hâz-bần | 夫;おっと | chồng;쫑;chohng;チョン
+wife | 아내;anae;アネ;a-ne | wife;/waɪf/;와이프;ワイフ;oai | 妻;つま | vợ;버;vuh;ヴォー
+older-brother | 형;hyeong;ヒョン;hiơng | older brother;/ˈoʊldər ˈbrʌðər/;올더 브라더;オールダーブラザー;ôn-đơ bra-đơ | 兄;あに | anh trai;아잉 짜이;ahn chai;アイン チャイ
+older-sister | 누나;nuna;ヌナ;nu-na | older sister;/ˈoʊldər ˈsɪstər/;올더 시스터;オールダーシスター;ôn-đơ xít-tơ | 姉;あね | chị gái;찌 가이;chee guy;チー ガイ
+younger-brother | 남동생;namdongsaeng;ナムドンセン;nam-đông-xeng | younger brother;/ˈjʌŋɡər ˈbrʌðər/;영거 브라더;ヤンガーブラザー;dâng-gơ bra-đơ | 弟;おとうと | em trai;앰 짜이;em chai;エム チャイ
+younger-sister | 여동생;yeodongsaeng;ヨドンセン;iơ-đông-xeng | younger sister;/ˈjʌŋɡər ˈsɪstər/;영거 시스터;ヤンガーシスター;dâng-gơ xít-tơ | 妹;いもうと | em gái;앰 가이;em guy;エム ガイ
+grandfather | 할아버지;harabeoji;ハラボジ;ha-ra-bơ-chi | grandfather;/ˈɡrænˌfɑːðər/;그랜드파더;グランドファーザー;gren-pha-đơ | 祖父;そふ | ông;옹;ohng;オン
+grandmother | 할머니;halmeoni;ハルモニ;han-mơ-ni | grandmother;/ˈɡrænˌmʌðər/;그랜드마더;グランドマザー;gren-mâ-đơ | 祖母;そぼ | bà;바;bah;バー
+grandchild | 손주;sonju;ソンジュ;xôn-chu | grandchild;/ˈɡræntʃaɪld/;그랜드차일드;グランドチャイルド;gren-chai | 孫;まご | cháu;짜우;chow;チャウ
+uncle | 삼촌;samchon;サムチョン;xam-chôn | uncle;/ˈʌŋkəl/;엉클;アンクル;ăng-cồ | おじ;おじ | chú;쭈;choo;チュー
+aunt | 이모;imo;イモ;i-mô | aunt;/ænt/;앤트;アント;en | おば;おば | cô;꼬;koh;コー
+cousin | 사촌;sachon;サチョン;xa-chôn | cousin;/ˈkʌzən/;커즌;カズン;câ-dần | いとこ;いとこ | anh chị em họ;아잉 찌 앰 호;ahn chee em haw;アイン チー エム ホー
+baby | 아기;agi;アギ;a-ghi | baby;/ˈbeɪbi/;베이비;ベビー;bây-bi | 赤ちゃん;あかちゃん | em bé;앰 베;em beh;エム ベー
+man | 남자;namja;ナムジャ;nam-cha | man;/mæn/;맨;マン;men | 男;おとこ | đàn ông;단 옹;dahn ohng;ダン オン
+woman | 여자;yeoja;ヨジャ;iơ-cha | woman;/ˈwʊmən/;우먼;ウーマン;u-mần | 女;おんな | phụ nữ;푸 느;foo nuh;フー ヌー
+adult | 어른;eoreun;オルン;ơ-rưn | adult;/ˈædʌlt/;어덜트;アダルト;e-đân | 大人;おとな | người lớn;응어이 런;nguh-oy luhn;グオイ ロン
+friend | 친구;chingu;チング;chin-cu | friend;/frɛnd/;프렌드;フレンド;phren | 友だち;ともだち | bạn bè;반 베;bahn beh;バン ベー
+neighbor | 이웃;iut;イウッ;i-út | neighbor;/ˈneɪbər/;네이버;ネイバー;nây-bơ | 隣人;りんじん | hàng xóm;항 쏨;hahng sawm;ハン ソム
+teacher | 선생님;seonsaengnim;ソンセンニム;xơn-xeng-nim | teacher;/ˈtiːtʃər/;티처;ティーチャー;ti-chơ | 先生;せんせい | giáo viên;자오 비엔;zow vee-en;ザオ ヴィエン
+student | 학생;haksaeng;ハクセン;hác-xeng | student;/ˈstuːdənt/;스튜던트;ステューデント;xtiu-đần | 学生;がくせい | học sinh;혹 신;hawk sing;ホック シン
+person | 사람;saram;サラム;xa-ram | person;/ˈpɜːrsən/;퍼슨;パーソン;pơ-xần | 人;ひと | người;응어이;nguh-oy;グオイ
+i | 나;na;ナ;na | I;/aɪ/;아이;アイ;ai | 私;わたし | tôi;또이;toy;トイ
+we | 우리;uri;ウリ;u-ri | we;/wiː/;위;ウィー;uy | 私たち;わたしたち | chúng tôi;쭝 또이;choong toy;チュン トイ
+name | 이름;ireum;イルム;i-rưm | name;/neɪm/;네임;ネーム;nêm | 名前;なまえ | tên;뗀;ten;テン
+age | 나이;nai;ナイ;na-i | age;/eɪdʒ/;에이지;エイジ;ây-giơ | 年齢;ねんれい | tuổi;뚜오이;too-oy;トゥオイ
++ko oppa | 오빠;oppa;オッパ;ốp-pa | older brother (said by a woman);兄(女性から見て);anh trai (phụ nữ gọi)
++ko eonni | 언니;eonni;オンニ;ơn-ni | older sister (said by a woman);姉(女性から見て);chị gái (phụ nữ gọi)
++ko gomo | 고모;gomo;コモ;cô-mô | aunt (father's sister);父方のおば;cô (chị em gái của bố)
++ko oesamchon | 외삼촌;oesamchon;ウェサムチョン;uê-xam-chôn | uncle (mother's brother);母方のおじ;cậu (anh em trai của mẹ)
++ko jeo | 저;jeo;チョ;chơ | I (polite);わたくし(丁寧な「私」);tôi (lịch sự)
++ja otousan | お父さん;おとうさん | 아버지 (남의 아버지·부를 때);(someone's) father, Dad;bố (của người khác, khi gọi)
++ja okaasan | お母さん;おかあさん | 어머니 (남의 어머니·부를 때);(someone's) mother, Mom;mẹ (của người khác, khi gọi)
++ja oniisan | お兄さん;おにいさん | 형·오빠 (남의 형·부를 때);(someone's) older brother;anh trai (của người khác, khi gọi)
++ja oneesan | お姉さん;おねえさん | 누나·언니 (남의 누나·부를 때);(someone's) older sister;chị gái (của người khác, khi gọi)
++vi anh | anh;아잉;ahn;アイン | 형·오빠 / 당신 (나보다 나이 많은 남자에게);older brother / you (to an older man);兄 / あなた(年上の男性に)
++vi chi | chị;찌;chee;チー | 누나·언니 / 당신 (나보다 나이 많은 여자에게);older sister / you (to an older woman);姉 / あなた(年上の女性に)
++vi em | em;앰;em;エム | 동생 / 너 (나보다 어린 사람에게);younger sibling / you (to someone younger);弟・妹 / あなた(年下に)
++vi bac | bác;박;bahk;バック | 큰아버지·큰어머니 (부모보다 나이 많은 친척);uncle or aunt older than your parents;伯父・伯母(親より年上)

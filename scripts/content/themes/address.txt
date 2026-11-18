@@ -1,0 +1,43 @@
+# 주소: 주소·나라·도·시·구·군·동·마을·도로·대로·골목·번지·건물·아파트·층·호·지하·우편번호·받는/보내는 사람·전화번호 + 나라별 주소 단위
+address | 주소;juso;チュソ;chu-xô | address;/ˈædrɛs/;어드레스;アドレス;ơ-đrét | 住所;じゅうしょ | địa chỉ;디아 찌;dee-ah chee;ディア チー
+country | 나라;nara;ナラ;na-ra | country;/ˈkʌntri/;컨트리;カントリー;cân-tri | 国;くに | quốc gia;꾸옥 자;kwohk zah;クオック ザー
+province | 도;do;ト;tô | province;/ˈprɒvɪns/;프로빈스;プロビンス;pro-vin | 県;けん | tỉnh;띵;ting;ティン
+city | 시;si;シ;xi | city;/ˈsɪti/;시티;シティ;xi-ti | 市;し | thành phố;타잉 포;tahn foh;タイン フォー
+district | 구;gu;ク;cu | district;/ˈdɪstrɪkt/;디스트릭트;ディストリクト;đít-trích | 区;く | quận;꿘;kwuhn;クアン
+county | 군;gun;クン;cun | county;/ˈkaʊnti/;카운티;カウンティ;cao-ti | 郡;ぐん | huyện;후이엔;hwee-en;フイエン
+neighborhood | 동;dong;トン;đông | neighborhood;/ˈneɪbərhʊd/;네이버후드;ネイバーフッド;nây-bơ-hút | 町;まち | phường;프엉;fuh-uhng;フオン
+village | 마을;maeul;マウル;ma-ưn | village;/ˈvɪlɪdʒ/;빌리지;ビレッジ;vi-lít | 村;むら | làng;랑;lahng;ラン
+street | 도로;doro;トロ;tô-rô | street;/striːt/;스트리트;ストリート;xtrít | 通り;とおり | đường;드엉;duh-uhng;ドゥオン
+avenue | 대로;daero;テロ;te-rô | avenue;/ˈævənjuː/;애비뉴;アベニュー;e-vơ-niu | 大通り;おおどおり | đại lộ;다이 로;dye loh;ダイ ロー
+alley | 골목;golmok;コルモク;côn-mốc | alley;/ˈæli/;앨리;アリー;e-li | 路地;ろじ | ngõ;응오;ngaw;ゴー
+house-number | 번지;beonji;ポンジ;pơn-chi | house number;/haʊs ˈnʌmbər/;하우스 넘버;ハウスナンバー;hao nâm-bơ | 番地;ばんち | số nhà;소 냐;soh nyah;ソー ニャー
+building | 건물;geonmul;コンムル;cơn-mun | building;/ˈbɪldɪŋ/;빌딩;ビルディング;biu-đinh | 建物;たてもの | tòa nhà;또아 냐;twah nyah;トア ニャー
+apartment | 아파트;apateu;アパトゥ;a-pa-thư | apartment;/əˈpɑːrtmənt/;아파트먼트;アパートメント;ơ-pát-mần | マンション;まんしょん | chung cư;쭝 끄;choong kuh;チュン クー
+floor | 층;cheung;チュン;chưng | floor;/flɔːr/;플로어;フロア;phlo | 階;かい | tầng;떵;tuhng;タン
+unit | 호;ho;ホ;hô | unit;/ˈjuːnɪt/;유닛;ユニット;iu-nít | 号室;ごうしつ | số phòng;소 퐁;soh fong;ソー フォン
+basement | 지하;jiha;チハ;chi-ha | basement;/ˈbeɪsmənt/;베이스먼트;ベースメント;bây-mần | 地下;ちか | tầng hầm;떵 험;tuhng huhm;タン ハム
+postal-code | 우편번호;upyeonbeonho;ウピョンボノ;u-piơn-bơn-hô | zip code;/ˈzɪp koʊd/;집 코드;ジップコード;díp câu | 郵便番号;ゆうびん ばんごう | mã bưu chính;마 브우 찡;mah buh-oo ching;マー ブウ チン
+recipient | 받는 사람;banneun saram;パンヌン サラム;ban-nưn xa-ram | recipient;/rɪˈsɪpiənt/;리시피언트;レシピエント;ri-xíp-pi-ần | 宛先;あてさき | người nhận;응어이 년;nguh-oy nyuhn;グオイ ニャン
+sender | 보내는 사람;bonaeneun saram;ポネヌン サラム;bô-ne-nưn xa-ram | sender;/ˈsɛndər/;센더;センダー;xen-đơ | 差出人;さしだしにん | người gửi;응어이 그이;nguh-oy guh-ee;グオイ グイ
+phone-number | 전화번호;jeonhwabeonho;チョナボノ;chơn-hoa-bơn-hô | phone number;/foʊn ˈnʌmbər/;폰 넘버;フォーンナンバー;phôn nâm-bơ | 電話番号;でんわ ばんごう | số điện thoại;소 디엔 토아이;soh dee-en twai;ソー ディエン トアイ
++ko teukbyeolsi | 특별시;teukbyeolsi;トゥクピョルシ;thức-biơn-xi | special city (Seoul);特別市(ソウル);thành phố đặc biệt (Seoul)
++ko gwangyeoksi | 광역시;gwangyeoksi;クァンヨクシ;quang-iơc-xi | metropolitan city;広域市;thành phố trực thuộc trung ương
++ko eup | 읍;eup;ウプ;ứp | town (eup);邑(町にあたる);thị trấn (eup)
++ko myeon | 면;myeon;ミョン;miơn | township (myeon);面(村にあたる);xã (myeon)
++ko ri | 리;ri;リ;ri | village (ri);里(集落);làng (ri)
++ko doromyeong | 도로명 주소;doromyeong juso;トロミョン チュソ;tô-rô-miơng chu-xô | road-name address;道路名住所;địa chỉ theo tên đường
++ko jibeon | 지번;jibeon;チボン;chi-bơn | lot number (old address system);地番(旧住所);số lô đất (địa chỉ cũ)
++ja to | 都;と | 도 (도쿄도);metropolis (Tokyo);đô (Tokyo)
++ja fu | 府;ふ | 부 (오사카부·교토부);urban prefecture (Osaka, Kyoto);phủ (Osaka, Kyoto)
++ja todofuken | 都道府県;とどうふけん | 일본의 광역 행정 구역 (도·도·부·현);Japan's prefectures;các tỉnh, thành của Nhật
++ja chome | 丁目;ちょうめ | 초메 (동 아래 구역);chōme (block area);chōme (khu phố)
++ja ban | 番;ばん | 번 (구획 번호);block number;số khối
++ja go | 号;ごう | 호 (건물 번호);building number;số nhà
++vi thixa | thị xã;티 싸;tee sah;ティー サー | 시 (지방 소도시);town;町(市社)
++vi xa | xã;싸;sah;サー | 사 (농촌 행정 단위);commune;社(村)
++vi thon | thôn;톤;tohn;トン | 마을 (촌);hamlet;村落
++vi hem | hẻm;햄;hem;ヘム | 골목 (남부);alley (South);路地(南部)
++vi ngach | ngách;응악;ngahk;ガック | 작은 골목 (북부);lane off an alley (North);小路(北部)
++en state | state;/steɪt/;스테이트;ステート;xtây | 주 (미국);州(アメリカ);bang (Mỹ)
++en suite | suite;/swiːt/;스위트;スイート;xuýt | 호실 (사무실·아파트);(部屋番号の)スイート;phòng (văn phòng, căn hộ)
++en po-box | P.O. box;/ˌpiː ˈoʊ bɒks/;피오 박스;ピーオーボックス;pi-âu bóc | 사서함;私書箱;hộp thư bưu điện

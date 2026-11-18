@@ -17,16 +17,16 @@ test("첫 설정 → 홈(영역 카드) → 영역(주제 탭) → 연습, 뒤�
   const tabs = page.getByRole("tablist", { name: "단어" });
   await expect(tabs.getByRole("tab")).toHaveCount(9);
   await tabs.getByRole("tab", { name: /주소/ }).click();
-  await expect(page.locator('a[href="#practice-ja-w-address-01"]')).toBeVisible();
-  await expect(page.locator('a[href="#practice-ja-w-numbers-01"]')).toHaveCount(0);
+  await expect(page.locator('a[href="#practice-ja-w-address-address"]')).toBeVisible();
+  await expect(page.locator('a[href="#practice-ja-w-numbers-zero"]')).toHaveCount(0);
   // 키보드로 탭 이동
   await tabs.getByRole("tab", { name: /주소/ }).focus();
   await page.keyboard.press("ArrowRight");
   await expect(tabs.getByRole("tab", { name: /시간·날짜/ })).toHaveAttribute("aria-selected", "true");
 
   // 연습 → 앱 막대 [뒤로] → 영역 → [뒤로] → 홈
-  await page.locator('a[href="#practice-ja-w-time-01"]').click();
-  await expect(page.locator(".app-bar-title .src")).toHaveText("今日");
+  await page.locator('a[href="#practice-ja-w-time-second-t"]').click();
+  await expect(page.locator(".app-bar-title .src")).toHaveText("秒");
   await page.getByRole("button", { name: "뒤로" }).click();
   await expect(page).toHaveURL(/#area-word$/);
   // 마지막 주제 탭을 기억한다
@@ -68,7 +68,7 @@ test("생활 단어·질문과 답·긴 문장 내용", async ({ page }) => {
   await page.getByRole("tab", { name: /질문과 답/ }).click();
   await expect(page.locator(".item-link").first().locator(".item-text")).toHaveText("What's your name?");
   await expect(page.locator(".item-link").first().locator(".item-sub")).toHaveText("이름이 뭐예요?");
-  await page.goto("/#practice-en-w-numbers-02");
+  await page.goto("/#practice-en-w-numbers-one");
   await expect(page.locator(".info-row.meaning")).toContainText("일");
   await expect(page.locator(".info-row.native")).toContainText("원");
   await page.goto("/#practice-en-notice-02");

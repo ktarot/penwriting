@@ -1,0 +1,42 @@
+# 단위: 길이·무게·부피·온도·비율·넓이, 세는 말(개수·사람·장·권·잔·병) + 화폐·나라별 단위
+millimeter | 밀리미터;millimiteo;ミルリミト;min-li-mi-tơ | millimeter;/ˈmɪlɪˌmiːtər/;밀리미터;ミリメーター;mi-li-mi-tơ | ミリ;みり | mi-li-mét;미리멧;mee-lee-met;ミリメット
+centimeter | 센티미터;sentimiteo;センティミト;xen-ti-mi-tơ | centimeter;/ˈsɛntɪˌmiːtər/;센티미터;センチメーター;xen-ti-mi-tơ | センチ;せんち | xăng-ti-mét;쌍띠멧;sahng-tee-met;サンティメット
+meter | 미터;miteo;ミト;mi-tơ | meter;/ˈmiːtər/;미터;メーター;mi-tơ | メートル;めーとる | mét;멧;met;メット
+kilometer | 킬로미터;killomiteo;キルロミト;kin-lô-mi-tơ | kilometer;/kɪˈlɒmɪtər/;킬로미터;キロメーター;ki-lo-mi-tơ | キロメートル;きろめーとる | ki-lô-mét;끼로멧;kee-loh-met;キロメット
+gram | 그램;geuraem;グレム;gư-rem | gram;/ɡræm/;그램;グラム;grem | グラム;ぐらむ | gam;감;gahm;ガム
+kilogram | 킬로그램;killogeuraem;キルログレム;kin-lô-gư-rem | kilogram;/ˈkɪləɡræm/;킬로그램;キログラム;ki-lô-grem | キログラム;きろぐらむ | ki-lô-gam;끼로감;kee-loh-gahm;キロガム
+ton | 톤;ton;トン;tôn | ton;/tʌn/;톤;トン;tân | トン;とん | tấn;떤;tuhn;タン
+milliliter | 밀리리터;milliriteo;ミルリリト;min-li-li-tơ | milliliter;/ˈmɪlɪˌliːtər/;밀리리터;ミリリットル;mi-li-li-tơ | ミリリットル;みりりっとる | mi-li-lít;미리릿;mee-lee-lit;ミリリット
+liter | 리터;riteo;リト;ri-tơ | liter;/ˈliːtər/;리터;リッター;li-tơ | リットル;りっとる | lít;릿;lit;リット
+degree | 도;do;ト;tô | degree;/dɪˈɡriː/;디그리;ディグリー;đi-gri | 度;ど | độ;도;doh;ドー
+percent | 퍼센트;peosenteu;ポセントゥ;pơ-xen-thư | percent;/pərˈsɛnt/;퍼센트;パーセント;pơ-xen | パーセント;ぱーせんと | phần trăm;펀 짬;fuhn chahm;ファン チャム
+square-meter | 제곱미터;jegommiteo;チェゴムミト;chê-gôm-mi-tơ | square meter;/skwɛr ˈmiːtər/;스퀘어 미터;スクエアメーター;xcoe mi-tơ | 平方メートル;へいほうめーとる | mét vuông;멧 부옹;met voo-ong;メット ヴオン
+piece | 개;gae;ケ;ke | piece;/piːs/;피스;ピース;pít | 個;こ | cái;까이;kai;カイ
+person-count | 명;myeong;ミョン;miơng | person;/ˈpɜːrsən/;퍼슨;パーソン;pơ-xần | 人;にん | người;응어이;nguh-oy;グオイ
+sheet | 장;jang;チャン;chang | sheet;/ʃiːt/;시트;シート;sít | 枚;まい | tờ;떠;tuh;トー
+copy | 권;gwon;クォン;quơn | copy;/ˈkɒpi/;카피;コピー;cóp-pi | 冊;さつ | quyển;꾸이엔;kwee-en;クイエン
+cup | 잔;jan;チャン;chan | cup;/kʌp/;컵;カップ;cấp | 杯;はい | ly;리;lee;リー
+bottle | 병;byeong;ピョン;piơng | bottle;/ˈbɒtəl/;보틀;ボトル;bót-tồ | 本;ほん | chai;짜이;chai;チャイ
++ko won | 원;won;ウォン;uơn | won (Korean currency);ウォン(韓国の通貨);won (tiền Hàn Quốc)
++ko mari | 마리;mari;マリ;ma-ri | counter for animals;動物を数える語;từ đếm con vật
++ko dae | 대;dae;テ;te | counter for cars and machines;車や機械を数える語;từ đếm xe, máy móc
++ko sal | 살;sal;サル;xan | years old (native Korean counter);歳(韓国固有語);tuổi (từ thuần Hàn)
++ko pyeong | 평;pyeong;ピョン;piơng | pyeong (floor area, about 3.3 m²);坪(約3.3㎡);pyeong (khoảng 3,3 m²)
++ja en | 円;えん | 엔 (일본 화폐);yen (Japanese currency);yên (tiền Nhật)
++ja hiki | 匹;ひき | 마리 (작은 동물을 세는 말);counter for small animals;từ đếm con vật nhỏ
++ja dai | 台;だい | 대 (차·기계를 세는 말);counter for cars and machines;từ đếm xe, máy móc
++ja sai | 歳;さい | 살 (나이);years old;tuổi
++ja hon | 本;ほん | 자루·병 (가늘고 긴 것을 세는 말);counter for long, thin things;từ đếm vật dài
++vi dong | đồng;동;dohng;ドン | 동 (베트남 화폐);dong (Vietnamese currency);ドン(ベトナムの通貨)
++vi con | con;꼰;kon;コン | 마리 (동물을 세는 말);classifier for animals;動物の類別詞
++vi chiec | chiếc;찌엑;chee-ek;チエック | 대·개 (차·물건을 세는 말);classifier for vehicles and objects;乗り物・物の類別詞
++vi tuoi | tuổi;뚜오이;too-oy;トゥオイ | 살 (나이);years old;歳
++en dollar | dollar;/ˈdɒlər/;달러;ドル;đô-la | 달러 (미국 화폐);ドル(アメリカの通貨);đô la (tiền Mỹ)
++en cent | cent;/sɛnt/;센트;セント;xen | 센트 (100분의 1달러);セント(1ドルの100分の1);xu (1/100 đô la)
++en inch | inch;/ɪntʃ/;인치;インチ;inh | 인치 (2.54cm);インチ(2.54cm);inch (2,54 cm)
++en foot | foot;/fʊt/;풋;フィート;phút | 피트 (30.48cm);フィート(30.48cm);foot (30,48 cm)
++en mile | mile;/maɪl/;마일;マイル;mai | 마일 (약 1.6km);マイル(約1.6km);dặm (khoảng 1,6 km)
++en pound | pound;/paʊnd/;파운드;ポンド;pao | 파운드 (약 454g);ポンド(約454g);pound (khoảng 454 g)
++en ounce | ounce;/aʊns/;온스;オンス;ao-xơ | 온스 (약 28g);オンス(約28g);ounce (khoảng 28 g)
++en gallon | gallon;/ˈɡælən/;갤런;ガロン;ghe-lần | 갤런 (약 3.8L);ガロン(約3.8L);gallon (khoảng 3,8 lít)
++en years-old | years old;/jɪrz oʊld/;이어즈 올드;イヤーズオールド;dia ôn | 살 (나이);歳;tuổi

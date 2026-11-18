@@ -1,0 +1,52 @@
+# 숫자: 0~10, 20~90, 100~1억, 반, 서수 + 한국어 고유어 수, 일본어 고유어 수
+zero | 영;yeong;ヨン;yơng | zero;/ˈzɪroʊ/;지로;ジロ;di-râu | ゼロ;ぜろ | không;콩;khohng;コン
+one | 일;il;イル;il | one;/wʌn/;원;ワン;oan | 一;いち | một;못;moht;モッ
+two | 이;i;イ;i | two;/tuː/;투;トゥー;tu | 二;に | hai;하이;high;ハイ
+three | 삼;sam;サム;xam | three;/θriː/;쓰리;スリー;thri | 三;さん | ba;바;bah;バー
+four | 사;sa;サ;xa | four;/fɔːr/;포;フォー;pho | 四;よん | bốn;본;bohn;ボン
+five | 오;o;オ;ô | five;/faɪv/;파이브;ファイブ;phai-vơ | 五;ご | năm;남;nahm;ナム
+six | 육;yuk;ユク;iúc | six;/sɪks/;식스;シックス;xích | 六;ろく | sáu;사우;sow;サウ
+seven | 칠;chil;チル;chin | seven;/ˈsɛvən/;세븐;セブン;xe-vần | 七;なな | bảy;바이;bye;バイ
+eight | 팔;pal;パル;pan | eight;/eɪt/;에이트;エイト;ây | 八;はち | tám;땀;tahm;タム
+nine | 구;gu;ク;cu | nine;/naɪn/;나인;ナイン;nai | 九;きゅう | chín;찐;chin;チン
+ten | 십;sip;シプ;xíp | ten;/tɛn/;텐;テン;ten | 十;じゅう | mười;므어이;muh-uh-ee;ムオイ
+twenty | 이십;isip;イシプ;i-xíp | twenty;/ˈtwɛnti/;트웬티;トゥエンティ;toen-ti | 二十;にじゅう | hai mươi;하이 므어이;high muh-uh-ee;ハイ ムオイ
+thirty | 삼십;samsip;サムシプ;xam-xíp | thirty;/ˈθɜːrti/;서티;サーティ;thơ-ti | 三十;さんじゅう | ba mươi;바 므어이;bah muh-uh-ee;バー ムオイ
+forty | 사십;sasip;サシプ;xa-xíp | forty;/ˈfɔːrti/;포티;フォーティ;pho-ti | 四十;よんじゅう | bốn mươi;본 므어이;bohn muh-uh-ee;ボン ムオイ
+fifty | 오십;osip;オシプ;ô-xíp | fifty;/ˈfɪfti/;피프티;フィフティ;phíp-ti | 五十;ごじゅう | năm mươi;남 므어이;nahm muh-uh-ee;ナム ムオイ
+sixty | 육십;yuksip;ユクシプ;iúc-xíp | sixty;/ˈsɪksti/;식스티;シックスティ;xích-ti | 六十;ろくじゅう | sáu mươi;사우 므어이;sow muh-uh-ee;サウ ムオイ
+seventy | 칠십;chilsip;チルシプ;chin-xíp | seventy;/ˈsɛvənti/;세븐티;セブンティ;xe-vần-ti | 七十;ななじゅう | bảy mươi;바이 므어이;bye muh-uh-ee;バイ ムオイ
+eighty | 팔십;palsip;パルシプ;pan-xíp | eighty;/ˈeɪti/;에이티;エイティ;ây-ti | 八十;はちじゅう | tám mươi;땀 므어이;tahm muh-uh-ee;タム ムオイ
+ninety | 구십;gusip;クシプ;cu-xíp | ninety;/ˈnaɪnti/;나인티;ナインティ;nai-ti | 九十;きゅうじゅう | chín mươi;찐 므어이;chin muh-uh-ee;チン ムオイ
+hundred | 백;baek;ペク;pẹc | hundred;/ˈhʌndrəd/;헌드레드;ハンドレッド;hân-đrợt | 百;ひゃく | một trăm;못 짬;moht chahm;モッ チャム
+thousand | 천;cheon;チョン;chơn | thousand;/ˈθaʊzənd/;사우전드;サウザンド;thao-dần | 千;せん | một nghìn;못 응인;moht ngin;モッ ギン
+ten-thousand | 만;man;マン;man | ten thousand;/tɛn ˈθaʊzənd/;텐 사우전드;テン サウザンド;ten thao-dần | 万;まん | mười nghìn;므어이 응인;muh-uh-ee ngin;ムオイ ギン
+hundred-thousand | 십만;simman;シムマン;xim-man | hundred thousand;/ˈhʌndrəd ˈθaʊzənd/;헌드레드 사우전드;ハンドレッド サウザンド;hân-đrợt thao-dần | 十万;じゅうまん | một trăm nghìn;못 짬 응인;moht chahm ngin;モッ チャム ギン
+million | 백만;baengman;ペンマン;peng-man | million;/ˈmɪljən/;밀리언;ミリオン;mi-li-ần | 百万;ひゃくまん | một triệu;못 찌에우;moht chee-ew;モッ チエウ
+hundred-million | 억;eok;オク;ơc | hundred million;/ˈhʌndrəd ˈmɪljən/;헌드레드 밀리언;ハンドレッド ミリオン;hân-đrợt mi-li-ần | 一億;いちおく | một trăm triệu;못 짬 찌에우;moht chahm chee-ew;モッ チャム チエウ
+half | 반;ban;パン;pan | half;/hæf/;해프;ハーフ;háp | 半分;はんぶん | một nửa;못 느어;moht nuh-uh;モッ ヌア
+first | 첫째;cheotjjae;チョッチェ;chớt-che | first;/fɜːrst/;퍼스트;ファースト;phơ-xt | 一番目;いちばんめ | thứ nhất;트 녓;tuh nyuht;トゥー ニャット
+second | 둘째;duljjae;トゥルチェ;tun-che | second;/ˈsɛkənd/;세컨드;セカンド;xe-cần | 二番目;にばんめ | thứ hai;트 하이;tuh high;トゥー ハイ
+last | 마지막;majimak;マジマク;ma-chi-mác | last;/læst/;래스트;ラスト;lát | 最後;さいご | cuối cùng;꾸오이 꿍;kwoy koong;クオイ クン
++ko hana | 하나;hana;ハナ;ha-na | one (native Korean number);ひとつ(韓国固有語の数);một (số thuần Hàn)
++ko dul | 둘;dul;トゥル;tun | two (native Korean number);ふたつ(韓国固有語の数);hai (số thuần Hàn)
++ko set | 셋;set;セッ;xết | three (native Korean number);みっつ(韓国固有語の数);ba (số thuần Hàn)
++ko net | 넷;net;ネッ;nết | four (native Korean number);よっつ(韓国固有語の数);bốn (số thuần Hàn)
++ko daseot | 다섯;daseot;タソッ;ta-xớt | five (native Korean number);いつつ(韓国固有語の数);năm (số thuần Hàn)
++ko yeoseot | 여섯;yeoseot;ヨソッ;iơ-xớt | six (native Korean number);むっつ(韓国固有語の数);sáu (số thuần Hàn)
++ko ilgop | 일곱;ilgop;イルゴプ;in-góp | seven (native Korean number);ななつ(韓国固有語の数);bảy (số thuần Hàn)
++ko yeodeol | 여덟;yeodeol;ヨドル;iơ-đơn | eight (native Korean number);やっつ(韓国固有語の数);tám (số thuần Hàn)
++ko ahop | 아홉;ahop;アホプ;a-hóp | nine (native Korean number);ここのつ(韓国固有語の数);chín (số thuần Hàn)
++ko yeol | 열;yeol;ヨル;iơn | ten (native Korean number);とお(韓国固有語の数);mười (số thuần Hàn)
++ko seumul | 스물;seumul;スムル;xư-mun | twenty (native Korean number);二十(韓国固有語の数);hai mươi (số thuần Hàn)
++ko seoreun | 서른;seoreun;ソルン;xơ-rưn | thirty (native Korean number);三十(韓国固有語の数);ba mươi (số thuần Hàn)
++ja hitotsu | ひとつ;ひとつ | 하나 (일본 고유어 수);one (native Japanese count);một (cách đếm thuần Nhật)
++ja futatsu | ふたつ;ふたつ | 둘 (일본 고유어 수);two (native Japanese count);hai (cách đếm thuần Nhật)
++ja mittsu | みっつ;みっつ | 셋 (일본 고유어 수);three (native Japanese count);ba (cách đếm thuần Nhật)
++ja yottsu | よっつ;よっつ | 넷 (일본 고유어 수);four (native Japanese count);bốn (cách đếm thuần Nhật)
++ja itsutsu | いつつ;いつつ | 다섯 (일본 고유어 수);five (native Japanese count);năm (cách đếm thuần Nhật)
++ja muttsu | むっつ;むっつ | 여섯 (일본 고유어 수);six (native Japanese count);sáu (cách đếm thuần Nhật)
++ja nanatsu | ななつ;ななつ | 일곱 (일본 고유어 수);seven (native Japanese count);bảy (cách đếm thuần Nhật)
++ja yattsu | やっつ;やっつ | 여덟 (일본 고유어 수);eight (native Japanese count);tám (cách đếm thuần Nhật)
++ja kokonotsu | ここのつ;ここのつ | 아홉 (일본 고유어 수);nine (native Japanese count);chín (cách đếm thuần Nhật)
++ja too | とお;とお | 열 (일본 고유어 수);ten (native Japanese count);mười (cách đếm thuần Nhật)

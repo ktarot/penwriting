@@ -1,0 +1,38 @@
+# 장소·교통: 탈것(버스·지하철·기차·택시·차·자전거·비행기), 정류장·역·공항·표·승강장·환승·입구·출구, 공공장소(병원·약국·은행·우체국·경찰서·학교·도서관·호텔·공원), 길 찾기(지도·신호등·횡단보도), 주차장·주유소, 화장실·엘리베이터·계단
+station | 역;yeok;ヨク;iơc | station;/ˈsteɪʃən/;스테이션;ステーション;xtây-sần | 駅;えき | nhà ga;냐 가;nyah gah;ニャー ガー
+bus | 버스;beoseu;ポス;bơ-xư | bus;/bʌs/;버스;バス;bớt | バス;ばす | xe buýt;쌔 부잇;seh bweet;セー ブイット
+bus-stop | 버스 정류장;beoseu jeongnyujang;ポス チョンニュジャン;bơ-xư chơng-niu-chang | bus stop;/ˈbʌs stɒp/;버스 스톱;バスストップ;bớt xtóp | バス停;ばすてい | trạm xe buýt;짬 쌔 부잇;chahm seh bweet;チャム セー ブイット
+subway | 지하철;jihacheol;チハチョル;chi-ha-chơn | subway;/ˈsʌbweɪ/;서브웨이;サブウェイ;xấp-uây | 地下鉄;ちかてつ | tàu điện ngầm;따우 디엔 응엄;tow dee-en nguhm;タウ ディエン グム
+train | 기차;gicha;キチャ;ki-cha | train;/treɪn/;트레인;トレイン;trây | 電車;でんしゃ | tàu hỏa;따우 화;tow hwah;タウ ホア
+taxi | 택시;taeksi;テクシ;thec-xi | taxi;/ˈtæksi/;택시;タクシー;tác-xi | タクシー;たくしー | tắc xi;딱 씨;tahk see;タック シー
+car | 자동차;jadongcha;チャドンチャ;cha-đông-cha | car;/kɑːr/;카;カー;ca | 車;くるま | ô tô;오 또;oh toh;オー トー
+bicycle | 자전거;jajeongeo;チャジョンゴ;cha-chơn-gơ | bicycle;/ˈbaɪsɪkəl/;바이시클;バイシクル;bai-xi-cồ | 自転車;じてんしゃ | xe đạp;쌔 답;seh dahp;セー ダップ
+airplane | 비행기;bihaenggi;ピヘンギ;bi-heng-ghi | airplane;/ˈɛrpleɪn/;에어플레인;エアプレーン;e-plây | 飛行機;ひこうき | máy bay;마이 바이;my bye;マイ バイ
+airport | 공항;gonghang;コンハン;công-hang | airport;/ˈɛrpɔːrt/;에어포트;エアポート;e-pót | 空港;くうこう | sân bay;선 바이;suhn bye;サン バイ
+ticket | 표;pyo;ピョ;piô | ticket;/ˈtɪkɪt/;티켓;チケット;tíc-kít | 切符;きっぷ | vé;배;veh;ヴェー
+platform | 승강장;seunggangjang;スンガンジャン;xưng-cang-chang | platform;/ˈplætfɔːrm/;플랫폼;プラットフォーム;plét-phom | ホーム;ほーむ | sân ga;선 가;suhn gah;サン ガー
+transfer | 환승;hwanseung;ファンスン;hoan-xưng | transfer;/ˈtrænsfɜːr/;트랜스퍼;トランスファー;tren-xphơ | 乗り換え;のりかえ | chuyển tàu;쭈이엔 따우;chwee-en tow;チュイエン タウ
+entrance | 입구;ipgu;イプク;íp-cu | entrance;/ˈɛntrəns/;엔트런스;エントランス;en-trần | 入口;いりぐち | lối vào;로이 바오;loy vow;ロイ ヴァオ
+exit | 출구;chulgu;チュルグ;chun-cu | exit;/ˈɛɡzɪt/;엑시트;エグジット;éc-dít | 出口;でぐち | lối ra;로이 자;loy zah;ロイ ザー
+restroom | 화장실;hwajangsil;ファジャンシル;hoa-chang-xin | restroom;/ˈrɛstruːm/;레스트룸;レストルーム;rét-rum | トイレ;といれ | nhà vệ sinh;냐 베 신;nyah veh sing;ニャー ヴェー シン
+hospital | 병원;byeongwon;ピョンウォン;piơng-uơn | hospital;/ˈhɒspɪtəl/;하스피털;ホスピタル;hót-pi-tồ | 病院;びょういん | bệnh viện;벵 비엔;benh vee-en;ベン ヴィエン
+pharmacy | 약국;yakguk;ヤックク;iác-cúc | pharmacy;/ˈfɑːrməsi/;파머시;ファーマシー;pha-mơ-xi | 薬局;やっきょく | nhà thuốc;냐 투옥;nyah too-ohk;ニャー トゥオック
+bank | 은행;eunhaeng;ウネン;ưn-heng | bank;/bæŋk/;뱅크;バンク;beng | 銀行;ぎんこう | ngân hàng;응언 항;nguhn hahng;ガン ハン
+post-office | 우체국;ucheguk;ウチェグク;u-chê-cúc | post office;/ˈpoʊst ˌɒfɪs/;포스트 오피스;ポストオフィス;pâu-xt ó-phít | 郵便局;ゆうびんきょく | bưu điện;브우 디엔;buh-oo dee-en;ブウ ディエン
+police-station | 경찰서;gyeongchalseo;キョンチャルソ;kiơng-chan-xơ | police station;/pəˈliːs ˈsteɪʃən/;폴리스 스테이션;ポリスステーション;pơ-lít xtây-sần | 警察署;けいさつしょ | đồn công an;돈 꽁 안;dohn kohng ahn;ドン コン アン
+school | 학교;hakgyo;ハッキョ;hắc-kiô | school;/skuːl/;스쿨;スクール;xcun | 学校;がっこう | trường học;쯔엉 혹;chuh-uhng hawk;チュオン ホック
+library | 도서관;doseogwan;トソグァン;tô-xơ-goan | library;/ˈlaɪbrɛri/;라이브러리;ライブラリー;lai-brơ-ri | 図書館;としょかん | thư viện;트 비엔;tuh vee-en;トゥー ヴィエン
+hotel | 호텔;hotel;ホテル;hô-ten | hotel;/hoʊˈtɛl/;호텔;ホテル;hâu-ten | ホテル;ほてる | khách sạn;카익 산;kahk sahn;カック サン
+park | 공원;gongwon;コンウォン;công-uơn | park;/pɑːrk/;파크;パーク;pác | 公園;こうえん | công viên;꽁 비엔;kohng vee-en;コン ヴィエン
+map | 지도;jido;チド;chi-đô | map;/mæp/;맵;マップ;mép | 地図;ちず | bản đồ;반 도;bahn doh;バン ドー
+traffic-light | 신호등;sinhodeung;シノドゥン;xin-hô-đưng | traffic light;/ˈtræfɪk laɪt/;트래픽 라이트;トラフィックライト;tre-phích lai | 信号;しんごう | đèn giao thông;댄 자오 통;den zow tohng;デン ザオ トン
+crosswalk | 횡단보도;hoengdanbodo;フェンダンボド;huêng-đan-bô-đô | crosswalk;/ˈkrɔːswɔːk/;크로스워크;クロスウォーク;cro-xuốc | 横断歩道;おうだんほどう | vạch qua đường;바익 꽈 드엉;vahk kwah duh-uhng;ヴァック クア ドゥオン
+parking-lot | 주차장;juchajang;チュチャジャン;chu-cha-chang | parking lot;/ˈpɑːrkɪŋ lɒt/;파킹 랏;パーキングロット;pa-kinh lót | 駐車場;ちゅうしゃじょう | bãi đỗ xe;바이 도 쌔;bye doh seh;バイ ドー セー
+gas-station | 주유소;juyuso;チュユソ;chu-iu-xô | gas station;/ˈɡæs ˌsteɪʃən/;개스 스테이션;ガスステーション;ghét xtây-sần | ガソリンスタンド;がそりんすたんど | cây xăng;꺼이 쌍;kay sahng;カイ サン
+elevator | 엘리베이터;ellibeiteo;エルリベイト;e-li-bây-tơ | elevator;/ˈɛlɪveɪtər/;엘리베이터;エレベーター;e-li-vây-tơ | エレベーター;えれべーたー | thang máy;탕 마이;tahng my;タン マイ
+stairs | 계단;gyedan;ケダン;kê-đan | stairs;/stɛrz/;스테어즈;ステアーズ;xte | 階段;かいだん | cầu thang;꺼우 탕;kow tahng;カウ タン
++ko gyotongkadeu | 교통카드;gyotongkadeu;キョトンカドゥ;kiô-thông-ca-đư | transit card;交通カード;thẻ giao thông
++ja ic-card | ICカード;あいしー かーど | 교통카드 (IC카드);transit IC card;thẻ IC giao thông
++ja koban | 交番;こうばん | 파출소;police box;đồn cảnh sát nhỏ
++vi xeom | xe ôm;쌔 옴;seh ohm;セー オム | 오토바이 택시;motorbike taxi;バイクタクシー
++vi xemay | xe máy;쌔 마이;seh my;セー マイ | 오토바이;motorbike;バイク

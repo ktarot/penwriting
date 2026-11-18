@@ -1,0 +1,44 @@
+# 음식·장보기: 물·밥·빵, 고기 종류, 생선·달걀·우유, 과일·채소, 양념, 음료, 국·면, 가격·돈·결제·영수증·봉투·할인, 가게 종류, 메뉴·계산 + 나라별 음식
+water | 물;mul;ムル;mun | water;/ˈwɔːtər/;워터;ウォーター;oa-tơ | 水;みず | nước;느억;nuh-uhk;ヌオック
+rice | 밥;bap;パプ;báp | rice;/raɪs/;라이스;ライス;rai-xơ | ご飯;ごはん | cơm;껌;kuhm;コム
+bread | 빵;ppang;パン;pang | bread;/brɛd/;브레드;ブレッド;brét | パン;ぱん | bánh mì;바잉 미;bahn mee;バイン ミー
+meat | 고기;gogi;コギ;cô-ghi | meat;/miːt/;미트;ミート;mít | 肉;にく | thịt;팃;tit;ティット
+beef | 소고기;sogogi;ソゴギ;xô-gô-ghi | beef;/biːf/;비프;ビーフ;bíp | 牛肉;ぎゅうにく | thịt bò;팃 보;tit baw;ティット ボー
+pork | 돼지고기;dwaejigogi;テジゴギ;tuê-chi-gô-ghi | pork;/pɔːrk/;포크;ポーク;póc | 豚肉;ぶたにく | thịt lợn;팃 런;tit luhn;ティット ロン
+chicken | 닭고기;dakgogi;タッコギ;tác-cô-ghi | chicken;/ˈtʃɪkɪn/;치킨;チキン;chi-kin | 鶏肉;とりにく | thịt gà;팃 가;tit gah;ティット ガー
+fish | 생선;saengseon;センソン;xeng-xơn | fish;/fɪʃ/;피시;フィッシュ;phít | 魚;さかな | cá;까;kah;カー
+egg | 달걀;dalgyal;タルギャル;tan-giăn | egg;/ɛɡ/;에그;エッグ;éc | 卵;たまご | trứng;쯩;chuhng;チュン
+milk | 우유;uyu;ウユ;u-iu | milk;/mɪlk/;밀크;ミルク;miu | 牛乳;ぎゅうにゅう | sữa;스어;suh-uh;スア
+fruit | 과일;gwail;クァイル;goa-in | fruit;/fruːt/;프루트;フルーツ;phrút | 果物;くだもの | trái cây;짜이 꺼이;chai kay;チャイ カイ
+apple | 사과;sagwa;サグァ;xa-goa | apple;/ˈæpəl/;애플;アップル;áp-pồ | りんご;りんご | táo;따오;tow;タオ
+banana | 바나나;banana;バナナ;ba-na-na | banana;/bəˈnænə/;바나나;バナナ;bơ-ne-nơ | バナナ;ばなな | chuối;쭈오이;choo-oy;チュオイ
+vegetable | 채소;chaeso;チェソ;che-xô | vegetable;/ˈvɛdʒtəbəl/;베지터블;ベジタブル;ve-giơ-tơ-bồ | 野菜;やさい | rau;자우;zow;ザウ
+salt | 소금;sogeum;ソグム;xô-gưm | salt;/sɔːlt/;솔트;ソルト;xôn | 塩;しお | muối;무오이;moo-oy;ムオイ
+sugar | 설탕;seoltang;ソルタン;xơn-thang | sugar;/ˈʃʊɡər/;슈거;シュガー;sú-gơ | 砂糖;さとう | đường;드엉;duh-uhng;ドゥオン
+coffee | 커피;keopi;コピ;cơ-pi | coffee;/ˈkɔːfi/;커피;コーヒー;cò-phi | コーヒー;こーひー | cà phê;까 페;kah feh;カー フェー
+tea | 차;cha;チャ;cha | tea;/tiː/;티;ティー;ti | お茶;おちゃ | trà;짜;chah;チャー
+juice | 주스;juseu;チュス;chu-xư | juice;/dʒuːs/;주스;ジュース;giút | ジュース;じゅーす | nước ép;느억 앱;nuh-uhk ep;ヌオック エップ
+soup | 국;guk;クク;cúc | soup;/suːp/;수프;スープ;xúp | スープ;すーぷ | canh;까잉;kahn;カイン
+noodles | 국수;guksu;ククス;cúc-xu | noodles;/ˈnuːdəlz/;누들스;ヌードルズ;nu-đồ | 麺;めん | mì;미;mee;ミー
+price | 가격;gagyeok;カギョク;ca-giơc | price;/praɪs/;프라이스;プライス;prai-xơ | 値段;ねだん | giá;자;zah;ザー
+money | 돈;don;トン;tôn | money;/ˈmʌni/;머니;マネー;mân-ni | お金;おかね | tiền;띠엔;tee-en;ティエン
+cash | 현금;hyeongeum;ヒョングム;hiơn-gưm | cash;/kæʃ/;캐시;キャッシュ;két | 現金;げんきん | tiền mặt;띠엔 맛;tee-en maht;ティエン マット
+card | 카드;kadeu;カドゥ;ca-đư | card;/kɑːrd/;카드;カード;cát | カード;かーど | thẻ;테;teh;テー
+receipt | 영수증;yeongsujeung;ヨンスジュン;iơng-xu-chưng | receipt;/rɪˈsiːt/;리시트;レシート;ri-xít | レシート;れしーと | hóa đơn;화 던;hwah duhn;ホア ドン
+bag | 봉투;bongtu;ポントゥ;bông-thu | bag;/bæɡ/;백;バッグ;béc | 袋;ふくろ | túi;뚜이;tooy;トゥイ
+discount | 할인;harin;ハリン;ha-rin | discount;/ˈdɪskaʊnt/;디스카운트;ディスカウント;đít-cao | 割引;わりびき | giảm giá;잠 자;zahm zah;ザム ザー
+market | 시장;sijang;シジャン;xi-chang | market;/ˈmɑːrkɪt/;마켓;マーケット;ma-kít | 市場;いちば | chợ;쩌;chuh;チョー
+supermarket | 슈퍼마켓;syupeomaket;シュポマケッ;xiu-pơ-ma-két | supermarket;/ˈsuːpərˌmɑːrkɪt/;슈퍼마켓;スーパーマーケット;xu-pơ-ma-kít | スーパー;すーぱー | siêu thị;시에우 티;see-ew tee;シエウ ティー
+convenience-store | 편의점;pyeonuijeom;ピョニジョム;piơ-ni-chơm | convenience store;/kənˈviːniəns stɔːr/;컨비니언스 스토어;コンビニエンスストア;cân-vi-ni-ần xto | コンビニ;こんびに | cửa hàng tiện lợi;끄어 항 띠엔 러이;kuh-uh hahng tee-en loy;クア ハン ティエン ロイ
+restaurant | 식당;sikdang;シクタン;xíc-tang | restaurant;/ˈrɛstərɒnt/;레스토랑;レストラン;rét-tơ-răng | レストラン;れすとらん | nhà hàng;냐 항;nyah hahng;ニャー ハン
+menu | 메뉴;menyu;メニュ;mê-niu | menu;/ˈmɛnjuː/;메뉴;メニュー;me-niu | メニュー;めにゅー | thực đơn;특 던;tuhk duhn;トゥック ドン
+bill | 계산;gyesan;ケサン;kê-xan | bill;/bɪl/;빌;ビル;biu | お会計;おかいけい | tính tiền;띵 띠엔;ting tee-en;ティン ティエン
++ko kimchi | 김치;gimchi;キムチ;kim-chi | kimchi (fermented vegetables);キムチ;kim chi
++ko banchan | 반찬;banchan;パンチャン;ban-chan | side dishes;おかず;món ăn kèm
++ko tteok | 떡;tteok;トク;tốc | rice cake;餅(トック);bánh gạo
++ja misoshiru | 味噌汁;みそしる | 된장국;miso soup;canh miso
++ja bento | お弁当;おべんとう | 도시락;boxed lunch;cơm hộp
++ja onigiri | おにぎり;おにぎり | 주먹밥;rice ball;cơm nắm
++vi pho | phở;퍼;fuh;フォー | 쌀국수;rice noodle soup;フォー(米麺のスープ)
++vi bun | bún;분;boon;ブン | 가는 쌀국수;rice vermicelli;ブン(細い米麺)
++vi nuocmam | nước mắm;느억 맘;nuh-uhk mahm;ヌオック マム | 생선 소스;fish sauce;魚醤

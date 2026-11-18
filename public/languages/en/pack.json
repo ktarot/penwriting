@@ -1,6 +1,6 @@
 {
  "language": "en",
- "version": "0.2.0",
+ "version": "0.3.0",
  "locale": "en-US",
  "review": {
   "status": "draft",
@@ -952,7 +952,7 @@
    },
    "items": [
     {
-     "id": "en-w-numbers-01",
+     "id": "en-w-numbers-zero",
      "language": "en",
      "level": "word",
      "text": "zero",
@@ -973,7 +973,7 @@
      }
     },
     {
-     "id": "en-w-numbers-02",
+     "id": "en-w-numbers-one",
      "language": "en",
      "level": "word",
      "text": "one",
@@ -994,7 +994,7 @@
      }
     },
     {
-     "id": "en-w-numbers-03",
+     "id": "en-w-numbers-two",
      "language": "en",
      "level": "word",
      "text": "two",
@@ -1015,7 +1015,7 @@
      }
     },
     {
-     "id": "en-w-numbers-04",
+     "id": "en-w-numbers-three",
      "language": "en",
      "level": "word",
      "text": "three",
@@ -1036,7 +1036,7 @@
      }
     },
     {
-     "id": "en-w-numbers-05",
+     "id": "en-w-numbers-four",
      "language": "en",
      "level": "word",
      "text": "four",
@@ -1057,7 +1057,7 @@
      }
     },
     {
-     "id": "en-w-numbers-06",
+     "id": "en-w-numbers-five",
      "language": "en",
      "level": "word",
      "text": "five",
@@ -1078,7 +1078,91 @@
      }
     },
     {
-     "id": "en-w-numbers-07",
+     "id": "en-w-numbers-six",
+     "language": "en",
+     "level": "word",
+     "text": "six",
+     "standardReading": "/sɪks/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "식스",
+       "meaning": "육"
+      },
+      "ja": {
+       "pronunciation": "シックス",
+       "meaning": "六"
+      },
+      "vi": {
+       "pronunciation": "xích",
+       "meaning": "sáu"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-seven",
+     "language": "en",
+     "level": "word",
+     "text": "seven",
+     "standardReading": "/ˈsɛvən/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "세븐",
+       "meaning": "칠"
+      },
+      "ja": {
+       "pronunciation": "セブン",
+       "meaning": "七"
+      },
+      "vi": {
+       "pronunciation": "xe-vần",
+       "meaning": "bảy"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-eight",
+     "language": "en",
+     "level": "word",
+     "text": "eight",
+     "standardReading": "/eɪt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "에이트",
+       "meaning": "팔"
+      },
+      "ja": {
+       "pronunciation": "エイト",
+       "meaning": "八"
+      },
+      "vi": {
+       "pronunciation": "ây",
+       "meaning": "tám"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-nine",
+     "language": "en",
+     "level": "word",
+     "text": "nine",
+     "standardReading": "/naɪn/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "나인",
+       "meaning": "구"
+      },
+      "ja": {
+       "pronunciation": "ナイン",
+       "meaning": "九"
+      },
+      "vi": {
+       "pronunciation": "nai",
+       "meaning": "chín"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-ten",
      "language": "en",
      "level": "word",
      "text": "ten",
@@ -1099,7 +1183,175 @@
      }
     },
     {
-     "id": "en-w-numbers-08",
+     "id": "en-w-numbers-twenty",
+     "language": "en",
+     "level": "word",
+     "text": "twenty",
+     "standardReading": "/ˈtwɛnti/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "트웬티",
+       "meaning": "이십"
+      },
+      "ja": {
+       "pronunciation": "トゥエンティ",
+       "meaning": "二十"
+      },
+      "vi": {
+       "pronunciation": "toen-ti",
+       "meaning": "hai mươi"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-thirty",
+     "language": "en",
+     "level": "word",
+     "text": "thirty",
+     "standardReading": "/ˈθɜːrti/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "서티",
+       "meaning": "삼십"
+      },
+      "ja": {
+       "pronunciation": "サーティ",
+       "meaning": "三十"
+      },
+      "vi": {
+       "pronunciation": "thơ-ti",
+       "meaning": "ba mươi"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-forty",
+     "language": "en",
+     "level": "word",
+     "text": "forty",
+     "standardReading": "/ˈfɔːrti/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "포티",
+       "meaning": "사십"
+      },
+      "ja": {
+       "pronunciation": "フォーティ",
+       "meaning": "四十"
+      },
+      "vi": {
+       "pronunciation": "pho-ti",
+       "meaning": "bốn mươi"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-fifty",
+     "language": "en",
+     "level": "word",
+     "text": "fifty",
+     "standardReading": "/ˈfɪfti/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "피프티",
+       "meaning": "오십"
+      },
+      "ja": {
+       "pronunciation": "フィフティ",
+       "meaning": "五十"
+      },
+      "vi": {
+       "pronunciation": "phíp-ti",
+       "meaning": "năm mươi"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-sixty",
+     "language": "en",
+     "level": "word",
+     "text": "sixty",
+     "standardReading": "/ˈsɪksti/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "식스티",
+       "meaning": "육십"
+      },
+      "ja": {
+       "pronunciation": "シックスティ",
+       "meaning": "六十"
+      },
+      "vi": {
+       "pronunciation": "xích-ti",
+       "meaning": "sáu mươi"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-seventy",
+     "language": "en",
+     "level": "word",
+     "text": "seventy",
+     "standardReading": "/ˈsɛvənti/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "세븐티",
+       "meaning": "칠십"
+      },
+      "ja": {
+       "pronunciation": "セブンティ",
+       "meaning": "七十"
+      },
+      "vi": {
+       "pronunciation": "xe-vần-ti",
+       "meaning": "bảy mươi"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-eighty",
+     "language": "en",
+     "level": "word",
+     "text": "eighty",
+     "standardReading": "/ˈeɪti/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "에이티",
+       "meaning": "팔십"
+      },
+      "ja": {
+       "pronunciation": "エイティ",
+       "meaning": "八十"
+      },
+      "vi": {
+       "pronunciation": "ây-ti",
+       "meaning": "tám mươi"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-ninety",
+     "language": "en",
+     "level": "word",
+     "text": "ninety",
+     "standardReading": "/ˈnaɪnti/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "나인티",
+       "meaning": "구십"
+      },
+      "ja": {
+       "pronunciation": "ナインティ",
+       "meaning": "九十"
+      },
+      "vi": {
+       "pronunciation": "nai-ti",
+       "meaning": "chín mươi"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-hundred",
      "language": "en",
      "level": "word",
      "text": "hundred",
@@ -1120,7 +1372,7 @@
      }
     },
     {
-     "id": "en-w-numbers-09",
+     "id": "en-w-numbers-thousand",
      "language": "en",
      "level": "word",
      "text": "thousand",
@@ -1141,7 +1393,7 @@
      }
     },
     {
-     "id": "en-w-numbers-10",
+     "id": "en-w-numbers-ten-thousand",
      "language": "en",
      "level": "word",
      "text": "ten thousand",
@@ -1160,6 +1412,153 @@
        "meaning": "mười nghìn"
       }
      }
+    },
+    {
+     "id": "en-w-numbers-hundred-thousand",
+     "language": "en",
+     "level": "word",
+     "text": "hundred thousand",
+     "standardReading": "/ˈhʌndrəd ˈθaʊzənd/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "헌드레드 사우전드",
+       "meaning": "십만"
+      },
+      "ja": {
+       "pronunciation": "ハンドレッド サウザンド",
+       "meaning": "十万"
+      },
+      "vi": {
+       "pronunciation": "hân-đrợt thao-dần",
+       "meaning": "một trăm nghìn"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-million",
+     "language": "en",
+     "level": "word",
+     "text": "million",
+     "standardReading": "/ˈmɪljən/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "밀리언",
+       "meaning": "백만"
+      },
+      "ja": {
+       "pronunciation": "ミリオン",
+       "meaning": "百万"
+      },
+      "vi": {
+       "pronunciation": "mi-li-ần",
+       "meaning": "một triệu"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-hundred-million",
+     "language": "en",
+     "level": "word",
+     "text": "hundred million",
+     "standardReading": "/ˈhʌndrəd ˈmɪljən/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "헌드레드 밀리언",
+       "meaning": "억"
+      },
+      "ja": {
+       "pronunciation": "ハンドレッド ミリオン",
+       "meaning": "一億"
+      },
+      "vi": {
+       "pronunciation": "hân-đrợt mi-li-ần",
+       "meaning": "một trăm triệu"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-half",
+     "language": "en",
+     "level": "word",
+     "text": "half",
+     "standardReading": "/hæf/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "해프",
+       "meaning": "반"
+      },
+      "ja": {
+       "pronunciation": "ハーフ",
+       "meaning": "半分"
+      },
+      "vi": {
+       "pronunciation": "háp",
+       "meaning": "một nửa"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-first",
+     "language": "en",
+     "level": "word",
+     "text": "first",
+     "standardReading": "/fɜːrst/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "퍼스트",
+       "meaning": "첫째"
+      },
+      "ja": {
+       "pronunciation": "ファースト",
+       "meaning": "一番目"
+      },
+      "vi": {
+       "pronunciation": "phơ-xt",
+       "meaning": "thứ nhất"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-second",
+     "language": "en",
+     "level": "word",
+     "text": "second",
+     "standardReading": "/ˈsɛkənd/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "세컨드",
+       "meaning": "둘째"
+      },
+      "ja": {
+       "pronunciation": "セカンド",
+       "meaning": "二番目"
+      },
+      "vi": {
+       "pronunciation": "xe-cần",
+       "meaning": "thứ hai"
+      }
+     }
+    },
+    {
+     "id": "en-w-numbers-last",
+     "language": "en",
+     "level": "word",
+     "text": "last",
+     "standardReading": "/læst/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "래스트",
+       "meaning": "마지막"
+      },
+      "ja": {
+       "pronunciation": "ラスト",
+       "meaning": "最後"
+      },
+      "vi": {
+       "pronunciation": "lát",
+       "meaning": "cuối cùng"
+      }
+     }
     }
    ]
   },
@@ -1174,28 +1573,28 @@
    },
    "items": [
     {
-     "id": "en-w-units-01",
+     "id": "en-w-units-millimeter",
      "language": "en",
      "level": "word",
-     "text": "meter",
-     "standardReading": "/ˈmiːtər/",
+     "text": "millimeter",
+     "standardReading": "/ˈmɪlɪˌmiːtər/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "미터",
-       "meaning": "미터"
+       "pronunciation": "밀리미터",
+       "meaning": "밀리미터"
       },
       "ja": {
-       "pronunciation": "メーター",
-       "meaning": "メートル"
+       "pronunciation": "ミリメーター",
+       "meaning": "ミリ"
       },
       "vi": {
-       "pronunciation": "mi-tơ",
-       "meaning": "mét"
+       "pronunciation": "mi-li-mi-tơ",
+       "meaning": "mi-li-mét"
       }
      }
     },
     {
-     "id": "en-w-units-02",
+     "id": "en-w-units-centimeter",
      "language": "en",
      "level": "word",
      "text": "centimeter",
@@ -1216,7 +1615,28 @@
      }
     },
     {
-     "id": "en-w-units-03",
+     "id": "en-w-units-meter",
+     "language": "en",
+     "level": "word",
+     "text": "meter",
+     "standardReading": "/ˈmiːtər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "미터",
+       "meaning": "미터"
+      },
+      "ja": {
+       "pronunciation": "メーター",
+       "meaning": "メートル"
+      },
+      "vi": {
+       "pronunciation": "mi-tơ",
+       "meaning": "mét"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-kilometer",
      "language": "en",
      "level": "word",
      "text": "kilometer",
@@ -1237,28 +1657,7 @@
      }
     },
     {
-     "id": "en-w-units-04",
-     "language": "en",
-     "level": "word",
-     "text": "kilogram",
-     "standardReading": "/ˈkɪləɡræm/",
-     "nativeGuides": {
-      "ko": {
-       "pronunciation": "킬로그램",
-       "meaning": "킬로그램"
-      },
-      "ja": {
-       "pronunciation": "キログラム",
-       "meaning": "キログラム"
-      },
-      "vi": {
-       "pronunciation": "ki-lô-grem",
-       "meaning": "ki-lô-gam"
-      }
-     }
-    },
-    {
-     "id": "en-w-units-05",
+     "id": "en-w-units-gram",
      "language": "en",
      "level": "word",
      "text": "gram",
@@ -1279,7 +1678,70 @@
      }
     },
     {
-     "id": "en-w-units-06",
+     "id": "en-w-units-kilogram",
+     "language": "en",
+     "level": "word",
+     "text": "kilogram",
+     "standardReading": "/ˈkɪləɡræm/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "킬로그램",
+       "meaning": "킬로그램"
+      },
+      "ja": {
+       "pronunciation": "キログラム",
+       "meaning": "キログラム"
+      },
+      "vi": {
+       "pronunciation": "ki-lô-grem",
+       "meaning": "ki-lô-gam"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-ton",
+     "language": "en",
+     "level": "word",
+     "text": "ton",
+     "standardReading": "/tʌn/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "톤",
+       "meaning": "톤"
+      },
+      "ja": {
+       "pronunciation": "トン",
+       "meaning": "トン"
+      },
+      "vi": {
+       "pronunciation": "tân",
+       "meaning": "tấn"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-milliliter",
+     "language": "en",
+     "level": "word",
+     "text": "milliliter",
+     "standardReading": "/ˈmɪlɪˌliːtər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "밀리리터",
+       "meaning": "밀리리터"
+      },
+      "ja": {
+       "pronunciation": "ミリリットル",
+       "meaning": "ミリリットル"
+      },
+      "vi": {
+       "pronunciation": "mi-li-li-tơ",
+       "meaning": "mi-li-lít"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-liter",
      "language": "en",
      "level": "word",
      "text": "liter",
@@ -1300,28 +1762,7 @@
      }
     },
     {
-     "id": "en-w-units-07",
-     "language": "en",
-     "level": "word",
-     "text": "percent",
-     "standardReading": "/pərˈsɛnt/",
-     "nativeGuides": {
-      "ko": {
-       "pronunciation": "퍼센트",
-       "meaning": "퍼센트"
-      },
-      "ja": {
-       "pronunciation": "パーセント",
-       "meaning": "パーセント"
-      },
-      "vi": {
-       "pronunciation": "pơ-xen",
-       "meaning": "phần trăm"
-      }
-     }
-    },
-    {
-     "id": "en-w-units-08",
+     "id": "en-w-units-degree",
      "language": "en",
      "level": "word",
      "text": "degree",
@@ -1342,44 +1783,359 @@
      }
     },
     {
-     "id": "en-w-units-09",
+     "id": "en-w-units-percent",
      "language": "en",
      "level": "word",
-     "text": "hour",
-     "standardReading": "/ˈaʊər/",
+     "text": "percent",
+     "standardReading": "/pərˈsɛnt/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "아워",
-       "meaning": "시간"
+       "pronunciation": "퍼센트",
+       "meaning": "퍼센트"
       },
       "ja": {
-       "pronunciation": "アワー",
-       "meaning": "時間"
+       "pronunciation": "パーセント",
+       "meaning": "パーセント"
       },
       "vi": {
-       "pronunciation": "ao-ơ",
-       "meaning": "giờ"
+       "pronunciation": "pơ-xen",
+       "meaning": "phần trăm"
       }
      }
     },
     {
-     "id": "en-w-units-10",
+     "id": "en-w-units-square-meter",
      "language": "en",
      "level": "word",
-     "text": "minute",
-     "standardReading": "/ˈmɪnɪt/",
+     "text": "square meter",
+     "standardReading": "/skwɛr ˈmiːtər/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "미닛",
-       "meaning": "분"
+       "pronunciation": "스퀘어 미터",
+       "meaning": "제곱미터"
       },
       "ja": {
-       "pronunciation": "ミニット",
-       "meaning": "分"
+       "pronunciation": "スクエアメーター",
+       "meaning": "平方メートル"
       },
       "vi": {
-       "pronunciation": "mi-nít",
-       "meaning": "phút"
+       "pronunciation": "xcoe mi-tơ",
+       "meaning": "mét vuông"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-piece",
+     "language": "en",
+     "level": "word",
+     "text": "piece",
+     "standardReading": "/piːs/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "피스",
+       "meaning": "개"
+      },
+      "ja": {
+       "pronunciation": "ピース",
+       "meaning": "個"
+      },
+      "vi": {
+       "pronunciation": "pít",
+       "meaning": "cái"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-person-count",
+     "language": "en",
+     "level": "word",
+     "text": "person",
+     "standardReading": "/ˈpɜːrsən/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "퍼슨",
+       "meaning": "명"
+      },
+      "ja": {
+       "pronunciation": "パーソン",
+       "meaning": "人"
+      },
+      "vi": {
+       "pronunciation": "pơ-xần",
+       "meaning": "người"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-sheet",
+     "language": "en",
+     "level": "word",
+     "text": "sheet",
+     "standardReading": "/ʃiːt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "시트",
+       "meaning": "장"
+      },
+      "ja": {
+       "pronunciation": "シート",
+       "meaning": "枚"
+      },
+      "vi": {
+       "pronunciation": "sít",
+       "meaning": "tờ"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-copy",
+     "language": "en",
+     "level": "word",
+     "text": "copy",
+     "standardReading": "/ˈkɒpi/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카피",
+       "meaning": "권"
+      },
+      "ja": {
+       "pronunciation": "コピー",
+       "meaning": "冊"
+      },
+      "vi": {
+       "pronunciation": "cóp-pi",
+       "meaning": "quyển"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-cup",
+     "language": "en",
+     "level": "word",
+     "text": "cup",
+     "standardReading": "/kʌp/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "컵",
+       "meaning": "잔"
+      },
+      "ja": {
+       "pronunciation": "カップ",
+       "meaning": "杯"
+      },
+      "vi": {
+       "pronunciation": "cấp",
+       "meaning": "ly"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-bottle",
+     "language": "en",
+     "level": "word",
+     "text": "bottle",
+     "standardReading": "/ˈbɒtəl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "보틀",
+       "meaning": "병"
+      },
+      "ja": {
+       "pronunciation": "ボトル",
+       "meaning": "本"
+      },
+      "vi": {
+       "pronunciation": "bót-tồ",
+       "meaning": "chai"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-dollar",
+     "language": "en",
+     "level": "word",
+     "text": "dollar",
+     "standardReading": "/ˈdɒlər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "달러",
+       "meaning": "달러 (미국 화폐)"
+      },
+      "ja": {
+       "pronunciation": "ドル",
+       "meaning": "ドル(アメリカの通貨)"
+      },
+      "vi": {
+       "pronunciation": "đô-la",
+       "meaning": "đô la (tiền Mỹ)"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-cent",
+     "language": "en",
+     "level": "word",
+     "text": "cent",
+     "standardReading": "/sɛnt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "센트",
+       "meaning": "센트 (100분의 1달러)"
+      },
+      "ja": {
+       "pronunciation": "セント",
+       "meaning": "セント(1ドルの100分の1)"
+      },
+      "vi": {
+       "pronunciation": "xen",
+       "meaning": "xu (1/100 đô la)"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-inch",
+     "language": "en",
+     "level": "word",
+     "text": "inch",
+     "standardReading": "/ɪntʃ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "인치",
+       "meaning": "인치 (2.54cm)"
+      },
+      "ja": {
+       "pronunciation": "インチ",
+       "meaning": "インチ(2.54cm)"
+      },
+      "vi": {
+       "pronunciation": "inh",
+       "meaning": "inch (2,54 cm)"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-foot",
+     "language": "en",
+     "level": "word",
+     "text": "foot",
+     "standardReading": "/fʊt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "풋",
+       "meaning": "피트 (30.48cm)"
+      },
+      "ja": {
+       "pronunciation": "フィート",
+       "meaning": "フィート(30.48cm)"
+      },
+      "vi": {
+       "pronunciation": "phút",
+       "meaning": "foot (30,48 cm)"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-mile",
+     "language": "en",
+     "level": "word",
+     "text": "mile",
+     "standardReading": "/maɪl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "마일",
+       "meaning": "마일 (약 1.6km)"
+      },
+      "ja": {
+       "pronunciation": "マイル",
+       "meaning": "マイル(約1.6km)"
+      },
+      "vi": {
+       "pronunciation": "mai",
+       "meaning": "dặm (khoảng 1,6 km)"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-pound",
+     "language": "en",
+     "level": "word",
+     "text": "pound",
+     "standardReading": "/paʊnd/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "파운드",
+       "meaning": "파운드 (약 454g)"
+      },
+      "ja": {
+       "pronunciation": "ポンド",
+       "meaning": "ポンド(約454g)"
+      },
+      "vi": {
+       "pronunciation": "pao",
+       "meaning": "pound (khoảng 454 g)"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-ounce",
+     "language": "en",
+     "level": "word",
+     "text": "ounce",
+     "standardReading": "/aʊns/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "온스",
+       "meaning": "온스 (약 28g)"
+      },
+      "ja": {
+       "pronunciation": "オンス",
+       "meaning": "オンス(約28g)"
+      },
+      "vi": {
+       "pronunciation": "ao-xơ",
+       "meaning": "ounce (khoảng 28 g)"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-gallon",
+     "language": "en",
+     "level": "word",
+     "text": "gallon",
+     "standardReading": "/ˈɡælən/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "갤런",
+       "meaning": "갤런 (약 3.8L)"
+      },
+      "ja": {
+       "pronunciation": "ガロン",
+       "meaning": "ガロン(約3.8L)"
+      },
+      "vi": {
+       "pronunciation": "ghe-lần",
+       "meaning": "gallon (khoảng 3,8 lít)"
+      }
+     }
+    },
+    {
+     "id": "en-w-units-years-old",
+     "language": "en",
+     "level": "word",
+     "text": "years old",
+     "standardReading": "/jɪrz oʊld/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이어즈 올드",
+       "meaning": "살 (나이)"
+      },
+      "ja": {
+       "pronunciation": "イヤーズオールド",
+       "meaning": "歳"
+      },
+      "vi": {
+       "pronunciation": "dia ôn",
+       "meaning": "tuổi"
       }
      }
     }
@@ -1396,7 +2152,7 @@
    },
    "items": [
     {
-     "id": "en-w-directions-01",
+     "id": "en-w-directions-east",
      "language": "en",
      "level": "word",
      "text": "east",
@@ -1417,7 +2173,7 @@
      }
     },
     {
-     "id": "en-w-directions-02",
+     "id": "en-w-directions-west",
      "language": "en",
      "level": "word",
      "text": "west",
@@ -1438,7 +2194,7 @@
      }
     },
     {
-     "id": "en-w-directions-03",
+     "id": "en-w-directions-south",
      "language": "en",
      "level": "word",
      "text": "south",
@@ -1459,7 +2215,7 @@
      }
     },
     {
-     "id": "en-w-directions-04",
+     "id": "en-w-directions-north",
      "language": "en",
      "level": "word",
      "text": "north",
@@ -1480,7 +2236,7 @@
      }
     },
     {
-     "id": "en-w-directions-05",
+     "id": "en-w-directions-left",
      "language": "en",
      "level": "word",
      "text": "left",
@@ -1501,7 +2257,7 @@
      }
     },
     {
-     "id": "en-w-directions-06",
+     "id": "en-w-directions-right",
      "language": "en",
      "level": "word",
      "text": "right",
@@ -1522,7 +2278,7 @@
      }
     },
     {
-     "id": "en-w-directions-07",
+     "id": "en-w-directions-up",
      "language": "en",
      "level": "word",
      "text": "up",
@@ -1543,7 +2299,7 @@
      }
     },
     {
-     "id": "en-w-directions-08",
+     "id": "en-w-directions-down",
      "language": "en",
      "level": "word",
      "text": "down",
@@ -1564,7 +2320,7 @@
      }
     },
     {
-     "id": "en-w-directions-09",
+     "id": "en-w-directions-front",
      "language": "en",
      "level": "word",
      "text": "front",
@@ -1585,7 +2341,7 @@
      }
     },
     {
-     "id": "en-w-directions-10",
+     "id": "en-w-directions-back",
      "language": "en",
      "level": "word",
      "text": "back",
@@ -1604,6 +2360,321 @@
        "meaning": "sau"
       }
      }
+    },
+    {
+     "id": "en-w-directions-inside",
+     "language": "en",
+     "level": "word",
+     "text": "inside",
+     "standardReading": "/ɪnˈsaɪd/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "인사이드",
+       "meaning": "안"
+      },
+      "ja": {
+       "pronunciation": "インサイド",
+       "meaning": "中"
+      },
+      "vi": {
+       "pronunciation": "in-xai",
+       "meaning": "trong"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-outside",
+     "language": "en",
+     "level": "word",
+     "text": "outside",
+     "standardReading": "/ˌaʊtˈsaɪd/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아웃사이드",
+       "meaning": "밖"
+      },
+      "ja": {
+       "pronunciation": "アウトサイド",
+       "meaning": "外"
+      },
+      "vi": {
+       "pronunciation": "ao-xai",
+       "meaning": "ngoài"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-next-to",
+     "language": "en",
+     "level": "word",
+     "text": "next to",
+     "standardReading": "/ˈnɛkst tuː/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "넥스트 투",
+       "meaning": "옆"
+      },
+      "ja": {
+       "pronunciation": "ネクストトゥー",
+       "meaning": "隣"
+      },
+      "vi": {
+       "pronunciation": "néc-xtu",
+       "meaning": "bên cạnh"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-between",
+     "language": "en",
+     "level": "word",
+     "text": "between",
+     "standardReading": "/bɪˈtwiːn/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "비트윈",
+       "meaning": "사이"
+      },
+      "ja": {
+       "pronunciation": "ビトウィーン",
+       "meaning": "間"
+      },
+      "vi": {
+       "pronunciation": "bi-tuyn",
+       "meaning": "giữa"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-across",
+     "language": "en",
+     "level": "word",
+     "text": "across from",
+     "standardReading": "/əˈkrɒs frəm/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "어크로스 프럼",
+       "meaning": "맞은편"
+      },
+      "ja": {
+       "pronunciation": "アクロスフロム",
+       "meaning": "向かい"
+      },
+      "vi": {
+       "pronunciation": "ơ-crót phrâm",
+       "meaning": "đối diện"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-middle",
+     "language": "en",
+     "level": "word",
+     "text": "middle",
+     "standardReading": "/ˈmɪdəl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "미들",
+       "meaning": "가운데"
+      },
+      "ja": {
+       "pronunciation": "ミドル",
+       "meaning": "真ん中"
+      },
+      "vi": {
+       "pronunciation": "mít-đồ",
+       "meaning": "chính giữa"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-corner",
+     "language": "en",
+     "level": "word",
+     "text": "corner",
+     "standardReading": "/ˈkɔːrnər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "코너",
+       "meaning": "모퉁이"
+      },
+      "ja": {
+       "pronunciation": "コーナー",
+       "meaning": "角"
+      },
+      "vi": {
+       "pronunciation": "co-nơ",
+       "meaning": "góc"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-straight",
+     "language": "en",
+     "level": "word",
+     "text": "straight ahead",
+     "standardReading": "/streɪt əˈhɛd/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스트레이트 어헤드",
+       "meaning": "똑바로"
+      },
+      "ja": {
+       "pronunciation": "ストレートアヘッド",
+       "meaning": "まっすぐ"
+      },
+      "vi": {
+       "pronunciation": "xtrây ơ-hét",
+       "meaning": "thẳng"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-here",
+     "language": "en",
+     "level": "word",
+     "text": "here",
+     "standardReading": "/hɪr/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "히어",
+       "meaning": "여기"
+      },
+      "ja": {
+       "pronunciation": "ヒア",
+       "meaning": "ここ"
+      },
+      "vi": {
+       "pronunciation": "hia",
+       "meaning": "đây"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-there",
+     "language": "en",
+     "level": "word",
+     "text": "there",
+     "standardReading": "/ðɛr/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "데어",
+       "meaning": "거기"
+      },
+      "ja": {
+       "pronunciation": "ゼア",
+       "meaning": "そこ"
+      },
+      "vi": {
+       "pronunciation": "đe",
+       "meaning": "đó"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-over-there",
+     "language": "en",
+     "level": "word",
+     "text": "over there",
+     "standardReading": "/ˈoʊvər ðɛr/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오버 데어",
+       "meaning": "저기"
+      },
+      "ja": {
+       "pronunciation": "オーバーゼア",
+       "meaning": "あそこ"
+      },
+      "vi": {
+       "pronunciation": "âu-vơ đe",
+       "meaning": "kia"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-near",
+     "language": "en",
+     "level": "word",
+     "text": "near",
+     "standardReading": "/nɪr/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "니어",
+       "meaning": "가까이"
+      },
+      "ja": {
+       "pronunciation": "ニア",
+       "meaning": "近く"
+      },
+      "vi": {
+       "pronunciation": "nia",
+       "meaning": "gần"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-far",
+     "language": "en",
+     "level": "word",
+     "text": "far",
+     "standardReading": "/fɑːr/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "파",
+       "meaning": "멀리"
+      },
+      "ja": {
+       "pronunciation": "ファー",
+       "meaning": "遠く"
+      },
+      "vi": {
+       "pronunciation": "pha",
+       "meaning": "xa"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-this-way",
+     "language": "en",
+     "level": "word",
+     "text": "this way",
+     "standardReading": "/ðɪs weɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "디스 웨이",
+       "meaning": "이쪽"
+      },
+      "ja": {
+       "pronunciation": "ディスウェイ",
+       "meaning": "こちら"
+      },
+      "vi": {
+       "pronunciation": "đít uây",
+       "meaning": "bên này"
+      }
+     }
+    },
+    {
+     "id": "en-w-directions-that-way",
+     "language": "en",
+     "level": "word",
+     "text": "that way",
+     "standardReading": "/ðæt weɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "댓 웨이",
+       "meaning": "저쪽"
+      },
+      "ja": {
+       "pronunciation": "ザットウェイ",
+       "meaning": "あちら"
+      },
+      "vi": {
+       "pronunciation": "đét uây",
+       "meaning": "bên kia"
+      }
+     }
     }
    ]
   },
@@ -1618,7 +2689,7 @@
    },
    "items": [
     {
-     "id": "en-w-address-01",
+     "id": "en-w-address-address",
      "language": "en",
      "level": "word",
      "text": "address",
@@ -1639,7 +2710,49 @@
      }
     },
     {
-     "id": "en-w-address-02",
+     "id": "en-w-address-country",
+     "language": "en",
+     "level": "word",
+     "text": "country",
+     "standardReading": "/ˈkʌntri/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "컨트리",
+       "meaning": "나라"
+      },
+      "ja": {
+       "pronunciation": "カントリー",
+       "meaning": "国"
+      },
+      "vi": {
+       "pronunciation": "cân-tri",
+       "meaning": "quốc gia"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-province",
+     "language": "en",
+     "level": "word",
+     "text": "province",
+     "standardReading": "/ˈprɒvɪns/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "프로빈스",
+       "meaning": "도"
+      },
+      "ja": {
+       "pronunciation": "プロビンス",
+       "meaning": "県"
+      },
+      "vi": {
+       "pronunciation": "pro-vin",
+       "meaning": "tỉnh"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-city",
      "language": "en",
      "level": "word",
      "text": "city",
@@ -1660,7 +2773,7 @@
      }
     },
     {
-     "id": "en-w-address-03",
+     "id": "en-w-address-district",
      "language": "en",
      "level": "word",
      "text": "district",
@@ -1681,7 +2794,28 @@
      }
     },
     {
-     "id": "en-w-address-04",
+     "id": "en-w-address-county",
+     "language": "en",
+     "level": "word",
+     "text": "county",
+     "standardReading": "/ˈkaʊnti/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카운티",
+       "meaning": "군"
+      },
+      "ja": {
+       "pronunciation": "カウンティ",
+       "meaning": "郡"
+      },
+      "vi": {
+       "pronunciation": "cao-ti",
+       "meaning": "huyện"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-neighborhood",
      "language": "en",
      "level": "word",
      "text": "neighborhood",
@@ -1702,7 +2836,28 @@
      }
     },
     {
-     "id": "en-w-address-05",
+     "id": "en-w-address-village",
+     "language": "en",
+     "level": "word",
+     "text": "village",
+     "standardReading": "/ˈvɪlɪdʒ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "빌리지",
+       "meaning": "마을"
+      },
+      "ja": {
+       "pronunciation": "ビレッジ",
+       "meaning": "村"
+      },
+      "vi": {
+       "pronunciation": "vi-lít",
+       "meaning": "làng"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-street",
      "language": "en",
      "level": "word",
      "text": "street",
@@ -1723,7 +2878,70 @@
      }
     },
     {
-     "id": "en-w-address-06",
+     "id": "en-w-address-avenue",
+     "language": "en",
+     "level": "word",
+     "text": "avenue",
+     "standardReading": "/ˈævənjuː/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "애비뉴",
+       "meaning": "대로"
+      },
+      "ja": {
+       "pronunciation": "アベニュー",
+       "meaning": "大通り"
+      },
+      "vi": {
+       "pronunciation": "e-vơ-niu",
+       "meaning": "đại lộ"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-alley",
+     "language": "en",
+     "level": "word",
+     "text": "alley",
+     "standardReading": "/ˈæli/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "앨리",
+       "meaning": "골목"
+      },
+      "ja": {
+       "pronunciation": "アリー",
+       "meaning": "路地"
+      },
+      "vi": {
+       "pronunciation": "e-li",
+       "meaning": "ngõ"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-house-number",
+     "language": "en",
+     "level": "word",
+     "text": "house number",
+     "standardReading": "/haʊs ˈnʌmbər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하우스 넘버",
+       "meaning": "번지"
+      },
+      "ja": {
+       "pronunciation": "ハウスナンバー",
+       "meaning": "番地"
+      },
+      "vi": {
+       "pronunciation": "hao nâm-bơ",
+       "meaning": "số nhà"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-building",
      "language": "en",
      "level": "word",
      "text": "building",
@@ -1744,7 +2962,7 @@
      }
     },
     {
-     "id": "en-w-address-07",
+     "id": "en-w-address-apartment",
      "language": "en",
      "level": "word",
      "text": "apartment",
@@ -1765,7 +2983,7 @@
      }
     },
     {
-     "id": "en-w-address-08",
+     "id": "en-w-address-floor",
      "language": "en",
      "level": "word",
      "text": "floor",
@@ -1786,7 +3004,7 @@
      }
     },
     {
-     "id": "en-w-address-09",
+     "id": "en-w-address-unit",
      "language": "en",
      "level": "word",
      "text": "unit",
@@ -1807,7 +3025,28 @@
      }
     },
     {
-     "id": "en-w-address-10",
+     "id": "en-w-address-basement",
+     "language": "en",
+     "level": "word",
+     "text": "basement",
+     "standardReading": "/ˈbeɪsmənt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "베이스먼트",
+       "meaning": "지하"
+      },
+      "ja": {
+       "pronunciation": "ベースメント",
+       "meaning": "地下"
+      },
+      "vi": {
+       "pronunciation": "bây-mần",
+       "meaning": "tầng hầm"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-postal-code",
      "language": "en",
      "level": "word",
      "text": "zip code",
@@ -1826,6 +3065,132 @@
        "meaning": "mã bưu chính"
       }
      }
+    },
+    {
+     "id": "en-w-address-recipient",
+     "language": "en",
+     "level": "word",
+     "text": "recipient",
+     "standardReading": "/rɪˈsɪpiənt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "리시피언트",
+       "meaning": "받는 사람"
+      },
+      "ja": {
+       "pronunciation": "レシピエント",
+       "meaning": "宛先"
+      },
+      "vi": {
+       "pronunciation": "ri-xíp-pi-ần",
+       "meaning": "người nhận"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-sender",
+     "language": "en",
+     "level": "word",
+     "text": "sender",
+     "standardReading": "/ˈsɛndər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "센더",
+       "meaning": "보내는 사람"
+      },
+      "ja": {
+       "pronunciation": "センダー",
+       "meaning": "差出人"
+      },
+      "vi": {
+       "pronunciation": "xen-đơ",
+       "meaning": "người gửi"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-phone-number",
+     "language": "en",
+     "level": "word",
+     "text": "phone number",
+     "standardReading": "/foʊn ˈnʌmbər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "폰 넘버",
+       "meaning": "전화번호"
+      },
+      "ja": {
+       "pronunciation": "フォーンナンバー",
+       "meaning": "電話番号"
+      },
+      "vi": {
+       "pronunciation": "phôn nâm-bơ",
+       "meaning": "số điện thoại"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-state",
+     "language": "en",
+     "level": "word",
+     "text": "state",
+     "standardReading": "/steɪt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스테이트",
+       "meaning": "주 (미국)"
+      },
+      "ja": {
+       "pronunciation": "ステート",
+       "meaning": "州(アメリカ)"
+      },
+      "vi": {
+       "pronunciation": "xtây",
+       "meaning": "bang (Mỹ)"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-suite",
+     "language": "en",
+     "level": "word",
+     "text": "suite",
+     "standardReading": "/swiːt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스위트",
+       "meaning": "호실 (사무실·아파트)"
+      },
+      "ja": {
+       "pronunciation": "スイート",
+       "meaning": "(部屋番号の)スイート"
+      },
+      "vi": {
+       "pronunciation": "xuýt",
+       "meaning": "phòng (văn phòng, căn hộ)"
+      }
+     }
+    },
+    {
+     "id": "en-w-address-po-box",
+     "language": "en",
+     "level": "word",
+     "text": "P.O. box",
+     "standardReading": "/ˌpiː ˈoʊ bɒks/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "피오 박스",
+       "meaning": "사서함"
+      },
+      "ja": {
+       "pronunciation": "ピーオーボックス",
+       "meaning": "私書箱"
+      },
+      "vi": {
+       "pronunciation": "pi-âu bóc",
+       "meaning": "hộp thư bưu điện"
+      }
+     }
     }
    ]
   },
@@ -1840,133 +3205,91 @@
    },
    "items": [
     {
-     "id": "en-w-time-01",
+     "id": "en-w-time-second-t",
      "language": "en",
      "level": "word",
-     "text": "today",
-     "standardReading": "/təˈdeɪ/",
+     "text": "second",
+     "standardReading": "/ˈsɛkənd/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "투데이",
-       "meaning": "오늘"
+       "pronunciation": "세컨드",
+       "meaning": "초"
       },
       "ja": {
-       "pronunciation": "トゥデイ",
-       "meaning": "今日"
+       "pronunciation": "セカンド",
+       "meaning": "秒"
       },
       "vi": {
-       "pronunciation": "tơ-đây",
-       "meaning": "hôm nay"
+       "pronunciation": "xe-cần",
+       "meaning": "giây"
       }
      }
     },
     {
-     "id": "en-w-time-02",
+     "id": "en-w-time-minute",
      "language": "en",
      "level": "word",
-     "text": "tomorrow",
-     "standardReading": "/təˈmɒroʊ/",
+     "text": "minute",
+     "standardReading": "/ˈmɪnɪt/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "투모로우",
-       "meaning": "내일"
+       "pronunciation": "미닛",
+       "meaning": "분"
       },
       "ja": {
-       "pronunciation": "トゥモロー",
-       "meaning": "明日"
+       "pronunciation": "ミニット",
+       "meaning": "分"
       },
       "vi": {
-       "pronunciation": "tơ-mo-râu",
-       "meaning": "ngày mai"
+       "pronunciation": "mi-nít",
+       "meaning": "phút"
       }
      }
     },
     {
-     "id": "en-w-time-03",
+     "id": "en-w-time-hour",
      "language": "en",
      "level": "word",
-     "text": "yesterday",
-     "standardReading": "/ˈjɛstərdeɪ/",
+     "text": "hour",
+     "standardReading": "/ˈaʊər/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "예스터데이",
-       "meaning": "어제"
+       "pronunciation": "아워",
+       "meaning": "시간"
       },
       "ja": {
-       "pronunciation": "イエスタデイ",
-       "meaning": "昨日"
+       "pronunciation": "アワー",
+       "meaning": "時間"
       },
       "vi": {
-       "pronunciation": "dét-tơ-đây",
-       "meaning": "hôm qua"
+       "pronunciation": "ao-ơ",
+       "meaning": "giờ"
       }
      }
     },
     {
-     "id": "en-w-time-04",
+     "id": "en-w-time-day",
      "language": "en",
      "level": "word",
-     "text": "morning",
-     "standardReading": "/ˈmɔːrnɪŋ/",
+     "text": "day",
+     "standardReading": "/deɪ/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "모닝",
-       "meaning": "아침"
+       "pronunciation": "데이",
+       "meaning": "날"
       },
       "ja": {
-       "pronunciation": "モーニング",
-       "meaning": "朝"
+       "pronunciation": "デイ",
+       "meaning": "日"
       },
       "vi": {
-       "pronunciation": "mo-ninh",
-       "meaning": "buổi sáng"
+       "pronunciation": "đây",
+       "meaning": "ngày"
       }
      }
     },
     {
-     "id": "en-w-time-05",
-     "language": "en",
-     "level": "word",
-     "text": "noon",
-     "standardReading": "/nuːn/",
-     "nativeGuides": {
-      "ko": {
-       "pronunciation": "눈",
-       "meaning": "점심"
-      },
-      "ja": {
-       "pronunciation": "ヌーン",
-       "meaning": "昼"
-      },
-      "vi": {
-       "pronunciation": "nun",
-       "meaning": "buổi trưa"
-      }
-     }
-    },
-    {
-     "id": "en-w-time-06",
-     "language": "en",
-     "level": "word",
-     "text": "evening",
-     "standardReading": "/ˈiːvnɪŋ/",
-     "nativeGuides": {
-      "ko": {
-       "pronunciation": "이브닝",
-       "meaning": "저녁"
-      },
-      "ja": {
-       "pronunciation": "イブニング",
-       "meaning": "夕方"
-      },
-      "vi": {
-       "pronunciation": "iv-ninh",
-       "meaning": "buổi tối"
-      }
-     }
-    },
-    {
-     "id": "en-w-time-07",
+     "id": "en-w-time-week",
      "language": "en",
      "level": "word",
      "text": "week",
@@ -1987,7 +3310,7 @@
      }
     },
     {
-     "id": "en-w-time-08",
+     "id": "en-w-time-month",
      "language": "en",
      "level": "word",
      "text": "month",
@@ -2008,7 +3331,7 @@
      }
     },
     {
-     "id": "en-w-time-09",
+     "id": "en-w-time-year",
      "language": "en",
      "level": "word",
      "text": "year",
@@ -2029,7 +3352,301 @@
      }
     },
     {
-     "id": "en-w-time-10",
+     "id": "en-w-time-today",
+     "language": "en",
+     "level": "word",
+     "text": "today",
+     "standardReading": "/təˈdeɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "투데이",
+       "meaning": "오늘"
+      },
+      "ja": {
+       "pronunciation": "トゥデイ",
+       "meaning": "今日"
+      },
+      "vi": {
+       "pronunciation": "tơ-đây",
+       "meaning": "hôm nay"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-tomorrow",
+     "language": "en",
+     "level": "word",
+     "text": "tomorrow",
+     "standardReading": "/təˈmɒroʊ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "투모로우",
+       "meaning": "내일"
+      },
+      "ja": {
+       "pronunciation": "トゥモロー",
+       "meaning": "明日"
+      },
+      "vi": {
+       "pronunciation": "tơ-mo-râu",
+       "meaning": "ngày mai"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-yesterday",
+     "language": "en",
+     "level": "word",
+     "text": "yesterday",
+     "standardReading": "/ˈjɛstərdeɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "예스터데이",
+       "meaning": "어제"
+      },
+      "ja": {
+       "pronunciation": "イエスタデイ",
+       "meaning": "昨日"
+      },
+      "vi": {
+       "pronunciation": "dét-tơ-đây",
+       "meaning": "hôm qua"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-day-after-tomorrow",
+     "language": "en",
+     "level": "word",
+     "text": "day after tomorrow",
+     "standardReading": "/deɪ ˈæftər təˈmɒroʊ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "데이 애프터 투모로우",
+       "meaning": "모레"
+      },
+      "ja": {
+       "pronunciation": "デイアフタートゥモロー",
+       "meaning": "明後日"
+      },
+      "vi": {
+       "pronunciation": "đây áp-tơ tơ-mo-râu",
+       "meaning": "ngày kia"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-day-before-yesterday",
+     "language": "en",
+     "level": "word",
+     "text": "day before yesterday",
+     "standardReading": "/deɪ bɪˈfɔːr ˈjɛstərdeɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "데이 비포 예스터데이",
+       "meaning": "그저께"
+      },
+      "ja": {
+       "pronunciation": "デイビフォーイエスタデイ",
+       "meaning": "一昨日"
+      },
+      "vi": {
+       "pronunciation": "đây bi-pho dét-tơ-đây",
+       "meaning": "hôm kia"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-morning",
+     "language": "en",
+     "level": "word",
+     "text": "morning",
+     "standardReading": "/ˈmɔːrnɪŋ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "모닝",
+       "meaning": "아침"
+      },
+      "ja": {
+       "pronunciation": "モーニング",
+       "meaning": "朝"
+      },
+      "vi": {
+       "pronunciation": "mo-ninh",
+       "meaning": "buổi sáng"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-noon",
+     "language": "en",
+     "level": "word",
+     "text": "noon",
+     "standardReading": "/nuːn/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "눈",
+       "meaning": "점심"
+      },
+      "ja": {
+       "pronunciation": "ヌーン",
+       "meaning": "昼"
+      },
+      "vi": {
+       "pronunciation": "nun",
+       "meaning": "buổi trưa"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-afternoon",
+     "language": "en",
+     "level": "word",
+     "text": "afternoon",
+     "standardReading": "/ˌæftərˈnuːn/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "애프터눈",
+       "meaning": "오후"
+      },
+      "ja": {
+       "pronunciation": "アフタヌーン",
+       "meaning": "午後"
+      },
+      "vi": {
+       "pronunciation": "áp-tơ-nun",
+       "meaning": "buổi chiều"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-evening",
+     "language": "en",
+     "level": "word",
+     "text": "evening",
+     "standardReading": "/ˈiːvnɪŋ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이브닝",
+       "meaning": "저녁"
+      },
+      "ja": {
+       "pronunciation": "イブニング",
+       "meaning": "夕方"
+      },
+      "vi": {
+       "pronunciation": "iv-ninh",
+       "meaning": "buổi tối"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-night",
+     "language": "en",
+     "level": "word",
+     "text": "night",
+     "standardReading": "/naɪt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "나이트",
+       "meaning": "밤"
+      },
+      "ja": {
+       "pronunciation": "ナイト",
+       "meaning": "夜"
+      },
+      "vi": {
+       "pronunciation": "nai",
+       "meaning": "ban đêm"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-now",
+     "language": "en",
+     "level": "word",
+     "text": "now",
+     "standardReading": "/naʊ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "나우",
+       "meaning": "지금"
+      },
+      "ja": {
+       "pronunciation": "ナウ",
+       "meaning": "今"
+      },
+      "vi": {
+       "pronunciation": "nao",
+       "meaning": "bây giờ"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-later",
+     "language": "en",
+     "level": "word",
+     "text": "later",
+     "standardReading": "/ˈleɪtər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "레이터",
+       "meaning": "나중에"
+      },
+      "ja": {
+       "pronunciation": "レイター",
+       "meaning": "後で"
+      },
+      "vi": {
+       "pronunciation": "lây-tơ",
+       "meaning": "sau này"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-weekend",
+     "language": "en",
+     "level": "word",
+     "text": "weekend",
+     "standardReading": "/ˈwiːkɛnd/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "위켄드",
+       "meaning": "주말"
+      },
+      "ja": {
+       "pronunciation": "ウィークエンド",
+       "meaning": "週末"
+      },
+      "vi": {
+       "pronunciation": "uých-ken",
+       "meaning": "cuối tuần"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-weekday",
+     "language": "en",
+     "level": "word",
+     "text": "weekday",
+     "standardReading": "/ˈwiːkdeɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "위크데이",
+       "meaning": "평일"
+      },
+      "ja": {
+       "pronunciation": "ウィークデー",
+       "meaning": "平日"
+      },
+      "vi": {
+       "pronunciation": "uých-đây",
+       "meaning": "ngày thường"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-monday",
      "language": "en",
      "level": "word",
      "text": "Monday",
@@ -2048,6 +3665,531 @@
        "meaning": "thứ Hai"
       }
      }
+    },
+    {
+     "id": "en-w-time-tuesday",
+     "language": "en",
+     "level": "word",
+     "text": "Tuesday",
+     "standardReading": "/ˈtjuːzdeɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "튜즈데이",
+       "meaning": "화요일"
+      },
+      "ja": {
+       "pronunciation": "チューズデー",
+       "meaning": "火曜日"
+      },
+      "vi": {
+       "pronunciation": "tiu-đây",
+       "meaning": "thứ Ba"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-wednesday",
+     "language": "en",
+     "level": "word",
+     "text": "Wednesday",
+     "standardReading": "/ˈwɛnzdeɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "웬즈데이",
+       "meaning": "수요일"
+      },
+      "ja": {
+       "pronunciation": "ウェンズデー",
+       "meaning": "水曜日"
+      },
+      "vi": {
+       "pronunciation": "uen-đây",
+       "meaning": "thứ Tư"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-thursday",
+     "language": "en",
+     "level": "word",
+     "text": "Thursday",
+     "standardReading": "/ˈθɜːrzdeɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "서즈데이",
+       "meaning": "목요일"
+      },
+      "ja": {
+       "pronunciation": "サーズデー",
+       "meaning": "木曜日"
+      },
+      "vi": {
+       "pronunciation": "thơ-đây",
+       "meaning": "thứ Năm"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-friday",
+     "language": "en",
+     "level": "word",
+     "text": "Friday",
+     "standardReading": "/ˈfraɪdeɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "프라이데이",
+       "meaning": "금요일"
+      },
+      "ja": {
+       "pronunciation": "フライデー",
+       "meaning": "金曜日"
+      },
+      "vi": {
+       "pronunciation": "phrai-đây",
+       "meaning": "thứ Sáu"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-saturday",
+     "language": "en",
+     "level": "word",
+     "text": "Saturday",
+     "standardReading": "/ˈsætərdeɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "새터데이",
+       "meaning": "토요일"
+      },
+      "ja": {
+       "pronunciation": "サタデー",
+       "meaning": "土曜日"
+      },
+      "vi": {
+       "pronunciation": "xe-tơ-đây",
+       "meaning": "thứ Bảy"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-sunday",
+     "language": "en",
+     "level": "word",
+     "text": "Sunday",
+     "standardReading": "/ˈsʌndeɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "선데이",
+       "meaning": "일요일"
+      },
+      "ja": {
+       "pronunciation": "サンデー",
+       "meaning": "日曜日"
+      },
+      "vi": {
+       "pronunciation": "xân-đây",
+       "meaning": "Chủ nhật"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-january",
+     "language": "en",
+     "level": "word",
+     "text": "January",
+     "standardReading": "/ˈdʒænjuˌɛri/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "재뉴어리",
+       "meaning": "1월"
+      },
+      "ja": {
+       "pronunciation": "ジャニュアリー",
+       "meaning": "一月"
+      },
+      "vi": {
+       "pronunciation": "gian-niu-ơ-ri",
+       "meaning": "tháng Một"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-february",
+     "language": "en",
+     "level": "word",
+     "text": "February",
+     "standardReading": "/ˈfɛbruˌɛri/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "페브루어리",
+       "meaning": "2월"
+      },
+      "ja": {
+       "pronunciation": "フェブラリー",
+       "meaning": "二月"
+      },
+      "vi": {
+       "pronunciation": "phép-ru-ơ-ri",
+       "meaning": "tháng Hai"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-march",
+     "language": "en",
+     "level": "word",
+     "text": "March",
+     "standardReading": "/mɑːrtʃ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "마치",
+       "meaning": "3월"
+      },
+      "ja": {
+       "pronunciation": "マーチ",
+       "meaning": "三月"
+      },
+      "vi": {
+       "pronunciation": "mát",
+       "meaning": "tháng Ba"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-april",
+     "language": "en",
+     "level": "word",
+     "text": "April",
+     "standardReading": "/ˈeɪprəl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "에이프릴",
+       "meaning": "4월"
+      },
+      "ja": {
+       "pronunciation": "エイプリル",
+       "meaning": "四月"
+      },
+      "vi": {
+       "pronunciation": "ây-prồ",
+       "meaning": "tháng Tư"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-may",
+     "language": "en",
+     "level": "word",
+     "text": "May",
+     "standardReading": "/meɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "메이",
+       "meaning": "5월"
+      },
+      "ja": {
+       "pronunciation": "メイ",
+       "meaning": "五月"
+      },
+      "vi": {
+       "pronunciation": "mây",
+       "meaning": "tháng Năm"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-june",
+     "language": "en",
+     "level": "word",
+     "text": "June",
+     "standardReading": "/dʒuːn/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "준",
+       "meaning": "6월"
+      },
+      "ja": {
+       "pronunciation": "ジューン",
+       "meaning": "六月"
+      },
+      "vi": {
+       "pronunciation": "giun",
+       "meaning": "tháng Sáu"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-july",
+     "language": "en",
+     "level": "word",
+     "text": "July",
+     "standardReading": "/dʒʊˈlaɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "줄라이",
+       "meaning": "7월"
+      },
+      "ja": {
+       "pronunciation": "ジュライ",
+       "meaning": "七月"
+      },
+      "vi": {
+       "pronunciation": "giu-lai",
+       "meaning": "tháng Bảy"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-august",
+     "language": "en",
+     "level": "word",
+     "text": "August",
+     "standardReading": "/ˈɔːɡəst/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "어거스트",
+       "meaning": "8월"
+      },
+      "ja": {
+       "pronunciation": "オーガスト",
+       "meaning": "八月"
+      },
+      "vi": {
+       "pronunciation": "o-gớt",
+       "meaning": "tháng Tám"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-september",
+     "language": "en",
+     "level": "word",
+     "text": "September",
+     "standardReading": "/sɛpˈtɛmbər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "셉템버",
+       "meaning": "9월"
+      },
+      "ja": {
+       "pronunciation": "セプテンバー",
+       "meaning": "九月"
+      },
+      "vi": {
+       "pronunciation": "xép-tem-bơ",
+       "meaning": "tháng Chín"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-october",
+     "language": "en",
+     "level": "word",
+     "text": "October",
+     "standardReading": "/ɒkˈtoʊbər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "옥토버",
+       "meaning": "10월"
+      },
+      "ja": {
+       "pronunciation": "オクトーバー",
+       "meaning": "十月"
+      },
+      "vi": {
+       "pronunciation": "ọc-tâu-bơ",
+       "meaning": "tháng Mười"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-november",
+     "language": "en",
+     "level": "word",
+     "text": "November",
+     "standardReading": "/noʊˈvɛmbər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "노벰버",
+       "meaning": "11월"
+      },
+      "ja": {
+       "pronunciation": "ノーベンバー",
+       "meaning": "十一月"
+      },
+      "vi": {
+       "pronunciation": "nâu-vem-bơ",
+       "meaning": "tháng Mười Một"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-december",
+     "language": "en",
+     "level": "word",
+     "text": "December",
+     "standardReading": "/dɪˈsɛmbər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "디셈버",
+       "meaning": "12월"
+      },
+      "ja": {
+       "pronunciation": "ディセンバー",
+       "meaning": "十二月"
+      },
+      "vi": {
+       "pronunciation": "đi-xem-bơ",
+       "meaning": "tháng Mười Hai"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-spring",
+     "language": "en",
+     "level": "word",
+     "text": "spring",
+     "standardReading": "/sprɪŋ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스프링",
+       "meaning": "봄"
+      },
+      "ja": {
+       "pronunciation": "スプリング",
+       "meaning": "春"
+      },
+      "vi": {
+       "pronunciation": "xprinh",
+       "meaning": "mùa xuân"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-summer",
+     "language": "en",
+     "level": "word",
+     "text": "summer",
+     "standardReading": "/ˈsʌmər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "서머",
+       "meaning": "여름"
+      },
+      "ja": {
+       "pronunciation": "サマー",
+       "meaning": "夏"
+      },
+      "vi": {
+       "pronunciation": "xâm-mơ",
+       "meaning": "mùa hè"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-autumn",
+     "language": "en",
+     "level": "word",
+     "text": "autumn",
+     "standardReading": "/ˈɔːtəm/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오텀",
+       "meaning": "가을"
+      },
+      "ja": {
+       "pronunciation": "オータム",
+       "meaning": "秋"
+      },
+      "vi": {
+       "pronunciation": "o-tâm",
+       "meaning": "mùa thu"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-winter",
+     "language": "en",
+     "level": "word",
+     "text": "winter",
+     "standardReading": "/ˈwɪntər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "윈터",
+       "meaning": "겨울"
+      },
+      "ja": {
+       "pronunciation": "ウィンター",
+       "meaning": "冬"
+      },
+      "vi": {
+       "pronunciation": "uyn-tơ",
+       "meaning": "mùa đông"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-am",
+     "language": "en",
+     "level": "word",
+     "text": "a.m.",
+     "standardReading": "/ˌeɪ ˈɛm/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "에이엠",
+       "meaning": "오전"
+      },
+      "ja": {
+       "pronunciation": "エーエム",
+       "meaning": "午前"
+      },
+      "vi": {
+       "pronunciation": "ây-em",
+       "meaning": "sáng (giờ sáng)"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-pm",
+     "language": "en",
+     "level": "word",
+     "text": "p.m.",
+     "standardReading": "/ˌpiː ˈɛm/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "피엠",
+       "meaning": "오후"
+      },
+      "ja": {
+       "pronunciation": "ピーエム",
+       "meaning": "午後"
+      },
+      "vi": {
+       "pronunciation": "pi-em",
+       "meaning": "chiều, tối (giờ chiều)"
+      }
+     }
+    },
+    {
+     "id": "en-w-time-oclock",
+     "language": "en",
+     "level": "word",
+     "text": "o'clock",
+     "standardReading": "/əˈklɒk/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "어클락",
+       "meaning": "~시 (정각)"
+      },
+      "ja": {
+       "pronunciation": "オクロック",
+       "meaning": "~時(ちょうど)"
+      },
+      "vi": {
+       "pronunciation": "ơ-clóc",
+       "meaning": "~ giờ (đúng)"
+      }
+     }
     }
    ]
   },
@@ -2062,7 +4204,7 @@
    },
    "items": [
     {
-     "id": "en-w-people-01",
+     "id": "en-w-people-family",
      "language": "en",
      "level": "word",
      "text": "family",
@@ -2083,7 +4225,28 @@
      }
     },
     {
-     "id": "en-w-people-02",
+     "id": "en-w-people-parents",
+     "language": "en",
+     "level": "word",
+     "text": "parents",
+     "standardReading": "/ˈpɛrənts/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "페어런츠",
+       "meaning": "부모님"
+      },
+      "ja": {
+       "pronunciation": "ペアレンツ",
+       "meaning": "両親"
+      },
+      "vi": {
+       "pronunciation": "pe-rần",
+       "meaning": "bố mẹ"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-father",
      "language": "en",
      "level": "word",
      "text": "father",
@@ -2104,7 +4267,7 @@
      }
     },
     {
-     "id": "en-w-people-03",
+     "id": "en-w-people-mother",
      "language": "en",
      "level": "word",
      "text": "mother",
@@ -2125,7 +4288,7 @@
      }
     },
     {
-     "id": "en-w-people-04",
+     "id": "en-w-people-child",
      "language": "en",
      "level": "word",
      "text": "child",
@@ -2146,7 +4309,7 @@
      }
     },
     {
-     "id": "en-w-people-05",
+     "id": "en-w-people-son",
      "language": "en",
      "level": "word",
      "text": "son",
@@ -2167,7 +4330,7 @@
      }
     },
     {
-     "id": "en-w-people-06",
+     "id": "en-w-people-daughter",
      "language": "en",
      "level": "word",
      "text": "daughter",
@@ -2188,7 +4351,7 @@
      }
     },
     {
-     "id": "en-w-people-07",
+     "id": "en-w-people-husband",
      "language": "en",
      "level": "word",
      "text": "husband",
@@ -2209,7 +4372,7 @@
      }
     },
     {
-     "id": "en-w-people-08",
+     "id": "en-w-people-wife",
      "language": "en",
      "level": "word",
      "text": "wife",
@@ -2230,7 +4393,301 @@
      }
     },
     {
-     "id": "en-w-people-09",
+     "id": "en-w-people-older-brother",
+     "language": "en",
+     "level": "word",
+     "text": "older brother",
+     "standardReading": "/ˈoʊldər ˈbrʌðər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "올더 브라더",
+       "meaning": "형"
+      },
+      "ja": {
+       "pronunciation": "オールダーブラザー",
+       "meaning": "兄"
+      },
+      "vi": {
+       "pronunciation": "ôn-đơ bra-đơ",
+       "meaning": "anh trai"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-older-sister",
+     "language": "en",
+     "level": "word",
+     "text": "older sister",
+     "standardReading": "/ˈoʊldər ˈsɪstər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "올더 시스터",
+       "meaning": "누나"
+      },
+      "ja": {
+       "pronunciation": "オールダーシスター",
+       "meaning": "姉"
+      },
+      "vi": {
+       "pronunciation": "ôn-đơ xít-tơ",
+       "meaning": "chị gái"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-younger-brother",
+     "language": "en",
+     "level": "word",
+     "text": "younger brother",
+     "standardReading": "/ˈjʌŋɡər ˈbrʌðər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "영거 브라더",
+       "meaning": "남동생"
+      },
+      "ja": {
+       "pronunciation": "ヤンガーブラザー",
+       "meaning": "弟"
+      },
+      "vi": {
+       "pronunciation": "dâng-gơ bra-đơ",
+       "meaning": "em trai"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-younger-sister",
+     "language": "en",
+     "level": "word",
+     "text": "younger sister",
+     "standardReading": "/ˈjʌŋɡər ˈsɪstər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "영거 시스터",
+       "meaning": "여동생"
+      },
+      "ja": {
+       "pronunciation": "ヤンガーシスター",
+       "meaning": "妹"
+      },
+      "vi": {
+       "pronunciation": "dâng-gơ xít-tơ",
+       "meaning": "em gái"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-grandfather",
+     "language": "en",
+     "level": "word",
+     "text": "grandfather",
+     "standardReading": "/ˈɡrænˌfɑːðər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "그랜드파더",
+       "meaning": "할아버지"
+      },
+      "ja": {
+       "pronunciation": "グランドファーザー",
+       "meaning": "祖父"
+      },
+      "vi": {
+       "pronunciation": "gren-pha-đơ",
+       "meaning": "ông"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-grandmother",
+     "language": "en",
+     "level": "word",
+     "text": "grandmother",
+     "standardReading": "/ˈɡrænˌmʌðər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "그랜드마더",
+       "meaning": "할머니"
+      },
+      "ja": {
+       "pronunciation": "グランドマザー",
+       "meaning": "祖母"
+      },
+      "vi": {
+       "pronunciation": "gren-mâ-đơ",
+       "meaning": "bà"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-grandchild",
+     "language": "en",
+     "level": "word",
+     "text": "grandchild",
+     "standardReading": "/ˈɡræntʃaɪld/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "그랜드차일드",
+       "meaning": "손주"
+      },
+      "ja": {
+       "pronunciation": "グランドチャイルド",
+       "meaning": "孫"
+      },
+      "vi": {
+       "pronunciation": "gren-chai",
+       "meaning": "cháu"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-uncle",
+     "language": "en",
+     "level": "word",
+     "text": "uncle",
+     "standardReading": "/ˈʌŋkəl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "엉클",
+       "meaning": "삼촌"
+      },
+      "ja": {
+       "pronunciation": "アンクル",
+       "meaning": "おじ"
+      },
+      "vi": {
+       "pronunciation": "ăng-cồ",
+       "meaning": "chú"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-aunt",
+     "language": "en",
+     "level": "word",
+     "text": "aunt",
+     "standardReading": "/ænt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "앤트",
+       "meaning": "이모"
+      },
+      "ja": {
+       "pronunciation": "アント",
+       "meaning": "おば"
+      },
+      "vi": {
+       "pronunciation": "en",
+       "meaning": "cô"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-cousin",
+     "language": "en",
+     "level": "word",
+     "text": "cousin",
+     "standardReading": "/ˈkʌzən/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "커즌",
+       "meaning": "사촌"
+      },
+      "ja": {
+       "pronunciation": "カズン",
+       "meaning": "いとこ"
+      },
+      "vi": {
+       "pronunciation": "câ-dần",
+       "meaning": "anh chị em họ"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-baby",
+     "language": "en",
+     "level": "word",
+     "text": "baby",
+     "standardReading": "/ˈbeɪbi/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "베이비",
+       "meaning": "아기"
+      },
+      "ja": {
+       "pronunciation": "ベビー",
+       "meaning": "赤ちゃん"
+      },
+      "vi": {
+       "pronunciation": "bây-bi",
+       "meaning": "em bé"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-man",
+     "language": "en",
+     "level": "word",
+     "text": "man",
+     "standardReading": "/mæn/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "맨",
+       "meaning": "남자"
+      },
+      "ja": {
+       "pronunciation": "マン",
+       "meaning": "男"
+      },
+      "vi": {
+       "pronunciation": "men",
+       "meaning": "đàn ông"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-woman",
+     "language": "en",
+     "level": "word",
+     "text": "woman",
+     "standardReading": "/ˈwʊmən/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "우먼",
+       "meaning": "여자"
+      },
+      "ja": {
+       "pronunciation": "ウーマン",
+       "meaning": "女"
+      },
+      "vi": {
+       "pronunciation": "u-mần",
+       "meaning": "phụ nữ"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-adult",
+     "language": "en",
+     "level": "word",
+     "text": "adult",
+     "standardReading": "/ˈædʌlt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "어덜트",
+       "meaning": "어른"
+      },
+      "ja": {
+       "pronunciation": "アダルト",
+       "meaning": "大人"
+      },
+      "vi": {
+       "pronunciation": "e-đân",
+       "meaning": "người lớn"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-friend",
      "language": "en",
      "level": "word",
      "text": "friend",
@@ -2251,7 +4708,28 @@
      }
     },
     {
-     "id": "en-w-people-10",
+     "id": "en-w-people-neighbor",
+     "language": "en",
+     "level": "word",
+     "text": "neighbor",
+     "standardReading": "/ˈneɪbər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "네이버",
+       "meaning": "이웃"
+      },
+      "ja": {
+       "pronunciation": "ネイバー",
+       "meaning": "隣人"
+      },
+      "vi": {
+       "pronunciation": "nây-bơ",
+       "meaning": "hàng xóm"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-teacher",
      "language": "en",
      "level": "word",
      "text": "teacher",
@@ -2270,6 +4748,132 @@
        "meaning": "giáo viên"
       }
      }
+    },
+    {
+     "id": "en-w-people-student",
+     "language": "en",
+     "level": "word",
+     "text": "student",
+     "standardReading": "/ˈstuːdənt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스튜던트",
+       "meaning": "학생"
+      },
+      "ja": {
+       "pronunciation": "ステューデント",
+       "meaning": "学生"
+      },
+      "vi": {
+       "pronunciation": "xtiu-đần",
+       "meaning": "học sinh"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-person",
+     "language": "en",
+     "level": "word",
+     "text": "person",
+     "standardReading": "/ˈpɜːrsən/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "퍼슨",
+       "meaning": "사람"
+      },
+      "ja": {
+       "pronunciation": "パーソン",
+       "meaning": "人"
+      },
+      "vi": {
+       "pronunciation": "pơ-xần",
+       "meaning": "người"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-i",
+     "language": "en",
+     "level": "word",
+     "text": "I",
+     "standardReading": "/aɪ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아이",
+       "meaning": "나"
+      },
+      "ja": {
+       "pronunciation": "アイ",
+       "meaning": "私"
+      },
+      "vi": {
+       "pronunciation": "ai",
+       "meaning": "tôi"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-we",
+     "language": "en",
+     "level": "word",
+     "text": "we",
+     "standardReading": "/wiː/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "위",
+       "meaning": "우리"
+      },
+      "ja": {
+       "pronunciation": "ウィー",
+       "meaning": "私たち"
+      },
+      "vi": {
+       "pronunciation": "uy",
+       "meaning": "chúng tôi"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-name",
+     "language": "en",
+     "level": "word",
+     "text": "name",
+     "standardReading": "/neɪm/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "네임",
+       "meaning": "이름"
+      },
+      "ja": {
+       "pronunciation": "ネーム",
+       "meaning": "名前"
+      },
+      "vi": {
+       "pronunciation": "nêm",
+       "meaning": "tên"
+      }
+     }
+    },
+    {
+     "id": "en-w-people-age",
+     "language": "en",
+     "level": "word",
+     "text": "age",
+     "standardReading": "/eɪdʒ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "에이지",
+       "meaning": "나이"
+      },
+      "ja": {
+       "pronunciation": "エイジ",
+       "meaning": "年齢"
+      },
+      "vi": {
+       "pronunciation": "ây-giơ",
+       "meaning": "tuổi"
+      }
+     }
     }
    ]
   },
@@ -2284,7 +4888,7 @@
    },
    "items": [
     {
-     "id": "en-w-food-01",
+     "id": "en-w-food-water",
      "language": "en",
      "level": "word",
      "text": "water",
@@ -2305,7 +4909,7 @@
      }
     },
     {
-     "id": "en-w-food-02",
+     "id": "en-w-food-rice",
      "language": "en",
      "level": "word",
      "text": "rice",
@@ -2326,7 +4930,7 @@
      }
     },
     {
-     "id": "en-w-food-03",
+     "id": "en-w-food-bread",
      "language": "en",
      "level": "word",
      "text": "bread",
@@ -2347,7 +4951,7 @@
      }
     },
     {
-     "id": "en-w-food-04",
+     "id": "en-w-food-meat",
      "language": "en",
      "level": "word",
      "text": "meat",
@@ -2368,7 +4972,70 @@
      }
     },
     {
-     "id": "en-w-food-05",
+     "id": "en-w-food-beef",
+     "language": "en",
+     "level": "word",
+     "text": "beef",
+     "standardReading": "/biːf/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "비프",
+       "meaning": "소고기"
+      },
+      "ja": {
+       "pronunciation": "ビーフ",
+       "meaning": "牛肉"
+      },
+      "vi": {
+       "pronunciation": "bíp",
+       "meaning": "thịt bò"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-pork",
+     "language": "en",
+     "level": "word",
+     "text": "pork",
+     "standardReading": "/pɔːrk/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "포크",
+       "meaning": "돼지고기"
+      },
+      "ja": {
+       "pronunciation": "ポーク",
+       "meaning": "豚肉"
+      },
+      "vi": {
+       "pronunciation": "póc",
+       "meaning": "thịt lợn"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-chicken",
+     "language": "en",
+     "level": "word",
+     "text": "chicken",
+     "standardReading": "/ˈtʃɪkɪn/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "치킨",
+       "meaning": "닭고기"
+      },
+      "ja": {
+       "pronunciation": "チキン",
+       "meaning": "鶏肉"
+      },
+      "vi": {
+       "pronunciation": "chi-kin",
+       "meaning": "thịt gà"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-fish",
      "language": "en",
      "level": "word",
      "text": "fish",
@@ -2389,7 +5056,49 @@
      }
     },
     {
-     "id": "en-w-food-06",
+     "id": "en-w-food-egg",
+     "language": "en",
+     "level": "word",
+     "text": "egg",
+     "standardReading": "/ɛɡ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "에그",
+       "meaning": "달걀"
+      },
+      "ja": {
+       "pronunciation": "エッグ",
+       "meaning": "卵"
+      },
+      "vi": {
+       "pronunciation": "éc",
+       "meaning": "trứng"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-milk",
+     "language": "en",
+     "level": "word",
+     "text": "milk",
+     "standardReading": "/mɪlk/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "밀크",
+       "meaning": "우유"
+      },
+      "ja": {
+       "pronunciation": "ミルク",
+       "meaning": "牛乳"
+      },
+      "vi": {
+       "pronunciation": "miu",
+       "meaning": "sữa"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-fruit",
      "language": "en",
      "level": "word",
      "text": "fruit",
@@ -2410,7 +5119,49 @@
      }
     },
     {
-     "id": "en-w-food-07",
+     "id": "en-w-food-apple",
+     "language": "en",
+     "level": "word",
+     "text": "apple",
+     "standardReading": "/ˈæpəl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "애플",
+       "meaning": "사과"
+      },
+      "ja": {
+       "pronunciation": "アップル",
+       "meaning": "りんご"
+      },
+      "vi": {
+       "pronunciation": "áp-pồ",
+       "meaning": "táo"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-banana",
+     "language": "en",
+     "level": "word",
+     "text": "banana",
+     "standardReading": "/bəˈnænə/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "바나나",
+       "meaning": "바나나"
+      },
+      "ja": {
+       "pronunciation": "バナナ",
+       "meaning": "バナナ"
+      },
+      "vi": {
+       "pronunciation": "bơ-ne-nơ",
+       "meaning": "chuối"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-vegetable",
      "language": "en",
      "level": "word",
      "text": "vegetable",
@@ -2431,7 +5182,154 @@
      }
     },
     {
-     "id": "en-w-food-08",
+     "id": "en-w-food-salt",
+     "language": "en",
+     "level": "word",
+     "text": "salt",
+     "standardReading": "/sɔːlt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "솔트",
+       "meaning": "소금"
+      },
+      "ja": {
+       "pronunciation": "ソルト",
+       "meaning": "塩"
+      },
+      "vi": {
+       "pronunciation": "xôn",
+       "meaning": "muối"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-sugar",
+     "language": "en",
+     "level": "word",
+     "text": "sugar",
+     "standardReading": "/ˈʃʊɡər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "슈거",
+       "meaning": "설탕"
+      },
+      "ja": {
+       "pronunciation": "シュガー",
+       "meaning": "砂糖"
+      },
+      "vi": {
+       "pronunciation": "sú-gơ",
+       "meaning": "đường"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-coffee",
+     "language": "en",
+     "level": "word",
+     "text": "coffee",
+     "standardReading": "/ˈkɔːfi/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "커피",
+       "meaning": "커피"
+      },
+      "ja": {
+       "pronunciation": "コーヒー",
+       "meaning": "コーヒー"
+      },
+      "vi": {
+       "pronunciation": "cò-phi",
+       "meaning": "cà phê"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-tea",
+     "language": "en",
+     "level": "word",
+     "text": "tea",
+     "standardReading": "/tiː/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "티",
+       "meaning": "차"
+      },
+      "ja": {
+       "pronunciation": "ティー",
+       "meaning": "お茶"
+      },
+      "vi": {
+       "pronunciation": "ti",
+       "meaning": "trà"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-juice",
+     "language": "en",
+     "level": "word",
+     "text": "juice",
+     "standardReading": "/dʒuːs/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "주스",
+       "meaning": "주스"
+      },
+      "ja": {
+       "pronunciation": "ジュース",
+       "meaning": "ジュース"
+      },
+      "vi": {
+       "pronunciation": "giút",
+       "meaning": "nước ép"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-soup",
+     "language": "en",
+     "level": "word",
+     "text": "soup",
+     "standardReading": "/suːp/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "수프",
+       "meaning": "국"
+      },
+      "ja": {
+       "pronunciation": "スープ",
+       "meaning": "スープ"
+      },
+      "vi": {
+       "pronunciation": "xúp",
+       "meaning": "canh"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-noodles",
+     "language": "en",
+     "level": "word",
+     "text": "noodles",
+     "standardReading": "/ˈnuːdəlz/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "누들스",
+       "meaning": "국수"
+      },
+      "ja": {
+       "pronunciation": "ヌードルズ",
+       "meaning": "麺"
+      },
+      "vi": {
+       "pronunciation": "nu-đồ",
+       "meaning": "mì"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-price",
      "language": "en",
      "level": "word",
      "text": "price",
@@ -2452,7 +5350,133 @@
      }
     },
     {
-     "id": "en-w-food-09",
+     "id": "en-w-food-money",
+     "language": "en",
+     "level": "word",
+     "text": "money",
+     "standardReading": "/ˈmʌni/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "머니",
+       "meaning": "돈"
+      },
+      "ja": {
+       "pronunciation": "マネー",
+       "meaning": "お金"
+      },
+      "vi": {
+       "pronunciation": "mân-ni",
+       "meaning": "tiền"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-cash",
+     "language": "en",
+     "level": "word",
+     "text": "cash",
+     "standardReading": "/kæʃ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "캐시",
+       "meaning": "현금"
+      },
+      "ja": {
+       "pronunciation": "キャッシュ",
+       "meaning": "現金"
+      },
+      "vi": {
+       "pronunciation": "két",
+       "meaning": "tiền mặt"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-card",
+     "language": "en",
+     "level": "word",
+     "text": "card",
+     "standardReading": "/kɑːrd/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카드",
+       "meaning": "카드"
+      },
+      "ja": {
+       "pronunciation": "カード",
+       "meaning": "カード"
+      },
+      "vi": {
+       "pronunciation": "cát",
+       "meaning": "thẻ"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-receipt",
+     "language": "en",
+     "level": "word",
+     "text": "receipt",
+     "standardReading": "/rɪˈsiːt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "리시트",
+       "meaning": "영수증"
+      },
+      "ja": {
+       "pronunciation": "レシート",
+       "meaning": "レシート"
+      },
+      "vi": {
+       "pronunciation": "ri-xít",
+       "meaning": "hóa đơn"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-bag",
+     "language": "en",
+     "level": "word",
+     "text": "bag",
+     "standardReading": "/bæɡ/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "백",
+       "meaning": "봉투"
+      },
+      "ja": {
+       "pronunciation": "バッグ",
+       "meaning": "袋"
+      },
+      "vi": {
+       "pronunciation": "béc",
+       "meaning": "túi"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-discount",
+     "language": "en",
+     "level": "word",
+     "text": "discount",
+     "standardReading": "/ˈdɪskaʊnt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "디스카운트",
+       "meaning": "할인"
+      },
+      "ja": {
+       "pronunciation": "ディスカウント",
+       "meaning": "割引"
+      },
+      "vi": {
+       "pronunciation": "đít-cao",
+       "meaning": "giảm giá"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-market",
      "language": "en",
      "level": "word",
      "text": "market",
@@ -2473,7 +5497,91 @@
      }
     },
     {
-     "id": "en-w-food-10",
+     "id": "en-w-food-supermarket",
+     "language": "en",
+     "level": "word",
+     "text": "supermarket",
+     "standardReading": "/ˈsuːpərˌmɑːrkɪt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "슈퍼마켓",
+       "meaning": "슈퍼마켓"
+      },
+      "ja": {
+       "pronunciation": "スーパーマーケット",
+       "meaning": "スーパー"
+      },
+      "vi": {
+       "pronunciation": "xu-pơ-ma-kít",
+       "meaning": "siêu thị"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-convenience-store",
+     "language": "en",
+     "level": "word",
+     "text": "convenience store",
+     "standardReading": "/kənˈviːniəns stɔːr/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "컨비니언스 스토어",
+       "meaning": "편의점"
+      },
+      "ja": {
+       "pronunciation": "コンビニエンスストア",
+       "meaning": "コンビニ"
+      },
+      "vi": {
+       "pronunciation": "cân-vi-ni-ần xto",
+       "meaning": "cửa hàng tiện lợi"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-restaurant",
+     "language": "en",
+     "level": "word",
+     "text": "restaurant",
+     "standardReading": "/ˈrɛstərɒnt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "레스토랑",
+       "meaning": "식당"
+      },
+      "ja": {
+       "pronunciation": "レストラン",
+       "meaning": "レストラン"
+      },
+      "vi": {
+       "pronunciation": "rét-tơ-răng",
+       "meaning": "nhà hàng"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-menu",
+     "language": "en",
+     "level": "word",
+     "text": "menu",
+     "standardReading": "/ˈmɛnjuː/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "메뉴",
+       "meaning": "메뉴"
+      },
+      "ja": {
+       "pronunciation": "メニュー",
+       "meaning": "メニュー"
+      },
+      "vi": {
+       "pronunciation": "me-niu",
+       "meaning": "thực đơn"
+      }
+     }
+    },
+    {
+     "id": "en-w-food-bill",
      "language": "en",
      "level": "word",
      "text": "bill",
@@ -2506,7 +5614,7 @@
    },
    "items": [
     {
-     "id": "en-w-places-01",
+     "id": "en-w-places-station",
      "language": "en",
      "level": "word",
      "text": "station",
@@ -2527,7 +5635,7 @@
      }
     },
     {
-     "id": "en-w-places-02",
+     "id": "en-w-places-bus",
      "language": "en",
      "level": "word",
      "text": "bus",
@@ -2548,7 +5656,28 @@
      }
     },
     {
-     "id": "en-w-places-03",
+     "id": "en-w-places-bus-stop",
+     "language": "en",
+     "level": "word",
+     "text": "bus stop",
+     "standardReading": "/ˈbʌs stɒp/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "버스 스톱",
+       "meaning": "버스 정류장"
+      },
+      "ja": {
+       "pronunciation": "バスストップ",
+       "meaning": "バス停"
+      },
+      "vi": {
+       "pronunciation": "bớt xtóp",
+       "meaning": "trạm xe buýt"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-subway",
      "language": "en",
      "level": "word",
      "text": "subway",
@@ -2569,7 +5698,28 @@
      }
     },
     {
-     "id": "en-w-places-04",
+     "id": "en-w-places-train",
+     "language": "en",
+     "level": "word",
+     "text": "train",
+     "standardReading": "/treɪn/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "트레인",
+       "meaning": "기차"
+      },
+      "ja": {
+       "pronunciation": "トレイン",
+       "meaning": "電車"
+      },
+      "vi": {
+       "pronunciation": "trây",
+       "meaning": "tàu hỏa"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-taxi",
      "language": "en",
      "level": "word",
      "text": "taxi",
@@ -2590,7 +5740,70 @@
      }
     },
     {
-     "id": "en-w-places-05",
+     "id": "en-w-places-car",
+     "language": "en",
+     "level": "word",
+     "text": "car",
+     "standardReading": "/kɑːr/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카",
+       "meaning": "자동차"
+      },
+      "ja": {
+       "pronunciation": "カー",
+       "meaning": "車"
+      },
+      "vi": {
+       "pronunciation": "ca",
+       "meaning": "ô tô"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-bicycle",
+     "language": "en",
+     "level": "word",
+     "text": "bicycle",
+     "standardReading": "/ˈbaɪsɪkəl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "바이시클",
+       "meaning": "자전거"
+      },
+      "ja": {
+       "pronunciation": "バイシクル",
+       "meaning": "自転車"
+      },
+      "vi": {
+       "pronunciation": "bai-xi-cồ",
+       "meaning": "xe đạp"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-airplane",
+     "language": "en",
+     "level": "word",
+     "text": "airplane",
+     "standardReading": "/ˈɛrpleɪn/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "에어플레인",
+       "meaning": "비행기"
+      },
+      "ja": {
+       "pronunciation": "エアプレーン",
+       "meaning": "飛行機"
+      },
+      "vi": {
+       "pronunciation": "e-plây",
+       "meaning": "máy bay"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-airport",
      "language": "en",
      "level": "word",
      "text": "airport",
@@ -2611,70 +5824,112 @@
      }
     },
     {
-     "id": "en-w-places-06",
+     "id": "en-w-places-ticket",
      "language": "en",
      "level": "word",
-     "text": "hospital",
-     "standardReading": "/ˈhɒspɪtəl/",
+     "text": "ticket",
+     "standardReading": "/ˈtɪkɪt/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "하스피털",
-       "meaning": "병원"
+       "pronunciation": "티켓",
+       "meaning": "표"
       },
       "ja": {
-       "pronunciation": "ホスピタル",
-       "meaning": "病院"
+       "pronunciation": "チケット",
+       "meaning": "切符"
       },
       "vi": {
-       "pronunciation": "hót-pi-tồ",
-       "meaning": "bệnh viện"
+       "pronunciation": "tíc-kít",
+       "meaning": "vé"
       }
      }
     },
     {
-     "id": "en-w-places-07",
+     "id": "en-w-places-platform",
      "language": "en",
      "level": "word",
-     "text": "bank",
-     "standardReading": "/bæŋk/",
+     "text": "platform",
+     "standardReading": "/ˈplætfɔːrm/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "뱅크",
-       "meaning": "은행"
+       "pronunciation": "플랫폼",
+       "meaning": "승강장"
       },
       "ja": {
-       "pronunciation": "バンク",
-       "meaning": "銀行"
+       "pronunciation": "プラットフォーム",
+       "meaning": "ホーム"
       },
       "vi": {
-       "pronunciation": "beng",
-       "meaning": "ngân hàng"
+       "pronunciation": "plét-phom",
+       "meaning": "sân ga"
       }
      }
     },
     {
-     "id": "en-w-places-08",
+     "id": "en-w-places-transfer",
      "language": "en",
      "level": "word",
-     "text": "pharmacy",
-     "standardReading": "/ˈfɑːrməsi/",
+     "text": "transfer",
+     "standardReading": "/ˈtrænsfɜːr/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "파머시",
-       "meaning": "약국"
+       "pronunciation": "트랜스퍼",
+       "meaning": "환승"
       },
       "ja": {
-       "pronunciation": "ファーマシー",
-       "meaning": "薬局"
+       "pronunciation": "トランスファー",
+       "meaning": "乗り換え"
       },
       "vi": {
-       "pronunciation": "pha-mơ-xi",
-       "meaning": "nhà thuốc"
+       "pronunciation": "tren-xphơ",
+       "meaning": "chuyển tàu"
       }
      }
     },
     {
-     "id": "en-w-places-09",
+     "id": "en-w-places-entrance",
+     "language": "en",
+     "level": "word",
+     "text": "entrance",
+     "standardReading": "/ˈɛntrəns/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "엔트런스",
+       "meaning": "입구"
+      },
+      "ja": {
+       "pronunciation": "エントランス",
+       "meaning": "入口"
+      },
+      "vi": {
+       "pronunciation": "en-trần",
+       "meaning": "lối vào"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-exit",
+     "language": "en",
+     "level": "word",
+     "text": "exit",
+     "standardReading": "/ˈɛɡzɪt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "엑시트",
+       "meaning": "출구"
+      },
+      "ja": {
+       "pronunciation": "エグジット",
+       "meaning": "出口"
+      },
+      "vi": {
+       "pronunciation": "éc-dít",
+       "meaning": "lối ra"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-restroom",
      "language": "en",
      "level": "word",
      "text": "restroom",
@@ -2695,23 +5950,338 @@
      }
     },
     {
-     "id": "en-w-places-10",
+     "id": "en-w-places-hospital",
      "language": "en",
      "level": "word",
-     "text": "exit",
-     "standardReading": "/ˈɛɡzɪt/",
+     "text": "hospital",
+     "standardReading": "/ˈhɒspɪtəl/",
      "nativeGuides": {
       "ko": {
-       "pronunciation": "엑시트",
-       "meaning": "출구"
+       "pronunciation": "하스피털",
+       "meaning": "병원"
       },
       "ja": {
-       "pronunciation": "エグジット",
-       "meaning": "出口"
+       "pronunciation": "ホスピタル",
+       "meaning": "病院"
       },
       "vi": {
-       "pronunciation": "éc-dít",
-       "meaning": "lối ra"
+       "pronunciation": "hót-pi-tồ",
+       "meaning": "bệnh viện"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-pharmacy",
+     "language": "en",
+     "level": "word",
+     "text": "pharmacy",
+     "standardReading": "/ˈfɑːrməsi/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "파머시",
+       "meaning": "약국"
+      },
+      "ja": {
+       "pronunciation": "ファーマシー",
+       "meaning": "薬局"
+      },
+      "vi": {
+       "pronunciation": "pha-mơ-xi",
+       "meaning": "nhà thuốc"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-bank",
+     "language": "en",
+     "level": "word",
+     "text": "bank",
+     "standardReading": "/bæŋk/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "뱅크",
+       "meaning": "은행"
+      },
+      "ja": {
+       "pronunciation": "バンク",
+       "meaning": "銀行"
+      },
+      "vi": {
+       "pronunciation": "beng",
+       "meaning": "ngân hàng"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-post-office",
+     "language": "en",
+     "level": "word",
+     "text": "post office",
+     "standardReading": "/ˈpoʊst ˌɒfɪs/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "포스트 오피스",
+       "meaning": "우체국"
+      },
+      "ja": {
+       "pronunciation": "ポストオフィス",
+       "meaning": "郵便局"
+      },
+      "vi": {
+       "pronunciation": "pâu-xt ó-phít",
+       "meaning": "bưu điện"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-police-station",
+     "language": "en",
+     "level": "word",
+     "text": "police station",
+     "standardReading": "/pəˈliːs ˈsteɪʃən/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "폴리스 스테이션",
+       "meaning": "경찰서"
+      },
+      "ja": {
+       "pronunciation": "ポリスステーション",
+       "meaning": "警察署"
+      },
+      "vi": {
+       "pronunciation": "pơ-lít xtây-sần",
+       "meaning": "đồn công an"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-school",
+     "language": "en",
+     "level": "word",
+     "text": "school",
+     "standardReading": "/skuːl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스쿨",
+       "meaning": "학교"
+      },
+      "ja": {
+       "pronunciation": "スクール",
+       "meaning": "学校"
+      },
+      "vi": {
+       "pronunciation": "xcun",
+       "meaning": "trường học"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-library",
+     "language": "en",
+     "level": "word",
+     "text": "library",
+     "standardReading": "/ˈlaɪbrɛri/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "라이브러리",
+       "meaning": "도서관"
+      },
+      "ja": {
+       "pronunciation": "ライブラリー",
+       "meaning": "図書館"
+      },
+      "vi": {
+       "pronunciation": "lai-brơ-ri",
+       "meaning": "thư viện"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-hotel",
+     "language": "en",
+     "level": "word",
+     "text": "hotel",
+     "standardReading": "/hoʊˈtɛl/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "호텔",
+       "meaning": "호텔"
+      },
+      "ja": {
+       "pronunciation": "ホテル",
+       "meaning": "ホテル"
+      },
+      "vi": {
+       "pronunciation": "hâu-ten",
+       "meaning": "khách sạn"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-park",
+     "language": "en",
+     "level": "word",
+     "text": "park",
+     "standardReading": "/pɑːrk/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "파크",
+       "meaning": "공원"
+      },
+      "ja": {
+       "pronunciation": "パーク",
+       "meaning": "公園"
+      },
+      "vi": {
+       "pronunciation": "pác",
+       "meaning": "công viên"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-map",
+     "language": "en",
+     "level": "word",
+     "text": "map",
+     "standardReading": "/mæp/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "맵",
+       "meaning": "지도"
+      },
+      "ja": {
+       "pronunciation": "マップ",
+       "meaning": "地図"
+      },
+      "vi": {
+       "pronunciation": "mép",
+       "meaning": "bản đồ"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-traffic-light",
+     "language": "en",
+     "level": "word",
+     "text": "traffic light",
+     "standardReading": "/ˈtræfɪk laɪt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "트래픽 라이트",
+       "meaning": "신호등"
+      },
+      "ja": {
+       "pronunciation": "トラフィックライト",
+       "meaning": "信号"
+      },
+      "vi": {
+       "pronunciation": "tre-phích lai",
+       "meaning": "đèn giao thông"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-crosswalk",
+     "language": "en",
+     "level": "word",
+     "text": "crosswalk",
+     "standardReading": "/ˈkrɔːswɔːk/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "크로스워크",
+       "meaning": "횡단보도"
+      },
+      "ja": {
+       "pronunciation": "クロスウォーク",
+       "meaning": "横断歩道"
+      },
+      "vi": {
+       "pronunciation": "cro-xuốc",
+       "meaning": "vạch qua đường"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-parking-lot",
+     "language": "en",
+     "level": "word",
+     "text": "parking lot",
+     "standardReading": "/ˈpɑːrkɪŋ lɒt/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "파킹 랏",
+       "meaning": "주차장"
+      },
+      "ja": {
+       "pronunciation": "パーキングロット",
+       "meaning": "駐車場"
+      },
+      "vi": {
+       "pronunciation": "pa-kinh lót",
+       "meaning": "bãi đỗ xe"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-gas-station",
+     "language": "en",
+     "level": "word",
+     "text": "gas station",
+     "standardReading": "/ˈɡæs ˌsteɪʃən/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "개스 스테이션",
+       "meaning": "주유소"
+      },
+      "ja": {
+       "pronunciation": "ガスステーション",
+       "meaning": "ガソリンスタンド"
+      },
+      "vi": {
+       "pronunciation": "ghét xtây-sần",
+       "meaning": "cây xăng"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-elevator",
+     "language": "en",
+     "level": "word",
+     "text": "elevator",
+     "standardReading": "/ˈɛlɪveɪtər/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "엘리베이터",
+       "meaning": "엘리베이터"
+      },
+      "ja": {
+       "pronunciation": "エレベーター",
+       "meaning": "エレベーター"
+      },
+      "vi": {
+       "pronunciation": "e-li-vây-tơ",
+       "meaning": "thang máy"
+      }
+     }
+    },
+    {
+     "id": "en-w-places-stairs",
+     "language": "en",
+     "level": "word",
+     "text": "stairs",
+     "standardReading": "/stɛrz/",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스테어즈",
+       "meaning": "계단"
+      },
+      "ja": {
+       "pronunciation": "ステアーズ",
+       "meaning": "階段"
+      },
+      "vi": {
+       "pronunciation": "xte",
+       "meaning": "cầu thang"
       }
      }
     }

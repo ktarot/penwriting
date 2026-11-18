@@ -41,14 +41,47 @@ describe("언어팩 데이터", () => {
     });
   }
 
-  it("생활 단어 8주제 × 10개, 질문과 답 12쌍, 안내문 4·에세이 4 이상", () => {
+  it("생활 단어 8주제: 주제마다 필요한 단어를 모두 (최소 18개), 질문과 답 12쌍, 안내문 4·에세이 4 이상", () => {
+    const THEMES = ["numbers", "units", "directions", "address", "time", "people", "food", "places"];
     for (const lang of LANGUAGES) {
       const cat = (id: string) => packs[lang].categories.find((c) => c.id === id)!;
-      for (const id of ["numbers", "units", "directions", "address", "time", "people", "food", "places"]) expect(cat(id).items, `${lang}.${id}`).toHaveLength(10);
+      for (const id of THEMES) expect(cat(id).items.length, `${lang}.${id}`).toBeGreaterThanOrEqual(18);
       expect(cat("qa").items).toHaveLength(24);
       expect(cat("notices").items).toHaveLength(4);
       expect(cat("essays").items.length).toBeGreaterThanOrEqual(4);
     }
+    // 네 언어에 공통인 개념은 모두 같은 id 꼬리를 가진다 (예: *-w-days-monday)
+    const tails = (lang: (typeof LANGUAGES)[number], id: string) => new Set(packs[lang].categories.find((c) => c.id === id)!.items.map((i) => i.id.slice(3)));
+    for (const id of THEMES) {
+      const common = [...tails("ko", id)].filter((t) => LANGUAGES.every((l) => tails(l, id).has(t)));
+      expect(common.length, id).toBeGreaterThanOrEqual(18);
+    }
+  });
+
+  it("요일 7개와 달 12개를 모두 갖춘다", () => {
+    const days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+    const months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+    for (const lang of LANGUAGES) for (const d of [...days, ...months]) expect(findItem(packs[lang], `${lang}-w-time-${d}`), `${lang} ${d}`).toBeDefined();
+    expect(findItem(packs.ja, "ja-w-time-june")!.text).toBe("六月");
+    expect(findItem(packs.ko, "ko-w-time-june")!.standardReading).toBe("yuwol");
+  });
+
+  it("한 언어에만 있는 단어(고유어 수, 나라별 주소 단위 등)는 뜻을 직접 갖는다", () => {
+    const hana = findItem(packs.ko, "ko-w-numbers-hana")!;
+    expect(hana.text).toBe("하나");
+    expect(hana.nativeGuides.en?.meaning).toContain("native Korean");
+    expect(findItem(packs.en, "en-w-numbers-hana")).toBeUndefined();
+    expect(findItem(packs.ja, "ja-w-address-chome")!.nativeGuides.ko?.meaning).toContain("초메");
+    expect(findItem(packs.vi, "vi-w-address-hem")!.nativeGuides.en?.meaning).toBe("alley (South)");
+  });
+
+  it("일본어 발음 안내는 가나 읽기에서 규칙으로 만든다 (헵번식 로마자 포함)", () => {
+    const g = findItem(packs.ja, "ja-w-places-school")!;
+    expect(g.text).toBe("学校");
+    expect(g.standardReading).toBe("がっこう · gakkō");
+    expect(g.nativeGuides.ko?.pronunciation).toBe("각코오");
+    expect(g.nativeGuides.en?.pronunciation).toBe("gakkō");
+    expect(findItem(packs.ja, "ja-w-places-ticket")!.nativeGuides.ko?.pronunciation).toBe("킵푸");
   });
 
   it("짧은 문장 30자 이내, 긴 문장 100자 이내", () => {
@@ -62,16 +95,16 @@ describe("언어팩 데이터", () => {
 
   it("같은 개념의 단어는 서로의 뜻이 된다 (4개 언어 대응표)", () => {
     const w = (lang: (typeof LANGUAGES)[number], id: string) => findItem(packs[lang], `${lang}-${id}`)!;
-    expect(w("ko", "w-directions-05").text).toBe("왼쪽");
-    expect(w("ko", "w-directions-05").nativeGuides.en?.meaning).toBe("left");
-    expect(w("en", "w-directions-05").nativeGuides.ja?.meaning).toBe("左");
-    expect(w("ja", "w-directions-05").nativeGuides.vi?.meaning).toBe("trái");
-    expect(w("vi", "w-directions-05").nativeGuides.ko?.meaning).toBe("왼쪽");
+    expect(w("ko", "w-directions-left").text).toBe("왼쪽");
+    expect(w("ko", "w-directions-left").nativeGuides.en?.meaning).toBe("left");
+    expect(w("en", "w-directions-left").nativeGuides.ja?.meaning).toBe("左");
+    expect(w("ja", "w-directions-left").nativeGuides.vi?.meaning).toBe("trái");
+    expect(w("vi", "w-directions-left").nativeGuides.ko?.meaning).toBe("왼쪽");
     expect(findItem(packs.ja, "ja-qa-04-q")!.nativeGuides.ko?.meaning).toBe("화장실이 어디예요?");
   });
 
   it("베트남어 단어의 성조 설명은 성조 부호에서 정해진다", () => {
-    const it = findItem(packs.vi, "vi-w-places-03")!;
+    const it = findItem(packs.vi, "vi-w-places-subway")!;
     expect(it.text).toBe("tàu điện ngầm");
     expect(it.nativeGuides.en?.explanation).toBe("tàu: low, falling (huyền), điện: low, short, with a catch in the throat (nặng), ngầm: low, falling (huyền)");
   });

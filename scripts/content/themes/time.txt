@@ -1,0 +1,52 @@
+# 시간·날짜: 초·분·시간·날·주·달·년, 오늘·내일·어제·모레·그저께, 아침·점심·오후·저녁·밤, 지금·나중에·주말·평일, 요일 7, 달 12, 계절 4 + 시(時)
+second-t | 초;cho;チョ;chô | second;/ˈsɛkənd/;세컨드;セカンド;xe-cần | 秒;びょう | giây;저이;zay;ゾイ
+minute | 분;bun;プン;pun | minute;/ˈmɪnɪt/;미닛;ミニット;mi-nít | 分;ふん | phút;풋;foot;フット
+hour | 시간;sigan;シガン;xi-can | hour;/ˈaʊər/;아워;アワー;ao-ơ | 時間;じかん | giờ;저;zuh;ゾー
+day | 날;nal;ナル;nan | day;/deɪ/;데이;デイ;đây | 日;ひ | ngày;응아이;ngai;ガイ
+week | 주;ju;チュ;chu | week;/wiːk/;위크;ウィーク;uých | 週;しゅう | tuần;뚜언;twuhn;トゥアン
+month | 달;dal;タル;tan | month;/mʌnθ/;먼스;マンス;mânth | 月;つき | tháng;탕;tahng;タン
+year | 년;nyeon;ニョン;niơn | year;/jɪr/;이어;イヤー;dia | 年;とし | năm;남;nahm;ナム
+today | 오늘;oneul;オヌル;ô-nưn | today;/təˈdeɪ/;투데이;トゥデイ;tơ-đây | 今日;きょう | hôm nay;홈 나이;hohm nigh;ホム ナイ
+tomorrow | 내일;naeil;ネイル;ne-in | tomorrow;/təˈmɒroʊ/;투모로우;トゥモロー;tơ-mo-râu | 明日;あした | ngày mai;응아이 마이;ngai mai;ガイ マイ
+yesterday | 어제;eoje;オジェ;ơ-chê | yesterday;/ˈjɛstərdeɪ/;예스터데이;イエスタデイ;dét-tơ-đây | 昨日;きのう | hôm qua;홈 꽈;hohm kwah;ホム クア
+day-after-tomorrow | 모레;more;モレ;mô-rê | day after tomorrow;/deɪ ˈæftər təˈmɒroʊ/;데이 애프터 투모로우;デイアフタートゥモロー;đây áp-tơ tơ-mo-râu | 明後日;あさって | ngày kia;응아이 끼어;ngai kee-uh;ガイ キア
+day-before-yesterday | 그저께;geujeokke;クジョッケ;cư-chơ-kê | day before yesterday;/deɪ bɪˈfɔːr ˈjɛstərdeɪ/;데이 비포 예스터데이;デイビフォーイエスタデイ;đây bi-pho dét-tơ-đây | 一昨日;おととい | hôm kia;홈 끼어;hohm kee-uh;ホム キア
+morning | 아침;achim;アチム;a-chim | morning;/ˈmɔːrnɪŋ/;모닝;モーニング;mo-ninh | 朝;あさ | buổi sáng;부오이 상;boo-oy sahng;ブオイ サン
+noon | 점심;jeomsim;チョムシム;chơm-xim | noon;/nuːn/;눈;ヌーン;nun | 昼;ひる | buổi trưa;부오이 쯔어;boo-oy chuh-uh;ブオイ チュア
+afternoon | 오후;ohu;オフ;ô-hu | afternoon;/ˌæftərˈnuːn/;애프터눈;アフタヌーン;áp-tơ-nun | 午後;ごご | buổi chiều;부오이 찌에우;boo-oy chee-ew;ブオイ チエウ
+evening | 저녁;jeonyeok;チョニョク;chơ-niơc | evening;/ˈiːvnɪŋ/;이브닝;イブニング;iv-ninh | 夕方;ゆうがた | buổi tối;부오이 또이;boo-oy toy;ブオイ トイ
+night | 밤;bam;パム;pam | night;/naɪt/;나이트;ナイト;nai | 夜;よる | ban đêm;반 뎀;bahn dem;バン デム
+now | 지금;jigeum;チグム;chi-gưm | now;/naʊ/;나우;ナウ;nao | 今;いま | bây giờ;버이 저;bay zuh;バイ ゾー
+later | 나중에;najunge;ナジュンエ;na-chung-ê | later;/ˈleɪtər/;레이터;レイター;lây-tơ | 後で;あとで | sau này;사우 나이;sow nigh;サウ ナイ
+weekend | 주말;jumal;チュマル;chu-man | weekend;/ˈwiːkɛnd/;위켄드;ウィークエンド;uých-ken | 週末;しゅうまつ | cuối tuần;꾸오이 뚜언;kwoy twuhn;クオイ トゥアン
+weekday | 평일;pyeongil;ピョンイル;piơng-in | weekday;/ˈwiːkdeɪ/;위크데이;ウィークデー;uých-đây | 平日;へいじつ | ngày thường;응아이 트엉;ngai tuh-uhng;ガイ トゥオン
+monday | 월요일;woryoil;ウォリョイル;uơ-riô-in | Monday;/ˈmʌndeɪ/;먼데이;マンデー;mân-đây | 月曜日;げつようび | thứ Hai;트 하이;tuh high;トゥー ハイ
+tuesday | 화요일;hwayoil;ファヨイル;hoa-iô-in | Tuesday;/ˈtjuːzdeɪ/;튜즈데이;チューズデー;tiu-đây | 火曜日;かようび | thứ Ba;트 바;tuh bah;トゥー バー
+wednesday | 수요일;suyoil;スヨイル;xu-iô-in | Wednesday;/ˈwɛnzdeɪ/;웬즈데이;ウェンズデー;uen-đây | 水曜日;すいようび | thứ Tư;트 뜨;tuh tuh;トゥー トゥー
+thursday | 목요일;mogyoil;モギョイル;mốc-iô-in | Thursday;/ˈθɜːrzdeɪ/;서즈데이;サーズデー;thơ-đây | 木曜日;もくようび | thứ Năm;트 남;tuh nahm;トゥー ナム
+friday | 금요일;geumyoil;クミョイル;cưm-iô-in | Friday;/ˈfraɪdeɪ/;프라이데이;フライデー;phrai-đây | 金曜日;きんようび | thứ Sáu;트 사우;tuh sow;トゥー サウ
+saturday | 토요일;toyoil;トヨイル;tô-iô-in | Saturday;/ˈsætərdeɪ/;새터데이;サタデー;xe-tơ-đây | 土曜日;どようび | thứ Bảy;트 바이;tuh bye;トゥー バイ
+sunday | 일요일;iryoil;イリョイル;i-riô-in | Sunday;/ˈsʌndeɪ/;선데이;サンデー;xân-đây | 日曜日;にちようび | Chủ nhật;쭈 녓;choo nyuht;チュー ニャット
+january | 1월;irwol;イルォル;i-ruơn | January;/ˈdʒænjuˌɛri/;재뉴어리;ジャニュアリー;gian-niu-ơ-ri | 一月;いちがつ | tháng Một;탕 못;tahng moht;タン モッ
+february | 2월;iwol;イウォル;i-uơn | February;/ˈfɛbruˌɛri/;페브루어리;フェブラリー;phép-ru-ơ-ri | 二月;にがつ | tháng Hai;탕 하이;tahng high;タン ハイ
+march | 3월;samwol;サムォル;xam-uơn | March;/mɑːrtʃ/;마치;マーチ;mát | 三月;さんがつ | tháng Ba;탕 바;tahng bah;タン バー
+april | 4월;sawol;サウォル;xa-uơn | April;/ˈeɪprəl/;에이프릴;エイプリル;ây-prồ | 四月;しがつ | tháng Tư;탕 뜨;tahng tuh;タン トゥー
+may | 5월;owol;オウォル;ô-uơn | May;/meɪ/;메이;メイ;mây | 五月;ごがつ | tháng Năm;탕 남;tahng nahm;タン ナム
+june | 6월;yuwol;ユウォル;iu-uơn | June;/dʒuːn/;준;ジューン;giun | 六月;ろくがつ | tháng Sáu;탕 사우;tahng sow;タン サウ
+july | 7월;chirwol;チルォル;chi-ruơn | July;/dʒʊˈlaɪ/;줄라이;ジュライ;giu-lai | 七月;しちがつ | tháng Bảy;탕 바이;tahng bye;タン バイ
+august | 8월;parwol;パルォル;pa-ruơn | August;/ˈɔːɡəst/;어거스트;オーガスト;o-gớt | 八月;はちがつ | tháng Tám;탕 땀;tahng tahm;タン タム
+september | 9월;guwol;クウォル;cu-uơn | September;/sɛpˈtɛmbər/;셉템버;セプテンバー;xép-tem-bơ | 九月;くがつ | tháng Chín;탕 찐;tahng chin;タン チン
+october | 10월;siwol;シウォル;xi-uơn | October;/ɒkˈtoʊbər/;옥토버;オクトーバー;ọc-tâu-bơ | 十月;じゅうがつ | tháng Mười;탕 므어이;tahng muh-uh-ee;タン ムオイ
+november | 11월;sibirwol;シビルォル;xi-bi-ruơn | November;/noʊˈvɛmbər/;노벰버;ノーベンバー;nâu-vem-bơ | 十一月;じゅういちがつ | tháng Mười Một;탕 므어이 못;tahng muh-uh-ee moht;タン ムオイ モッ
+december | 12월;sibiwol;シビウォル;xi-bi-uơn | December;/dɪˈsɛmbər/;디셈버;ディセンバー;đi-xem-bơ | 十二月;じゅうにがつ | tháng Mười Hai;탕 므어이 하이;tahng muh-uh-ee high;タン ムオイ ハイ
+spring | 봄;bom;ポム;bôm | spring;/sprɪŋ/;스프링;スプリング;xprinh | 春;はる | mùa xuân;무어 쑤언;moo-uh swuhn;ムア スアン
+summer | 여름;yeoreum;ヨルム;iơ-rưm | summer;/ˈsʌmər/;서머;サマー;xâm-mơ | 夏;なつ | mùa hè;무어 해;moo-uh heh;ムア ヘー
+autumn | 가을;gaeul;カウル;ca-ưn | autumn;/ˈɔːtəm/;오텀;オータム;o-tâm | 秋;あき | mùa thu;무어 투;moo-uh too;ムア トゥー
+winter | 겨울;gyeoul;キョウル;kiơ-un | winter;/ˈwɪntər/;윈터;ウィンター;uyn-tơ | 冬;ふゆ | mùa đông;무어 동;moo-uh dohng;ムア ドン
++ko si | 시;si;シ;xi | o'clock;時(時刻);giờ (giờ đồng hồ)
++ko ojeon | 오전;ojeon;オジョン;ô-chơn | a.m., morning hours;午前;buổi sáng (giờ sáng)
++ja ji | 時;じ | 시 (시각);o'clock;giờ (giờ đồng hồ)
++ja gozen | 午前;ごぜん | 오전;a.m., morning hours;buổi sáng (giờ sáng)
++en am | a.m.;/ˌeɪ ˈɛm/;에이엠;エーエム;ây-em | 오전;午前;sáng (giờ sáng)
++en pm | p.m.;/ˌpiː ˈɛm/;피엠;ピーエム;pi-em | 오후;午後;chiều, tối (giờ chiều)
++en oclock | o'clock;/əˈklɒk/;어클락;オクロック;ơ-clóc | ~시 (정각);~時(ちょうど);~ giờ (đúng)
