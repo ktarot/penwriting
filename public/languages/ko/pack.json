@@ -1,6 +1,6 @@
 {
  "language": "ko",
- "version": "0.1.0",
+ "version": "0.2.0",
  "locale": "ko-KR",
  "review": {
   "status": "draft",
@@ -832,10 +832,10 @@
    "id": "words",
    "level": "word",
    "title": {
-    "ko": "단어",
-    "en": "Words",
-    "ja": "単語",
-    "vi": "Từ"
+    "ko": "기본 단어",
+    "en": "Basics",
+    "ja": "基本の単語",
+    "vi": "Từ cơ bản"
    },
    "items": [
     {
@@ -1009,13 +1009,2233 @@
    ]
   },
   {
+   "id": "numbers",
+   "level": "word",
+   "title": {
+    "ko": "숫자",
+    "en": "Numbers",
+    "ja": "数字",
+    "vi": "Số đếm"
+   },
+   "items": [
+    {
+     "id": "ko-w-numbers-01",
+     "language": "ko",
+     "level": "word",
+     "text": "영",
+     "standardReading": "yeong",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "yeong",
+       "meaning": "zero"
+      },
+      "ja": {
+       "pronunciation": "ヨン",
+       "meaning": "ゼロ"
+      },
+      "vi": {
+       "pronunciation": "yơng",
+       "meaning": "không"
+      }
+     }
+    },
+    {
+     "id": "ko-w-numbers-02",
+     "language": "ko",
+     "level": "word",
+     "text": "일",
+     "standardReading": "il",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "il",
+       "meaning": "one"
+      },
+      "ja": {
+       "pronunciation": "イル",
+       "meaning": "一"
+      },
+      "vi": {
+       "pronunciation": "il",
+       "meaning": "một"
+      }
+     }
+    },
+    {
+     "id": "ko-w-numbers-03",
+     "language": "ko",
+     "level": "word",
+     "text": "이",
+     "standardReading": "i",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "i",
+       "meaning": "two"
+      },
+      "ja": {
+       "pronunciation": "イ",
+       "meaning": "二"
+      },
+      "vi": {
+       "pronunciation": "i",
+       "meaning": "hai"
+      }
+     }
+    },
+    {
+     "id": "ko-w-numbers-04",
+     "language": "ko",
+     "level": "word",
+     "text": "삼",
+     "standardReading": "sam",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sam",
+       "meaning": "three"
+      },
+      "ja": {
+       "pronunciation": "サム",
+       "meaning": "三"
+      },
+      "vi": {
+       "pronunciation": "xam",
+       "meaning": "ba"
+      }
+     }
+    },
+    {
+     "id": "ko-w-numbers-05",
+     "language": "ko",
+     "level": "word",
+     "text": "사",
+     "standardReading": "sa",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sa",
+       "meaning": "four"
+      },
+      "ja": {
+       "pronunciation": "サ",
+       "meaning": "四"
+      },
+      "vi": {
+       "pronunciation": "xa",
+       "meaning": "bốn"
+      }
+     }
+    },
+    {
+     "id": "ko-w-numbers-06",
+     "language": "ko",
+     "level": "word",
+     "text": "오",
+     "standardReading": "o",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "o",
+       "meaning": "five"
+      },
+      "ja": {
+       "pronunciation": "オ",
+       "meaning": "五"
+      },
+      "vi": {
+       "pronunciation": "ô",
+       "meaning": "năm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-numbers-07",
+     "language": "ko",
+     "level": "word",
+     "text": "십",
+     "standardReading": "sip",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sip",
+       "meaning": "ten"
+      },
+      "ja": {
+       "pronunciation": "シプ",
+       "meaning": "十"
+      },
+      "vi": {
+       "pronunciation": "xíp",
+       "meaning": "mười"
+      }
+     }
+    },
+    {
+     "id": "ko-w-numbers-08",
+     "language": "ko",
+     "level": "word",
+     "text": "백",
+     "standardReading": "baek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "baek",
+       "meaning": "hundred"
+      },
+      "ja": {
+       "pronunciation": "ペク",
+       "meaning": "百"
+      },
+      "vi": {
+       "pronunciation": "pẹc",
+       "meaning": "một trăm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-numbers-09",
+     "language": "ko",
+     "level": "word",
+     "text": "천",
+     "standardReading": "cheon",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "cheon",
+       "meaning": "thousand"
+      },
+      "ja": {
+       "pronunciation": "チョン",
+       "meaning": "千"
+      },
+      "vi": {
+       "pronunciation": "chơn",
+       "meaning": "một nghìn"
+      }
+     }
+    },
+    {
+     "id": "ko-w-numbers-10",
+     "language": "ko",
+     "level": "word",
+     "text": "만",
+     "standardReading": "man",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "man",
+       "meaning": "ten thousand"
+      },
+      "ja": {
+       "pronunciation": "マン",
+       "meaning": "万"
+      },
+      "vi": {
+       "pronunciation": "man",
+       "meaning": "mười nghìn"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "units",
+   "level": "word",
+   "title": {
+    "ko": "단위",
+    "en": "Units",
+    "ja": "単位",
+    "vi": "Đơn vị"
+   },
+   "items": [
+    {
+     "id": "ko-w-units-01",
+     "language": "ko",
+     "level": "word",
+     "text": "미터",
+     "standardReading": "miteo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "miteo",
+       "meaning": "meter"
+      },
+      "ja": {
+       "pronunciation": "ミト",
+       "meaning": "メートル"
+      },
+      "vi": {
+       "pronunciation": "mi-tơ",
+       "meaning": "mét"
+      }
+     }
+    },
+    {
+     "id": "ko-w-units-02",
+     "language": "ko",
+     "level": "word",
+     "text": "센티미터",
+     "standardReading": "sentimiteo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sentimiteo",
+       "meaning": "centimeter"
+      },
+      "ja": {
+       "pronunciation": "センティミト",
+       "meaning": "センチ"
+      },
+      "vi": {
+       "pronunciation": "xen-ti-mi-tơ",
+       "meaning": "xăng-ti-mét"
+      }
+     }
+    },
+    {
+     "id": "ko-w-units-03",
+     "language": "ko",
+     "level": "word",
+     "text": "킬로미터",
+     "standardReading": "killomiteo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "killomiteo",
+       "meaning": "kilometer"
+      },
+      "ja": {
+       "pronunciation": "キルロミト",
+       "meaning": "キロメートル"
+      },
+      "vi": {
+       "pronunciation": "kin-lô-mi-tơ",
+       "meaning": "ki-lô-mét"
+      }
+     }
+    },
+    {
+     "id": "ko-w-units-04",
+     "language": "ko",
+     "level": "word",
+     "text": "킬로그램",
+     "standardReading": "killogeuraem",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "killogeuraem",
+       "meaning": "kilogram"
+      },
+      "ja": {
+       "pronunciation": "キルログレム",
+       "meaning": "キログラム"
+      },
+      "vi": {
+       "pronunciation": "kin-lô-gư-rem",
+       "meaning": "ki-lô-gam"
+      }
+     }
+    },
+    {
+     "id": "ko-w-units-05",
+     "language": "ko",
+     "level": "word",
+     "text": "그램",
+     "standardReading": "geuraem",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "geuraem",
+       "meaning": "gram"
+      },
+      "ja": {
+       "pronunciation": "グレム",
+       "meaning": "グラム"
+      },
+      "vi": {
+       "pronunciation": "gư-rem",
+       "meaning": "gam"
+      }
+     }
+    },
+    {
+     "id": "ko-w-units-06",
+     "language": "ko",
+     "level": "word",
+     "text": "리터",
+     "standardReading": "riteo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "riteo",
+       "meaning": "liter"
+      },
+      "ja": {
+       "pronunciation": "リト",
+       "meaning": "リットル"
+      },
+      "vi": {
+       "pronunciation": "ri-tơ",
+       "meaning": "lít"
+      }
+     }
+    },
+    {
+     "id": "ko-w-units-07",
+     "language": "ko",
+     "level": "word",
+     "text": "퍼센트",
+     "standardReading": "peosenteu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "peosenteu",
+       "meaning": "percent"
+      },
+      "ja": {
+       "pronunciation": "ポセントゥ",
+       "meaning": "パーセント"
+      },
+      "vi": {
+       "pronunciation": "pơ-xen-thư",
+       "meaning": "phần trăm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-units-08",
+     "language": "ko",
+     "level": "word",
+     "text": "도",
+     "standardReading": "do",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "do",
+       "meaning": "degree"
+      },
+      "ja": {
+       "pronunciation": "ト",
+       "meaning": "度"
+      },
+      "vi": {
+       "pronunciation": "tô",
+       "meaning": "độ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-units-09",
+     "language": "ko",
+     "level": "word",
+     "text": "시간",
+     "standardReading": "sigan",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sigan",
+       "meaning": "hour"
+      },
+      "ja": {
+       "pronunciation": "シガン",
+       "meaning": "時間"
+      },
+      "vi": {
+       "pronunciation": "xi-can",
+       "meaning": "giờ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-units-10",
+     "language": "ko",
+     "level": "word",
+     "text": "분",
+     "standardReading": "bun",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "bun",
+       "meaning": "minute"
+      },
+      "ja": {
+       "pronunciation": "プン",
+       "meaning": "分"
+      },
+      "vi": {
+       "pronunciation": "pun",
+       "meaning": "phút"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "directions",
+   "level": "word",
+   "title": {
+    "ko": "방향·위치",
+    "en": "Directions",
+    "ja": "方向・位置",
+    "vi": "Phương hướng"
+   },
+   "items": [
+    {
+     "id": "ko-w-directions-01",
+     "language": "ko",
+     "level": "word",
+     "text": "동쪽",
+     "standardReading": "dongjjok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "dongjjok",
+       "meaning": "east"
+      },
+      "ja": {
+       "pronunciation": "トンチョク",
+       "meaning": "東"
+      },
+      "vi": {
+       "pronunciation": "đông-chốc",
+       "meaning": "đông"
+      }
+     }
+    },
+    {
+     "id": "ko-w-directions-02",
+     "language": "ko",
+     "level": "word",
+     "text": "서쪽",
+     "standardReading": "seojjok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "seojjok",
+       "meaning": "west"
+      },
+      "ja": {
+       "pronunciation": "ソチョク",
+       "meaning": "西"
+      },
+      "vi": {
+       "pronunciation": "xơ-chốc",
+       "meaning": "tây"
+      }
+     }
+    },
+    {
+     "id": "ko-w-directions-03",
+     "language": "ko",
+     "level": "word",
+     "text": "남쪽",
+     "standardReading": "namjjok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "namjjok",
+       "meaning": "south"
+      },
+      "ja": {
+       "pronunciation": "ナムチョク",
+       "meaning": "南"
+      },
+      "vi": {
+       "pronunciation": "nam-chốc",
+       "meaning": "nam"
+      }
+     }
+    },
+    {
+     "id": "ko-w-directions-04",
+     "language": "ko",
+     "level": "word",
+     "text": "북쪽",
+     "standardReading": "bukjjok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "bukjjok",
+       "meaning": "north"
+      },
+      "ja": {
+       "pronunciation": "プクチョク",
+       "meaning": "北"
+      },
+      "vi": {
+       "pronunciation": "búc-chốc",
+       "meaning": "bắc"
+      }
+     }
+    },
+    {
+     "id": "ko-w-directions-05",
+     "language": "ko",
+     "level": "word",
+     "text": "왼쪽",
+     "standardReading": "oenjjok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "oenjjok",
+       "meaning": "left"
+      },
+      "ja": {
+       "pronunciation": "ウェンチョク",
+       "meaning": "左"
+      },
+      "vi": {
+       "pronunciation": "uên-chốc",
+       "meaning": "trái"
+      }
+     }
+    },
+    {
+     "id": "ko-w-directions-06",
+     "language": "ko",
+     "level": "word",
+     "text": "오른쪽",
+     "standardReading": "oreunjjok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "oreunjjok",
+       "meaning": "right"
+      },
+      "ja": {
+       "pronunciation": "オルンチョク",
+       "meaning": "右"
+      },
+      "vi": {
+       "pronunciation": "ô-rưn-chốc",
+       "meaning": "phải"
+      }
+     }
+    },
+    {
+     "id": "ko-w-directions-07",
+     "language": "ko",
+     "level": "word",
+     "text": "위",
+     "standardReading": "wi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "wi",
+       "meaning": "up"
+      },
+      "ja": {
+       "pronunciation": "ウィ",
+       "meaning": "上"
+      },
+      "vi": {
+       "pronunciation": "uy",
+       "meaning": "trên"
+      }
+     }
+    },
+    {
+     "id": "ko-w-directions-08",
+     "language": "ko",
+     "level": "word",
+     "text": "아래",
+     "standardReading": "arae",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "arae",
+       "meaning": "down"
+      },
+      "ja": {
+       "pronunciation": "アレ",
+       "meaning": "下"
+      },
+      "vi": {
+       "pronunciation": "a-re",
+       "meaning": "dưới"
+      }
+     }
+    },
+    {
+     "id": "ko-w-directions-09",
+     "language": "ko",
+     "level": "word",
+     "text": "앞",
+     "standardReading": "ap",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ap",
+       "meaning": "front"
+      },
+      "ja": {
+       "pronunciation": "アプ",
+       "meaning": "前"
+      },
+      "vi": {
+       "pronunciation": "áp",
+       "meaning": "trước"
+      }
+     }
+    },
+    {
+     "id": "ko-w-directions-10",
+     "language": "ko",
+     "level": "word",
+     "text": "뒤",
+     "standardReading": "dwi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "dwi",
+       "meaning": "back"
+      },
+      "ja": {
+       "pronunciation": "トゥィ",
+       "meaning": "後ろ"
+      },
+      "vi": {
+       "pronunciation": "tuy",
+       "meaning": "sau"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "address",
+   "level": "word",
+   "title": {
+    "ko": "주소",
+    "en": "Addresses",
+    "ja": "住所",
+    "vi": "Địa chỉ"
+   },
+   "items": [
+    {
+     "id": "ko-w-address-01",
+     "language": "ko",
+     "level": "word",
+     "text": "주소",
+     "standardReading": "juso",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "juso",
+       "meaning": "address"
+      },
+      "ja": {
+       "pronunciation": "チュソ",
+       "meaning": "住所"
+      },
+      "vi": {
+       "pronunciation": "chu-xô",
+       "meaning": "địa chỉ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-address-02",
+     "language": "ko",
+     "level": "word",
+     "text": "시",
+     "standardReading": "si",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "si",
+       "meaning": "city"
+      },
+      "ja": {
+       "pronunciation": "シ",
+       "meaning": "市"
+      },
+      "vi": {
+       "pronunciation": "xi",
+       "meaning": "thành phố"
+      }
+     }
+    },
+    {
+     "id": "ko-w-address-03",
+     "language": "ko",
+     "level": "word",
+     "text": "구",
+     "standardReading": "gu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gu",
+       "meaning": "district"
+      },
+      "ja": {
+       "pronunciation": "ク",
+       "meaning": "区"
+      },
+      "vi": {
+       "pronunciation": "cu",
+       "meaning": "quận"
+      }
+     }
+    },
+    {
+     "id": "ko-w-address-04",
+     "language": "ko",
+     "level": "word",
+     "text": "동",
+     "standardReading": "dong",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "dong",
+       "meaning": "neighborhood"
+      },
+      "ja": {
+       "pronunciation": "トン",
+       "meaning": "町"
+      },
+      "vi": {
+       "pronunciation": "đông",
+       "meaning": "phường"
+      }
+     }
+    },
+    {
+     "id": "ko-w-address-05",
+     "language": "ko",
+     "level": "word",
+     "text": "도로",
+     "standardReading": "doro",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "doro",
+       "meaning": "street"
+      },
+      "ja": {
+       "pronunciation": "トロ",
+       "meaning": "通り"
+      },
+      "vi": {
+       "pronunciation": "tô-rô",
+       "meaning": "đường"
+      }
+     }
+    },
+    {
+     "id": "ko-w-address-06",
+     "language": "ko",
+     "level": "word",
+     "text": "건물",
+     "standardReading": "geonmul",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "geonmul",
+       "meaning": "building"
+      },
+      "ja": {
+       "pronunciation": "コンムル",
+       "meaning": "建物"
+      },
+      "vi": {
+       "pronunciation": "cơn-mul",
+       "meaning": "tòa nhà"
+      }
+     }
+    },
+    {
+     "id": "ko-w-address-07",
+     "language": "ko",
+     "level": "word",
+     "text": "아파트",
+     "standardReading": "apateu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "apateu",
+       "meaning": "apartment"
+      },
+      "ja": {
+       "pronunciation": "アパトゥ",
+       "meaning": "マンション"
+      },
+      "vi": {
+       "pronunciation": "a-pa-thư",
+       "meaning": "chung cư"
+      }
+     }
+    },
+    {
+     "id": "ko-w-address-08",
+     "language": "ko",
+     "level": "word",
+     "text": "층",
+     "standardReading": "cheung",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "cheung",
+       "meaning": "floor"
+      },
+      "ja": {
+       "pronunciation": "チュン",
+       "meaning": "階"
+      },
+      "vi": {
+       "pronunciation": "chưng",
+       "meaning": "tầng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-address-09",
+     "language": "ko",
+     "level": "word",
+     "text": "호",
+     "standardReading": "ho",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ho",
+       "meaning": "unit"
+      },
+      "ja": {
+       "pronunciation": "ホ",
+       "meaning": "号室"
+      },
+      "vi": {
+       "pronunciation": "hô",
+       "meaning": "số phòng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-address-10",
+     "language": "ko",
+     "level": "word",
+     "text": "우편번호",
+     "standardReading": "upyeonbeonho",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "upyeonbeonho",
+       "meaning": "zip code"
+      },
+      "ja": {
+       "pronunciation": "ウピョンボノ",
+       "meaning": "郵便番号"
+      },
+      "vi": {
+       "pronunciation": "u-piơn-bơn-hô",
+       "meaning": "mã bưu chính"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "level": "word",
+   "title": {
+    "ko": "시간·날짜",
+    "en": "Time & dates",
+    "ja": "時間・日付",
+    "vi": "Thời gian"
+   },
+   "items": [
+    {
+     "id": "ko-w-time-01",
+     "language": "ko",
+     "level": "word",
+     "text": "오늘",
+     "standardReading": "oneul",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "oneul",
+       "meaning": "today"
+      },
+      "ja": {
+       "pronunciation": "オヌル",
+       "meaning": "今日"
+      },
+      "vi": {
+       "pronunciation": "ô-nưl",
+       "meaning": "hôm nay"
+      }
+     }
+    },
+    {
+     "id": "ko-w-time-02",
+     "language": "ko",
+     "level": "word",
+     "text": "내일",
+     "standardReading": "naeil",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "naeil",
+       "meaning": "tomorrow"
+      },
+      "ja": {
+       "pronunciation": "ネイル",
+       "meaning": "明日"
+      },
+      "vi": {
+       "pronunciation": "ne-il",
+       "meaning": "ngày mai"
+      }
+     }
+    },
+    {
+     "id": "ko-w-time-03",
+     "language": "ko",
+     "level": "word",
+     "text": "어제",
+     "standardReading": "eoje",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "eoje",
+       "meaning": "yesterday"
+      },
+      "ja": {
+       "pronunciation": "オジェ",
+       "meaning": "昨日"
+      },
+      "vi": {
+       "pronunciation": "ơ-chê",
+       "meaning": "hôm qua"
+      }
+     }
+    },
+    {
+     "id": "ko-w-time-04",
+     "language": "ko",
+     "level": "word",
+     "text": "아침",
+     "standardReading": "achim",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "achim",
+       "meaning": "morning"
+      },
+      "ja": {
+       "pronunciation": "アチム",
+       "meaning": "朝"
+      },
+      "vi": {
+       "pronunciation": "a-chim",
+       "meaning": "buổi sáng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-time-05",
+     "language": "ko",
+     "level": "word",
+     "text": "점심",
+     "standardReading": "jeomsim",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "jeomsim",
+       "meaning": "noon"
+      },
+      "ja": {
+       "pronunciation": "チョムシム",
+       "meaning": "昼"
+      },
+      "vi": {
+       "pronunciation": "chơm-xim",
+       "meaning": "buổi trưa"
+      }
+     }
+    },
+    {
+     "id": "ko-w-time-06",
+     "language": "ko",
+     "level": "word",
+     "text": "저녁",
+     "standardReading": "jeonyeok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "jeonyeok",
+       "meaning": "evening"
+      },
+      "ja": {
+       "pronunciation": "チョニョク",
+       "meaning": "夕方"
+      },
+      "vi": {
+       "pronunciation": "chơ-niơc",
+       "meaning": "buổi tối"
+      }
+     }
+    },
+    {
+     "id": "ko-w-time-07",
+     "language": "ko",
+     "level": "word",
+     "text": "주",
+     "standardReading": "ju",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ju",
+       "meaning": "week"
+      },
+      "ja": {
+       "pronunciation": "チュ",
+       "meaning": "週"
+      },
+      "vi": {
+       "pronunciation": "chu",
+       "meaning": "tuần"
+      }
+     }
+    },
+    {
+     "id": "ko-w-time-08",
+     "language": "ko",
+     "level": "word",
+     "text": "달",
+     "standardReading": "dal",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "dal",
+       "meaning": "month"
+      },
+      "ja": {
+       "pronunciation": "タル",
+       "meaning": "月"
+      },
+      "vi": {
+       "pronunciation": "tal",
+       "meaning": "tháng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-time-09",
+     "language": "ko",
+     "level": "word",
+     "text": "년",
+     "standardReading": "nyeon",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "nyeon",
+       "meaning": "year"
+      },
+      "ja": {
+       "pronunciation": "ニョン",
+       "meaning": "年"
+      },
+      "vi": {
+       "pronunciation": "niơn",
+       "meaning": "năm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-time-10",
+     "language": "ko",
+     "level": "word",
+     "text": "월요일",
+     "standardReading": "woryoil",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "woryoil",
+       "meaning": "Monday"
+      },
+      "ja": {
+       "pronunciation": "ウォリョイル",
+       "meaning": "月曜日"
+      },
+      "vi": {
+       "pronunciation": "uơ-riô-il",
+       "meaning": "thứ Hai"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "level": "word",
+   "title": {
+    "ko": "가족·사람",
+    "en": "Family & people",
+    "ja": "家族・人",
+    "vi": "Gia đình"
+   },
+   "items": [
+    {
+     "id": "ko-w-people-01",
+     "language": "ko",
+     "level": "word",
+     "text": "가족",
+     "standardReading": "gajok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gajok",
+       "meaning": "family"
+      },
+      "ja": {
+       "pronunciation": "カジョク",
+       "meaning": "家族"
+      },
+      "vi": {
+       "pronunciation": "ca-chốc",
+       "meaning": "gia đình"
+      }
+     }
+    },
+    {
+     "id": "ko-w-people-02",
+     "language": "ko",
+     "level": "word",
+     "text": "아버지",
+     "standardReading": "abeoji",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "abeoji",
+       "meaning": "father"
+      },
+      "ja": {
+       "pronunciation": "アボジ",
+       "meaning": "父"
+      },
+      "vi": {
+       "pronunciation": "a-bơ-chi",
+       "meaning": "bố"
+      }
+     }
+    },
+    {
+     "id": "ko-w-people-03",
+     "language": "ko",
+     "level": "word",
+     "text": "어머니",
+     "standardReading": "eomeoni",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "eomeoni",
+       "meaning": "mother"
+      },
+      "ja": {
+       "pronunciation": "オモニ",
+       "meaning": "母"
+      },
+      "vi": {
+       "pronunciation": "ơ-mơ-ni",
+       "meaning": "mẹ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-people-04",
+     "language": "ko",
+     "level": "word",
+     "text": "아이",
+     "standardReading": "ai",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ai",
+       "meaning": "child"
+      },
+      "ja": {
+       "pronunciation": "アイ",
+       "meaning": "子ども"
+      },
+      "vi": {
+       "pronunciation": "a-i",
+       "meaning": "con"
+      }
+     }
+    },
+    {
+     "id": "ko-w-people-05",
+     "language": "ko",
+     "level": "word",
+     "text": "아들",
+     "standardReading": "adeul",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "adeul",
+       "meaning": "son"
+      },
+      "ja": {
+       "pronunciation": "アドゥル",
+       "meaning": "息子"
+      },
+      "vi": {
+       "pronunciation": "a-đưl",
+       "meaning": "con trai"
+      }
+     }
+    },
+    {
+     "id": "ko-w-people-06",
+     "language": "ko",
+     "level": "word",
+     "text": "딸",
+     "standardReading": "ttal",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ttal",
+       "meaning": "daughter"
+      },
+      "ja": {
+       "pronunciation": "タル",
+       "meaning": "娘"
+      },
+      "vi": {
+       "pronunciation": "tan",
+       "meaning": "con gái"
+      }
+     }
+    },
+    {
+     "id": "ko-w-people-07",
+     "language": "ko",
+     "level": "word",
+     "text": "남편",
+     "standardReading": "nampyeon",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "nampyeon",
+       "meaning": "husband"
+      },
+      "ja": {
+       "pronunciation": "ナムピョン",
+       "meaning": "夫"
+      },
+      "vi": {
+       "pronunciation": "nam-piơn",
+       "meaning": "chồng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-people-08",
+     "language": "ko",
+     "level": "word",
+     "text": "아내",
+     "standardReading": "anae",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "anae",
+       "meaning": "wife"
+      },
+      "ja": {
+       "pronunciation": "アネ",
+       "meaning": "妻"
+      },
+      "vi": {
+       "pronunciation": "a-ne",
+       "meaning": "vợ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-people-09",
+     "language": "ko",
+     "level": "word",
+     "text": "친구",
+     "standardReading": "chingu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "chingu",
+       "meaning": "friend"
+      },
+      "ja": {
+       "pronunciation": "チング",
+       "meaning": "友だち"
+      },
+      "vi": {
+       "pronunciation": "chin-cu",
+       "meaning": "bạn bè"
+      }
+     }
+    },
+    {
+     "id": "ko-w-people-10",
+     "language": "ko",
+     "level": "word",
+     "text": "선생님",
+     "standardReading": "seonsaengnim",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "seonsaengnim",
+       "meaning": "teacher"
+      },
+      "ja": {
+       "pronunciation": "ソンセンニム",
+       "meaning": "先生"
+      },
+      "vi": {
+       "pronunciation": "xơn-xeng-nim",
+       "meaning": "giáo viên"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "level": "word",
+   "title": {
+    "ko": "음식·장보기",
+    "en": "Food & shopping",
+    "ja": "食べ物・買い物",
+    "vi": "Ăn uống"
+   },
+   "items": [
+    {
+     "id": "ko-w-food-01",
+     "language": "ko",
+     "level": "word",
+     "text": "물",
+     "standardReading": "mul",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "mul",
+       "meaning": "water"
+      },
+      "ja": {
+       "pronunciation": "ムル",
+       "meaning": "水"
+      },
+      "vi": {
+       "pronunciation": "mul",
+       "meaning": "nước"
+      }
+     }
+    },
+    {
+     "id": "ko-w-food-02",
+     "language": "ko",
+     "level": "word",
+     "text": "밥",
+     "standardReading": "bap",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "bap",
+       "meaning": "rice"
+      },
+      "ja": {
+       "pronunciation": "パプ",
+       "meaning": "ご飯"
+      },
+      "vi": {
+       "pronunciation": "báp",
+       "meaning": "cơm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-food-03",
+     "language": "ko",
+     "level": "word",
+     "text": "빵",
+     "standardReading": "ppang",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ppang",
+       "meaning": "bread"
+      },
+      "ja": {
+       "pronunciation": "パン",
+       "meaning": "パン"
+      },
+      "vi": {
+       "pronunciation": "pang",
+       "meaning": "bánh mì"
+      }
+     }
+    },
+    {
+     "id": "ko-w-food-04",
+     "language": "ko",
+     "level": "word",
+     "text": "고기",
+     "standardReading": "gogi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gogi",
+       "meaning": "meat"
+      },
+      "ja": {
+       "pronunciation": "コギ",
+       "meaning": "肉"
+      },
+      "vi": {
+       "pronunciation": "cô-ghi",
+       "meaning": "thịt"
+      }
+     }
+    },
+    {
+     "id": "ko-w-food-05",
+     "language": "ko",
+     "level": "word",
+     "text": "생선",
+     "standardReading": "saengseon",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "saengseon",
+       "meaning": "fish"
+      },
+      "ja": {
+       "pronunciation": "センソン",
+       "meaning": "魚"
+      },
+      "vi": {
+       "pronunciation": "xeng-xơn",
+       "meaning": "cá"
+      }
+     }
+    },
+    {
+     "id": "ko-w-food-06",
+     "language": "ko",
+     "level": "word",
+     "text": "과일",
+     "standardReading": "gwail",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gwail",
+       "meaning": "fruit"
+      },
+      "ja": {
+       "pronunciation": "クァイル",
+       "meaning": "果物"
+      },
+      "vi": {
+       "pronunciation": "goa-il",
+       "meaning": "trái cây"
+      }
+     }
+    },
+    {
+     "id": "ko-w-food-07",
+     "language": "ko",
+     "level": "word",
+     "text": "채소",
+     "standardReading": "chaeso",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "chaeso",
+       "meaning": "vegetable"
+      },
+      "ja": {
+       "pronunciation": "チェソ",
+       "meaning": "野菜"
+      },
+      "vi": {
+       "pronunciation": "che-xô",
+       "meaning": "rau"
+      }
+     }
+    },
+    {
+     "id": "ko-w-food-08",
+     "language": "ko",
+     "level": "word",
+     "text": "가격",
+     "standardReading": "gagyeok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gagyeok",
+       "meaning": "price"
+      },
+      "ja": {
+       "pronunciation": "カギョク",
+       "meaning": "値段"
+      },
+      "vi": {
+       "pronunciation": "ca-giơc",
+       "meaning": "giá"
+      }
+     }
+    },
+    {
+     "id": "ko-w-food-09",
+     "language": "ko",
+     "level": "word",
+     "text": "시장",
+     "standardReading": "sijang",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sijang",
+       "meaning": "market"
+      },
+      "ja": {
+       "pronunciation": "シジャン",
+       "meaning": "市場"
+      },
+      "vi": {
+       "pronunciation": "xi-chang",
+       "meaning": "chợ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-food-10",
+     "language": "ko",
+     "level": "word",
+     "text": "계산",
+     "standardReading": "gyesan",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gyesan",
+       "meaning": "bill"
+      },
+      "ja": {
+       "pronunciation": "ケサン",
+       "meaning": "お会計"
+      },
+      "vi": {
+       "pronunciation": "kê-xan",
+       "meaning": "tính tiền"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "places",
+   "level": "word",
+   "title": {
+    "ko": "장소·교통",
+    "en": "Places & transport",
+    "ja": "場所・交通",
+    "vi": "Địa điểm"
+   },
+   "items": [
+    {
+     "id": "ko-w-places-01",
+     "language": "ko",
+     "level": "word",
+     "text": "역",
+     "standardReading": "yeok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "yeok",
+       "meaning": "station"
+      },
+      "ja": {
+       "pronunciation": "ヨク",
+       "meaning": "駅"
+      },
+      "vi": {
+       "pronunciation": "iơc",
+       "meaning": "nhà ga"
+      }
+     }
+    },
+    {
+     "id": "ko-w-places-02",
+     "language": "ko",
+     "level": "word",
+     "text": "버스",
+     "standardReading": "beoseu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "beoseu",
+       "meaning": "bus"
+      },
+      "ja": {
+       "pronunciation": "ポス",
+       "meaning": "バス"
+      },
+      "vi": {
+       "pronunciation": "bơ-xư",
+       "meaning": "xe buýt"
+      }
+     }
+    },
+    {
+     "id": "ko-w-places-03",
+     "language": "ko",
+     "level": "word",
+     "text": "지하철",
+     "standardReading": "jihacheol",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "jihacheol",
+       "meaning": "subway"
+      },
+      "ja": {
+       "pronunciation": "チハチョル",
+       "meaning": "地下鉄"
+      },
+      "vi": {
+       "pronunciation": "chi-ha-chơl",
+       "meaning": "tàu điện ngầm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-places-04",
+     "language": "ko",
+     "level": "word",
+     "text": "택시",
+     "standardReading": "taeksi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "taeksi",
+       "meaning": "taxi"
+      },
+      "ja": {
+       "pronunciation": "テクシ",
+       "meaning": "タクシー"
+      },
+      "vi": {
+       "pronunciation": "thec-xi",
+       "meaning": "tắc xi"
+      }
+     }
+    },
+    {
+     "id": "ko-w-places-05",
+     "language": "ko",
+     "level": "word",
+     "text": "공항",
+     "standardReading": "gonghang",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gonghang",
+       "meaning": "airport"
+      },
+      "ja": {
+       "pronunciation": "コンハン",
+       "meaning": "空港"
+      },
+      "vi": {
+       "pronunciation": "công-hang",
+       "meaning": "sân bay"
+      }
+     }
+    },
+    {
+     "id": "ko-w-places-06",
+     "language": "ko",
+     "level": "word",
+     "text": "병원",
+     "standardReading": "byeongwon",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "byeongwon",
+       "meaning": "hospital"
+      },
+      "ja": {
+       "pronunciation": "ピョンウォン",
+       "meaning": "病院"
+      },
+      "vi": {
+       "pronunciation": "piơng-uơn",
+       "meaning": "bệnh viện"
+      }
+     }
+    },
+    {
+     "id": "ko-w-places-07",
+     "language": "ko",
+     "level": "word",
+     "text": "은행",
+     "standardReading": "eunhaeng",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "eunhaeng",
+       "meaning": "bank"
+      },
+      "ja": {
+       "pronunciation": "ウネン",
+       "meaning": "銀行"
+      },
+      "vi": {
+       "pronunciation": "ưn-heng",
+       "meaning": "ngân hàng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-places-08",
+     "language": "ko",
+     "level": "word",
+     "text": "약국",
+     "standardReading": "yakguk",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "yakguk",
+       "meaning": "pharmacy"
+      },
+      "ja": {
+       "pronunciation": "ヤックク",
+       "meaning": "薬局"
+      },
+      "vi": {
+       "pronunciation": "iác-cúc",
+       "meaning": "nhà thuốc"
+      }
+     }
+    },
+    {
+     "id": "ko-w-places-09",
+     "language": "ko",
+     "level": "word",
+     "text": "화장실",
+     "standardReading": "hwajangsil",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "hwajangsil",
+       "meaning": "restroom"
+      },
+      "ja": {
+       "pronunciation": "ファジャンシル",
+       "meaning": "トイレ"
+      },
+      "vi": {
+       "pronunciation": "hoa-chang-xil",
+       "meaning": "nhà vệ sinh"
+      }
+     }
+    },
+    {
+     "id": "ko-w-places-10",
+     "language": "ko",
+     "level": "word",
+     "text": "출구",
+     "standardReading": "chulgu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "chulgu",
+       "meaning": "exit"
+      },
+      "ja": {
+       "pronunciation": "チュルグ",
+       "meaning": "出口"
+      },
+      "vi": {
+       "pronunciation": "chul-cu",
+       "meaning": "lối ra"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "qa",
+   "level": "short-sentence",
+   "title": {
+    "ko": "질문과 답",
+    "en": "Questions & answers",
+    "ja": "質問と答え",
+    "vi": "Hỏi và đáp"
+   },
+   "items": [
+    {
+     "id": "ko-qa-01-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "이름이 뭐예요?",
+     "standardReading": "ireumi mwoyeyo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "What's your name?"
+      },
+      "ja": {
+       "meaning": "お名前は何ですか。"
+      },
+      "vi": {
+       "meaning": "Bạn tên là gì?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-01-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "제 이름은 미나예요.",
+     "standardReading": "je ireumeun minayeyo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "My name is Mina."
+      },
+      "ja": {
+       "meaning": "わたしはミナです。"
+      },
+      "vi": {
+       "meaning": "Tôi tên là Mina."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-02-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "어디에 살아요?",
+     "standardReading": "eodie sarayo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Where do you live?"
+      },
+      "ja": {
+       "meaning": "どこに住んでいますか。"
+      },
+      "vi": {
+       "meaning": "Bạn sống ở đâu?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-02-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "역 근처에 살아요.",
+     "standardReading": "yeok geuncheoe sarayo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "I live near the station."
+      },
+      "ja": {
+       "meaning": "駅の近くに住んでいます。"
+      },
+      "vi": {
+       "meaning": "Tôi sống gần nhà ga."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-03-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "이거 얼마예요?",
+     "standardReading": "igeo eolmayeyo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "How much is this?"
+      },
+      "ja": {
+       "meaning": "これはいくらですか。"
+      },
+      "vi": {
+       "meaning": "Cái này bao nhiêu tiền?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-03-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "오늘은 반값이에요.",
+     "standardReading": "oneureun bankkapsieyo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "It's half price today."
+      },
+      "ja": {
+       "meaning": "今日は半額です。"
+      },
+      "vi": {
+       "meaning": "Hôm nay giảm nửa giá."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-04-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "화장실이 어디예요?",
+     "standardReading": "hwajangsiri eodiyeyo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Where is the restroom?"
+      },
+      "ja": {
+       "meaning": "トイレはどこですか。"
+      },
+      "vi": {
+       "meaning": "Nhà vệ sinh ở đâu?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-04-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "2층에 있어요.",
+     "standardReading": "icheunge isseoyo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "It's on the second floor."
+      },
+      "ja": {
+       "meaning": "二階にあります。"
+      },
+      "vi": {
+       "meaning": "Ở tầng hai."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-05-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "지금 몇 시예요?",
+     "standardReading": "jigeum myeot siyeyo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "What time is it now?"
+      },
+      "ja": {
+       "meaning": "今、何時ですか。"
+      },
+      "vi": {
+       "meaning": "Bây giờ là mấy giờ?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-05-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "세 시예요.",
+     "standardReading": "se siyeyo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "It's three o'clock."
+      },
+      "ja": {
+       "meaning": "三時です。"
+      },
+      "vi": {
+       "meaning": "Bây giờ là ba giờ."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-06-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "역에 어떻게 가요?",
+     "standardReading": "yeoge eotteoke gayo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "How do I get to the station?"
+      },
+      "ja": {
+       "meaning": "駅へはどう行きますか。"
+      },
+      "vi": {
+       "meaning": "Đi đến nhà ga thế nào?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-06-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "쭉 가서 왼쪽으로 가세요.",
+     "standardReading": "jjuk gaseo oenjjogeuro gaseyo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Go straight and turn left."
+      },
+      "ja": {
+       "meaning": "まっすぐ行って左です。"
+      },
+      "vi": {
+       "meaning": "Đi thẳng rồi rẽ trái."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-07-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "좀 도와주시겠어요?",
+     "standardReading": "jom dowajusigesseoyo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Could you help me?"
+      },
+      "ja": {
+       "meaning": "手伝ってもらえますか。"
+      },
+      "vi": {
+       "meaning": "Bạn giúp tôi được không?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-07-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "물론이죠.",
+     "standardReading": "mullonijyo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Of course."
+      },
+      "ja": {
+       "meaning": "もちろんです。"
+      },
+      "vi": {
+       "meaning": "Tất nhiên rồi."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-08-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "뭐 먹고 싶어요?",
+     "standardReading": "mwo meokgo sipeoyo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "What would you like to eat?"
+      },
+      "ja": {
+       "meaning": "何が食べたいですか。"
+      },
+      "vi": {
+       "meaning": "Bạn muốn ăn gì?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-08-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "생선을 먹고 싶어요.",
+     "standardReading": "saengseoneul meokgo sipeoyo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "I'd like to eat fish."
+      },
+      "ja": {
+       "meaning": "魚が食べたいです。"
+      },
+      "vi": {
+       "meaning": "Tôi muốn ăn cá."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-09-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "오늘 날씨 어때요?",
+     "standardReading": "oneul nalssi eottaeyo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "How's the weather today?"
+      },
+      "ja": {
+       "meaning": "今日の天気はどうですか。"
+      },
+      "vi": {
+       "meaning": "Hôm nay thời tiết thế nào?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-09-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "맑고 따뜻해요.",
+     "standardReading": "malkko ttatteutaeyo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "It's sunny and warm."
+      },
+      "ja": {
+       "meaning": "晴れて暖かいです。"
+      },
+      "vi": {
+       "meaning": "Trời nắng và ấm."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-10-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "생일이 언제예요?",
+     "standardReading": "saengiri eonjeyeyo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "When is your birthday?"
+      },
+      "ja": {
+       "meaning": "誕生日はいつですか。"
+      },
+      "vi": {
+       "meaning": "Sinh nhật bạn là khi nào?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-10-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "5월 5일이에요.",
+     "standardReading": "owol oirieyo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "It's May fifth."
+      },
+      "ja": {
+       "meaning": "五月五日です。"
+      },
+      "vi": {
+       "meaning": "Ngày 5 tháng 5."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-11-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "영어 할 줄 알아요?",
+     "standardReading": "yeongeo hal jul arayo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Do you speak English?"
+      },
+      "ja": {
+       "meaning": "英語が話せますか。"
+      },
+      "vi": {
+       "meaning": "Bạn nói được tiếng Anh không?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-11-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "조금 할 수 있어요.",
+     "standardReading": "jogeum hal su isseoyo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Just a little."
+      },
+      "ja": {
+       "meaning": "少しだけ話せます。"
+      },
+      "vi": {
+       "meaning": "Tôi nói được một chút."
+      }
+     }
+    },
+    {
+     "id": "ko-qa-12-q",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "내일 만날까요?",
+     "standardReading": "naeil mannalkkayo?",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Shall we meet tomorrow?"
+      },
+      "ja": {
+       "meaning": "明日会いましょうか。"
+      },
+      "vi": {
+       "meaning": "Mai mình gặp nhau nhé?"
+      }
+     }
+    },
+    {
+     "id": "ko-qa-12-a",
+     "language": "ko",
+     "level": "short-sentence",
+     "text": "좋아요. 열 시에 봐요.",
+     "standardReading": "joayo. yeol sie bwayo.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Sounds good. See you at ten."
+      },
+      "ja": {
+       "meaning": "いいですね。十時に会いましょう。"
+      },
+      "vi": {
+       "meaning": "Được, hẹn bạn lúc mười giờ."
+      }
+     }
+    }
+   ]
+  },
+  {
    "id": "short",
    "level": "short-sentence",
    "title": {
-    "ko": "짧은 문장",
-    "en": "Short sentences",
-    "ja": "短い文",
-    "vi": "Câu ngắn"
+    "ko": "기본 표현",
+    "en": "Basic phrases",
+    "ja": "基本の表現",
+    "vi": "Câu cơ bản"
    },
    "items": [
     {
@@ -1105,15 +3325,163 @@
    ]
   },
   {
-   "id": "long",
+   "id": "notices",
    "level": "long-sentence",
    "title": {
-    "ko": "긴 문장",
-    "en": "Long sentences",
-    "ja": "長い文",
-    "vi": "Câu dài"
+    "ko": "안내문",
+    "en": "Notices",
+    "ja": "案内文",
+    "vi": "Thông báo"
    },
    "items": [
+    {
+     "id": "ko-notice-01",
+     "language": "ko",
+     "level": "long-sentence",
+     "text": "도서관은 오전 9시부터 오후 6시까지 엽니다. 월요일은 쉽니다.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "The library is open from 9 a.m. to 6 p.m. It is closed on Mondays."
+      },
+      "ja": {
+       "meaning": "図書館は午前九時から午後六時まで開いています。月曜日は休館です。"
+      },
+      "vi": {
+       "meaning": "Thư viện mở cửa từ 9 giờ sáng đến 6 giờ chiều. Thứ Hai nghỉ."
+      }
+     }
+    },
+    {
+     "id": "ko-notice-02",
+     "language": "ko",
+     "level": "long-sentence",
+     "text": "엘리베이터 점검 중입니다. 불편하시더라도 계단을 이용해 주세요.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "The elevator is under inspection. Please use the stairs. Sorry for the trouble."
+      },
+      "ja": {
+       "meaning": "エレベーターは点検中です。ご不便をおかけしますが、階段をご利用ください。"
+      },
+      "vi": {
+       "meaning": "Thang máy đang được kiểm tra. Xin vui lòng đi cầu thang bộ. Xin lỗi vì sự bất tiện."
+      }
+     }
+    },
+    {
+     "id": "ko-notice-03",
+     "language": "ko",
+     "level": "long-sentence",
+     "text": "노약자와 임산부에게 자리를 양보해 주세요. 모두가 편안해집니다.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Please offer your seat to elderly and pregnant passengers. It makes the ride better for all."
+      },
+      "ja": {
+       "meaning": "お年寄りや妊娠中の方に席をお譲りください。みんなが気持ちよく乗れます。"
+      },
+      "vi": {
+       "meaning": "Xin hãy nhường ghế cho người già và phụ nữ mang thai. Mọi người sẽ thoải mái hơn."
+      }
+     }
+    },
+    {
+     "id": "ko-notice-04",
+     "language": "ko",
+     "level": "long-sentence",
+     "text": "재활용품은 종류별로 나누어 목요일 아침 8시까지 내놓아 주세요.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Please sort recyclables by type and put them out by 8 a.m. on Thursday."
+      },
+      "ja": {
+       "meaning": "資源ごみは種類ごとに分けて、木曜日の朝八時までに出してください。"
+      },
+      "vi": {
+       "meaning": "Hãy phân loại rác tái chế và mang ra trước 8 giờ sáng thứ Năm."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "essays",
+   "level": "long-sentence",
+   "title": {
+    "ko": "에세이",
+    "en": "Essays",
+    "ja": "エッセイ",
+    "vi": "Bài viết ngắn"
+   },
+   "items": [
+    {
+     "id": "ko-essay-01",
+     "language": "ko",
+     "level": "long-sentence",
+     "text": "오늘 쓴 한 글자가 내일의 글씨를 만듭니다. 서두르지 말고 한 획씩 정성껏 써 보세요.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Each letter you write today shapes tomorrow's handwriting. Don't rush; write one stroke at a time."
+      },
+      "ja": {
+       "meaning": "今日書いた一文字が、明日の字をつくります。あせらず一画ずつていねいに書きましょう。"
+      },
+      "vi": {
+       "meaning": "Mỗi chữ bạn viết hôm nay tạo nên nét chữ ngày mai. Đừng vội, hãy viết cẩn thận từng nét."
+      }
+     }
+    },
+    {
+     "id": "ko-essay-02",
+     "language": "ko",
+     "level": "long-sentence",
+     "text": "실수는 배우고 있다는 증거입니다. 틀린 곳을 알면 다음에는 더 잘 쓸 수 있습니다.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Mistakes are proof that you are learning. Once you see what went wrong, you can do better next time."
+      },
+      "ja": {
+       "meaning": "まちがいは学んでいる証です。どこがちがうか分かれば、次はもっと上手に書けます。"
+      },
+      "vi": {
+       "meaning": "Sai sót là bằng chứng bạn đang học. Biết mình sai ở đâu, lần sau bạn sẽ viết tốt hơn."
+      }
+     }
+    },
+    {
+     "id": "ko-essay-03",
+     "language": "ko",
+     "level": "long-sentence",
+     "text": "새로운 언어는 새로운 창문과 같습니다. 그 창으로 보는 세상은 조금 더 넓어집니다.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "A new language is like a new window. The world you see through it becomes a little wider."
+      },
+      "ja": {
+       "meaning": "新しいことばは新しい窓のようなものです。その窓から見る世界は少し広くなります。"
+      },
+      "vi": {
+       "meaning": "Một ngôn ngữ mới giống như một ô cửa sổ mới. Thế giới nhìn qua đó sẽ rộng hơn một chút."
+      }
+     }
+    },
+    {
+     "id": "ko-essay-04",
+     "language": "ko",
+     "level": "long-sentence",
+     "text": "매일 십 분이면 충분합니다. 작은 습관이 쌓이면 어느새 큰 변화가 됩니다.",
+     "nativeGuides": {
+      "en": {
+       "meaning": "Ten minutes a day is enough. Small habits add up, and one day they become a big change."
+      },
+      "ja": {
+       "meaning": "毎日十分で十分です。小さな習慣が積み重なると、いつの間にか大きな変化になります。"
+      },
+      "vi": {
+       "meaning": "Mỗi ngày mười phút là đủ. Thói quen nhỏ tích lũy dần sẽ thành thay đổi lớn."
+      }
+     }
+    },
     {
      "id": "ko-long-01",
      "language": "ko",
@@ -1149,23 +3517,11 @@
        "meaning": "Hãy viết mỗi từ đã học hôm nay ba lần."
       }
      }
-    }
-   ]
-  },
-  {
-   "id": "paragraph",
-   "level": "paragraph",
-   "title": {
-    "ko": "단락",
-    "en": "Paragraphs",
-    "ja": "段落",
-    "vi": "Đoạn văn"
-   },
-   "items": [
+    },
     {
      "id": "ko-para-01",
      "language": "ko",
-     "level": "paragraph",
+     "level": "long-sentence",
      "text": "글씨는 마음의 거울이라고 합니다.\n한 획 한 획 정성을 들여 쓰다 보면 손이 글자의 모양을 기억하게 됩니다.",
      "nativeGuides": {
       "en": {

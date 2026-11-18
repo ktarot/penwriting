@@ -55,9 +55,11 @@ test.describe("기록·진도", () => {
       await finishThreeSteps(page);
     }
     await page.goto("/");
+    await expect(page.locator(".continue .c-src")).toHaveText("ㄴ");
+    await expect(page.locator('.area-card[data-area="character"] .area-meta')).toHaveText("1 / 34 연습함");
+    await page.goto("/#area-character");
     const link = page.locator('a.item-link[href="#practice-ko-cons-01"]');
     await expect(link.locator(".count")).toHaveText("2회");
-    await expect(page.locator(".continue .c-src")).toHaveText("ㄴ");
   });
 
   test("쓰던 필기를 자동 저장하고 이어서 쓸 수 있다", async ({ page }) => {
@@ -67,8 +69,8 @@ test.describe("기록·진도", () => {
     await drawStroke(page, 0, [0.5, 0.3], [0.7, 0.8]);
     await page.waitForTimeout(600); // 자동 저장 대기
     await page.goto("/");
-    await expect(page.locator(".continue h2")).toHaveText("쓰던 필기가 남아 있습니다");
-    await page.locator(".continue a").click();
+    await expect(page.locator(".continue .continue-label")).toHaveText("쓰던 필기가 남아 있습니다");
+    await page.locator("a.continue").click();
     await expect(page.locator(".notice")).toContainText("불러왔습니다");
     await expect(page.locator(".step-tab.current")).toHaveAttribute("data-step", "hint");
     await expect.poll(() => inkPixels(page)).toBeGreaterThan(30);
@@ -92,7 +94,7 @@ test("내 문장을 저장·수정·연습·삭제할 수 있다", async ({ page
   await row.getByRole("button", { name: "수정" }).click();
   await openMine(page);
   await page.locator("#custom-text").fill("The quick brown fox jumps");
-  await page.getByRole("button", { name: /^✓ 저장$/ }).click();
+  await page.getByRole("button", { name: "저장", exact: true }).click();
   await expect(row.locator(".c-text")).toHaveText("The quick brown fox jumps");
   await page.reload();
   await openMine(page);
@@ -189,7 +191,7 @@ test.describe("음성", () => {
   test("재생이 시작되지 않으면 음성이 없다고 안내한다", async ({ page }) => {
     await fakeSpeech(page, [], false);
     await onboard(page, "ko", "vi", "베트남어");
-    await page.goto("/#practice-vi-word-01");
+    await page.goto("/#practice-vi-w-places-02");
     await page.getByRole("button", { name: /듣기/ }).click();
     await expect(page.locator(".tts-msg")).toContainText("베트남어 음성이 없습니다", { timeout: 8000 });
   });
@@ -219,6 +221,8 @@ test("오프라인: 한 번 연 학습 내용은 인터넷 없이도 열린다",
 
   await context.setOffline(true);
   await page.goto("/");
+  await expect(page.locator(".area-grid")).toBeVisible();
+  await page.goto("/#area-character");
   await expect(page.getByRole("tab", { name: /히라가나/ })).toBeVisible();
   await page.goto("/#practice-ja-hira-ka");
   await expect(page.locator(PRACTICE_GUIDE).first()).toHaveText("か");

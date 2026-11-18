@@ -12,11 +12,12 @@ test("최초 실행: 모국어를 고르면 화면 언어가 바뀌고, 설정�
   await page.getByRole("button", { name: "Start" }).click();
 
   await expect(page.locator(".pair")).toHaveText("English speaker · learning Japanese");
-  await expect(page.getByRole("tab", { name: /Hiragana/ })).toBeVisible();
+  await expect(page.locator(".area-card .area-title")).toHaveText(["Letters", "Words", "Short sentences", "Long sentences", "My texts"]);
   await expect(page.locator(".draft-note")).toContainText("unreviewed");
 
   await page.reload();
   await expect(page).not.toHaveURL(/#welcome$/);
+  await page.locator('.area-card[data-area="character"]').click();
   await expect(page.getByRole("tab", { name: /Katakana/ })).toBeVisible();
   await expect(page.locator("html")).toHaveAttribute("lang", "en");
 });
@@ -72,10 +73,12 @@ test("일본어 손글씨 글꼴과 베트남어 성조 문자를 렌더링한�
   await page.goto("/#options");
   await choose(page, 1, "베트남어");
   await page.getByRole("button", { name: "저장" }).click();
+  await expect(page).not.toHaveURL(/#options$/);
+  await page.goto("/#area-character");
   await expect(page.getByRole("tab", { name: /성조 기호/ })).toBeVisible();
-  await page.goto("/#practice-vi-word-01");
-  await expect(page.locator(PRACTICE_GUIDE).first()).toHaveText("xin chào");
-  await expect(page.locator(".info-row.note")).toContainText("huyền");
+  await page.goto("/#practice-vi-w-places-02");
+  await expect(page.locator(PRACTICE_GUIDE).first()).toHaveText("xe buýt");
+  await expect(page.locator(".info-row.note")).toContainText("ngang");
   expect(await page.evaluate(() => document.fonts.check('400 100px "Noto Sans"', "ảãạ"))).toBe(true);
 });
 

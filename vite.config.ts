@@ -1,9 +1,13 @@
 import { fileURLToPath } from "node:url";
 import { defineConfig } from "vitest/config";
+import { readFileSync } from "node:fs";
 import { serviceWorker } from "./pwa/vite-plugin-sw";
+
+const pkg = JSON.parse(readFileSync(new URL("./package.json", import.meta.url), "utf8")) as { version: string };
 
 export default defineConfig(({ mode }) => ({
   base: "./",
+  define: { __APP_VERSION__: JSON.stringify(pkg.version) },
   plugins: mode === "artifact" ? [] : [serviceWorker()],
   resolve: {
     // artifact 모드: 글꼴 번들 대신 Google Fonts 링크 사용 (단일 HTML 파일로 묶기 위해)

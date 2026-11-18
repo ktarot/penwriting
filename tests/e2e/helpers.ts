@@ -12,7 +12,7 @@ export function repeatsFor(page: Page): number {
 
 /** 홈의 "내 문장" 탭을 연다 */
 export async function openMine(page: Page) {
-  await page.locator('[role=tab][data-tab="mine"]').click();
+  await page.goto("/#area-mine");
   await expect(page.locator("#custom-text")).toBeVisible();
 }
 
@@ -26,7 +26,7 @@ export async function onboard(page: Page, native: Lang, learning: Lang, learning
   await choose(page, 0, ENDONYM[native]);
   await choose(page, 1, learningLabel);
   await page.locator('button[type="submit"]').click();
-  await expect(page.locator(".item-list").first()).toBeVisible();
+  await expect(page.locator(".area-grid")).toBeVisible();
   void learning;
 }
 

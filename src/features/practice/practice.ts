@@ -1,6 +1,9 @@
 import { confirmDialog } from "../../app/dialog";
 import { h } from "../../app/dom";
 import { hrefFor, navigate } from "../../app/router";
+import { icon } from "../../app/icons";
+import { appBar, withIcon } from "../../app/shell";
+import { areaOfItem } from "../area/areas";
 import { customDraft, setSession, settings, t, updateSettings, type PracticeSession } from "../../app/state";
 import { fill } from "../../i18n/strings";
 import { resolveItem } from "../../engines/language/lessons";
@@ -67,8 +70,9 @@ async function buildSession(item: LearningItem, pack: LanguagePack | null, fontS
   await ensureFont(item.language, fontStyle, item.text);
   const measure = createMeasure(item.language, fontStyle);
   const layout = practiceLayout();
-  const charScale = layout === "compact" ? 1.3 : 2.4;
-  const maxEmPx = item.level === "character" ? Math.round(settings.fontSize * charScale) : settings.fontSize;
+  // 글자·단어는 펜으로 쓰기 좋게 크게 (좁은 화면은 화면 폭에 맞게 줄어든다)
+  const scale = item.level === "character" ? (layout === "compact" ? 1.3 : 2.4) : item.level === "word" ? (layout === "compact" ? 1.3 : 1.8) : 1;
+  const maxEmPx = Math.round(settings.fontSize * scale);
   // 기초 문자·단어는 나누지 않고 화면에 맞게 줄여서 보여 준다
   const keepWhole = item.level === "character" || item.level === "word";
   const maxEm = keepWhole ? Infinity : availableWidth / maxEmPx - PADDING_X_EM * 2;
@@ -88,7 +92,8 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
   const overrides: Partial<Record<PracticeStep, { reading?: boolean; meaning?: boolean }>> = {};
 
   const page = h("main", { class: "page practice" });
-  root.append(page);
+  const screen = h("div", { class: "screen" }, page);
+  root.append(screen);
   const stageEl = h("div", { class: "stage" }, h("p", { class: "loading" }, s.loadingFont));
   page.append(stageEl);
 
@@ -120,7 +125,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
     const infoEl = h("div", { class: "info-wrap", "aria-live": "polite" });
     const readingBtn = h("button", { type: "button", class: "btn toggle", "aria-pressed": "false" }, s.showReading);
     const meaningBtn = h("button", { type: "button", class: "btn toggle", "aria-pressed": "false" }, s.showMeaning);
-    const listenBtn = h("button", { type: "button", class: "btn listen" }, `🔊 ${s.listen}`);
+    const listenBtn = h("button", { type: "button", class: "btn listen" }, ...withIcon("speaker", s.listen));
     const strokeBtn = h("button", { type: "button", class: "btn toggle stroke-toggle", "aria-pressed": "false", hidden: true }, s.strokeOrder);
     const strokeWrap = h("div", { class: "so-wrap" });
     const strokeOverride: Partial<Record<PracticeStep, boolean>> = {};
@@ -128,11 +133,11 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
     const singleChar = item.level === "character" && Array.from(item.text).length === 1;
     const ttsMsg = h("p", { class: "tts-msg", role: "status", hidden: true });
     const noticeEl = h("div", { class: "notice-wrap" });
-    const undoBtn = h("button", { type: "button", class: "btn tool", "aria-label": s.undo }, `↶ ${s.undo}`);
-    const clearBtn = h("button", { type: "button", class: "btn tool", "aria-label": s.clear }, `✕ ${s.clear}`);
+    const undoBtn = h("button", { type: "button", class: "btn tool", "aria-label": s.undo }, ...withIcon("undo", s.undo));
+    const clearBtn = h("button", { type: "button", class: "btn tool", "aria-label": s.clear }, ...withIcon("clear", s.clear));
     const opacityInput = h("input", { type: "range", min: 5, max: 90, step: 5, id: "guide-opacity" });
     const opacityRow = h("label", { class: "range", for: "guide-opacity" }, h("span", {}, s.guideStrength), opacityInput);
-    const prevBtn = h("button", { type: "button", class: "btn" }, `← ${s.prevStep}`);
+    const prevBtn = h("button", { type: "button", class: "btn" }, ...withIcon("back", s.prevStep));
     const nextBtn = h("button", { type: "button", class: "btn primary next" });
 
     const radios = <T extends string | number>(label: string, cls: string, values: readonly T[], labels: readonly string[], get: () => T, set: (v: T) => void, extra?: (v: T) => string) => {
@@ -167,13 +172,12 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
     const widthGroup = radios(s.inkWidth, "segmented small", INK_WIDTHS, s.widths, () => settings.inkWidth, (v) => void updateSettings({ inkWidth: v }));
     const fontGroup = radios(s.fontQ, "segmented small", ["standard", "handwriting"] as FontStyle[], [s.font.standard, s.font.handwriting], () => session?.fontStyle ?? settings.fontStyle, (v) => void switchFont(v));
 
+    screen.prepend(
+      appBar(h("span", { class: "title" }, h("span", { class: "badge" }, s.level[item.level]), h("span", { class: "src", lang: item.language }, item.text.replace(/\n/g, " "))), {
+        back: hrefFor.area(areaOfItem(item)),
+      }),
+    );
     page.replaceChildren(
-      h(
-        "header",
-        { class: "practice-header" },
-        h("a", { class: "btn ghost", href: hrefFor.home() }, `← ${s.back}`),
-        h("div", { class: "title" }, h("span", { class: "badge" }, s.level[item.level]), h("span", { class: "src", lang: item.language }, item.text.replace(/\n/g, " "))),
-      ),
       stepperEl,
       descEl,
       noticeEl,
@@ -317,7 +321,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
       clearBtn.disabled = count === 0;
       prevBtn.disabled = step === "trace";
       const idx = PRACTICE_STEPS.indexOf(step);
-      nextBtn.textContent = step === "free" ? `${s.finish} →` : `${fill(s.nextStep, { step: s.step[PRACTICE_STEPS[idx + 1]] })} →`;
+      nextBtn.replaceChildren(h("span", {}, step === "free" ? s.finish : fill(s.nextStep, { step: s.step[PRACTICE_STEPS[idx + 1]] })), icon("chevron"));
       descEl.textContent = `STEP ${STEP_NO[step]}. ${s.stepDesc[step]}`;
       opacityRow.hidden = step === "free";
       if (step !== "free") opacityInput.value = String(Math.round(settings.guideOpacity[step] * 100));
@@ -482,7 +486,7 @@ export function renderPractice(root: HTMLElement, itemId: string): () => void {
                   await start(settings.fontStyle);
                 },
               },
-              `↺ ${s.startOver}`,
+              ...withIcon("replay", s.startOver),
             ),
           ),
         );

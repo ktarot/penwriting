@@ -132,7 +132,7 @@ textarea {
 .btn-row { display: flex; flex-wrap: wrap; gap: 8px; }
 
 .segmented { display: inline-flex; border: var(--border-w) solid var(--line); border-radius: 10px; overflow: hidden; background: var(--surface); }
-.seg { min-height: var(--tap); padding: 0 16px; border: 0; background: transparent; font: inherit; font-size: 1rem; color: var(--text); cursor: pointer; }
+.seg { white-space: nowrap; min-height: var(--tap); padding: 0 16px; border: 0; background: transparent; font: inherit; font-size: 1rem; color: var(--text); cursor: pointer; }
 .seg + .seg { border-left: var(--border-w) solid var(--line); }
 .seg[aria-checked="true"] { background: var(--accent); color: var(--accent-ink); font-weight: 600; }
 .segmented.small .seg { padding: 0 12px; font-size: 0.9375rem; }
@@ -367,4 +367,92 @@ dialog.confirm p { margin: 0 0 16px; }
 @media (max-width: 599px) {
   .tabs { gap: 0; }
   .tab { flex: 1 0 auto; padding: 0 10px; font-size: 0.9375rem; }
+}
+
+/* ── 앱 셸: 앱 막대 · 아래 메뉴 (Play 스토어 기준: 터치 48dp, 안전 영역) ── */
+html { -webkit-tap-highlight-color: transparent; }
+@media (display-mode: standalone) {
+  html, body { overscroll-behavior-y: none; }
+}
+.icon { width: 1.25em; height: 1.25em; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.btn .icon { width: 1.25rem; height: 1.25rem; }
+.screen { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; }
+.screen > .page { flex: 1; width: 100%; }
+.screen:has(.bottom-nav) > .page { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px)); }
+
+.app-bar {
+  position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 4px;
+  min-height: 56px; padding: env(safe-area-inset-top, 0px) max(8px, env(safe-area-inset-right, 0px)) 0 max(8px, env(safe-area-inset-left, 0px));
+  background: var(--bg); border-bottom: var(--border-w) solid var(--line);
+}
+.app-bar-title { flex: 1; min-width: 0; margin: 0 8px; font-size: 1.25rem; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.app-bar-title .title { display: flex; align-items: center; gap: 8px; min-width: 0; font-size: 1.125rem; }
+.app-bar-actions { display: flex; gap: 4px; }
+.icon-btn {
+  display: inline-grid; place-items: center; width: 48px; height: 48px; flex: none; border: 0; border-radius: 50%;
+  background: transparent; color: var(--text); cursor: pointer; font: inherit;
+}
+.icon-btn:hover { background: var(--accent-soft); }
+
+.bottom-nav {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; display: flex; justify-content: center;
+  padding: 0 env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  background: var(--surface); border-top: var(--border-w) solid var(--line);
+}
+.nav-item {
+  flex: 1; max-width: 168px; min-height: 64px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  color: var(--muted); text-decoration: none; font-size: 0.75rem; font-weight: 600;
+}
+.nav-item .icon { width: 24px; height: 24px; padding: 4px 18px; box-sizing: content-box; border-radius: 99px; }
+.nav-item.active { color: var(--accent); }
+.nav-item.active .icon { background: var(--accent-soft); }
+
+/* 홈: 영역 카드 */
+.greeting { font-size: 1.375rem; margin: 4px 0 14px; text-wrap: balance; }
+.area-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.area-card {
+  position: relative; display: grid; grid-template-columns: auto 1fr auto; grid-template-rows: auto auto; align-items: center; gap: 4px 14px;
+  min-height: 96px; padding: 16px; border: var(--border-w) solid var(--line); border-radius: 16px; background: var(--surface);
+  color: var(--text); text-decoration: none;
+}
+.area-card:hover { border-color: var(--accent); }
+.area-icon { grid-row: 1 / span 2; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 14px; background: var(--accent-soft); color: var(--accent); }
+.area-icon .icon { width: 28px; height: 28px; }
+.area-text { display: flex; flex-direction: column; min-width: 0; }
+.area-title { font-size: 1.1875rem; font-weight: 700; }
+.area-desc { font-size: 0.875rem; color: var(--muted); }
+.area-meta { font-size: 0.8125rem; color: var(--accent); font-weight: 600; margin-top: 2px; font-variant-numeric: tabular-nums; }
+.area-chevron { grid-row: 1 / span 2; grid-column: 3; color: var(--muted); }
+.area-bar { grid-column: 2; height: 4px; border-radius: 99px; background: var(--line); overflow: hidden; }
+.area-bar-fill { display: block; height: 100%; width: 0; background: var(--accent); }
+a.continue { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; color: var(--text); text-decoration: none; }
+.continue-text { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.continue-label { font-size: 0.875rem; color: var(--muted); font-weight: 600; }
+
+/* 영역 화면 */
+.subtabs { display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 6px; margin: 0 -4px 12px; padding: 2px 4px 6px; scrollbar-width: thin; }
+.subtab { flex: none; min-height: 48px; }
+.subtab-count { margin-left: 6px; font-size: 0.75rem; opacity: 0.75; font-variant-numeric: tabular-nums; }
+.level-short-sentence, .level-long-sentence { flex-direction: column; }
+.level-short-sentence .item-link, .level-long-sentence .item-link { width: 100%; }
+.level-long-sentence .item-text { white-space: normal; font-size: 1.0625rem; }
+
+.link-row { display: flex; align-items: center; gap: 12px; min-height: 56px; margin-top: 16px; color: var(--text); text-decoration: none; }
+.link-row span { flex: 1; font-weight: 600; }
+.about-head { display: flex; align-items: center; gap: 16px; }
+.about-head img { border-radius: 14px; }
+.about-head h2 { margin: 0; font-size: 1.25rem; color: var(--text); }
+.about p { margin: 0 0 10px; }
+.license-list { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: 0.9375rem; }
+.license-list a { white-space: nowrap; }
+
+.toast {
+  position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(80px + env(safe-area-inset-bottom, 0px)); z-index: 50;
+  display: flex; align-items: center; gap: 8px; max-width: calc(100vw - 32px); padding: 8px 8px 8px 16px;
+  background: var(--text); color: var(--bg); border-radius: 14px; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+}
+.toast .icon-btn { color: var(--bg); width: 40px; height: 40px; }
+@media (max-width: 599px) {
+  .area-grid { grid-template-columns: 1fr; }
+  .app-bar-title { font-size: 1.125rem; }
 }

@@ -56,7 +56,7 @@ test("되돌리기는 한 획씩, 전체 지우기는 모두 지운다", async (
 });
 
 test("필기 중 페이지가 스크롤되지 않는다", async ({ page }) => {
-  await page.goto("/#practice-ko-para-01");
+  await page.goto("/#practice-ko-essay-01");
   await expect(page.locator(PRACTICE_LINE).first()).toBeVisible();
   await page.locator(PRACTICE_LINE).nth(1).scrollIntoViewIfNeeded();
   const before = await page.evaluate(() => window.scrollY);

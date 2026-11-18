@@ -1,6 +1,6 @@
 {
  "language": "vi",
- "version": "0.1.0",
+ "version": "0.2.0",
  "locale": "vi-VN",
  "review": {
   "status": "draft",
@@ -897,10 +897,10 @@
    "id": "words",
    "level": "word",
    "title": {
-    "ko": "단어",
-    "en": "Words",
-    "ja": "単語",
-    "vi": "Từ"
+    "ko": "기본 단어",
+    "en": "Basics",
+    "ja": "基本の単語",
+    "vi": "Từ cơ bản"
    },
    "items": [
     {
@@ -1090,13 +1090,2369 @@
    ]
   },
   {
+   "id": "numbers",
+   "level": "word",
+   "title": {
+    "ko": "숫자",
+    "en": "Numbers",
+    "ja": "数字",
+    "vi": "Số đếm"
+   },
+   "items": [
+    {
+     "id": "vi-w-numbers-01",
+     "language": "vi",
+     "level": "word",
+     "text": "không",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "콩",
+       "meaning": "영",
+       "explanation": "không: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "khohng",
+       "meaning": "zero",
+       "explanation": "không: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "コン",
+       "meaning": "ゼロ",
+       "explanation": "không: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-numbers-02",
+     "language": "vi",
+     "level": "word",
+     "text": "một",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "못",
+       "meaning": "일",
+       "explanation": "một: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "moht",
+       "meaning": "one",
+       "explanation": "một: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "モッ",
+       "meaning": "一",
+       "explanation": "một: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-numbers-03",
+     "language": "vi",
+     "level": "word",
+     "text": "hai",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하이",
+       "meaning": "이",
+       "explanation": "hai: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "high",
+       "meaning": "two",
+       "explanation": "hai: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ハイ",
+       "meaning": "二",
+       "explanation": "hai: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-numbers-04",
+     "language": "vi",
+     "level": "word",
+     "text": "ba",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "바",
+       "meaning": "삼",
+       "explanation": "ba: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "bah",
+       "meaning": "three",
+       "explanation": "ba: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "バー",
+       "meaning": "三",
+       "explanation": "ba: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-numbers-05",
+     "language": "vi",
+     "level": "word",
+     "text": "bốn",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "본",
+       "meaning": "사",
+       "explanation": "bốn: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "bohn",
+       "meaning": "four",
+       "explanation": "bốn: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ボン",
+       "meaning": "四",
+       "explanation": "bốn: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-numbers-06",
+     "language": "vi",
+     "level": "word",
+     "text": "năm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "남",
+       "meaning": "오",
+       "explanation": "năm: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "nahm",
+       "meaning": "five",
+       "explanation": "năm: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ナム",
+       "meaning": "五",
+       "explanation": "năm: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-numbers-07",
+     "language": "vi",
+     "level": "word",
+     "text": "mười",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "므어이",
+       "meaning": "십",
+       "explanation": "mười: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "muh-uh-ee",
+       "meaning": "ten",
+       "explanation": "mười: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ムオイ",
+       "meaning": "十",
+       "explanation": "mười: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-numbers-08",
+     "language": "vi",
+     "level": "word",
+     "text": "một trăm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "못 짬",
+       "meaning": "백",
+       "explanation": "một: 낮고 짧게 목을 막듯 끊음 (nặng), trăm: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "moht chahm",
+       "meaning": "hundred",
+       "explanation": "một: low, short, with a catch in the throat (nặng), trăm: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "モッ チャム",
+       "meaning": "百",
+       "explanation": "một: 低く短く喉を詰める (nặng), trăm: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-numbers-09",
+     "language": "vi",
+     "level": "word",
+     "text": "một nghìn",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "못 응인",
+       "meaning": "천",
+       "explanation": "một: 낮고 짧게 목을 막듯 끊음 (nặng), nghìn: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "moht ngin",
+       "meaning": "thousand",
+       "explanation": "một: low, short, with a catch in the throat (nặng), nghìn: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "モッ ギン",
+       "meaning": "千",
+       "explanation": "một: 低く短く喉を詰める (nặng), nghìn: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-numbers-10",
+     "language": "vi",
+     "level": "word",
+     "text": "mười nghìn",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "므어이 응인",
+       "meaning": "만",
+       "explanation": "mười: 낮게 천천히 내려감 (huyền), nghìn: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "muh-uh-ee ngin",
+       "meaning": "ten thousand",
+       "explanation": "mười: low, falling (huyền), nghìn: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ムオイ ギン",
+       "meaning": "万",
+       "explanation": "mười: 低くゆっくり下がる (huyền), nghìn: 低くゆっくり下がる (huyền)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "units",
+   "level": "word",
+   "title": {
+    "ko": "단위",
+    "en": "Units",
+    "ja": "単位",
+    "vi": "Đơn vị"
+   },
+   "items": [
+    {
+     "id": "vi-w-units-01",
+     "language": "vi",
+     "level": "word",
+     "text": "mét",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "멧",
+       "meaning": "미터",
+       "explanation": "mét: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "met",
+       "meaning": "meter",
+       "explanation": "mét: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "メット",
+       "meaning": "メートル",
+       "explanation": "mét: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-units-02",
+     "language": "vi",
+     "level": "word",
+     "text": "xăng-ti-mét",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쌍띠멧",
+       "meaning": "센티미터",
+       "explanation": "xăng: 평평한 중간 높이 (ngang), ti: 평평한 중간 높이 (ngang), mét: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "sahng-tee-met",
+       "meaning": "centimeter",
+       "explanation": "xăng: level, mid pitch (ngang), ti: level, mid pitch (ngang), mét: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "サンティメット",
+       "meaning": "センチ",
+       "explanation": "xăng: 平らな中くらいの高さ (ngang), ti: 平らな中くらいの高さ (ngang), mét: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-units-03",
+     "language": "vi",
+     "level": "word",
+     "text": "ki-lô-mét",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "끼로멧",
+       "meaning": "킬로미터",
+       "explanation": "ki: 평평한 중간 높이 (ngang), lô: 평평한 중간 높이 (ngang), mét: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "kee-loh-met",
+       "meaning": "kilometer",
+       "explanation": "ki: level, mid pitch (ngang), lô: level, mid pitch (ngang), mét: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "キロメット",
+       "meaning": "キロメートル",
+       "explanation": "ki: 平らな中くらいの高さ (ngang), lô: 平らな中くらいの高さ (ngang), mét: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-units-04",
+     "language": "vi",
+     "level": "word",
+     "text": "ki-lô-gam",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "끼로감",
+       "meaning": "킬로그램",
+       "explanation": "ki: 평평한 중간 높이 (ngang), lô: 평평한 중간 높이 (ngang), gam: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "kee-loh-gahm",
+       "meaning": "kilogram",
+       "explanation": "ki: level, mid pitch (ngang), lô: level, mid pitch (ngang), gam: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "キロガム",
+       "meaning": "キログラム",
+       "explanation": "ki: 平らな中くらいの高さ (ngang), lô: 平らな中くらいの高さ (ngang), gam: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-units-05",
+     "language": "vi",
+     "level": "word",
+     "text": "gam",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "감",
+       "meaning": "그램",
+       "explanation": "gam: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "gahm",
+       "meaning": "gram",
+       "explanation": "gam: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ガム",
+       "meaning": "グラム",
+       "explanation": "gam: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-units-06",
+     "language": "vi",
+     "level": "word",
+     "text": "lít",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "릿",
+       "meaning": "리터",
+       "explanation": "lít: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "lit",
+       "meaning": "liter",
+       "explanation": "lít: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "リット",
+       "meaning": "リットル",
+       "explanation": "lít: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-units-07",
+     "language": "vi",
+     "level": "word",
+     "text": "phần trăm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "펀 짬",
+       "meaning": "퍼센트",
+       "explanation": "phần: 낮게 천천히 내려감 (huyền), trăm: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "fuhn chahm",
+       "meaning": "percent",
+       "explanation": "phần: low, falling (huyền), trăm: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ファン チャム",
+       "meaning": "パーセント",
+       "explanation": "phần: 低くゆっくり下がる (huyền), trăm: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-units-08",
+     "language": "vi",
+     "level": "word",
+     "text": "độ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "도",
+       "meaning": "도",
+       "explanation": "độ: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "doh",
+       "meaning": "degree",
+       "explanation": "độ: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ドー",
+       "meaning": "度",
+       "explanation": "độ: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-units-09",
+     "language": "vi",
+     "level": "word",
+     "text": "giờ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "저",
+       "meaning": "시간",
+       "explanation": "giờ: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "zuh",
+       "meaning": "hour",
+       "explanation": "giờ: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ゾー",
+       "meaning": "時間",
+       "explanation": "giờ: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-units-10",
+     "language": "vi",
+     "level": "word",
+     "text": "phút",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "풋",
+       "meaning": "분",
+       "explanation": "phút: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "foot",
+       "meaning": "minute",
+       "explanation": "phút: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "フット",
+       "meaning": "分",
+       "explanation": "phút: 高く上がる (sắc)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "directions",
+   "level": "word",
+   "title": {
+    "ko": "방향·위치",
+    "en": "Directions",
+    "ja": "方向・位置",
+    "vi": "Phương hướng"
+   },
+   "items": [
+    {
+     "id": "vi-w-directions-01",
+     "language": "vi",
+     "level": "word",
+     "text": "đông",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "동",
+       "meaning": "동쪽",
+       "explanation": "đông: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "dohng",
+       "meaning": "east",
+       "explanation": "đông: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ドン",
+       "meaning": "東",
+       "explanation": "đông: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-directions-02",
+     "language": "vi",
+     "level": "word",
+     "text": "tây",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "떠이",
+       "meaning": "서쪽",
+       "explanation": "tây: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "tay",
+       "meaning": "west",
+       "explanation": "tây: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "タイ",
+       "meaning": "西",
+       "explanation": "tây: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-directions-03",
+     "language": "vi",
+     "level": "word",
+     "text": "nam",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "남",
+       "meaning": "남쪽",
+       "explanation": "nam: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "nahm",
+       "meaning": "south",
+       "explanation": "nam: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ナム",
+       "meaning": "南",
+       "explanation": "nam: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-directions-04",
+     "language": "vi",
+     "level": "word",
+     "text": "bắc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "박",
+       "meaning": "북쪽",
+       "explanation": "bắc: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "bahk",
+       "meaning": "north",
+       "explanation": "bắc: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "バック",
+       "meaning": "北",
+       "explanation": "bắc: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-directions-05",
+     "language": "vi",
+     "level": "word",
+     "text": "trái",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "짜이",
+       "meaning": "왼쪽",
+       "explanation": "trái: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "chai",
+       "meaning": "left",
+       "explanation": "trái: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "チャイ",
+       "meaning": "左",
+       "explanation": "trái: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-directions-06",
+     "language": "vi",
+     "level": "word",
+     "text": "phải",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "파이",
+       "meaning": "오른쪽",
+       "explanation": "phải: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "fai",
+       "meaning": "right",
+       "explanation": "phải: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "ファイ",
+       "meaning": "右",
+       "explanation": "phải: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-directions-07",
+     "language": "vi",
+     "level": "word",
+     "text": "trên",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쩬",
+       "meaning": "위",
+       "explanation": "trên: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "chen",
+       "meaning": "up",
+       "explanation": "trên: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "チェン",
+       "meaning": "上",
+       "explanation": "trên: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-directions-08",
+     "language": "vi",
+     "level": "word",
+     "text": "dưới",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "즈어이",
+       "meaning": "아래",
+       "explanation": "dưới: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "zuh-oy",
+       "meaning": "down",
+       "explanation": "dưới: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ズオイ",
+       "meaning": "下",
+       "explanation": "dưới: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-directions-09",
+     "language": "vi",
+     "level": "word",
+     "text": "trước",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쯔억",
+       "meaning": "앞",
+       "explanation": "trước: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "chuh-uhk",
+       "meaning": "front",
+       "explanation": "trước: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "チュオック",
+       "meaning": "前",
+       "explanation": "trước: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-directions-10",
+     "language": "vi",
+     "level": "word",
+     "text": "sau",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "사우",
+       "meaning": "뒤",
+       "explanation": "sau: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "sow",
+       "meaning": "back",
+       "explanation": "sau: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "サウ",
+       "meaning": "後ろ",
+       "explanation": "sau: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "address",
+   "level": "word",
+   "title": {
+    "ko": "주소",
+    "en": "Addresses",
+    "ja": "住所",
+    "vi": "Địa chỉ"
+   },
+   "items": [
+    {
+     "id": "vi-w-address-01",
+     "language": "vi",
+     "level": "word",
+     "text": "địa chỉ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "디아 찌",
+       "meaning": "주소",
+       "explanation": "địa: 낮고 짧게 목을 막듯 끊음 (nặng), chỉ: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "dee-ah chee",
+       "meaning": "address",
+       "explanation": "địa: low, short, with a catch in the throat (nặng), chỉ: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "ディア チー",
+       "meaning": "住所",
+       "explanation": "địa: 低く短く喉を詰める (nặng), chỉ: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-address-02",
+     "language": "vi",
+     "level": "word",
+     "text": "thành phố",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "타잉 포",
+       "meaning": "시",
+       "explanation": "thành: 낮게 천천히 내려감 (huyền), phố: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "tahn foh",
+       "meaning": "city",
+       "explanation": "thành: low, falling (huyền), phố: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "タイン フォー",
+       "meaning": "市",
+       "explanation": "thành: 低くゆっくり下がる (huyền), phố: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-address-03",
+     "language": "vi",
+     "level": "word",
+     "text": "quận",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "꿘",
+       "meaning": "구",
+       "explanation": "quận: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "kwuhn",
+       "meaning": "district",
+       "explanation": "quận: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "クアン",
+       "meaning": "区",
+       "explanation": "quận: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-address-04",
+     "language": "vi",
+     "level": "word",
+     "text": "phường",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "프엉",
+       "meaning": "동",
+       "explanation": "phường: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "fuh-uhng",
+       "meaning": "neighborhood",
+       "explanation": "phường: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "フオン",
+       "meaning": "町",
+       "explanation": "phường: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-address-05",
+     "language": "vi",
+     "level": "word",
+     "text": "đường",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "드엉",
+       "meaning": "도로",
+       "explanation": "đường: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "duh-uhng",
+       "meaning": "street",
+       "explanation": "đường: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ドゥオン",
+       "meaning": "通り",
+       "explanation": "đường: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-address-06",
+     "language": "vi",
+     "level": "word",
+     "text": "tòa nhà",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "또아 냐",
+       "meaning": "건물",
+       "explanation": "tòa: 낮게 천천히 내려감 (huyền), nhà: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "twah nyah",
+       "meaning": "building",
+       "explanation": "tòa: low, falling (huyền), nhà: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "トア ニャー",
+       "meaning": "建物",
+       "explanation": "tòa: 低くゆっくり下がる (huyền), nhà: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-address-07",
+     "language": "vi",
+     "level": "word",
+     "text": "chung cư",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쭝 끄",
+       "meaning": "아파트",
+       "explanation": "chung: 평평한 중간 높이 (ngang), cư: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "choong kuh",
+       "meaning": "apartment",
+       "explanation": "chung: level, mid pitch (ngang), cư: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "チュン クー",
+       "meaning": "マンション",
+       "explanation": "chung: 平らな中くらいの高さ (ngang), cư: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-address-08",
+     "language": "vi",
+     "level": "word",
+     "text": "tầng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "떵",
+       "meaning": "층",
+       "explanation": "tầng: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "tuhng",
+       "meaning": "floor",
+       "explanation": "tầng: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "タン",
+       "meaning": "階",
+       "explanation": "tầng: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-address-09",
+     "language": "vi",
+     "level": "word",
+     "text": "số phòng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "소 퐁",
+       "meaning": "호",
+       "explanation": "số: 높게 올라감 (sắc), phòng: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "soh fong",
+       "meaning": "unit",
+       "explanation": "số: high, rising (sắc), phòng: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ソー フォン",
+       "meaning": "号室",
+       "explanation": "số: 高く上がる (sắc), phòng: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-address-10",
+     "language": "vi",
+     "level": "word",
+     "text": "mã bưu chính",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "마 브우 찡",
+       "meaning": "우편번호",
+       "explanation": "mã: 올라가다 목에서 끊기듯 다시 올라감 (ngã), bưu: 평평한 중간 높이 (ngang), chính: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "mah buh-oo ching",
+       "meaning": "zip code",
+       "explanation": "mã: rising with a break in the voice (ngã), bưu: level, mid pitch (ngang), chính: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "マー ブウ チン",
+       "meaning": "郵便番号",
+       "explanation": "mã: 上がる途中で喉を詰めてまた上がる (ngã), bưu: 平らな中くらいの高さ (ngang), chính: 高く上がる (sắc)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "level": "word",
+   "title": {
+    "ko": "시간·날짜",
+    "en": "Time & dates",
+    "ja": "時間・日付",
+    "vi": "Thời gian"
+   },
+   "items": [
+    {
+     "id": "vi-w-time-01",
+     "language": "vi",
+     "level": "word",
+     "text": "hôm nay",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "홈 나이",
+       "meaning": "오늘",
+       "explanation": "hôm: 평평한 중간 높이 (ngang), nay: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "hohm nigh",
+       "meaning": "today",
+       "explanation": "hôm: level, mid pitch (ngang), nay: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ホム ナイ",
+       "meaning": "今日",
+       "explanation": "hôm: 平らな中くらいの高さ (ngang), nay: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-time-02",
+     "language": "vi",
+     "level": "word",
+     "text": "ngày mai",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응아이 마이",
+       "meaning": "내일",
+       "explanation": "ngày: 낮게 천천히 내려감 (huyền), mai: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "ngai mai",
+       "meaning": "tomorrow",
+       "explanation": "ngày: low, falling (huyền), mai: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ガイ マイ",
+       "meaning": "明日",
+       "explanation": "ngày: 低くゆっくり下がる (huyền), mai: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-time-03",
+     "language": "vi",
+     "level": "word",
+     "text": "hôm qua",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "홈 꽈",
+       "meaning": "어제",
+       "explanation": "hôm: 평평한 중간 높이 (ngang), qua: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "hohm kwah",
+       "meaning": "yesterday",
+       "explanation": "hôm: level, mid pitch (ngang), qua: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ホム クア",
+       "meaning": "昨日",
+       "explanation": "hôm: 平らな中くらいの高さ (ngang), qua: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-time-04",
+     "language": "vi",
+     "level": "word",
+     "text": "buổi sáng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "부오이 상",
+       "meaning": "아침",
+       "explanation": "buổi: 내려갔다가 다시 올라감 (hỏi), sáng: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "boo-oy sahng",
+       "meaning": "morning",
+       "explanation": "buổi: dipping, then rising (hỏi), sáng: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ブオイ サン",
+       "meaning": "朝",
+       "explanation": "buổi: 下がってから上がる (hỏi), sáng: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-time-05",
+     "language": "vi",
+     "level": "word",
+     "text": "buổi trưa",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "부오이 쯔어",
+       "meaning": "점심",
+       "explanation": "buổi: 내려갔다가 다시 올라감 (hỏi), trưa: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "boo-oy chuh-uh",
+       "meaning": "noon",
+       "explanation": "buổi: dipping, then rising (hỏi), trưa: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ブオイ チュア",
+       "meaning": "昼",
+       "explanation": "buổi: 下がってから上がる (hỏi), trưa: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-time-06",
+     "language": "vi",
+     "level": "word",
+     "text": "buổi tối",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "부오이 또이",
+       "meaning": "저녁",
+       "explanation": "buổi: 내려갔다가 다시 올라감 (hỏi), tối: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "boo-oy toy",
+       "meaning": "evening",
+       "explanation": "buổi: dipping, then rising (hỏi), tối: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ブオイ トイ",
+       "meaning": "夕方",
+       "explanation": "buổi: 下がってから上がる (hỏi), tối: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-time-07",
+     "language": "vi",
+     "level": "word",
+     "text": "tuần",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "뚜언",
+       "meaning": "주",
+       "explanation": "tuần: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "twuhn",
+       "meaning": "week",
+       "explanation": "tuần: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "トゥアン",
+       "meaning": "週",
+       "explanation": "tuần: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-time-08",
+     "language": "vi",
+     "level": "word",
+     "text": "tháng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "탕",
+       "meaning": "달",
+       "explanation": "tháng: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "tahng",
+       "meaning": "month",
+       "explanation": "tháng: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "タン",
+       "meaning": "月",
+       "explanation": "tháng: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-time-09",
+     "language": "vi",
+     "level": "word",
+     "text": "năm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "남",
+       "meaning": "년",
+       "explanation": "năm: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "nahm",
+       "meaning": "year",
+       "explanation": "năm: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ナム",
+       "meaning": "年",
+       "explanation": "năm: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-time-10",
+     "language": "vi",
+     "level": "word",
+     "text": "thứ Hai",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "트 하이",
+       "meaning": "월요일",
+       "explanation": "thứ: 높게 올라감 (sắc), Hai: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "tuh high",
+       "meaning": "Monday",
+       "explanation": "thứ: high, rising (sắc), Hai: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "トゥー ハイ",
+       "meaning": "月曜日",
+       "explanation": "thứ: 高く上がる (sắc), Hai: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "level": "word",
+   "title": {
+    "ko": "가족·사람",
+    "en": "Family & people",
+    "ja": "家族・人",
+    "vi": "Gia đình"
+   },
+   "items": [
+    {
+     "id": "vi-w-people-01",
+     "language": "vi",
+     "level": "word",
+     "text": "gia đình",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "자 딩",
+       "meaning": "가족",
+       "explanation": "gia: 평평한 중간 높이 (ngang), đình: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "zah ding",
+       "meaning": "family",
+       "explanation": "gia: level, mid pitch (ngang), đình: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ザー ディン",
+       "meaning": "家族",
+       "explanation": "gia: 平らな中くらいの高さ (ngang), đình: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-people-02",
+     "language": "vi",
+     "level": "word",
+     "text": "bố",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "보",
+       "meaning": "아버지",
+       "explanation": "bố: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "boh",
+       "meaning": "father",
+       "explanation": "bố: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ボー",
+       "meaning": "父",
+       "explanation": "bố: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-people-03",
+     "language": "vi",
+     "level": "word",
+     "text": "mẹ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "메",
+       "meaning": "어머니",
+       "explanation": "mẹ: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "meh",
+       "meaning": "mother",
+       "explanation": "mẹ: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "メ",
+       "meaning": "母",
+       "explanation": "mẹ: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-people-04",
+     "language": "vi",
+     "level": "word",
+     "text": "con",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "꼰",
+       "meaning": "아이",
+       "explanation": "con: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "kon",
+       "meaning": "child",
+       "explanation": "con: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "コン",
+       "meaning": "子ども",
+       "explanation": "con: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-people-05",
+     "language": "vi",
+     "level": "word",
+     "text": "con trai",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "꼰 짜이",
+       "meaning": "아들",
+       "explanation": "con: 평평한 중간 높이 (ngang), trai: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "kon chai",
+       "meaning": "son",
+       "explanation": "con: level, mid pitch (ngang), trai: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "コン チャイ",
+       "meaning": "息子",
+       "explanation": "con: 平らな中くらいの高さ (ngang), trai: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-people-06",
+     "language": "vi",
+     "level": "word",
+     "text": "con gái",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "꼰 가이",
+       "meaning": "딸",
+       "explanation": "con: 평평한 중간 높이 (ngang), gái: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "kon guy",
+       "meaning": "daughter",
+       "explanation": "con: level, mid pitch (ngang), gái: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "コン ガイ",
+       "meaning": "娘",
+       "explanation": "con: 平らな中くらいの高さ (ngang), gái: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-people-07",
+     "language": "vi",
+     "level": "word",
+     "text": "chồng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쫑",
+       "meaning": "남편",
+       "explanation": "chồng: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "chohng",
+       "meaning": "husband",
+       "explanation": "chồng: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "チョン",
+       "meaning": "夫",
+       "explanation": "chồng: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-people-08",
+     "language": "vi",
+     "level": "word",
+     "text": "vợ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "버",
+       "meaning": "아내",
+       "explanation": "vợ: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "vuh",
+       "meaning": "wife",
+       "explanation": "vợ: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ヴォー",
+       "meaning": "妻",
+       "explanation": "vợ: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-people-09",
+     "language": "vi",
+     "level": "word",
+     "text": "bạn bè",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "반 베",
+       "meaning": "친구",
+       "explanation": "bạn: 낮고 짧게 목을 막듯 끊음 (nặng), bè: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "bahn beh",
+       "meaning": "friend",
+       "explanation": "bạn: low, short, with a catch in the throat (nặng), bè: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "バン ベー",
+       "meaning": "友だち",
+       "explanation": "bạn: 低く短く喉を詰める (nặng), bè: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-people-10",
+     "language": "vi",
+     "level": "word",
+     "text": "giáo viên",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "자오 비엔",
+       "meaning": "선생님",
+       "explanation": "giáo: 높게 올라감 (sắc), viên: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "zow vee-en",
+       "meaning": "teacher",
+       "explanation": "giáo: high, rising (sắc), viên: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ザオ ヴィエン",
+       "meaning": "先生",
+       "explanation": "giáo: 高く上がる (sắc), viên: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "level": "word",
+   "title": {
+    "ko": "음식·장보기",
+    "en": "Food & shopping",
+    "ja": "食べ物・買い物",
+    "vi": "Ăn uống"
+   },
+   "items": [
+    {
+     "id": "vi-w-food-01",
+     "language": "vi",
+     "level": "word",
+     "text": "nước",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "느억",
+       "meaning": "물",
+       "explanation": "nước: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "nuh-uhk",
+       "meaning": "water",
+       "explanation": "nước: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ヌオック",
+       "meaning": "水",
+       "explanation": "nước: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-food-02",
+     "language": "vi",
+     "level": "word",
+     "text": "cơm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "껌",
+       "meaning": "밥",
+       "explanation": "cơm: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "kuhm",
+       "meaning": "rice",
+       "explanation": "cơm: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "コム",
+       "meaning": "ご飯",
+       "explanation": "cơm: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-food-03",
+     "language": "vi",
+     "level": "word",
+     "text": "bánh mì",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "바잉 미",
+       "meaning": "빵",
+       "explanation": "bánh: 높게 올라감 (sắc), mì: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "bahn mee",
+       "meaning": "bread",
+       "explanation": "bánh: high, rising (sắc), mì: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "バイン ミー",
+       "meaning": "パン",
+       "explanation": "bánh: 高く上がる (sắc), mì: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-food-04",
+     "language": "vi",
+     "level": "word",
+     "text": "thịt",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "팃",
+       "meaning": "고기",
+       "explanation": "thịt: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "tit",
+       "meaning": "meat",
+       "explanation": "thịt: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ティット",
+       "meaning": "肉",
+       "explanation": "thịt: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-food-05",
+     "language": "vi",
+     "level": "word",
+     "text": "cá",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "까",
+       "meaning": "생선",
+       "explanation": "cá: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "kah",
+       "meaning": "fish",
+       "explanation": "cá: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "カー",
+       "meaning": "魚",
+       "explanation": "cá: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-food-06",
+     "language": "vi",
+     "level": "word",
+     "text": "trái cây",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "짜이 꺼이",
+       "meaning": "과일",
+       "explanation": "trái: 높게 올라감 (sắc), cây: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "chai kay",
+       "meaning": "fruit",
+       "explanation": "trái: high, rising (sắc), cây: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "チャイ カイ",
+       "meaning": "果物",
+       "explanation": "trái: 高く上がる (sắc), cây: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-food-07",
+     "language": "vi",
+     "level": "word",
+     "text": "rau",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "자우",
+       "meaning": "채소",
+       "explanation": "rau: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "zow",
+       "meaning": "vegetable",
+       "explanation": "rau: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ザウ",
+       "meaning": "野菜",
+       "explanation": "rau: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-food-08",
+     "language": "vi",
+     "level": "word",
+     "text": "giá",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "자",
+       "meaning": "가격",
+       "explanation": "giá: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "zah",
+       "meaning": "price",
+       "explanation": "giá: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ザー",
+       "meaning": "値段",
+       "explanation": "giá: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-food-09",
+     "language": "vi",
+     "level": "word",
+     "text": "chợ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쩌",
+       "meaning": "시장",
+       "explanation": "chợ: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "chuh",
+       "meaning": "market",
+       "explanation": "chợ: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "チョー",
+       "meaning": "市場",
+       "explanation": "chợ: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-food-10",
+     "language": "vi",
+     "level": "word",
+     "text": "tính tiền",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "띵 띠엔",
+       "meaning": "계산",
+       "explanation": "tính: 높게 올라감 (sắc), tiền: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "ting tee-en",
+       "meaning": "bill",
+       "explanation": "tính: high, rising (sắc), tiền: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ティン ティエン",
+       "meaning": "お会計",
+       "explanation": "tính: 高く上がる (sắc), tiền: 低くゆっくり下がる (huyền)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "places",
+   "level": "word",
+   "title": {
+    "ko": "장소·교통",
+    "en": "Places & transport",
+    "ja": "場所・交通",
+    "vi": "Địa điểm"
+   },
+   "items": [
+    {
+     "id": "vi-w-places-01",
+     "language": "vi",
+     "level": "word",
+     "text": "nhà ga",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "냐 가",
+       "meaning": "역",
+       "explanation": "nhà: 낮게 천천히 내려감 (huyền), ga: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "nyah gah",
+       "meaning": "station",
+       "explanation": "nhà: low, falling (huyền), ga: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ニャー ガー",
+       "meaning": "駅",
+       "explanation": "nhà: 低くゆっくり下がる (huyền), ga: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-places-02",
+     "language": "vi",
+     "level": "word",
+     "text": "xe buýt",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쌔 부잇",
+       "meaning": "버스",
+       "explanation": "xe: 평평한 중간 높이 (ngang), buýt: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "seh bweet",
+       "meaning": "bus",
+       "explanation": "xe: level, mid pitch (ngang), buýt: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "セー ブイット",
+       "meaning": "バス",
+       "explanation": "xe: 平らな中くらいの高さ (ngang), buýt: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-places-03",
+     "language": "vi",
+     "level": "word",
+     "text": "tàu điện ngầm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "따우 디엔 응엄",
+       "meaning": "지하철",
+       "explanation": "tàu: 낮게 천천히 내려감 (huyền), điện: 낮고 짧게 목을 막듯 끊음 (nặng), ngầm: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "tow dee-en nguhm",
+       "meaning": "subway",
+       "explanation": "tàu: low, falling (huyền), điện: low, short, with a catch in the throat (nặng), ngầm: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "タウ ディエン グム",
+       "meaning": "地下鉄",
+       "explanation": "tàu: 低くゆっくり下がる (huyền), điện: 低く短く喉を詰める (nặng), ngầm: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-places-04",
+     "language": "vi",
+     "level": "word",
+     "text": "tắc xi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "딱 씨",
+       "meaning": "택시",
+       "explanation": "tắc: 높게 올라감 (sắc), xi: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "tahk see",
+       "meaning": "taxi",
+       "explanation": "tắc: high, rising (sắc), xi: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "タック シー",
+       "meaning": "タクシー",
+       "explanation": "tắc: 高く上がる (sắc), xi: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-places-05",
+     "language": "vi",
+     "level": "word",
+     "text": "sân bay",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "선 바이",
+       "meaning": "공항",
+       "explanation": "sân: 평평한 중간 높이 (ngang), bay: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "suhn bye",
+       "meaning": "airport",
+       "explanation": "sân: level, mid pitch (ngang), bay: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "サン バイ",
+       "meaning": "空港",
+       "explanation": "sân: 平らな中くらいの高さ (ngang), bay: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-places-06",
+     "language": "vi",
+     "level": "word",
+     "text": "bệnh viện",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "벵 비엔",
+       "meaning": "병원",
+       "explanation": "bệnh: 낮고 짧게 목을 막듯 끊음 (nặng), viện: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "benh vee-en",
+       "meaning": "hospital",
+       "explanation": "bệnh: low, short, with a catch in the throat (nặng), viện: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ベン ヴィエン",
+       "meaning": "病院",
+       "explanation": "bệnh: 低く短く喉を詰める (nặng), viện: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-places-07",
+     "language": "vi",
+     "level": "word",
+     "text": "ngân hàng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응언 항",
+       "meaning": "은행",
+       "explanation": "ngân: 평평한 중간 높이 (ngang), hàng: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "nguhn hahng",
+       "meaning": "bank",
+       "explanation": "ngân: level, mid pitch (ngang), hàng: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ガン ハン",
+       "meaning": "銀行",
+       "explanation": "ngân: 平らな中くらいの高さ (ngang), hàng: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-places-08",
+     "language": "vi",
+     "level": "word",
+     "text": "nhà thuốc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "냐 투옥",
+       "meaning": "약국",
+       "explanation": "nhà: 낮게 천천히 내려감 (huyền), thuốc: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "nyah too-ohk",
+       "meaning": "pharmacy",
+       "explanation": "nhà: low, falling (huyền), thuốc: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ニャー トゥオック",
+       "meaning": "薬局",
+       "explanation": "nhà: 低くゆっくり下がる (huyền), thuốc: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-places-09",
+     "language": "vi",
+     "level": "word",
+     "text": "nhà vệ sinh",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "냐 베 신",
+       "meaning": "화장실",
+       "explanation": "nhà: 낮게 천천히 내려감 (huyền), vệ: 낮고 짧게 목을 막듯 끊음 (nặng), sinh: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "nyah veh sing",
+       "meaning": "restroom",
+       "explanation": "nhà: low, falling (huyền), vệ: low, short, with a catch in the throat (nặng), sinh: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ニャー ヴェー シン",
+       "meaning": "トイレ",
+       "explanation": "nhà: 低くゆっくり下がる (huyền), vệ: 低く短く喉を詰める (nặng), sinh: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-places-10",
+     "language": "vi",
+     "level": "word",
+     "text": "lối ra",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "로이 자",
+       "meaning": "출구",
+       "explanation": "lối: 높게 올라감 (sắc), ra: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "loy zah",
+       "meaning": "exit",
+       "explanation": "lối: high, rising (sắc), ra: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ロイ ザー",
+       "meaning": "出口",
+       "explanation": "lối: 高く上がる (sắc), ra: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "qa",
+   "level": "short-sentence",
+   "title": {
+    "ko": "질문과 답",
+    "en": "Questions & answers",
+    "ja": "質問と答え",
+    "vi": "Hỏi và đáp"
+   },
+   "items": [
+    {
+     "id": "vi-qa-01-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Bạn tên là gì?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "이름이 뭐예요?"
+      },
+      "en": {
+       "meaning": "What's your name?"
+      },
+      "ja": {
+       "meaning": "お名前は何ですか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-01-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Tôi tên là Mina.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "제 이름은 미나예요."
+      },
+      "en": {
+       "meaning": "My name is Mina."
+      },
+      "ja": {
+       "meaning": "わたしはミナです。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-02-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Bạn sống ở đâu?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "어디에 살아요?"
+      },
+      "en": {
+       "meaning": "Where do you live?"
+      },
+      "ja": {
+       "meaning": "どこに住んでいますか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-02-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Tôi sống gần nhà ga.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "역 근처에 살아요."
+      },
+      "en": {
+       "meaning": "I live near the station."
+      },
+      "ja": {
+       "meaning": "駅の近くに住んでいます。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-03-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Cái này bao nhiêu tiền?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "이거 얼마예요?"
+      },
+      "en": {
+       "meaning": "How much is this?"
+      },
+      "ja": {
+       "meaning": "これはいくらですか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-03-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Hôm nay giảm nửa giá.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "오늘은 반값이에요."
+      },
+      "en": {
+       "meaning": "It's half price today."
+      },
+      "ja": {
+       "meaning": "今日は半額です。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-04-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Nhà vệ sinh ở đâu?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "화장실이 어디예요?"
+      },
+      "en": {
+       "meaning": "Where is the restroom?"
+      },
+      "ja": {
+       "meaning": "トイレはどこですか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-04-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Ở tầng hai.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "2층에 있어요."
+      },
+      "en": {
+       "meaning": "It's on the second floor."
+      },
+      "ja": {
+       "meaning": "二階にあります。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-05-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Bây giờ là mấy giờ?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "지금 몇 시예요?"
+      },
+      "en": {
+       "meaning": "What time is it now?"
+      },
+      "ja": {
+       "meaning": "今、何時ですか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-05-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Bây giờ là ba giờ.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "세 시예요."
+      },
+      "en": {
+       "meaning": "It's three o'clock."
+      },
+      "ja": {
+       "meaning": "三時です。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-06-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Đi đến nhà ga thế nào?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "역에 어떻게 가요?"
+      },
+      "en": {
+       "meaning": "How do I get to the station?"
+      },
+      "ja": {
+       "meaning": "駅へはどう行きますか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-06-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Đi thẳng rồi rẽ trái.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "쭉 가서 왼쪽으로 가세요."
+      },
+      "en": {
+       "meaning": "Go straight and turn left."
+      },
+      "ja": {
+       "meaning": "まっすぐ行って左です。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-07-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Bạn giúp tôi được không?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "좀 도와주시겠어요?"
+      },
+      "en": {
+       "meaning": "Could you help me?"
+      },
+      "ja": {
+       "meaning": "手伝ってもらえますか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-07-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Tất nhiên rồi.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "물론이죠."
+      },
+      "en": {
+       "meaning": "Of course."
+      },
+      "ja": {
+       "meaning": "もちろんです。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-08-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Bạn muốn ăn gì?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "뭐 먹고 싶어요?"
+      },
+      "en": {
+       "meaning": "What would you like to eat?"
+      },
+      "ja": {
+       "meaning": "何が食べたいですか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-08-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Tôi muốn ăn cá.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "생선을 먹고 싶어요."
+      },
+      "en": {
+       "meaning": "I'd like to eat fish."
+      },
+      "ja": {
+       "meaning": "魚が食べたいです。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-09-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Hôm nay thời tiết thế nào?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "오늘 날씨 어때요?"
+      },
+      "en": {
+       "meaning": "How's the weather today?"
+      },
+      "ja": {
+       "meaning": "今日の天気はどうですか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-09-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Trời nắng và ấm.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "맑고 따뜻해요."
+      },
+      "en": {
+       "meaning": "It's sunny and warm."
+      },
+      "ja": {
+       "meaning": "晴れて暖かいです。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-10-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Sinh nhật bạn là khi nào?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "생일이 언제예요?"
+      },
+      "en": {
+       "meaning": "When is your birthday?"
+      },
+      "ja": {
+       "meaning": "誕生日はいつですか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-10-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Ngày 5 tháng 5.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "5월 5일이에요."
+      },
+      "en": {
+       "meaning": "It's May fifth."
+      },
+      "ja": {
+       "meaning": "五月五日です。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-11-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Bạn nói được tiếng Anh không?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "영어 할 줄 알아요?"
+      },
+      "en": {
+       "meaning": "Do you speak English?"
+      },
+      "ja": {
+       "meaning": "英語が話せますか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-11-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Tôi nói được một chút.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "조금 할 수 있어요."
+      },
+      "en": {
+       "meaning": "Just a little."
+      },
+      "ja": {
+       "meaning": "少しだけ話せます。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-12-q",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Mai mình gặp nhau nhé?",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "내일 만날까요?"
+      },
+      "en": {
+       "meaning": "Shall we meet tomorrow?"
+      },
+      "ja": {
+       "meaning": "明日会いましょうか。"
+      }
+     }
+    },
+    {
+     "id": "vi-qa-12-a",
+     "language": "vi",
+     "level": "short-sentence",
+     "text": "Được, hẹn bạn lúc mười giờ.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "좋아요. 열 시에 봐요."
+      },
+      "en": {
+       "meaning": "Sounds good. See you at ten."
+      },
+      "ja": {
+       "meaning": "いいですね。十時に会いましょう。"
+      }
+     }
+    }
+   ]
+  },
+  {
    "id": "short",
    "level": "short-sentence",
    "title": {
-    "ko": "짧은 문장",
-    "en": "Short sentences",
-    "ja": "短い文",
-    "vi": "Câu ngắn"
+    "ko": "기본 표현",
+    "en": "Basic phrases",
+    "ja": "基本の表現",
+    "vi": "Câu cơ bản"
    },
    "items": [
     {
@@ -1194,15 +3550,163 @@
    ]
   },
   {
-   "id": "long",
+   "id": "notices",
    "level": "long-sentence",
    "title": {
-    "ko": "긴 문장",
-    "en": "Long sentences",
-    "ja": "長い文",
-    "vi": "Câu dài"
+    "ko": "안내문",
+    "en": "Notices",
+    "ja": "案内文",
+    "vi": "Thông báo"
    },
    "items": [
+    {
+     "id": "vi-notice-01",
+     "language": "vi",
+     "level": "long-sentence",
+     "text": "Thư viện mở cửa từ 9 giờ sáng đến 6 giờ chiều. Thứ Hai nghỉ.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "도서관은 오전 9시부터 오후 6시까지 엽니다. 월요일은 쉽니다."
+      },
+      "en": {
+       "meaning": "The library is open from 9 a.m. to 6 p.m. It is closed on Mondays."
+      },
+      "ja": {
+       "meaning": "図書館は午前九時から午後六時まで開いています。月曜日は休館です。"
+      }
+     }
+    },
+    {
+     "id": "vi-notice-02",
+     "language": "vi",
+     "level": "long-sentence",
+     "text": "Thang máy đang được kiểm tra. Xin vui lòng đi cầu thang bộ. Xin lỗi vì sự bất tiện.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "엘리베이터 점검 중입니다. 불편하시더라도 계단을 이용해 주세요."
+      },
+      "en": {
+       "meaning": "The elevator is under inspection. Please use the stairs. Sorry for the trouble."
+      },
+      "ja": {
+       "meaning": "エレベーターは点検中です。ご不便をおかけしますが、階段をご利用ください。"
+      }
+     }
+    },
+    {
+     "id": "vi-notice-03",
+     "language": "vi",
+     "level": "long-sentence",
+     "text": "Xin hãy nhường ghế cho người già và phụ nữ mang thai. Mọi người sẽ thoải mái hơn.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "노약자와 임산부에게 자리를 양보해 주세요. 모두가 편안해집니다."
+      },
+      "en": {
+       "meaning": "Please offer your seat to elderly and pregnant passengers. It makes the ride better for all."
+      },
+      "ja": {
+       "meaning": "お年寄りや妊娠中の方に席をお譲りください。みんなが気持ちよく乗れます。"
+      }
+     }
+    },
+    {
+     "id": "vi-notice-04",
+     "language": "vi",
+     "level": "long-sentence",
+     "text": "Hãy phân loại rác tái chế và mang ra trước 8 giờ sáng thứ Năm.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "재활용품은 종류별로 나누어 목요일 아침 8시까지 내놓아 주세요."
+      },
+      "en": {
+       "meaning": "Please sort recyclables by type and put them out by 8 a.m. on Thursday."
+      },
+      "ja": {
+       "meaning": "資源ごみは種類ごとに分けて、木曜日の朝八時までに出してください。"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "essays",
+   "level": "long-sentence",
+   "title": {
+    "ko": "에세이",
+    "en": "Essays",
+    "ja": "エッセイ",
+    "vi": "Bài viết ngắn"
+   },
+   "items": [
+    {
+     "id": "vi-essay-01",
+     "language": "vi",
+     "level": "long-sentence",
+     "text": "Mỗi chữ bạn viết hôm nay tạo nên nét chữ ngày mai. Đừng vội, hãy viết cẩn thận từng nét.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "오늘 쓴 한 글자가 내일의 글씨를 만듭니다. 서두르지 말고 한 획씩 정성껏 써 보세요."
+      },
+      "en": {
+       "meaning": "Each letter you write today shapes tomorrow's handwriting. Don't rush; write one stroke at a time."
+      },
+      "ja": {
+       "meaning": "今日書いた一文字が、明日の字をつくります。あせらず一画ずつていねいに書きましょう。"
+      }
+     }
+    },
+    {
+     "id": "vi-essay-02",
+     "language": "vi",
+     "level": "long-sentence",
+     "text": "Sai sót là bằng chứng bạn đang học. Biết mình sai ở đâu, lần sau bạn sẽ viết tốt hơn.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "실수는 배우고 있다는 증거입니다. 틀린 곳을 알면 다음에는 더 잘 쓸 수 있습니다."
+      },
+      "en": {
+       "meaning": "Mistakes are proof that you are learning. Once you see what went wrong, you can do better next time."
+      },
+      "ja": {
+       "meaning": "まちがいは学んでいる証です。どこがちがうか分かれば、次はもっと上手に書けます。"
+      }
+     }
+    },
+    {
+     "id": "vi-essay-03",
+     "language": "vi",
+     "level": "long-sentence",
+     "text": "Một ngôn ngữ mới giống như một ô cửa sổ mới. Thế giới nhìn qua đó sẽ rộng hơn một chút.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "새로운 언어는 새로운 창문과 같습니다. 그 창으로 보는 세상은 조금 더 넓어집니다."
+      },
+      "en": {
+       "meaning": "A new language is like a new window. The world you see through it becomes a little wider."
+      },
+      "ja": {
+       "meaning": "新しいことばは新しい窓のようなものです。その窓から見る世界は少し広くなります。"
+      }
+     }
+    },
+    {
+     "id": "vi-essay-04",
+     "language": "vi",
+     "level": "long-sentence",
+     "text": "Mỗi ngày mười phút là đủ. Thói quen nhỏ tích lũy dần sẽ thành thay đổi lớn.",
+     "nativeGuides": {
+      "ko": {
+       "meaning": "매일 십 분이면 충분합니다. 작은 습관이 쌓이면 어느새 큰 변화가 됩니다."
+      },
+      "en": {
+       "meaning": "Ten minutes a day is enough. Small habits add up, and one day they become a big change."
+      },
+      "ja": {
+       "meaning": "毎日十分で十分です。小さな習慣が積み重なると、いつの間にか大きな変化になります。"
+      }
+     }
+    },
     {
      "id": "vi-long-01",
      "language": "vi",
@@ -1219,23 +3723,11 @@
        "meaning": "毎日字を練習すると、字がもっときれいになります。"
       }
      }
-    }
-   ]
-  },
-  {
-   "id": "paragraph",
-   "level": "paragraph",
-   "title": {
-    "ko": "단락",
-    "en": "Paragraphs",
-    "ja": "段落",
-    "vi": "Đoạn văn"
-   },
-   "items": [
+    },
     {
      "id": "vi-para-01",
      "language": "vi",
-     "level": "paragraph",
+     "level": "long-sentence",
      "text": "Chữ viết là tấm gương của tâm hồn.\nKhi viết từng nét cẩn thận, bàn tay sẽ ghi nhớ hình dáng của chữ.",
      "nativeGuides": {
       "ko": {

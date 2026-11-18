@@ -1,6 +1,9 @@
 import { confirmDialog } from "../../app/dialog";
 import { h } from "../../app/dom";
+import { icon } from "../../app/icons";
 import { hrefFor, navigate } from "../../app/router";
+import { appBar, withIcon } from "../../app/shell";
+import { areaOfItem } from "../area/areas";
 import { getSession, t, type PracticeSession } from "../../app/state";
 import { fill } from "../../i18n/strings";
 import { nextItem } from "../../engines/language/lessons";
@@ -52,11 +55,10 @@ function compareBody(data: CompareData): { el: HTMLElement; overlayBtn: HTMLButt
       ),
     );
   };
-  const overlayBtn = h("button", { type: "button", class: "btn", "aria-pressed": "false" }, `◐ ${s.overlayOn}`);
+  const overlayBtn = h("button", { type: "button", class: "btn toggle", "aria-pressed": "false" }, ...withIcon("overlay", s.overlayOn));
   overlayBtn.addEventListener("click", () => {
     overlay = !overlay;
     overlayBtn.setAttribute("aria-pressed", String(overlay));
-    overlayBtn.textContent = `◐ ${overlay ? s.overlayOff : s.overlayOn}`;
     draw();
   });
   draw();
@@ -98,7 +100,7 @@ export function renderComparison(root: HTMLElement): () => void {
   const { el, overlayBtn } = compareBody({ language: item.language, ...session });
 
   const status = h("span", { class: "status", role: "status" });
-  const saveBtn = h("button", { type: "button", class: "btn" }, `💾 ${s.saveRecord}`);
+  const saveBtn = h("button", { type: "button", class: "btn" }, ...withIcon("save", s.saveRecord));
   saveBtn.addEventListener("click", async () => {
     saveBtn.disabled = true;
     try {
@@ -115,23 +117,22 @@ export function renderComparison(root: HTMLElement): () => void {
 
   const next = pack ? nextItem(pack, item.id) : undefined;
   root.append(
-    h(
+    h("div", { class: "screen" }, appBar(s.compareTitle, { back: hrefFor.area(areaOfItem(item)) }), h(
       "main",
       { class: "page compare" },
-      h("header", { class: "practice-header" }, h("a", { class: "btn ghost", href: hrefFor.home() }, `← ${s.back}`), h("h1", { class: "title" }, s.compareTitle)),
       h("p", { class: "step-desc" }, s.compareDesc),
       h("div", { class: "toolbar" }, overlayBtn, saveBtn, status),
       el,
       h(
         "footer",
         { class: "practice-footer" },
-        h("button", { type: "button", class: "btn", onclick: () => navigate(hrefFor.practice(item.id)) }, `↻ ${s.again}`),
+        h("button", { type: "button", class: "btn", onclick: () => navigate(hrefFor.practice(item.id)) }, ...withIcon("replay", s.again)),
         next
-          ? h("button", { type: "button", class: "btn primary next", onclick: () => navigate(hrefFor.practice(next.id)) }, `${s.nextItem} →`)
-          : h("a", { class: "btn primary next", href: hrefFor.home() }, s.toList),
+          ? h("button", { type: "button", class: "btn primary next", onclick: () => navigate(hrefFor.practice(next.id)) }, h("span", {}, s.nextItem), icon("chevron"))
+          : h("a", { class: "btn primary next", href: hrefFor.area(areaOfItem(item)) }, s.toList),
       ),
       h("p", { class: "note" }, s.storageWarning),
-    ),
+    )),
   );
   return () => {};
 }
@@ -140,7 +141,8 @@ export function renderComparison(root: HTMLElement): () => void {
 export function renderRecord(root: HTMLElement, id: string): () => void {
   const s = t();
   const main = h("main", { class: "page compare" }, h("p", { class: "loading" }, s.loadingPack));
-  root.append(main);
+  const screen = h("div", { class: "screen" }, main);
+  root.append(screen);
   let disposed = false;
   void (async () => {
     const r = await getRecord(id).catch(() => undefined);
@@ -153,24 +155,19 @@ export function renderRecord(root: HTMLElement, id: string): () => void {
       maxEmPx: r.maxEmPx ?? 72,
       attempts: recordAttempts(r),
     });
-    const delBtn = h("button", { type: "button", class: "btn danger" }, `🗑 ${s.delete}`);
+    const delBtn = h("button", { type: "button", class: "btn danger" }, ...withIcon("trash", s.delete));
     delBtn.addEventListener("click", async () => {
       if (!(await confirmDialog(s.deleteConfirm, s.delete, s.cancel))) return;
       await deleteRecord(r.id);
       navigate(hrefFor.history());
     });
+    screen.prepend(appBar(h("span", { class: "src" }, r.sourceText.replace(/\n/g, " ")), { back: hrefFor.history(), titleLang: r.language }));
     main.replaceChildren(
-      h(
-        "header",
-        { class: "practice-header" },
-        h("a", { class: "btn ghost", href: hrefFor.history() }, `← ${s.history}`),
-        h("h1", { class: "title" }, h("span", { class: "src", lang: r.language }, r.sourceText.replace(/\n/g, " "))),
-      ),
       h("p", { class: "step-desc" }, formatDate(r.createdAt)),
       h("div", { class: "toolbar" }, overlayBtn, delBtn),
       el,
       r.learningItemId
-        ? h("footer", { class: "practice-footer" }, h("a", { class: "btn primary next", href: hrefFor.practice(r.learningItemId) }, `↻ ${s.again}`))
+        ? h("footer", { class: "practice-footer" }, h("a", { class: "btn primary next", href: hrefFor.practice(r.learningItemId) }, ...withIcon("replay", s.again)))
         : "",
     );
   })();

@@ -1,5 +1,7 @@
 import { h } from "../../app/dom";
+import { icon } from "../../app/icons";
 import { hrefFor, navigate } from "../../app/router";
+import { appBar, bottomNav } from "../../app/shell";
 import { settings, t, updateSettings } from "../../app/state";
 import { settingsForm } from "./form";
 import { voiceCheckSection } from "./voice-check";
@@ -21,11 +23,17 @@ export function renderSettings(root: HTMLElement): () => void {
   );
   root.append(
     h(
-      "main",
-      { class: "page narrow" },
-      h("header", { class: "practice-header" }, h("a", { class: "btn ghost", href: hrefFor.home() }, `← ${t().back}`), h("h1", { class: "title" }, t().settings)),
-      form,
-      h("div", { style: "margin-top:20px" }, voiceCheckSection()),
+      "div",
+      { class: "screen" },
+      appBar(t().settings),
+      h(
+        "main",
+        { class: "page narrow" },
+        form,
+        h("div", { style: "margin-top:20px" }, voiceCheckSection()),
+        h("a", { class: "link-row card", href: hrefFor.about() }, icon("info"), h("span", {}, t().about), icon("chevron")),
+      ),
+      bottomNav("settings"),
     ),
   );
   return () => {};

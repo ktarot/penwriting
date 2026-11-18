@@ -1,6 +1,7 @@
 import { confirmDialog } from "../../app/dialog";
 import { h } from "../../app/dom";
 import { hrefFor } from "../../app/router";
+import { appBar, bottomNav, withIcon } from "../../app/shell";
 import { t } from "../../app/state";
 import { deleteAllRecords, deleteRecord, listRecords } from "../../storage/repositories/records";
 import { clearProgress } from "../../storage/repositories/progress";
@@ -11,7 +12,7 @@ export function renderHistory(root: HTMLElement): () => void {
   const s = t();
   let disposed = false;
   const list = h("div", {}, h("p", { class: "loading" }, s.loadingPack));
-  const deleteAllBtn = h("button", { type: "button", class: "btn danger" }, `🗑 ${s.deleteAll}`);
+  const deleteAllBtn = h("button", { type: "button", class: "btn danger" }, ...withIcon("trash", s.deleteAll));
 
   const draw = async () => {
     const records = await listRecords().catch(() => []);
@@ -53,12 +54,11 @@ export function renderHistory(root: HTMLElement): () => void {
 
   root.append(
     h(
-      "main",
-      { class: "page narrow" },
-      h("header", { class: "practice-header" }, h("a", { class: "btn ghost", href: hrefFor.home() }, `← ${s.back}`), h("h1", { class: "title" }, s.history)),
-      h("p", { class: "notice warn" }, s.storageWarning),
-      list,
-      h("div", { class: "btn-row", style: "margin-top:16px" }, deleteAllBtn),
+      "div",
+      { class: "screen" },
+      appBar(s.history),
+      h("main", { class: "page narrow" }, h("p", { class: "notice warn" }, s.storageWarning), list, h("div", { class: "btn-row", style: "margin-top:16px" }, deleteAllBtn)),
+      bottomNav("history"),
     ),
   );
   void draw();

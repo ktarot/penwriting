@@ -3,6 +3,8 @@ import { speech } from "../engines/speech/tts";
 import { setFontCssLoader } from "../engines/writing/fonts";
 import { renderComparison, renderRecord } from "../features/comparison/comparison";
 import { renderHistory } from "../features/history/history";
+import { renderAbout } from "../features/about/about";
+import { renderArea } from "../features/area/area";
 import { renderHome } from "../features/home/home";
 import { renderOnboarding } from "../features/onboarding/onboarding";
 import { renderPractice } from "../features/practice/practice";
@@ -10,7 +12,7 @@ import { renderSettings } from "../features/settings/settings";
 import { defaultSettings, detectNativeLanguage, loadSettings } from "../storage/repositories/settings";
 import { loadFontCss } from "./fonts-bundled";
 import { registerServiceWorker } from "./pwa";
-import { hrefFor, navigate, parseRoute } from "./router";
+import { hrefFor, parseRoute, replaceRoute, trackRoute } from "./router";
 import { setSettings, settings } from "./state";
 
 const root = document.getElementById("app")!;
@@ -22,15 +24,22 @@ function render() {
   window.scrollTo(0, 0);
   const route = parseRoute(location.hash);
   if (!settings.onboarded && route.name !== "welcome") {
-    navigate(hrefFor.welcome());
+    replaceRoute(hrefFor.welcome());
     return;
   }
+  trackRoute(location.hash);
   switch (route.name) {
     case "welcome":
       cleanup = renderOnboarding(root);
       break;
     case "options":
       cleanup = renderSettings(root);
+      break;
+    case "about":
+      cleanup = renderAbout(root);
+      break;
+    case "area":
+      cleanup = renderArea(root, route.area);
       break;
     case "practice":
       cleanup = renderPractice(root, route.itemId);

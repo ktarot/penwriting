@@ -14,9 +14,9 @@ describe("언어팩 데이터", () => {
     describe(lang, () => {
       const pack = packs[lang];
       it("구조 검사 통과", () => expect(validatePack(pack, lang)).toEqual([]));
-      it("기초 문자부터 단락까지 모든 학습 단계를 갖춘다", () => {
+      it("글자·단어·짧은 문장·긴 문장을 모두 갖춘다", () => {
         const levels = new Set(pack.categories.map((c) => c.level));
-        expect([...levels].sort()).toEqual(["character", "long-sentence", "paragraph", "short-sentence", "word"]);
+        expect([...levels].sort()).toEqual(["character", "long-sentence", "short-sentence", "word"]);
       });
       it("검수 상태와 모든 모국어용 안내문을 가진다", () => {
         expect(pack.review.status).toBeDefined();
@@ -40,6 +40,49 @@ describe("언어팩 데이터", () => {
       });
     });
   }
+
+  it("생활 단어 8주제 × 10개, 질문과 답 12쌍, 안내문 4·에세이 4 이상", () => {
+    for (const lang of LANGUAGES) {
+      const cat = (id: string) => packs[lang].categories.find((c) => c.id === id)!;
+      for (const id of ["numbers", "units", "directions", "address", "time", "people", "food", "places"]) expect(cat(id).items, `${lang}.${id}`).toHaveLength(10);
+      expect(cat("qa").items).toHaveLength(24);
+      expect(cat("notices").items).toHaveLength(4);
+      expect(cat("essays").items.length).toBeGreaterThanOrEqual(4);
+    }
+  });
+
+  it("짧은 문장 30자 이내, 긴 문장 100자 이내", () => {
+    for (const lang of LANGUAGES) {
+      for (const c of packs[lang].categories) {
+        if (c.id === "qa") for (const it of c.items) expect(it.text.length, it.id).toBeLessThanOrEqual(30);
+        if (c.level === "long-sentence") for (const it of c.items) expect(it.text.length, it.id).toBeLessThanOrEqual(100);
+      }
+    }
+  });
+
+  it("같은 개념의 단어는 서로의 뜻이 된다 (4개 언어 대응표)", () => {
+    const w = (lang: (typeof LANGUAGES)[number], id: string) => findItem(packs[lang], `${lang}-${id}`)!;
+    expect(w("ko", "w-directions-05").text).toBe("왼쪽");
+    expect(w("ko", "w-directions-05").nativeGuides.en?.meaning).toBe("left");
+    expect(w("en", "w-directions-05").nativeGuides.ja?.meaning).toBe("左");
+    expect(w("ja", "w-directions-05").nativeGuides.vi?.meaning).toBe("trái");
+    expect(w("vi", "w-directions-05").nativeGuides.ko?.meaning).toBe("왼쪽");
+    expect(findItem(packs.ja, "ja-qa-04-q")!.nativeGuides.ko?.meaning).toBe("화장실이 어디예요?");
+  });
+
+  it("베트남어 단어의 성조 설명은 성조 부호에서 정해진다", () => {
+    const it = findItem(packs.vi, "vi-w-places-03")!;
+    expect(it.text).toBe("tàu điện ngầm");
+    expect(it.nativeGuides.en?.explanation).toBe("tàu: low, falling (huyền), điện: low, short, with a catch in the throat (nặng), ngầm: low, falling (huyền)");
+  });
+
+  it("문장에는 모국어 근사 발음을 붙이지 않는다 (뜻만)", () => {
+    for (const lang of LANGUAGES) {
+      for (const c of packs[lang].categories.filter((c) => c.id === "qa" || c.id === "notices")) {
+        for (const it of c.items) for (const g of Object.values(it.nativeGuides)) expect(g?.pronunciation, it.id).toBeUndefined();
+      }
+    }
+  });
 
   it("문자 이름이 있는 항목은 이름과 실제 소리를 따로 가진다", () => {
     const g = findItem(packs.ko, "ko-cons-01")!;
