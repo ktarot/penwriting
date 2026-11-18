@@ -1,0 +1,31 @@
+# 몸: 몸·머리·머리카락·얼굴, 눈·귀·코·입·입술·이·혀, 목·목구멍·어깨·팔·팔꿈치·손·손가락, 가슴·배·등·허리, 다리·무릎·발·발가락, 피부·뼈·피·심장
+body | 몸;mom;モム;môm | body;/ˈbɒdi/;바디;ボディ;bo-đi | 体;からだ | cơ thể;꺼 테;kuh teh;クー テー
+head | 머리;meori;モリ;mơ-ri | head;/hɛd/;헤드;ヘッド;hét | 頭;あたま | đầu;더우;dow;ダウ
+hair | 머리카락;meorikarak;モリカラク;mơ-ri-ca-rác | hair;/hɛr/;헤어;ヘア;he | 髪;かみ | tóc;똑;tawk;トック
+face | 얼굴;eolgul;オルグル;ơn-gun | face;/feɪs/;페이스;フェイス;phây | 顔;かお | mặt;맛;maht;マット
+eye | 눈;nun;ヌン;nun | eye;/aɪ/;아이;アイ;ai | 目;め | mắt;맛;maht;マット
+ear | 귀;gwi;クィ;cuy | ear;/ɪr/;이어;イヤー;ia | 耳;みみ | tai;따이;tie;タイ
+nose | 코;ko;コ;cô | nose;/noʊz/;노즈;ノーズ;nâu-dơ | 鼻;はな | mũi;무이;mooy;ムイ
+mouth | 입;ip;イプ;íp | mouth;/maʊθ/;마우스;マウス;mao-th | 口;くち | miệng;미엥;mee-eng;ミエン
+lip | 입술;ipsul;イプスル;íp-xun | lip;/lɪp/;립;リップ;líp | 唇;くちびる | môi;모이;moy;モイ
+tooth | 치아;chia;チア;chi-a | tooth;/tuːθ/;투스;トゥース;tút | 歯;は | răng;장;zahng;ザン
+tongue | 혀;hyeo;ヒョ;hiơ | tongue;/tʌŋ/;텅;タン;tâng | 舌;した | lưỡi;르어이;luh-uh-ee;ルオイ
+neck | 목;mok;モク;mốc | neck;/nɛk/;넥;ネック;néc | 首;くび | cổ;꼬;koh;コー
+throat | 목구멍;mokgumeong;モックモン;mốc-cu-mơng | throat;/θroʊt/;스로트;スロート;thrâu | 喉;のど | họng;홍;hong;ホン
+shoulder | 어깨;eokkae;オッケ;ơ-ke | shoulder;/ˈʃoʊldər/;숄더;ショルダー;sâu-đơ | 肩;かた | vai;바이;vye;ヴァイ
+arm | 팔;pal;パル;pan | arm;/ɑːrm/;암;アーム;am | 腕;うで | cánh tay;까잉 따이;kahn tie;カイン タイ
+elbow | 팔꿈치;palkkumchi;パルクムチ;pan-cum-chi | elbow;/ˈɛlboʊ/;엘보;エルボー;eo-bâu | 肘;ひじ | khuỷu tay;쿠이우 따이;kwee-oo tie;クイウ タイ
+hand | 손;son;ソン;xôn | hand;/hænd/;핸드;ハンド;hen | 手;て | bàn tay;반 따이;bahn tie;バン タイ
+finger | 손가락;songarak;ソンカラク;xôn-ca-rác | finger;/ˈfɪŋɡər/;핑거;フィンガー;phinh-gơ | 指;ゆび | ngón tay;응온 따이;ngawn tie;ゴン タイ
+chest | 가슴;gaseum;カスム;ca-xưm | chest;/tʃɛst/;체스트;チェスト;chét | 胸;むね | ngực;응윽;nguhk;グック
+stomach | 배;bae;ペ;be | stomach;/ˈstʌmək/;스터먹;ストマック;xtâm-mấc | お腹;おなか | bụng;붕;boong;ブン
+back-body | 등;deung;トゥン;tưng | back;/bæk/;백;バック;béc | 背中;せなか | lưng;릉;luhng;ルン
+waist | 허리;heori;ホリ;hơ-ri | waist;/weɪst/;웨이스트;ウエスト;uây | 腰;こし | eo;애오;eh-oh;エオ
+leg | 다리;dari;タリ;ta-ri | leg;/lɛɡ/;레그;レッグ;léc | 脚;あし | chân;쩐;chuhn;チャン
+knee | 무릎;mureup;ムルプ;mu-rứp | knee;/niː/;니;ニー;ni | 膝;ひざ | đầu gối;더우 고이;dow goy;ダウ ゴイ
+foot | 발;bal;パル;ban | foot;/fʊt/;풋;フット;phút | 足;あし | bàn chân;반 쩐;bahn chuhn;バン チャン
+toe | 발가락;balgarak;パルカラク;ban-ca-rác | toe;/toʊ/;토;トー;tâu | 足の指;あし の ゆび | ngón chân;응온 쩐;ngawn chuhn;ゴン チャン
+skin | 피부;pibu;ピブ;pi-bu | skin;/skɪn/;스킨;スキン;xkin | 肌;はだ | da;자;zah;ザー
+bone | 뼈;ppyeo;ピョ;piơ | bone;/boʊn/;본;ボーン;bâun | 骨;ほね | xương;쓰엉;suh-uhng;スオン
+blood | 피;pi;ピ;pi | blood;/blʌd/;블러드;ブラッド;blất | 血;ち | máu;마우;mow;マウ
+heart | 심장;simjang;シムジャン;xim-chang | heart;/hɑːrt/;하트;ハート;hát | 心臓;しんぞう | tim;띰;teem;ティム

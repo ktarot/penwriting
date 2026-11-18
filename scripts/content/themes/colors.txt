@@ -1,0 +1,19 @@
+# 색깔: 색, 기본 색 16가지(빨강·주황·노랑·초록·파랑·하늘색·남색·보라·분홍·갈색·검정·흰색·회색·금색·은색), 밝은·어두운
+color | 색깔;saekkal;セッカル;xéc-can | color;/ˈkʌlər/;컬러;カラー;ca-lơ | 色;いろ | màu;마우;mow;マウ
+red | 빨간색;ppalgansaek;パルガンセク;pan-gan-xéc | red;/rɛd/;레드;レッド;rét | 赤;あか | đỏ;도;daw;ドー
+orange | 주황색;juhwangsaek;チュファンセク;chu-hoang-xéc | orange;/ˈɔːrɪndʒ/;오렌지;オレンジ;o-rinh | オレンジ;おれんじ | cam;깜;kahm;カム
+yellow | 노란색;noransaek;ノランセク;nô-ran-xéc | yellow;/ˈjɛloʊ/;옐로;イエロー;ie-lâu | 黄色;きいろ | vàng;방;vahng;ヴァン
+green | 초록색;choroksaek;チョロクセク;chô-rốc-xéc | green;/ɡriːn/;그린;グリーン;grin | 緑;みどり | xanh lá;싸잉 라;sahn lah;サイン ラー
+blue | 파란색;paransaek;パランセク;pa-ran-xéc | blue;/bluː/;블루;ブルー;blu | 青;あお | xanh dương;싸잉 즈엉;sahn zuh-uhng;サイン ズオン
+sky-blue | 하늘색;haneulsaek;ハヌルセク;ha-nưn-xéc | sky blue;/skaɪ bluː/;스카이 블루;スカイブルー;xcai blu | 水色;みずいろ | xanh da trời;싸잉 자 쩌이;sahn zah chuh-ee;サイン ザー チョイ
+navy | 남색;namsaek;ナムセク;nam-xéc | navy;/ˈneɪvi/;네이비;ネイビー;nây-vi | 紺色;こんいろ | xanh đậm;싸잉 덤;sahn duhm;サイン ダム
+purple | 보라색;borasaek;ポラセク;bô-ra-xéc | purple;/ˈpɜːrpəl/;퍼플;パープル;pơ-pồ | 紫;むらさき | tím;띰;teem;ティム
+pink | 분홍색;bunhongsaek;プノンセク;bun-hông-xéc | pink;/pɪŋk/;핑크;ピンク;pinh | ピンク;ぴんく | hồng;홍;hohng;ホン
+brown | 갈색;galsaek;カルセク;can-xéc | brown;/braʊn/;브라운;ブラウン;brao | 茶色;ちゃいろ | nâu;너우;noh;ノウ
+black | 검은색;geomeunsaek;コムンセク;cơ-mưn-xéc | black;/blæk/;블랙;ブラック;blét | 黒;くろ | đen;댄;den;デン
+white | 흰색;huinsaek;ヒンセク;hin-xéc | white;/waɪt/;화이트;ホワイト;oai | 白;しろ | trắng;짱;chahng;チャン
+gray | 회색;hoesaek;フェセク;huê-xéc | gray;/ɡreɪ/;그레이;グレー;grây | 灰色;はいいろ | xám;쌈;sahm;サム
+gold | 금색;geumsaek;クムセク;cưm-xéc | gold;/ɡoʊld/;골드;ゴールド;gâu | 金色;きんいろ | vàng kim;방 낌;vahng keem;ヴァン キム
+silver | 은색;eunsaek;ウンセク;ưn-xéc | silver;/ˈsɪlvər/;실버;シルバー;xiu-vơ | 銀色;ぎんいろ | bạc;박;bahk;バック
+light | 밝은;balgeun;パルグン;ban-gưn | light;/laɪt/;라이트;ライト;lai | 明るい;あかるい | sáng;상;sahng;サン
+dark | 어두운;eoduun;オドゥウン;ơ-đu-un | dark;/dɑːrk/;다크;ダーク;đác | 暗い;くらい | tối;또이;toy;トイ

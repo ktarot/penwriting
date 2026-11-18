@@ -15,7 +15,7 @@ test("첫 설정 → 홈(영역 카드) → 영역(주제 탭) → 연습, 뒤�
   await expect(page).toHaveURL(/#area-word$/);
   await expect(page.locator(".app-bar-title")).toHaveText("단어");
   const tabs = page.getByRole("tablist", { name: "단어" });
-  await expect(tabs.getByRole("tab")).toHaveCount(9);
+  await expect(tabs.getByRole("tab")).toHaveCount(14);
   await tabs.getByRole("tab", { name: /주소/ }).click();
   await expect(page.locator('a[href="#practice-ja-w-address-address"]')).toBeVisible();
   await expect(page.locator('a[href="#practice-ja-w-numbers-zero"]')).toHaveCount(0);

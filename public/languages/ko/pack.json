@@ -2377,6 +2377,396 @@
    ]
   },
   {
+   "id": "colors",
+   "level": "word",
+   "title": {
+    "ko": "색깔",
+    "en": "Colors",
+    "ja": "色",
+    "vi": "Màu sắc"
+   },
+   "items": [
+    {
+     "id": "ko-w-colors-color",
+     "language": "ko",
+     "level": "word",
+     "text": "색깔",
+     "standardReading": "saekkal",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "saekkal",
+       "meaning": "color"
+      },
+      "ja": {
+       "pronunciation": "セッカル",
+       "meaning": "色"
+      },
+      "vi": {
+       "pronunciation": "xéc-can",
+       "meaning": "màu"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-red",
+     "language": "ko",
+     "level": "word",
+     "text": "빨간색",
+     "standardReading": "ppalgansaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ppalgansaek",
+       "meaning": "red"
+      },
+      "ja": {
+       "pronunciation": "パルガンセク",
+       "meaning": "赤"
+      },
+      "vi": {
+       "pronunciation": "pan-gan-xéc",
+       "meaning": "đỏ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-orange",
+     "language": "ko",
+     "level": "word",
+     "text": "주황색",
+     "standardReading": "juhwangsaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "juhwangsaek",
+       "meaning": "orange"
+      },
+      "ja": {
+       "pronunciation": "チュファンセク",
+       "meaning": "オレンジ"
+      },
+      "vi": {
+       "pronunciation": "chu-hoang-xéc",
+       "meaning": "cam"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-yellow",
+     "language": "ko",
+     "level": "word",
+     "text": "노란색",
+     "standardReading": "noransaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "noransaek",
+       "meaning": "yellow"
+      },
+      "ja": {
+       "pronunciation": "ノランセク",
+       "meaning": "黄色"
+      },
+      "vi": {
+       "pronunciation": "nô-ran-xéc",
+       "meaning": "vàng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-green",
+     "language": "ko",
+     "level": "word",
+     "text": "초록색",
+     "standardReading": "choroksaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "choroksaek",
+       "meaning": "green"
+      },
+      "ja": {
+       "pronunciation": "チョロクセク",
+       "meaning": "緑"
+      },
+      "vi": {
+       "pronunciation": "chô-rốc-xéc",
+       "meaning": "xanh lá"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-blue",
+     "language": "ko",
+     "level": "word",
+     "text": "파란색",
+     "standardReading": "paransaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "paransaek",
+       "meaning": "blue"
+      },
+      "ja": {
+       "pronunciation": "パランセク",
+       "meaning": "青"
+      },
+      "vi": {
+       "pronunciation": "pa-ran-xéc",
+       "meaning": "xanh dương"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-sky-blue",
+     "language": "ko",
+     "level": "word",
+     "text": "하늘색",
+     "standardReading": "haneulsaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "haneulsaek",
+       "meaning": "sky blue"
+      },
+      "ja": {
+       "pronunciation": "ハヌルセク",
+       "meaning": "水色"
+      },
+      "vi": {
+       "pronunciation": "ha-nưn-xéc",
+       "meaning": "xanh da trời"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-navy",
+     "language": "ko",
+     "level": "word",
+     "text": "남색",
+     "standardReading": "namsaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "namsaek",
+       "meaning": "navy"
+      },
+      "ja": {
+       "pronunciation": "ナムセク",
+       "meaning": "紺色"
+      },
+      "vi": {
+       "pronunciation": "nam-xéc",
+       "meaning": "xanh đậm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-purple",
+     "language": "ko",
+     "level": "word",
+     "text": "보라색",
+     "standardReading": "borasaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "borasaek",
+       "meaning": "purple"
+      },
+      "ja": {
+       "pronunciation": "ポラセク",
+       "meaning": "紫"
+      },
+      "vi": {
+       "pronunciation": "bô-ra-xéc",
+       "meaning": "tím"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-pink",
+     "language": "ko",
+     "level": "word",
+     "text": "분홍색",
+     "standardReading": "bunhongsaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "bunhongsaek",
+       "meaning": "pink"
+      },
+      "ja": {
+       "pronunciation": "プノンセク",
+       "meaning": "ピンク"
+      },
+      "vi": {
+       "pronunciation": "bun-hông-xéc",
+       "meaning": "hồng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-brown",
+     "language": "ko",
+     "level": "word",
+     "text": "갈색",
+     "standardReading": "galsaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "galsaek",
+       "meaning": "brown"
+      },
+      "ja": {
+       "pronunciation": "カルセク",
+       "meaning": "茶色"
+      },
+      "vi": {
+       "pronunciation": "can-xéc",
+       "meaning": "nâu"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-black",
+     "language": "ko",
+     "level": "word",
+     "text": "검은색",
+     "standardReading": "geomeunsaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "geomeunsaek",
+       "meaning": "black"
+      },
+      "ja": {
+       "pronunciation": "コムンセク",
+       "meaning": "黒"
+      },
+      "vi": {
+       "pronunciation": "cơ-mưn-xéc",
+       "meaning": "đen"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-white",
+     "language": "ko",
+     "level": "word",
+     "text": "흰색",
+     "standardReading": "huinsaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "huinsaek",
+       "meaning": "white"
+      },
+      "ja": {
+       "pronunciation": "ヒンセク",
+       "meaning": "白"
+      },
+      "vi": {
+       "pronunciation": "hin-xéc",
+       "meaning": "trắng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-gray",
+     "language": "ko",
+     "level": "word",
+     "text": "회색",
+     "standardReading": "hoesaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "hoesaek",
+       "meaning": "gray"
+      },
+      "ja": {
+       "pronunciation": "フェセク",
+       "meaning": "灰色"
+      },
+      "vi": {
+       "pronunciation": "huê-xéc",
+       "meaning": "xám"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-gold",
+     "language": "ko",
+     "level": "word",
+     "text": "금색",
+     "standardReading": "geumsaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "geumsaek",
+       "meaning": "gold"
+      },
+      "ja": {
+       "pronunciation": "クムセク",
+       "meaning": "金色"
+      },
+      "vi": {
+       "pronunciation": "cưm-xéc",
+       "meaning": "vàng kim"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-silver",
+     "language": "ko",
+     "level": "word",
+     "text": "은색",
+     "standardReading": "eunsaek",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "eunsaek",
+       "meaning": "silver"
+      },
+      "ja": {
+       "pronunciation": "ウンセク",
+       "meaning": "銀色"
+      },
+      "vi": {
+       "pronunciation": "ưn-xéc",
+       "meaning": "bạc"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-light",
+     "language": "ko",
+     "level": "word",
+     "text": "밝은",
+     "standardReading": "balgeun",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "balgeun",
+       "meaning": "light"
+      },
+      "ja": {
+       "pronunciation": "パルグン",
+       "meaning": "明るい"
+      },
+      "vi": {
+       "pronunciation": "ban-gưn",
+       "meaning": "sáng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-colors-dark",
+     "language": "ko",
+     "level": "word",
+     "text": "어두운",
+     "standardReading": "eoduun",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "eoduun",
+       "meaning": "dark"
+      },
+      "ja": {
+       "pronunciation": "オドゥウン",
+       "meaning": "暗い"
+      },
+      "vi": {
+       "pronunciation": "ơ-đu-un",
+       "meaning": "tối"
+      }
+     }
+    }
+   ]
+  },
+  {
    "id": "directions",
    "level": "word",
    "title": {
@@ -4492,6 +4882,480 @@
    ]
   },
   {
+   "id": "weather",
+   "level": "word",
+   "title": {
+    "ko": "날씨",
+    "en": "Weather",
+    "ja": "天気",
+    "vi": "Thời tiết"
+   },
+   "items": [
+    {
+     "id": "ko-w-weather-weather",
+     "language": "ko",
+     "level": "word",
+     "text": "날씨",
+     "standardReading": "nalssi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "nalssi",
+       "meaning": "weather"
+      },
+      "ja": {
+       "pronunciation": "ナルシ",
+       "meaning": "天気"
+      },
+      "vi": {
+       "pronunciation": "nan-xi",
+       "meaning": "thời tiết"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-sun",
+     "language": "ko",
+     "level": "word",
+     "text": "해",
+     "standardReading": "hae",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "hae",
+       "meaning": "sun"
+      },
+      "ja": {
+       "pronunciation": "ヘ",
+       "meaning": "太陽"
+      },
+      "vi": {
+       "pronunciation": "he",
+       "meaning": "mặt trời"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-cloud",
+     "language": "ko",
+     "level": "word",
+     "text": "구름",
+     "standardReading": "gureum",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gureum",
+       "meaning": "cloud"
+      },
+      "ja": {
+       "pronunciation": "クルム",
+       "meaning": "雲"
+      },
+      "vi": {
+       "pronunciation": "cu-rưm",
+       "meaning": "mây"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-rain",
+     "language": "ko",
+     "level": "word",
+     "text": "비",
+     "standardReading": "bi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "bi",
+       "meaning": "rain"
+      },
+      "ja": {
+       "pronunciation": "ピ",
+       "meaning": "雨"
+      },
+      "vi": {
+       "pronunciation": "bi",
+       "meaning": "mưa"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-snow",
+     "language": "ko",
+     "level": "word",
+     "text": "눈",
+     "standardReading": "nun",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "nun",
+       "meaning": "snow"
+      },
+      "ja": {
+       "pronunciation": "ヌン",
+       "meaning": "雪"
+      },
+      "vi": {
+       "pronunciation": "nun",
+       "meaning": "tuyết"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-wind",
+     "language": "ko",
+     "level": "word",
+     "text": "바람",
+     "standardReading": "baram",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "baram",
+       "meaning": "wind"
+      },
+      "ja": {
+       "pronunciation": "パラム",
+       "meaning": "風"
+      },
+      "vi": {
+       "pronunciation": "ba-ram",
+       "meaning": "gió"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-sunny",
+     "language": "ko",
+     "level": "word",
+     "text": "맑음",
+     "standardReading": "malgeum",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "malgeum",
+       "meaning": "sunny"
+      },
+      "ja": {
+       "pronunciation": "マルグム",
+       "meaning": "晴れ"
+      },
+      "vi": {
+       "pronunciation": "man-gưm",
+       "meaning": "nắng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-cloudy",
+     "language": "ko",
+     "level": "word",
+     "text": "흐림",
+     "standardReading": "heurim",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "heurim",
+       "meaning": "cloudy"
+      },
+      "ja": {
+       "pronunciation": "フリム",
+       "meaning": "曇り"
+      },
+      "vi": {
+       "pronunciation": "hư-rim",
+       "meaning": "nhiều mây"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-typhoon",
+     "language": "ko",
+     "level": "word",
+     "text": "태풍",
+     "standardReading": "taepung",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "taepung",
+       "meaning": "typhoon"
+      },
+      "ja": {
+       "pronunciation": "テプン",
+       "meaning": "台風"
+      },
+      "vi": {
+       "pronunciation": "the-pung",
+       "meaning": "bão"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-thunder",
+     "language": "ko",
+     "level": "word",
+     "text": "천둥",
+     "standardReading": "cheondung",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "cheondung",
+       "meaning": "thunder"
+      },
+      "ja": {
+       "pronunciation": "チョンドゥン",
+       "meaning": "雷"
+      },
+      "vi": {
+       "pronunciation": "chơn-đung",
+       "meaning": "sấm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-fog",
+     "language": "ko",
+     "level": "word",
+     "text": "안개",
+     "standardReading": "angae",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "angae",
+       "meaning": "fog"
+      },
+      "ja": {
+       "pronunciation": "アンゲ",
+       "meaning": "霧"
+      },
+      "vi": {
+       "pronunciation": "an-ghe",
+       "meaning": "sương mù"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-temperature",
+     "language": "ko",
+     "level": "word",
+     "text": "기온",
+     "standardReading": "gion",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gion",
+       "meaning": "temperature"
+      },
+      "ja": {
+       "pronunciation": "キオン",
+       "meaning": "気温"
+      },
+      "vi": {
+       "pronunciation": "ki-ôn",
+       "meaning": "nhiệt độ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-hot",
+     "language": "ko",
+     "level": "word",
+     "text": "덥다",
+     "standardReading": "deopda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "deopda",
+       "meaning": "hot"
+      },
+      "ja": {
+       "pronunciation": "トプタ",
+       "meaning": "暑い"
+      },
+      "vi": {
+       "pronunciation": "tốp-ta",
+       "meaning": "nóng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-cold",
+     "language": "ko",
+     "level": "word",
+     "text": "춥다",
+     "standardReading": "chupda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "chupda",
+       "meaning": "cold"
+      },
+      "ja": {
+       "pronunciation": "チュプタ",
+       "meaning": "寒い"
+      },
+      "vi": {
+       "pronunciation": "chúp-ta",
+       "meaning": "lạnh"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-warm",
+     "language": "ko",
+     "level": "word",
+     "text": "따뜻하다",
+     "standardReading": "ttatteutada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ttatteutada",
+       "meaning": "warm"
+      },
+      "ja": {
+       "pronunciation": "タトゥタダ",
+       "meaning": "暖かい"
+      },
+      "vi": {
+       "pronunciation": "ta-tư-tha-đa",
+       "meaning": "ấm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-cool",
+     "language": "ko",
+     "level": "word",
+     "text": "시원하다",
+     "standardReading": "siwonhada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "siwonhada",
+       "meaning": "cool"
+      },
+      "ja": {
+       "pronunciation": "シウォナダ",
+       "meaning": "涼しい"
+      },
+      "vi": {
+       "pronunciation": "xi-uơn-ha-đa",
+       "meaning": "mát"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-humid",
+     "language": "ko",
+     "level": "word",
+     "text": "습하다",
+     "standardReading": "seupada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "seupada",
+       "meaning": "humid"
+      },
+      "ja": {
+       "pronunciation": "スパダ",
+       "meaning": "蒸し暑い"
+      },
+      "vi": {
+       "pronunciation": "xư-pa-đa",
+       "meaning": "ẩm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-forecast",
+     "language": "ko",
+     "level": "word",
+     "text": "일기예보",
+     "standardReading": "ilgiyebo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ilgiyebo",
+       "meaning": "weather forecast"
+      },
+      "ja": {
+       "pronunciation": "イルギイェボ",
+       "meaning": "天気予報"
+      },
+      "vi": {
+       "pronunciation": "in-ghi-iê-bô",
+       "meaning": "dự báo thời tiết"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-umbrella",
+     "language": "ko",
+     "level": "word",
+     "text": "우산",
+     "standardReading": "usan",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "usan",
+       "meaning": "umbrella"
+      },
+      "ja": {
+       "pronunciation": "ウサン",
+       "meaning": "傘"
+      },
+      "vi": {
+       "pronunciation": "u-xan",
+       "meaning": "ô"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-rainy-season",
+     "language": "ko",
+     "level": "word",
+     "text": "장마",
+     "standardReading": "jangma",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "jangma",
+       "meaning": "rainy season"
+      },
+      "ja": {
+       "pronunciation": "チャンマ",
+       "meaning": "梅雨"
+      },
+      "vi": {
+       "pronunciation": "chang-ma",
+       "meaning": "mùa mưa"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-misemeonji",
+     "language": "ko",
+     "level": "word",
+     "text": "미세먼지",
+     "standardReading": "misemeonji",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "misemeonji",
+       "meaning": "fine dust (air pollution)"
+      },
+      "ja": {
+       "pronunciation": "ミセモンジ",
+       "meaning": "微細粉じん(PM2.5など)"
+      },
+      "vi": {
+       "pronunciation": "mi-xê-mơn-chi",
+       "meaning": "bụi mịn (ô nhiễm không khí)"
+      }
+     }
+    },
+    {
+     "id": "ko-w-weather-hwangsa",
+     "language": "ko",
+     "level": "word",
+     "text": "황사",
+     "standardReading": "hwangsa",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "hwangsa",
+       "meaning": "yellow dust (sandstorm)"
+      },
+      "ja": {
+       "pronunciation": "ファンサ",
+       "meaning": "黄砂"
+      },
+      "vi": {
+       "pronunciation": "hoang-xa",
+       "meaning": "bụi vàng (bão cát)"
+      }
+     }
+    }
+   ]
+  },
+  {
    "id": "people",
    "level": "word",
    "title": {
@@ -5275,6 +6139,648 @@
       "vi": {
        "pronunciation": "chơ",
        "meaning": "tôi (lịch sự)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "body",
+   "level": "word",
+   "title": {
+    "ko": "몸",
+    "en": "Body",
+    "ja": "体",
+    "vi": "Cơ thể"
+   },
+   "items": [
+    {
+     "id": "ko-w-body-body",
+     "language": "ko",
+     "level": "word",
+     "text": "몸",
+     "standardReading": "mom",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "mom",
+       "meaning": "body"
+      },
+      "ja": {
+       "pronunciation": "モム",
+       "meaning": "体"
+      },
+      "vi": {
+       "pronunciation": "môm",
+       "meaning": "cơ thể"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-head",
+     "language": "ko",
+     "level": "word",
+     "text": "머리",
+     "standardReading": "meori",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "meori",
+       "meaning": "head"
+      },
+      "ja": {
+       "pronunciation": "モリ",
+       "meaning": "頭"
+      },
+      "vi": {
+       "pronunciation": "mơ-ri",
+       "meaning": "đầu"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-hair",
+     "language": "ko",
+     "level": "word",
+     "text": "머리카락",
+     "standardReading": "meorikarak",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "meorikarak",
+       "meaning": "hair"
+      },
+      "ja": {
+       "pronunciation": "モリカラク",
+       "meaning": "髪"
+      },
+      "vi": {
+       "pronunciation": "mơ-ri-ca-rác",
+       "meaning": "tóc"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-face",
+     "language": "ko",
+     "level": "word",
+     "text": "얼굴",
+     "standardReading": "eolgul",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "eolgul",
+       "meaning": "face"
+      },
+      "ja": {
+       "pronunciation": "オルグル",
+       "meaning": "顔"
+      },
+      "vi": {
+       "pronunciation": "ơn-gun",
+       "meaning": "mặt"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-eye",
+     "language": "ko",
+     "level": "word",
+     "text": "눈",
+     "standardReading": "nun",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "nun",
+       "meaning": "eye"
+      },
+      "ja": {
+       "pronunciation": "ヌン",
+       "meaning": "目"
+      },
+      "vi": {
+       "pronunciation": "nun",
+       "meaning": "mắt"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-ear",
+     "language": "ko",
+     "level": "word",
+     "text": "귀",
+     "standardReading": "gwi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gwi",
+       "meaning": "ear"
+      },
+      "ja": {
+       "pronunciation": "クィ",
+       "meaning": "耳"
+      },
+      "vi": {
+       "pronunciation": "cuy",
+       "meaning": "tai"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-nose",
+     "language": "ko",
+     "level": "word",
+     "text": "코",
+     "standardReading": "ko",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ko",
+       "meaning": "nose"
+      },
+      "ja": {
+       "pronunciation": "コ",
+       "meaning": "鼻"
+      },
+      "vi": {
+       "pronunciation": "cô",
+       "meaning": "mũi"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-mouth",
+     "language": "ko",
+     "level": "word",
+     "text": "입",
+     "standardReading": "ip",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ip",
+       "meaning": "mouth"
+      },
+      "ja": {
+       "pronunciation": "イプ",
+       "meaning": "口"
+      },
+      "vi": {
+       "pronunciation": "íp",
+       "meaning": "miệng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-lip",
+     "language": "ko",
+     "level": "word",
+     "text": "입술",
+     "standardReading": "ipsul",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ipsul",
+       "meaning": "lip"
+      },
+      "ja": {
+       "pronunciation": "イプスル",
+       "meaning": "唇"
+      },
+      "vi": {
+       "pronunciation": "íp-xun",
+       "meaning": "môi"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-tooth",
+     "language": "ko",
+     "level": "word",
+     "text": "치아",
+     "standardReading": "chia",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "chia",
+       "meaning": "tooth"
+      },
+      "ja": {
+       "pronunciation": "チア",
+       "meaning": "歯"
+      },
+      "vi": {
+       "pronunciation": "chi-a",
+       "meaning": "răng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-tongue",
+     "language": "ko",
+     "level": "word",
+     "text": "혀",
+     "standardReading": "hyeo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "hyeo",
+       "meaning": "tongue"
+      },
+      "ja": {
+       "pronunciation": "ヒョ",
+       "meaning": "舌"
+      },
+      "vi": {
+       "pronunciation": "hiơ",
+       "meaning": "lưỡi"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-neck",
+     "language": "ko",
+     "level": "word",
+     "text": "목",
+     "standardReading": "mok",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "mok",
+       "meaning": "neck"
+      },
+      "ja": {
+       "pronunciation": "モク",
+       "meaning": "首"
+      },
+      "vi": {
+       "pronunciation": "mốc",
+       "meaning": "cổ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-throat",
+     "language": "ko",
+     "level": "word",
+     "text": "목구멍",
+     "standardReading": "mokgumeong",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "mokgumeong",
+       "meaning": "throat"
+      },
+      "ja": {
+       "pronunciation": "モックモン",
+       "meaning": "喉"
+      },
+      "vi": {
+       "pronunciation": "mốc-cu-mơng",
+       "meaning": "họng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-shoulder",
+     "language": "ko",
+     "level": "word",
+     "text": "어깨",
+     "standardReading": "eokkae",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "eokkae",
+       "meaning": "shoulder"
+      },
+      "ja": {
+       "pronunciation": "オッケ",
+       "meaning": "肩"
+      },
+      "vi": {
+       "pronunciation": "ơ-ke",
+       "meaning": "vai"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-arm",
+     "language": "ko",
+     "level": "word",
+     "text": "팔",
+     "standardReading": "pal",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "pal",
+       "meaning": "arm"
+      },
+      "ja": {
+       "pronunciation": "パル",
+       "meaning": "腕"
+      },
+      "vi": {
+       "pronunciation": "pan",
+       "meaning": "cánh tay"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-elbow",
+     "language": "ko",
+     "level": "word",
+     "text": "팔꿈치",
+     "standardReading": "palkkumchi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "palkkumchi",
+       "meaning": "elbow"
+      },
+      "ja": {
+       "pronunciation": "パルクムチ",
+       "meaning": "肘"
+      },
+      "vi": {
+       "pronunciation": "pan-cum-chi",
+       "meaning": "khuỷu tay"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-hand",
+     "language": "ko",
+     "level": "word",
+     "text": "손",
+     "standardReading": "son",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "son",
+       "meaning": "hand"
+      },
+      "ja": {
+       "pronunciation": "ソン",
+       "meaning": "手"
+      },
+      "vi": {
+       "pronunciation": "xôn",
+       "meaning": "bàn tay"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-finger",
+     "language": "ko",
+     "level": "word",
+     "text": "손가락",
+     "standardReading": "songarak",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "songarak",
+       "meaning": "finger"
+      },
+      "ja": {
+       "pronunciation": "ソンカラク",
+       "meaning": "指"
+      },
+      "vi": {
+       "pronunciation": "xôn-ca-rác",
+       "meaning": "ngón tay"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-chest",
+     "language": "ko",
+     "level": "word",
+     "text": "가슴",
+     "standardReading": "gaseum",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gaseum",
+       "meaning": "chest"
+      },
+      "ja": {
+       "pronunciation": "カスム",
+       "meaning": "胸"
+      },
+      "vi": {
+       "pronunciation": "ca-xưm",
+       "meaning": "ngực"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-stomach",
+     "language": "ko",
+     "level": "word",
+     "text": "배",
+     "standardReading": "bae",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "bae",
+       "meaning": "stomach"
+      },
+      "ja": {
+       "pronunciation": "ペ",
+       "meaning": "お腹"
+      },
+      "vi": {
+       "pronunciation": "be",
+       "meaning": "bụng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-back-body",
+     "language": "ko",
+     "level": "word",
+     "text": "등",
+     "standardReading": "deung",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "deung",
+       "meaning": "back"
+      },
+      "ja": {
+       "pronunciation": "トゥン",
+       "meaning": "背中"
+      },
+      "vi": {
+       "pronunciation": "tưng",
+       "meaning": "lưng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-waist",
+     "language": "ko",
+     "level": "word",
+     "text": "허리",
+     "standardReading": "heori",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "heori",
+       "meaning": "waist"
+      },
+      "ja": {
+       "pronunciation": "ホリ",
+       "meaning": "腰"
+      },
+      "vi": {
+       "pronunciation": "hơ-ri",
+       "meaning": "eo"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-leg",
+     "language": "ko",
+     "level": "word",
+     "text": "다리",
+     "standardReading": "dari",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "dari",
+       "meaning": "leg"
+      },
+      "ja": {
+       "pronunciation": "タリ",
+       "meaning": "脚"
+      },
+      "vi": {
+       "pronunciation": "ta-ri",
+       "meaning": "chân"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-knee",
+     "language": "ko",
+     "level": "word",
+     "text": "무릎",
+     "standardReading": "mureup",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "mureup",
+       "meaning": "knee"
+      },
+      "ja": {
+       "pronunciation": "ムルプ",
+       "meaning": "膝"
+      },
+      "vi": {
+       "pronunciation": "mu-rứp",
+       "meaning": "đầu gối"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-foot",
+     "language": "ko",
+     "level": "word",
+     "text": "발",
+     "standardReading": "bal",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "bal",
+       "meaning": "foot"
+      },
+      "ja": {
+       "pronunciation": "パル",
+       "meaning": "足"
+      },
+      "vi": {
+       "pronunciation": "ban",
+       "meaning": "bàn chân"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-toe",
+     "language": "ko",
+     "level": "word",
+     "text": "발가락",
+     "standardReading": "balgarak",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "balgarak",
+       "meaning": "toe"
+      },
+      "ja": {
+       "pronunciation": "パルカラク",
+       "meaning": "足の指"
+      },
+      "vi": {
+       "pronunciation": "ban-ca-rác",
+       "meaning": "ngón chân"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-skin",
+     "language": "ko",
+     "level": "word",
+     "text": "피부",
+     "standardReading": "pibu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "pibu",
+       "meaning": "skin"
+      },
+      "ja": {
+       "pronunciation": "ピブ",
+       "meaning": "肌"
+      },
+      "vi": {
+       "pronunciation": "pi-bu",
+       "meaning": "da"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-bone",
+     "language": "ko",
+     "level": "word",
+     "text": "뼈",
+     "standardReading": "ppyeo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ppyeo",
+       "meaning": "bone"
+      },
+      "ja": {
+       "pronunciation": "ピョ",
+       "meaning": "骨"
+      },
+      "vi": {
+       "pronunciation": "piơ",
+       "meaning": "xương"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-blood",
+     "language": "ko",
+     "level": "word",
+     "text": "피",
+     "standardReading": "pi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "pi",
+       "meaning": "blood"
+      },
+      "ja": {
+       "pronunciation": "ピ",
+       "meaning": "血"
+      },
+      "vi": {
+       "pronunciation": "pi",
+       "meaning": "máu"
+      }
+     }
+    },
+    {
+     "id": "ko-w-body-heart",
+     "language": "ko",
+     "level": "word",
+     "text": "심장",
+     "standardReading": "simjang",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "simjang",
+       "meaning": "heart"
+      },
+      "ja": {
+       "pronunciation": "シムジャン",
+       "meaning": "心臓"
+      },
+      "vi": {
+       "pronunciation": "xim-chang",
+       "meaning": "tim"
       }
      }
     }
@@ -6769,6 +8275,1500 @@
       "vi": {
        "pronunciation": "kiô-thông-ca-đư",
        "meaning": "thẻ giao thông"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "emergency",
+   "level": "word",
+   "title": {
+    "ko": "긴급 상황",
+    "en": "Emergencies",
+    "ja": "緊急時",
+    "vi": "Khẩn cấp"
+   },
+   "items": [
+    {
+     "id": "ko-w-emergency-help",
+     "language": "ko",
+     "level": "word",
+     "text": "도와주세요",
+     "standardReading": "dowajuseyo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "dowajuseyo",
+       "meaning": "help"
+      },
+      "ja": {
+       "pronunciation": "トワジュセヨ",
+       "meaning": "助けて"
+      },
+      "vi": {
+       "pronunciation": "tô-oa-chu-xê-iô",
+       "meaning": "cứu tôi với"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-emergency",
+     "language": "ko",
+     "level": "word",
+     "text": "응급",
+     "standardReading": "eunggeup",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "eunggeup",
+       "meaning": "emergency"
+      },
+      "ja": {
+       "pronunciation": "ウングプ",
+       "meaning": "緊急"
+      },
+      "vi": {
+       "pronunciation": "ưng-gứp",
+       "meaning": "khẩn cấp"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-danger",
+     "language": "ko",
+     "level": "word",
+     "text": "위험",
+     "standardReading": "wiheom",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "wiheom",
+       "meaning": "danger"
+      },
+      "ja": {
+       "pronunciation": "ウィホム",
+       "meaning": "危険"
+      },
+      "vi": {
+       "pronunciation": "uy-hơm",
+       "meaning": "nguy hiểm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-fire",
+     "language": "ko",
+     "level": "word",
+     "text": "불",
+     "standardReading": "bul",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "bul",
+       "meaning": "fire"
+      },
+      "ja": {
+       "pronunciation": "プル",
+       "meaning": "火事"
+      },
+      "vi": {
+       "pronunciation": "bun",
+       "meaning": "cháy"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-police",
+     "language": "ko",
+     "level": "word",
+     "text": "경찰",
+     "standardReading": "gyeongchal",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gyeongchal",
+       "meaning": "police"
+      },
+      "ja": {
+       "pronunciation": "キョンチャル",
+       "meaning": "警察"
+      },
+      "vi": {
+       "pronunciation": "kiơng-chan",
+       "meaning": "cảnh sát"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-ambulance",
+     "language": "ko",
+     "level": "word",
+     "text": "구급차",
+     "standardReading": "gugeupcha",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gugeupcha",
+       "meaning": "ambulance"
+      },
+      "ja": {
+       "pronunciation": "ククプチャ",
+       "meaning": "救急車"
+      },
+      "vi": {
+       "pronunciation": "cu-gứp-cha",
+       "meaning": "xe cứu thương"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-doctor",
+     "language": "ko",
+     "level": "word",
+     "text": "의사",
+     "standardReading": "uisa",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "uisa",
+       "meaning": "doctor"
+      },
+      "ja": {
+       "pronunciation": "ウィサ",
+       "meaning": "医者"
+      },
+      "vi": {
+       "pronunciation": "ưi-xa",
+       "meaning": "bác sĩ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-nurse",
+     "language": "ko",
+     "level": "word",
+     "text": "간호사",
+     "standardReading": "ganhosa",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ganhosa",
+       "meaning": "nurse"
+      },
+      "ja": {
+       "pronunciation": "カノサ",
+       "meaning": "看護師"
+      },
+      "vi": {
+       "pronunciation": "ca-nô-xa",
+       "meaning": "y tá"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-injury",
+     "language": "ko",
+     "level": "word",
+     "text": "부상",
+     "standardReading": "busang",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "busang",
+       "meaning": "injury"
+      },
+      "ja": {
+       "pronunciation": "プサン",
+       "meaning": "けが"
+      },
+      "vi": {
+       "pronunciation": "bu-xang",
+       "meaning": "vết thương"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-pain",
+     "language": "ko",
+     "level": "word",
+     "text": "통증",
+     "standardReading": "tongjeung",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "tongjeung",
+       "meaning": "pain"
+      },
+      "ja": {
+       "pronunciation": "トンチュン",
+       "meaning": "痛み"
+      },
+      "vi": {
+       "pronunciation": "thông-chưng",
+       "meaning": "đau"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-fever",
+     "language": "ko",
+     "level": "word",
+     "text": "열",
+     "standardReading": "yeol",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "yeol",
+       "meaning": "fever"
+      },
+      "ja": {
+       "pronunciation": "ヨル",
+       "meaning": "熱"
+      },
+      "vi": {
+       "pronunciation": "iơn",
+       "meaning": "sốt"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-medicine",
+     "language": "ko",
+     "level": "word",
+     "text": "약",
+     "standardReading": "yak",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "yak",
+       "meaning": "medicine"
+      },
+      "ja": {
+       "pronunciation": "ヤク",
+       "meaning": "薬"
+      },
+      "vi": {
+       "pronunciation": "iác",
+       "meaning": "thuốc"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-allergy",
+     "language": "ko",
+     "level": "word",
+     "text": "알레르기",
+     "standardReading": "allereugi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "allereugi",
+       "meaning": "allergy"
+      },
+      "ja": {
+       "pronunciation": "アルレルギ",
+       "meaning": "アレルギー"
+      },
+      "vi": {
+       "pronunciation": "an-lê-rư-ghi",
+       "meaning": "dị ứng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-accident",
+     "language": "ko",
+     "level": "word",
+     "text": "사고",
+     "standardReading": "sago",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sago",
+       "meaning": "accident"
+      },
+      "ja": {
+       "pronunciation": "サゴ",
+       "meaning": "事故"
+      },
+      "vi": {
+       "pronunciation": "xa-gô",
+       "meaning": "tai nạn"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-earthquake",
+     "language": "ko",
+     "level": "word",
+     "text": "지진",
+     "standardReading": "jijin",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "jijin",
+       "meaning": "earthquake"
+      },
+      "ja": {
+       "pronunciation": "チジン",
+       "meaning": "地震"
+      },
+      "vi": {
+       "pronunciation": "chi-chin",
+       "meaning": "động đất"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-flood",
+     "language": "ko",
+     "level": "word",
+     "text": "홍수",
+     "standardReading": "hongsu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "hongsu",
+       "meaning": "flood"
+      },
+      "ja": {
+       "pronunciation": "ホンス",
+       "meaning": "洪水"
+      },
+      "vi": {
+       "pronunciation": "hông-xu",
+       "meaning": "lũ lụt"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-evacuation",
+     "language": "ko",
+     "level": "word",
+     "text": "대피",
+     "standardReading": "daepi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "daepi",
+       "meaning": "evacuation"
+      },
+      "ja": {
+       "pronunciation": "テピ",
+       "meaning": "避難"
+      },
+      "vi": {
+       "pronunciation": "te-pi",
+       "meaning": "sơ tán"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-shelter",
+     "language": "ko",
+     "level": "word",
+     "text": "대피소",
+     "standardReading": "daepiso",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "daepiso",
+       "meaning": "shelter"
+      },
+      "ja": {
+       "pronunciation": "テピソ",
+       "meaning": "避難所"
+      },
+      "vi": {
+       "pronunciation": "te-pi-xô",
+       "meaning": "nơi trú ẩn"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-emergency-exit",
+     "language": "ko",
+     "level": "word",
+     "text": "비상구",
+     "standardReading": "bisanggu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "bisanggu",
+       "meaning": "emergency exit"
+      },
+      "ja": {
+       "pronunciation": "ピサング",
+       "meaning": "非常口"
+      },
+      "vi": {
+       "pronunciation": "bi-xang-gu",
+       "meaning": "lối thoát hiểm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-extinguisher",
+     "language": "ko",
+     "level": "word",
+     "text": "소화기",
+     "standardReading": "sohwagi",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sohwagi",
+       "meaning": "fire extinguisher"
+      },
+      "ja": {
+       "pronunciation": "ソファギ",
+       "meaning": "消火器"
+      },
+      "vi": {
+       "pronunciation": "xô-hoa-ghi",
+       "meaning": "bình chữa cháy"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-thief",
+     "language": "ko",
+     "level": "word",
+     "text": "도둑",
+     "standardReading": "doduk",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "doduk",
+       "meaning": "thief"
+      },
+      "ja": {
+       "pronunciation": "トドゥク",
+       "meaning": "泥棒"
+      },
+      "vi": {
+       "pronunciation": "tô-đúc",
+       "meaning": "kẻ trộm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-lost-item",
+     "language": "ko",
+     "level": "word",
+     "text": "분실물",
+     "standardReading": "bunsilmul",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "bunsilmul",
+       "meaning": "lost item"
+      },
+      "ja": {
+       "pronunciation": "プンシルムル",
+       "meaning": "忘れ物"
+      },
+      "vi": {
+       "pronunciation": "bun-xin-mun",
+       "meaning": "đồ thất lạc"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-passport",
+     "language": "ko",
+     "level": "word",
+     "text": "여권",
+     "standardReading": "yeogwon",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "yeogwon",
+       "meaning": "passport"
+      },
+      "ja": {
+       "pronunciation": "ヨクォン",
+       "meaning": "パスポート"
+      },
+      "vi": {
+       "pronunciation": "iơ-quơn",
+       "meaning": "hộ chiếu"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-embassy",
+     "language": "ko",
+     "level": "word",
+     "text": "대사관",
+     "standardReading": "daesagwan",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "daesagwan",
+       "meaning": "embassy"
+      },
+      "ja": {
+       "pronunciation": "テサグァン",
+       "meaning": "大使館"
+      },
+      "vi": {
+       "pronunciation": "te-xa-goan",
+       "meaning": "đại sứ quán"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-careful",
+     "language": "ko",
+     "level": "word",
+     "text": "조심하세요",
+     "standardReading": "josimhaseyo",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "josimhaseyo",
+       "meaning": "be careful"
+      },
+      "ja": {
+       "pronunciation": "チョシマセヨ",
+       "meaning": "気をつけて"
+      },
+      "vi": {
+       "pronunciation": "chô-xi-ma-xê-iô",
+       "meaning": "cẩn thận"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-119",
+     "language": "ko",
+     "level": "word",
+     "text": "119",
+     "standardReading": "il-il-gu",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "il-il-gu",
+       "meaning": "119 (fire and ambulance in Korea)"
+      },
+      "ja": {
+       "pronunciation": "イルイルグ",
+       "meaning": "119(韓国の消防・救急)"
+      },
+      "vi": {
+       "pronunciation": "in-in-cu",
+       "meaning": "119 (cứu hỏa, cấp cứu ở Hàn Quốc)"
+      }
+     }
+    },
+    {
+     "id": "ko-w-emergency-112",
+     "language": "ko",
+     "level": "word",
+     "text": "112",
+     "standardReading": "il-il-i",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "il-il-i",
+       "meaning": "112 (police in Korea)"
+      },
+      "ja": {
+       "pronunciation": "イルイルイ",
+       "meaning": "112(韓国の警察)"
+      },
+      "vi": {
+       "pronunciation": "in-in-i",
+       "meaning": "112 (cảnh sát ở Hàn Quốc)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "actions",
+   "level": "word",
+   "title": {
+    "ko": "행동",
+    "en": "Actions",
+    "ja": "動作",
+    "vi": "Hành động"
+   },
+   "items": [
+    {
+     "id": "ko-w-actions-go",
+     "language": "ko",
+     "level": "word",
+     "text": "가다",
+     "standardReading": "gada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gada",
+       "meaning": "go"
+      },
+      "ja": {
+       "pronunciation": "カダ",
+       "meaning": "行く"
+      },
+      "vi": {
+       "pronunciation": "ca-đa",
+       "meaning": "đi"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-come",
+     "language": "ko",
+     "level": "word",
+     "text": "오다",
+     "standardReading": "oda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "oda",
+       "meaning": "come"
+      },
+      "ja": {
+       "pronunciation": "オダ",
+       "meaning": "来る"
+      },
+      "vi": {
+       "pronunciation": "ô-đa",
+       "meaning": "đến"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-eat",
+     "language": "ko",
+     "level": "word",
+     "text": "먹다",
+     "standardReading": "meokda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "meokda",
+       "meaning": "eat"
+      },
+      "ja": {
+       "pronunciation": "モクタ",
+       "meaning": "食べる"
+      },
+      "vi": {
+       "pronunciation": "mốc-ta",
+       "meaning": "ăn"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-drink",
+     "language": "ko",
+     "level": "word",
+     "text": "마시다",
+     "standardReading": "masida",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "masida",
+       "meaning": "drink"
+      },
+      "ja": {
+       "pronunciation": "マシダ",
+       "meaning": "飲む"
+      },
+      "vi": {
+       "pronunciation": "ma-xi-đa",
+       "meaning": "uống"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-see",
+     "language": "ko",
+     "level": "word",
+     "text": "보다",
+     "standardReading": "boda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "boda",
+       "meaning": "see"
+      },
+      "ja": {
+       "pronunciation": "ポダ",
+       "meaning": "見る"
+      },
+      "vi": {
+       "pronunciation": "bô-đa",
+       "meaning": "xem"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-listen",
+     "language": "ko",
+     "level": "word",
+     "text": "듣다",
+     "standardReading": "deutda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "deutda",
+       "meaning": "listen"
+      },
+      "ja": {
+       "pronunciation": "トゥッタ",
+       "meaning": "聞く"
+      },
+      "vi": {
+       "pronunciation": "tứt-ta",
+       "meaning": "nghe"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-speak",
+     "language": "ko",
+     "level": "word",
+     "text": "말하다",
+     "standardReading": "malhada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "malhada",
+       "meaning": "speak"
+      },
+      "ja": {
+       "pronunciation": "マラダ",
+       "meaning": "話す"
+      },
+      "vi": {
+       "pronunciation": "ma-ra-đa",
+       "meaning": "nói"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-read",
+     "language": "ko",
+     "level": "word",
+     "text": "읽다",
+     "standardReading": "ikda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ikda",
+       "meaning": "read"
+      },
+      "ja": {
+       "pronunciation": "イクタ",
+       "meaning": "読む"
+      },
+      "vi": {
+       "pronunciation": "íc-ta",
+       "meaning": "đọc"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-write",
+     "language": "ko",
+     "level": "word",
+     "text": "쓰다",
+     "standardReading": "sseuda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sseuda",
+       "meaning": "write"
+      },
+      "ja": {
+       "pronunciation": "スダ",
+       "meaning": "書く"
+      },
+      "vi": {
+       "pronunciation": "xư-đa",
+       "meaning": "viết"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-buy",
+     "language": "ko",
+     "level": "word",
+     "text": "사다",
+     "standardReading": "sada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sada",
+       "meaning": "buy"
+      },
+      "ja": {
+       "pronunciation": "サダ",
+       "meaning": "買う"
+      },
+      "vi": {
+       "pronunciation": "xa-đa",
+       "meaning": "mua"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-sell",
+     "language": "ko",
+     "level": "word",
+     "text": "팔다",
+     "standardReading": "palda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "palda",
+       "meaning": "sell"
+      },
+      "ja": {
+       "pronunciation": "パルダ",
+       "meaning": "売る"
+      },
+      "vi": {
+       "pronunciation": "pan-đa",
+       "meaning": "bán"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-give",
+     "language": "ko",
+     "level": "word",
+     "text": "주다",
+     "standardReading": "juda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "juda",
+       "meaning": "give"
+      },
+      "ja": {
+       "pronunciation": "チュダ",
+       "meaning": "あげる"
+      },
+      "vi": {
+       "pronunciation": "chu-đa",
+       "meaning": "cho"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-receive",
+     "language": "ko",
+     "level": "word",
+     "text": "받다",
+     "standardReading": "batda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "batda",
+       "meaning": "receive"
+      },
+      "ja": {
+       "pronunciation": "パッタ",
+       "meaning": "もらう"
+      },
+      "vi": {
+       "pronunciation": "bát-ta",
+       "meaning": "nhận"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-make",
+     "language": "ko",
+     "level": "word",
+     "text": "만들다",
+     "standardReading": "mandeulda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "mandeulda",
+       "meaning": "make"
+      },
+      "ja": {
+       "pronunciation": "マンドゥルダ",
+       "meaning": "作る"
+      },
+      "vi": {
+       "pronunciation": "man-đưn-đa",
+       "meaning": "tạo ra"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-do",
+     "language": "ko",
+     "level": "word",
+     "text": "하다",
+     "standardReading": "hada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "hada",
+       "meaning": "do"
+      },
+      "ja": {
+       "pronunciation": "ハダ",
+       "meaning": "する"
+      },
+      "vi": {
+       "pronunciation": "ha-đa",
+       "meaning": "làm"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-sleep",
+     "language": "ko",
+     "level": "word",
+     "text": "자다",
+     "standardReading": "jada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "jada",
+       "meaning": "sleep"
+      },
+      "ja": {
+       "pronunciation": "チャダ",
+       "meaning": "寝る"
+      },
+      "vi": {
+       "pronunciation": "cha-đa",
+       "meaning": "ngủ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-wake-up",
+     "language": "ko",
+     "level": "word",
+     "text": "일어나다",
+     "standardReading": "ireonada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ireonada",
+       "meaning": "wake up"
+      },
+      "ja": {
+       "pronunciation": "イロナダ",
+       "meaning": "起きる"
+      },
+      "vi": {
+       "pronunciation": "i-rơ-na-đa",
+       "meaning": "thức dậy"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-sit",
+     "language": "ko",
+     "level": "word",
+     "text": "앉다",
+     "standardReading": "anda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "anda",
+       "meaning": "sit"
+      },
+      "ja": {
+       "pronunciation": "アンタ",
+       "meaning": "座る"
+      },
+      "vi": {
+       "pronunciation": "an-ta",
+       "meaning": "ngồi"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-stand",
+     "language": "ko",
+     "level": "word",
+     "text": "서다",
+     "standardReading": "seoda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "seoda",
+       "meaning": "stand"
+      },
+      "ja": {
+       "pronunciation": "ソダ",
+       "meaning": "立つ"
+      },
+      "vi": {
+       "pronunciation": "xơ-đa",
+       "meaning": "đứng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-walk",
+     "language": "ko",
+     "level": "word",
+     "text": "걷다",
+     "standardReading": "geotda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "geotda",
+       "meaning": "walk"
+      },
+      "ja": {
+       "pronunciation": "コッタ",
+       "meaning": "歩く"
+      },
+      "vi": {
+       "pronunciation": "cớt-ta",
+       "meaning": "đi bộ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-run",
+     "language": "ko",
+     "level": "word",
+     "text": "달리다",
+     "standardReading": "dallida",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "dallida",
+       "meaning": "run"
+      },
+      "ja": {
+       "pronunciation": "タルリダ",
+       "meaning": "走る"
+      },
+      "vi": {
+       "pronunciation": "tan-li-đa",
+       "meaning": "chạy"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-wait",
+     "language": "ko",
+     "level": "word",
+     "text": "기다리다",
+     "standardReading": "gidarida",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gidarida",
+       "meaning": "wait"
+      },
+      "ja": {
+       "pronunciation": "キダリダ",
+       "meaning": "待つ"
+      },
+      "vi": {
+       "pronunciation": "ki-đa-ri-đa",
+       "meaning": "đợi"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-open",
+     "language": "ko",
+     "level": "word",
+     "text": "열다",
+     "standardReading": "yeolda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "yeolda",
+       "meaning": "open"
+      },
+      "ja": {
+       "pronunciation": "ヨルダ",
+       "meaning": "開ける"
+      },
+      "vi": {
+       "pronunciation": "iơn-đa",
+       "meaning": "mở"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-close",
+     "language": "ko",
+     "level": "word",
+     "text": "닫다",
+     "standardReading": "datda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "datda",
+       "meaning": "close"
+      },
+      "ja": {
+       "pronunciation": "タッタ",
+       "meaning": "閉める"
+      },
+      "vi": {
+       "pronunciation": "tát-ta",
+       "meaning": "đóng"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-wash",
+     "language": "ko",
+     "level": "word",
+     "text": "씻다",
+     "standardReading": "ssitda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ssitda",
+       "meaning": "wash"
+      },
+      "ja": {
+       "pronunciation": "シッタ",
+       "meaning": "洗う"
+      },
+      "vi": {
+       "pronunciation": "xít-ta",
+       "meaning": "rửa"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-wear",
+     "language": "ko",
+     "level": "word",
+     "text": "입다",
+     "standardReading": "ipda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ipda",
+       "meaning": "wear"
+      },
+      "ja": {
+       "pronunciation": "イプタ",
+       "meaning": "着る"
+      },
+      "vi": {
+       "pronunciation": "íp-ta",
+       "meaning": "mặc"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-take-off",
+     "language": "ko",
+     "level": "word",
+     "text": "벗다",
+     "standardReading": "beotda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "beotda",
+       "meaning": "take off"
+      },
+      "ja": {
+       "pronunciation": "ポッタ",
+       "meaning": "脱ぐ"
+      },
+      "vi": {
+       "pronunciation": "bớt-ta",
+       "meaning": "cởi"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-study",
+     "language": "ko",
+     "level": "word",
+     "text": "공부하다",
+     "standardReading": "gongbuhada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "gongbuhada",
+       "meaning": "study"
+      },
+      "ja": {
+       "pronunciation": "コンブハダ",
+       "meaning": "勉強する"
+      },
+      "vi": {
+       "pronunciation": "công-bu-ha-đa",
+       "meaning": "học"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-work",
+     "language": "ko",
+     "level": "word",
+     "text": "일하다",
+     "standardReading": "ilhada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ilhada",
+       "meaning": "work"
+      },
+      "ja": {
+       "pronunciation": "イラダ",
+       "meaning": "働く"
+      },
+      "vi": {
+       "pronunciation": "i-ra-đa",
+       "meaning": "làm việc"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-play",
+     "language": "ko",
+     "level": "word",
+     "text": "놀다",
+     "standardReading": "nolda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "nolda",
+       "meaning": "play"
+      },
+      "ja": {
+       "pronunciation": "ノルダ",
+       "meaning": "遊ぶ"
+      },
+      "vi": {
+       "pronunciation": "nôn-đa",
+       "meaning": "chơi"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-rest",
+     "language": "ko",
+     "level": "word",
+     "text": "쉬다",
+     "standardReading": "swida",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "swida",
+       "meaning": "rest"
+      },
+      "ja": {
+       "pronunciation": "シュィダ",
+       "meaning": "休む"
+      },
+      "vi": {
+       "pronunciation": "xuy-đa",
+       "meaning": "nghỉ"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-help-v",
+     "language": "ko",
+     "level": "word",
+     "text": "돕다",
+     "standardReading": "dopda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "dopda",
+       "meaning": "help"
+      },
+      "ja": {
+       "pronunciation": "トプタ",
+       "meaning": "手伝う"
+      },
+      "vi": {
+       "pronunciation": "tốp-ta",
+       "meaning": "giúp"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-meet",
+     "language": "ko",
+     "level": "word",
+     "text": "만나다",
+     "standardReading": "mannada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "mannada",
+       "meaning": "meet"
+      },
+      "ja": {
+       "pronunciation": "マンナダ",
+       "meaning": "会う"
+      },
+      "vi": {
+       "pronunciation": "man-na-đa",
+       "meaning": "gặp"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-call",
+     "language": "ko",
+     "level": "word",
+     "text": "전화하다",
+     "standardReading": "jeonhwahada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "jeonhwahada",
+       "meaning": "call"
+      },
+      "ja": {
+       "pronunciation": "チョナハダ",
+       "meaning": "電話する"
+      },
+      "vi": {
+       "pronunciation": "chơn-hoa-ha-đa",
+       "meaning": "gọi điện"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-know",
+     "language": "ko",
+     "level": "word",
+     "text": "알다",
+     "standardReading": "alda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "alda",
+       "meaning": "know"
+      },
+      "ja": {
+       "pronunciation": "アルダ",
+       "meaning": "知る"
+      },
+      "vi": {
+       "pronunciation": "an-đa",
+       "meaning": "biết"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-understand",
+     "language": "ko",
+     "level": "word",
+     "text": "이해하다",
+     "standardReading": "ihaehada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "ihaehada",
+       "meaning": "understand"
+      },
+      "ja": {
+       "pronunciation": "イヘハダ",
+       "meaning": "分かる"
+      },
+      "vi": {
+       "pronunciation": "i-he-ha-đa",
+       "meaning": "hiểu"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-like",
+     "language": "ko",
+     "level": "word",
+     "text": "좋아하다",
+     "standardReading": "joahada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "joahada",
+       "meaning": "like"
+      },
+      "ja": {
+       "pronunciation": "チョアハダ",
+       "meaning": "好き"
+      },
+      "vi": {
+       "pronunciation": "chô-a-ha-đa",
+       "meaning": "thích"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-want",
+     "language": "ko",
+     "level": "word",
+     "text": "원하다",
+     "standardReading": "wonhada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "wonhada",
+       "meaning": "want"
+      },
+      "ja": {
+       "pronunciation": "ウォナダ",
+       "meaning": "欲しい"
+      },
+      "vi": {
+       "pronunciation": "uơn-ha-đa",
+       "meaning": "muốn"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-live",
+     "language": "ko",
+     "level": "word",
+     "text": "살다",
+     "standardReading": "salda",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "salda",
+       "meaning": "live"
+      },
+      "ja": {
+       "pronunciation": "サルダ",
+       "meaning": "住む"
+      },
+      "vi": {
+       "pronunciation": "xan-đa",
+       "meaning": "sống"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-start",
+     "language": "ko",
+     "level": "word",
+     "text": "시작하다",
+     "standardReading": "sijakada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "sijakada",
+       "meaning": "start"
+      },
+      "ja": {
+       "pronunciation": "シジャカダ",
+       "meaning": "始める"
+      },
+      "vi": {
+       "pronunciation": "xi-cha-ca-đa",
+       "meaning": "bắt đầu"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-finish",
+     "language": "ko",
+     "level": "word",
+     "text": "끝나다",
+     "standardReading": "kkeunnada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "kkeunnada",
+       "meaning": "finish"
+      },
+      "ja": {
+       "pronunciation": "クンナダ",
+       "meaning": "終わる"
+      },
+      "vi": {
+       "pronunciation": "cưn-na-đa",
+       "meaning": "kết thúc"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-enter",
+     "language": "ko",
+     "level": "word",
+     "text": "들어가다",
+     "standardReading": "deureogada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "deureogada",
+       "meaning": "enter"
+      },
+      "ja": {
+       "pronunciation": "トゥロガダ",
+       "meaning": "入る"
+      },
+      "vi": {
+       "pronunciation": "tư-rơ-ga-đa",
+       "meaning": "vào"
+      }
+     }
+    },
+    {
+     "id": "ko-w-actions-go-out",
+     "language": "ko",
+     "level": "word",
+     "text": "나가다",
+     "standardReading": "nagada",
+     "nativeGuides": {
+      "en": {
+       "pronunciation": "nagada",
+       "meaning": "go out"
+      },
+      "ja": {
+       "pronunciation": "ナガダ",
+       "meaning": "出る"
+      },
+      "vi": {
+       "pronunciation": "na-ga-đa",
+       "meaning": "ra"
       }
      }
     }

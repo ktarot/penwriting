@@ -1,0 +1,29 @@
+# 날씨: 날씨·해·구름·비·눈·바람, 맑음·흐림·태풍·천둥·안개, 기온·덥다·춥다·따뜻하다·시원하다·습하다, 일기예보·우산·장마 + 나라별 날씨 말
+weather | 날씨;nalssi;ナルシ;nan-xi | weather;/ˈwɛðər/;웨더;ウェザー;uê-đơ | 天気;てんき | thời tiết;터이 띠엣;tuh-ee tee-et;トーイ ティエット
+sun | 해;hae;ヘ;he | sun;/sʌn/;선;サン;xân | 太陽;たいよう | mặt trời;맛 쩌이;maht chuh-ee;マット チョイ
+cloud | 구름;gureum;クルム;cu-rưm | cloud;/klaʊd/;클라우드;クラウド;clao | 雲;くも | mây;머이;may;マイ
+rain | 비;bi;ピ;bi | rain;/reɪn/;레인;レイン;rây | 雨;あめ | mưa;므어;muh-uh;ムア
+snow | 눈;nun;ヌン;nun | snow;/snoʊ/;스노;スノー;xnâu | 雪;ゆき | tuyết;뚜이엣;twee-et;トゥイエット
+wind | 바람;baram;パラム;ba-ram | wind;/wɪnd/;윈드;ウィンド;uyn | 風;かぜ | gió;저;zaw;ゾー
+sunny | 맑음;malgeum;マルグム;man-gưm | sunny;/ˈsʌni/;서니;サニー;xân-ni | 晴れ;はれ | nắng;낭;nahng;ナン
+cloudy | 흐림;heurim;フリム;hư-rim | cloudy;/ˈklaʊdi/;클라우디;クラウディ;clao-đi | 曇り;くもり | nhiều mây;니에우 머이;nyew may;ニエウ マイ
+typhoon | 태풍;taepung;テプン;the-pung | typhoon;/taɪˈfuːn/;타이푼;タイフーン;tai-phun | 台風;たいふう | bão;바오;bow;バオ
+thunder | 천둥;cheondung;チョンドゥン;chơn-đung | thunder;/ˈθʌndər/;선더;サンダー;thân-đơ | 雷;かみなり | sấm;썸;suhm;サム
+fog | 안개;angae;アンゲ;an-ghe | fog;/fɒɡ/;포그;フォグ;phóc | 霧;きり | sương mù;쓰엉 무;suh-uhng moo;スオン ムー
+temperature | 기온;gion;キオン;ki-ôn | temperature;/ˈtɛmprətʃər/;템퍼러처;テンパラチャー;tem-prơ-chơ | 気温;きおん | nhiệt độ;니엣 도;nyet doh;ニエット ドー
+hot | 덥다;deopda;トプタ;tốp-ta | hot;/hɒt/;핫;ホット;hót | 暑い;あつい | nóng;농;nawng;ノン
+cold | 춥다;chupda;チュプタ;chúp-ta | cold;/koʊld/;콜드;コールド;câu | 寒い;さむい | lạnh;라잉;lahn;ライン
+warm | 따뜻하다;ttatteutada;タトゥタダ;ta-tư-tha-đa | warm;/wɔːrm/;웜;ウォーム;uom | 暖かい;あたたかい | ấm;엄;uhm;アム
+cool | 시원하다;siwonhada;シウォナダ;xi-uơn-ha-đa | cool;/kuːl/;쿨;クール;cun | 涼しい;すずしい | mát;맛;maht;マット
+humid | 습하다;seupada;スパダ;xư-pa-đa | humid;/ˈhjuːmɪd/;휴미드;ヒューミッド;hiu-mít | 蒸し暑い;むしあつい | ẩm;엄;uhm;アム
+forecast | 일기예보;ilgiyebo;イルギイェボ;in-ghi-iê-bô | weather forecast;/ˈwɛðər ˈfɔːrkæst/;웨더 포캐스트;ウェザーフォーキャスト;uê-đơ pho-két | 天気予報;てんき よほう | dự báo thời tiết;즈 바오 터이 띠엣;zuh bow tuh-ee tee-et;ズー バオ トーイ ティエット
+umbrella | 우산;usan;ウサン;u-xan | umbrella;/ʌmˈbrɛlə/;엄브렐라;アンブレラ;âm-bre-lơ | 傘;かさ | ô;오;oh;オー
+rainy-season | 장마;jangma;チャンマ;chang-ma | rainy season;/ˈreɪni ˈsiːzən/;레이니 시즌;レイニーシーズン;rây-ni xi-dần | 梅雨;つゆ | mùa mưa;무어 므어;moo-uh muh-uh;ムア ムア
++ko misemeonji | 미세먼지;misemeonji;ミセモンジ;mi-xê-mơn-chi | fine dust (air pollution);微細粉じん(PM2.5など);bụi mịn (ô nhiễm không khí)
++ko hwangsa | 황사;hwangsa;ファンサ;hoang-xa | yellow dust (sandstorm);黄砂;bụi vàng (bão cát)
++ja kafun | 花粉;かふん | 꽃가루 (알레르기 원인);pollen;phấn hoa
++ja nettaiya | 熱帯夜;ねったいや | 열대야;tropical night (hot night);đêm nhiệt đới (đêm nóng)
++vi du | dù;주;zoo;ズー | 우산 (남부);umbrella (South);傘(南部)
++vi nom | nồm;놈;nohm;ノム | 습하고 눅눅한 날씨 (북부 봄);damp, muggy weather (northern spring);じめじめした天気(北部の春)
++en fahrenheit | Fahrenheit;/ˈfærənhaɪt/;파렌하이트;ファーレンハイト;pha-rần-hai | 화씨 온도 (°F);華氏(°F);độ F
++en celsius | Celsius;/ˈsɛlsiəs/;셀시어스;セルシウス;xeo-xi-ợt | 섭씨 온도 (°C);摂氏(°C);độ C

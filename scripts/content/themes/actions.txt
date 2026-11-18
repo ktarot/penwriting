@@ -1,0 +1,44 @@
+# 행동 (기본 동사, 사전형): 가다·오다, 먹다·마시다, 보다·듣다·말하다·읽다·쓰다, 사다·팔다·주다·받다, 만들다·하다, 자다·일어나다·앉다·서다·걷다·달리다·기다리다, 열다·닫다·씻다·입다·벗다, 공부하다·일하다·놀다·쉬다·돕다·만나다·전화하다, 알다·이해하다·좋아하다·원하다·살다, 시작하다·끝나다·들어가다·나가다
+go | 가다;gada;カダ;ca-đa | go;/ɡoʊ/;고;ゴー;gâu | 行く;いく | đi;디;dee;ディー
+come | 오다;oda;オダ;ô-đa | come;/kʌm/;컴;カム;câm | 来る;くる | đến;덴;den;デン
+eat | 먹다;meokda;モクタ;mốc-ta | eat;/iːt/;이트;イート;ít | 食べる;たべる | ăn;안;ahn;アン
+drink | 마시다;masida;マシダ;ma-xi-đa | drink;/drɪŋk/;드링크;ドリンク;đrinh | 飲む;のむ | uống;우옹;oo-ong;ウオン
+see | 보다;boda;ポダ;bô-đa | see;/siː/;시;シー;xi | 見る;みる | xem;쌤;sem;セム
+listen | 듣다;deutda;トゥッタ;tứt-ta | listen;/ˈlɪsən/;리슨;リッスン;lít-xần | 聞く;きく | nghe;응애;ngeh;ゲー
+speak | 말하다;malhada;マラダ;ma-ra-đa | speak;/spiːk/;스피크;スピーク;xpích | 話す;はなす | nói;노이;noy;ノイ
+read | 읽다;ikda;イクタ;íc-ta | read;/riːd/;리드;リード;rít | 読む;よむ | đọc;독;dawk;ドック
+write | 쓰다;sseuda;スダ;xư-đa | write;/raɪt/;라이트;ライト;rai | 書く;かく | viết;비엣;vee-et;ヴィエット
+buy | 사다;sada;サダ;xa-đa | buy;/baɪ/;바이;バイ;bai | 買う;かう | mua;무어;moo-uh;ムア
+sell | 팔다;palda;パルダ;pan-đa | sell;/sɛl/;셀;セル;xeo | 売る;うる | bán;반;bahn;バン
+give | 주다;juda;チュダ;chu-đa | give;/ɡɪv/;기브;ギブ;ghíp | あげる;あげる | cho;쪼;chaw;チョー
+receive | 받다;batda;パッタ;bát-ta | receive;/rɪˈsiːv/;리시브;レシーブ;ri-xíp | もらう;もらう | nhận;년;nyuhn;ニャン
+make | 만들다;mandeulda;マンドゥルダ;man-đưn-đa | make;/meɪk/;메이크;メイク;mếch | 作る;つくる | tạo ra;따오 자;tow zah;タオ ザー
+do | 하다;hada;ハダ;ha-đa | do;/duː/;두;ドゥー;đu | する;する | làm;람;lahm;ラム
+sleep | 자다;jada;チャダ;cha-đa | sleep;/sliːp/;슬립;スリープ;xlíp | 寝る;ねる | ngủ;응우;ngoo;グー
+wake-up | 일어나다;ireonada;イロナダ;i-rơ-na-đa | wake up;/weɪk ʌp/;웨이크 업;ウェイクアップ;uếch ấp | 起きる;おきる | thức dậy;특 저이;tuhk zay;トゥック ゾイ
+sit | 앉다;anda;アンタ;an-ta | sit;/sɪt/;싯;シット;xít | 座る;すわる | ngồi;응오이;ngoy;ゴイ
+stand | 서다;seoda;ソダ;xơ-đa | stand;/stænd/;스탠드;スタンド;xten | 立つ;たつ | đứng;등;duhng;ドゥン
+walk | 걷다;geotda;コッタ;cớt-ta | walk;/wɔːk/;워크;ウォーク;uốc | 歩く;あるく | đi bộ;디 보;dee boh;ディー ボー
+run | 달리다;dallida;タルリダ;tan-li-đa | run;/rʌn/;런;ラン;rân | 走る;はしる | chạy;짜이;chai;チャイ
+wait | 기다리다;gidarida;キダリダ;ki-đa-ri-đa | wait;/weɪt/;웨이트;ウェイト;uây | 待つ;まつ | đợi;더이;duh-ee;ドイ
+open | 열다;yeolda;ヨルダ;iơn-đa | open;/ˈoʊpən/;오픈;オープン;âu-pần | 開ける;あける | mở;머;muh;モー
+close | 닫다;datda;タッタ;tát-ta | close;/kloʊz/;클로즈;クローズ;clâu | 閉める;しめる | đóng;동;dawng;ドン
+wash | 씻다;ssitda;シッタ;xít-ta | wash;/wɒʃ/;워시;ウォッシュ;uốt | 洗う;あらう | rửa;즈어;zuh-uh;ズア
+wear | 입다;ipda;イプタ;íp-ta | wear;/wɛr/;웨어;ウェア;ue | 着る;きる | mặc;막;mahk;マック
+take-off | 벗다;beotda;ポッタ;bớt-ta | take off;/teɪk ɔːf/;테이크 오프;テイクオフ;tếch óp | 脱ぐ;ぬぐ | cởi;꺼이;kuh-ee;コイ
+study | 공부하다;gongbuhada;コンブハダ;công-bu-ha-đa | study;/ˈstʌdi/;스터디;スタディ;xtâ-đi | 勉強する;べんきょう する | học;혹;hawk;ホック
+work | 일하다;ilhada;イラダ;i-ra-đa | work;/wɜːrk/;워크;ワーク;uơc | 働く;はたらく | làm việc;람 비엑;lahm vee-ek;ラム ヴィエック
+play | 놀다;nolda;ノルダ;nôn-đa | play;/pleɪ/;플레이;プレイ;plây | 遊ぶ;あそぶ | chơi;쩌이;chuh-ee;チョイ
+rest | 쉬다;swida;シュィダ;xuy-đa | rest;/rɛst/;레스트;レスト;rét | 休む;やすむ | nghỉ;응이;ngee;ギー
+help-v | 돕다;dopda;トプタ;tốp-ta | help;/hɛlp/;헬프;ヘルプ;heo | 手伝う;てつだう | giúp;줍;zoop;ズップ
+meet | 만나다;mannada;マンナダ;man-na-đa | meet;/miːt/;미트;ミート;mít | 会う;あう | gặp;갑;gahp;ガップ
+call | 전화하다;jeonhwahada;チョナハダ;chơn-hoa-ha-đa | call;/kɔːl/;콜;コール;con | 電話する;でんわ する | gọi điện;고이 디엔;goy dee-en;ゴイ ディエン
+know | 알다;alda;アルダ;an-đa | know;/noʊ/;노;ノー;nâu | 知る;しる | biết;비엣;bee-et;ビエット
+understand | 이해하다;ihaehada;イヘハダ;i-he-ha-đa | understand;/ˌʌndərˈstænd/;언더스탠드;アンダースタンド;ân-đơ-xten | 分かる;わかる | hiểu;히에우;hee-ew;ヒエウ
+like | 좋아하다;joahada;チョアハダ;chô-a-ha-đa | like;/laɪk/;라이크;ライク;lai | 好き;すき | thích;틱;tick;ティック
+want | 원하다;wonhada;ウォナダ;uơn-ha-đa | want;/wɒnt/;원트;ウォント;uôn | 欲しい;ほしい | muốn;무온;moo-ohn;ムオン
+live | 살다;salda;サルダ;xan-đa | live;/lɪv/;리브;リブ;lip | 住む;すむ | sống;송;sohng;ソン
+start | 시작하다;sijakada;シジャカダ;xi-cha-ca-đa | start;/stɑːrt/;스타트;スタート;xtát | 始める;はじめる | bắt đầu;밧 더우;baht dow;バット ダウ
+finish | 끝나다;kkeunnada;クンナダ;cưn-na-đa | finish;/ˈfɪnɪʃ/;피니시;フィニッシュ;phi-nít | 終わる;おわる | kết thúc;껫 툭;ket tuhk;ケット トゥック
+enter | 들어가다;deureogada;トゥロガダ;tư-rơ-ga-đa | enter;/ˈɛntər/;엔터;エンター;en-tơ | 入る;はいる | vào;바오;vow;ヴァオ
+go-out | 나가다;nagada;ナガダ;na-ga-đa | go out;/ɡoʊ aʊt/;고 아웃;ゴーアウト;gâu ao | 出る;でる | ra;자;zah;ザー

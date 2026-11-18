@@ -20,9 +20,12 @@ from kana import convert
 ROOT = os.path.join(SP, "..", "..", "public", "languages")
 LANGS = ["ko", "en", "ja", "vi"]
 THEMES = [("numbers", ("숫자","Numbers","数字","Số đếm")), ("units", ("단위","Units","単位","Đơn vị")),
+          ("colors", ("색깔","Colors","色","Màu sắc")),
           ("directions", ("방향·위치","Directions","方向・位置","Phương hướng")), ("address", ("주소","Addresses","住所","Địa chỉ")),
-          ("time", ("시간·날짜","Time & dates","時間・日付","Thời gian")), ("people", ("가족·사람","Family & people","家族・人","Gia đình")),
-          ("food", ("음식·장보기","Food & shopping","食べ物・買い物","Ăn uống")), ("places", ("장소·교통","Places & transport","場所・交通","Địa điểm"))]
+          ("time", ("시간·날짜","Time & dates","時間・日付","Thời gian")), ("weather", ("날씨","Weather","天気","Thời tiết")),
+          ("people", ("가족·사람","Family & people","家族・人","Gia đình")), ("body", ("몸","Body","体","Cơ thể")),
+          ("food", ("음식·장보기","Food & shopping","食べ物・買い物","Ăn uống")), ("places", ("장소·교통","Places & transport","場所・交通","Địa điểm")),
+          ("emergency", ("긴급 상황","Emergencies","緊急時","Khẩn cấp")), ("actions", ("행동","Actions","動作","Hành động"))]
 
 TONE_MARK = {"̀": "huyền", "́": "sắc", "̉": "hỏi", "̃": "ngã", "̣": "nặng"}
 TONE_DESC = {

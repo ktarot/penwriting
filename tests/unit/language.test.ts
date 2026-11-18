@@ -41,8 +41,8 @@ describe("언어팩 데이터", () => {
     });
   }
 
-  it("생활 단어 8주제: 주제마다 필요한 단어를 모두 (최소 18개), 질문과 답 12쌍, 안내문 4·에세이 4 이상", () => {
-    const THEMES = ["numbers", "units", "directions", "address", "time", "people", "food", "places"];
+  it("생활 단어 13주제: 주제마다 필요한 단어를 모두 (최소 18개), 질문과 답 12쌍, 안내문 4·에세이 4 이상", () => {
+    const THEMES = ["numbers", "units", "colors", "directions", "address", "time", "weather", "people", "body", "food", "places", "emergency", "actions"];
     for (const lang of LANGUAGES) {
       const cat = (id: string) => packs[lang].categories.find((c) => c.id === id)!;
       for (const id of THEMES) expect(cat(id).items.length, `${lang}.${id}`).toBeGreaterThanOrEqual(18);

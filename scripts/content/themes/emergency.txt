@@ -1,0 +1,34 @@
+# 긴급 상황: 도움 요청·응급·위험, 불·경찰·구급차·의사·간호사, 부상·통증·열·약·알레르기, 사고·지진·홍수·대피·대피소·비상구·소화기, 도둑·분실물·여권·대사관, 조심 + 나라별 긴급 전화번호
+help | 도와주세요;dowajuseyo;トワジュセヨ;tô-oa-chu-xê-iô | help;/hɛlp/;헬프;ヘルプ;heo | 助けて;たすけて | cứu tôi với;끄우 또이 버이;kuh-oo toy vuh-ee;クーウ トイ ヴォイ
+emergency | 응급;eunggeup;ウングプ;ưng-gứp | emergency;/ɪˈmɜːrdʒənsi/;이머전시;エマージェンシー;i-mơ-giần-xi | 緊急;きんきゅう | khẩn cấp;컨 껍;kuhn kuhp;カン カップ
+danger | 위험;wiheom;ウィホム;uy-hơm | danger;/ˈdeɪndʒər/;데인저;デンジャー;đên-giơ | 危険;きけん | nguy hiểm;응우이 히엠;ngwee hee-em;グイ ヒエム
+fire | 불;bul;プル;bun | fire;/ˈfaɪər/;파이어;ファイヤー;phai-ơ | 火事;かじ | cháy;짜이;chai;チャイ
+police | 경찰;gyeongchal;キョンチャル;kiơng-chan | police;/pəˈliːs/;폴리스;ポリス;pơ-lít | 警察;けいさつ | cảnh sát;까잉 삿;kahn saht;カイン サット
+ambulance | 구급차;gugeupcha;ククプチャ;cu-gứp-cha | ambulance;/ˈæmbjələns/;앰뷸런스;アンビュランス;em-biu-lần | 救急車;きゅうきゅうしゃ | xe cứu thương;쌔 끄우 트엉;seh kuh-oo tuh-uhng;セー クーウ トゥオン
+doctor | 의사;uisa;ウィサ;ưi-xa | doctor;/ˈdɒktər/;닥터;ドクター;đóc-tơ | 医者;いしゃ | bác sĩ;박 시;bahk see;バック シー
+nurse | 간호사;ganhosa;カノサ;ca-nô-xa | nurse;/nɜːrs/;너스;ナース;nơ-xơ | 看護師;かんごし | y tá;이 따;ee tah;イー ター
+injury | 부상;busang;プサン;bu-xang | injury;/ˈɪndʒəri/;인저리;インジャリー;in-giơ-ri | けが;けが | vết thương;벳 트엉;vet tuh-uhng;ヴェット トゥオン
+pain | 통증;tongjeung;トンチュン;thông-chưng | pain;/peɪn/;페인;ペイン;pây | 痛み;いたみ | đau;다우;dow;ダウ
+fever | 열;yeol;ヨル;iơn | fever;/ˈfiːvər/;피버;フィーバー;phi-vơ | 熱;ねつ | sốt;솟;soht;ソット
+medicine | 약;yak;ヤク;iác | medicine;/ˈmɛdɪsən/;메디슨;メディスン;me-đi-xần | 薬;くすり | thuốc;투옥;too-ohk;トゥオック
+allergy | 알레르기;allereugi;アルレルギ;an-lê-rư-ghi | allergy;/ˈælərdʒi/;앨러지;アレルギー;e-lơ-gi | アレルギー;あれるぎー | dị ứng;지 응;zee uhng;ジー ウン
+accident | 사고;sago;サゴ;xa-gô | accident;/ˈæksɪdənt/;액시던트;アクシデント;ác-xi-đần | 事故;じこ | tai nạn;따이 난;tie nahn;タイ ナン
+earthquake | 지진;jijin;チジン;chi-chin | earthquake;/ˈɜːrθkweɪk/;어스퀘이크;アースクエイク;ơ-th-quây | 地震;じしん | động đất;동 덧;dohng duht;ドン ダット
+flood | 홍수;hongsu;ホンス;hông-xu | flood;/flʌd/;플러드;フラッド;phlât | 洪水;こうずい | lũ lụt;루 룻;loo loot;ルー ルット
+evacuation | 대피;daepi;テピ;te-pi | evacuation;/ɪˌvækjuˈeɪʃən/;이배큐에이션;エバキュエーション;i-ve-kiu-ây-sần | 避難;ひなん | sơ tán;서 딴;suh tahn;ソー タン
+shelter | 대피소;daepiso;テピソ;te-pi-xô | shelter;/ˈʃɛltər/;셸터;シェルター;seo-tơ | 避難所;ひなんじょ | nơi trú ẩn;너이 쭈 언;nuh-ee choo uhn;ノイ チュー アン
+emergency-exit | 비상구;bisanggu;ピサング;bi-xang-gu | emergency exit;/ɪˈmɜːrdʒənsi ˈɛɡzɪt/;이머전시 엑시트;エマージェンシーエグジット;i-mơ-giần-xi éc-dít | 非常口;ひじょうぐち | lối thoát hiểm;로이 토앗 히엠;loy twaht hee-em;ロイ トアット ヒエム
+extinguisher | 소화기;sohwagi;ソファギ;xô-hoa-ghi | fire extinguisher;/ˈfaɪər ɪkˈstɪŋɡwɪʃər/;파이어 익스팅귀셔;ファイヤーエクスティングイッシャー;phai-ơ ích-xtinh-guých-sơ | 消火器;しょうかき | bình chữa cháy;빙 쯔어 짜이;bing chuh-uh chai;ビン チュア チャイ
+thief | 도둑;doduk;トドゥク;tô-đúc | thief;/θiːf/;시프;シーフ;thíp | 泥棒;どろぼう | kẻ trộm;깨 쫌;keh chohm;ケー チョム
+lost-item | 분실물;bunsilmul;プンシルムル;bun-xin-mun | lost item;/lɒst ˈaɪtəm/;로스트 아이템;ロストアイテム;lót ai-tầm | 忘れ物;わすれもの | đồ thất lạc;도 텃 락;doh tuht lahk;ドー タット ラック
+passport | 여권;yeogwon;ヨクォン;iơ-quơn | passport;/ˈpæspɔːrt/;패스포트;パスポート;pét-pót | パスポート;ぱすぽーと | hộ chiếu;호 찌에우;hoh chee-ew;ホー チエウ
+embassy | 대사관;daesagwan;テサグァン;te-xa-goan | embassy;/ˈɛmbəsi/;엠버시;エンバシー;em-bơ-xi | 大使館;たいしかん | đại sứ quán;다이 스 꽌;dye suh kwahn;ダイ スー クアン
+careful | 조심하세요;josimhaseyo;チョシマセヨ;chô-xi-ma-xê-iô | be careful;/bi ˈkɛrfəl/;비 케어풀;ビーケアフル;bi ke-phồ | 気をつけて;き を つけて | cẩn thận;껀 턴;kuhn tuhn;カン タン
++ko 119 | 119;il-il-gu;イルイルグ;in-in-cu | 119 (fire and ambulance in Korea);119(韓国の消防・救急);119 (cứu hỏa, cấp cứu ở Hàn Quốc)
++ko 112 | 112;il-il-i;イルイルイ;in-in-i | 112 (police in Korea);112(韓国の警察);112 (cảnh sát ở Hàn Quốc)
++ja 110 | 110番;ひゃくとおばん | 110번 (일본 경찰);110 (police in Japan);110 (cảnh sát ở Nhật)
++ja 119 | 119番;ひゃくじゅうきゅうばん | 119번 (일본 소방·구급);119 (fire and ambulance in Japan);119 (cứu hỏa, cấp cứu ở Nhật)
++vi 113 | 113;못 못 바;moht moht bah;モッ モッ バー | 113 (베트남 경찰);113 (police in Vietnam);113(ベトナムの警察)
++vi 114 | 114;못 못 본;moht moht bohn;モッ モッ ボン | 114 (베트남 소방);114 (fire in Vietnam);114(ベトナムの消防)
++vi 115 | 115;못 못 남;moht moht nahm;モッ モッ ナム | 115 (베트남 구급);115 (ambulance in Vietnam);115(ベトナムの救急)
++en 911 | 911;/ˌnaɪn wʌn ˈwʌn/;나인 원 원;ナインワンワン;nai oan oan | 911 (미국·캐나다 긴급 전화);911(アメリカ・カナダの緊急番号);911 (số khẩn cấp ở Mỹ, Canada)

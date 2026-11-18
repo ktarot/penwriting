@@ -2287,6 +2287,432 @@
    ]
   },
   {
+   "id": "colors",
+   "level": "word",
+   "title": {
+    "ko": "색깔",
+    "en": "Colors",
+    "ja": "色",
+    "vi": "Màu sắc"
+   },
+   "items": [
+    {
+     "id": "vi-w-colors-color",
+     "language": "vi",
+     "level": "word",
+     "text": "màu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "마우",
+       "meaning": "색깔",
+       "explanation": "màu: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "mow",
+       "meaning": "color",
+       "explanation": "màu: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "マウ",
+       "meaning": "色",
+       "explanation": "màu: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-red",
+     "language": "vi",
+     "level": "word",
+     "text": "đỏ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "도",
+       "meaning": "빨간색",
+       "explanation": "đỏ: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "daw",
+       "meaning": "red",
+       "explanation": "đỏ: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "ドー",
+       "meaning": "赤",
+       "explanation": "đỏ: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-orange",
+     "language": "vi",
+     "level": "word",
+     "text": "cam",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "깜",
+       "meaning": "주황색",
+       "explanation": "cam: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "kahm",
+       "meaning": "orange",
+       "explanation": "cam: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "カム",
+       "meaning": "オレンジ",
+       "explanation": "cam: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-yellow",
+     "language": "vi",
+     "level": "word",
+     "text": "vàng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "방",
+       "meaning": "노란색",
+       "explanation": "vàng: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "vahng",
+       "meaning": "yellow",
+       "explanation": "vàng: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ヴァン",
+       "meaning": "黄色",
+       "explanation": "vàng: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-green",
+     "language": "vi",
+     "level": "word",
+     "text": "xanh lá",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "싸잉 라",
+       "meaning": "초록색",
+       "explanation": "xanh: 평평한 중간 높이 (ngang), lá: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "sahn lah",
+       "meaning": "green",
+       "explanation": "xanh: level, mid pitch (ngang), lá: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "サイン ラー",
+       "meaning": "緑",
+       "explanation": "xanh: 平らな中くらいの高さ (ngang), lá: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-blue",
+     "language": "vi",
+     "level": "word",
+     "text": "xanh dương",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "싸잉 즈엉",
+       "meaning": "파란색",
+       "explanation": "xanh: 평평한 중간 높이 (ngang), dương: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "sahn zuh-uhng",
+       "meaning": "blue",
+       "explanation": "xanh: level, mid pitch (ngang), dương: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "サイン ズオン",
+       "meaning": "青",
+       "explanation": "xanh: 平らな中くらいの高さ (ngang), dương: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-sky-blue",
+     "language": "vi",
+     "level": "word",
+     "text": "xanh da trời",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "싸잉 자 쩌이",
+       "meaning": "하늘색",
+       "explanation": "xanh: 평평한 중간 높이 (ngang), da: 평평한 중간 높이 (ngang), trời: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "sahn zah chuh-ee",
+       "meaning": "sky blue",
+       "explanation": "xanh: level, mid pitch (ngang), da: level, mid pitch (ngang), trời: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "サイン ザー チョイ",
+       "meaning": "水色",
+       "explanation": "xanh: 平らな中くらいの高さ (ngang), da: 平らな中くらいの高さ (ngang), trời: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-navy",
+     "language": "vi",
+     "level": "word",
+     "text": "xanh đậm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "싸잉 덤",
+       "meaning": "남색",
+       "explanation": "xanh: 평평한 중간 높이 (ngang), đậm: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "sahn duhm",
+       "meaning": "navy",
+       "explanation": "xanh: level, mid pitch (ngang), đậm: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "サイン ダム",
+       "meaning": "紺色",
+       "explanation": "xanh: 平らな中くらいの高さ (ngang), đậm: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-purple",
+     "language": "vi",
+     "level": "word",
+     "text": "tím",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "띰",
+       "meaning": "보라색",
+       "explanation": "tím: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "teem",
+       "meaning": "purple",
+       "explanation": "tím: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ティム",
+       "meaning": "紫",
+       "explanation": "tím: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-pink",
+     "language": "vi",
+     "level": "word",
+     "text": "hồng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "홍",
+       "meaning": "분홍색",
+       "explanation": "hồng: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "hohng",
+       "meaning": "pink",
+       "explanation": "hồng: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ホン",
+       "meaning": "ピンク",
+       "explanation": "hồng: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-brown",
+     "language": "vi",
+     "level": "word",
+     "text": "nâu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "너우",
+       "meaning": "갈색",
+       "explanation": "nâu: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "noh",
+       "meaning": "brown",
+       "explanation": "nâu: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ノウ",
+       "meaning": "茶色",
+       "explanation": "nâu: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-black",
+     "language": "vi",
+     "level": "word",
+     "text": "đen",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "댄",
+       "meaning": "검은색",
+       "explanation": "đen: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "den",
+       "meaning": "black",
+       "explanation": "đen: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "デン",
+       "meaning": "黒",
+       "explanation": "đen: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-white",
+     "language": "vi",
+     "level": "word",
+     "text": "trắng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "짱",
+       "meaning": "흰색",
+       "explanation": "trắng: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "chahng",
+       "meaning": "white",
+       "explanation": "trắng: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "チャン",
+       "meaning": "白",
+       "explanation": "trắng: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-gray",
+     "language": "vi",
+     "level": "word",
+     "text": "xám",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쌈",
+       "meaning": "회색",
+       "explanation": "xám: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "sahm",
+       "meaning": "gray",
+       "explanation": "xám: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "サム",
+       "meaning": "灰色",
+       "explanation": "xám: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-gold",
+     "language": "vi",
+     "level": "word",
+     "text": "vàng kim",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "방 낌",
+       "meaning": "금색",
+       "explanation": "vàng: 낮게 천천히 내려감 (huyền), kim: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "vahng keem",
+       "meaning": "gold",
+       "explanation": "vàng: low, falling (huyền), kim: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ヴァン キム",
+       "meaning": "金色",
+       "explanation": "vàng: 低くゆっくり下がる (huyền), kim: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-silver",
+     "language": "vi",
+     "level": "word",
+     "text": "bạc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "박",
+       "meaning": "은색",
+       "explanation": "bạc: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "bahk",
+       "meaning": "silver",
+       "explanation": "bạc: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "バック",
+       "meaning": "銀色",
+       "explanation": "bạc: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-light",
+     "language": "vi",
+     "level": "word",
+     "text": "sáng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "상",
+       "meaning": "밝은",
+       "explanation": "sáng: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "sahng",
+       "meaning": "light",
+       "explanation": "sáng: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "サン",
+       "meaning": "明るい",
+       "explanation": "sáng: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-colors-dark",
+     "language": "vi",
+     "level": "word",
+     "text": "tối",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "또이",
+       "meaning": "어두운",
+       "explanation": "tối: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "toy",
+       "meaning": "dark",
+       "explanation": "tối: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "トイ",
+       "meaning": "暗い",
+       "explanation": "tối: 高く上がる (sắc)"
+      }
+     }
+    }
+   ]
+  },
+  {
    "id": "directions",
    "level": "word",
    "title": {
@@ -4508,6 +4934,524 @@
    ]
   },
   {
+   "id": "weather",
+   "level": "word",
+   "title": {
+    "ko": "날씨",
+    "en": "Weather",
+    "ja": "天気",
+    "vi": "Thời tiết"
+   },
+   "items": [
+    {
+     "id": "vi-w-weather-weather",
+     "language": "vi",
+     "level": "word",
+     "text": "thời tiết",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "터이 띠엣",
+       "meaning": "날씨",
+       "explanation": "thời: 낮게 천천히 내려감 (huyền), tiết: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "tuh-ee tee-et",
+       "meaning": "weather",
+       "explanation": "thời: low, falling (huyền), tiết: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "トーイ ティエット",
+       "meaning": "天気",
+       "explanation": "thời: 低くゆっくり下がる (huyền), tiết: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-sun",
+     "language": "vi",
+     "level": "word",
+     "text": "mặt trời",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "맛 쩌이",
+       "meaning": "해",
+       "explanation": "mặt: 낮고 짧게 목을 막듯 끊음 (nặng), trời: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "maht chuh-ee",
+       "meaning": "sun",
+       "explanation": "mặt: low, short, with a catch in the throat (nặng), trời: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "マット チョイ",
+       "meaning": "太陽",
+       "explanation": "mặt: 低く短く喉を詰める (nặng), trời: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-cloud",
+     "language": "vi",
+     "level": "word",
+     "text": "mây",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "머이",
+       "meaning": "구름",
+       "explanation": "mây: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "may",
+       "meaning": "cloud",
+       "explanation": "mây: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "マイ",
+       "meaning": "雲",
+       "explanation": "mây: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-rain",
+     "language": "vi",
+     "level": "word",
+     "text": "mưa",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "므어",
+       "meaning": "비",
+       "explanation": "mưa: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "muh-uh",
+       "meaning": "rain",
+       "explanation": "mưa: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ムア",
+       "meaning": "雨",
+       "explanation": "mưa: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-snow",
+     "language": "vi",
+     "level": "word",
+     "text": "tuyết",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "뚜이엣",
+       "meaning": "눈",
+       "explanation": "tuyết: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "twee-et",
+       "meaning": "snow",
+       "explanation": "tuyết: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "トゥイエット",
+       "meaning": "雪",
+       "explanation": "tuyết: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-wind",
+     "language": "vi",
+     "level": "word",
+     "text": "gió",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "저",
+       "meaning": "바람",
+       "explanation": "gió: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "zaw",
+       "meaning": "wind",
+       "explanation": "gió: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ゾー",
+       "meaning": "風",
+       "explanation": "gió: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-sunny",
+     "language": "vi",
+     "level": "word",
+     "text": "nắng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "낭",
+       "meaning": "맑음",
+       "explanation": "nắng: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "nahng",
+       "meaning": "sunny",
+       "explanation": "nắng: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ナン",
+       "meaning": "晴れ",
+       "explanation": "nắng: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-cloudy",
+     "language": "vi",
+     "level": "word",
+     "text": "nhiều mây",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "니에우 머이",
+       "meaning": "흐림",
+       "explanation": "nhiều: 낮게 천천히 내려감 (huyền), mây: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "nyew may",
+       "meaning": "cloudy",
+       "explanation": "nhiều: low, falling (huyền), mây: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ニエウ マイ",
+       "meaning": "曇り",
+       "explanation": "nhiều: 低くゆっくり下がる (huyền), mây: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-typhoon",
+     "language": "vi",
+     "level": "word",
+     "text": "bão",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "바오",
+       "meaning": "태풍",
+       "explanation": "bão: 올라가다 목에서 끊기듯 다시 올라감 (ngã)"
+      },
+      "en": {
+       "pronunciation": "bow",
+       "meaning": "typhoon",
+       "explanation": "bão: rising with a break in the voice (ngã)"
+      },
+      "ja": {
+       "pronunciation": "バオ",
+       "meaning": "台風",
+       "explanation": "bão: 上がる途中で喉を詰めてまた上がる (ngã)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-thunder",
+     "language": "vi",
+     "level": "word",
+     "text": "sấm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "썸",
+       "meaning": "천둥",
+       "explanation": "sấm: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "suhm",
+       "meaning": "thunder",
+       "explanation": "sấm: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "サム",
+       "meaning": "雷",
+       "explanation": "sấm: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-fog",
+     "language": "vi",
+     "level": "word",
+     "text": "sương mù",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쓰엉 무",
+       "meaning": "안개",
+       "explanation": "sương: 평평한 중간 높이 (ngang), mù: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "suh-uhng moo",
+       "meaning": "fog",
+       "explanation": "sương: level, mid pitch (ngang), mù: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "スオン ムー",
+       "meaning": "霧",
+       "explanation": "sương: 平らな中くらいの高さ (ngang), mù: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-temperature",
+     "language": "vi",
+     "level": "word",
+     "text": "nhiệt độ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "니엣 도",
+       "meaning": "기온",
+       "explanation": "nhiệt: 낮고 짧게 목을 막듯 끊음 (nặng), độ: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "nyet doh",
+       "meaning": "temperature",
+       "explanation": "nhiệt: low, short, with a catch in the throat (nặng), độ: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ニエット ドー",
+       "meaning": "気温",
+       "explanation": "nhiệt: 低く短く喉を詰める (nặng), độ: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-hot",
+     "language": "vi",
+     "level": "word",
+     "text": "nóng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "농",
+       "meaning": "덥다",
+       "explanation": "nóng: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "nawng",
+       "meaning": "hot",
+       "explanation": "nóng: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ノン",
+       "meaning": "暑い",
+       "explanation": "nóng: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-cold",
+     "language": "vi",
+     "level": "word",
+     "text": "lạnh",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "라잉",
+       "meaning": "춥다",
+       "explanation": "lạnh: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "lahn",
+       "meaning": "cold",
+       "explanation": "lạnh: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ライン",
+       "meaning": "寒い",
+       "explanation": "lạnh: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-warm",
+     "language": "vi",
+     "level": "word",
+     "text": "ấm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "엄",
+       "meaning": "따뜻하다",
+       "explanation": "ấm: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "uhm",
+       "meaning": "warm",
+       "explanation": "ấm: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "アム",
+       "meaning": "暖かい",
+       "explanation": "ấm: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-cool",
+     "language": "vi",
+     "level": "word",
+     "text": "mát",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "맛",
+       "meaning": "시원하다",
+       "explanation": "mát: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "maht",
+       "meaning": "cool",
+       "explanation": "mát: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "マット",
+       "meaning": "涼しい",
+       "explanation": "mát: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-humid",
+     "language": "vi",
+     "level": "word",
+     "text": "ẩm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "엄",
+       "meaning": "습하다",
+       "explanation": "ẩm: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "uhm",
+       "meaning": "humid",
+       "explanation": "ẩm: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "アム",
+       "meaning": "蒸し暑い",
+       "explanation": "ẩm: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-forecast",
+     "language": "vi",
+     "level": "word",
+     "text": "dự báo thời tiết",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "즈 바오 터이 띠엣",
+       "meaning": "일기예보",
+       "explanation": "dự: 낮고 짧게 목을 막듯 끊음 (nặng), báo: 높게 올라감 (sắc), thời: 낮게 천천히 내려감 (huyền), tiết: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "zuh bow tuh-ee tee-et",
+       "meaning": "weather forecast",
+       "explanation": "dự: low, short, with a catch in the throat (nặng), báo: high, rising (sắc), thời: low, falling (huyền), tiết: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ズー バオ トーイ ティエット",
+       "meaning": "天気予報",
+       "explanation": "dự: 低く短く喉を詰める (nặng), báo: 高く上がる (sắc), thời: 低くゆっくり下がる (huyền), tiết: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-umbrella",
+     "language": "vi",
+     "level": "word",
+     "text": "ô",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오",
+       "meaning": "우산",
+       "explanation": "ô: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "oh",
+       "meaning": "umbrella",
+       "explanation": "ô: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "オー",
+       "meaning": "傘",
+       "explanation": "ô: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-rainy-season",
+     "language": "vi",
+     "level": "word",
+     "text": "mùa mưa",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "무어 므어",
+       "meaning": "장마",
+       "explanation": "mùa: 낮게 천천히 내려감 (huyền), mưa: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "moo-uh muh-uh",
+       "meaning": "rainy season",
+       "explanation": "mùa: low, falling (huyền), mưa: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ムア ムア",
+       "meaning": "梅雨",
+       "explanation": "mùa: 低くゆっくり下がる (huyền), mưa: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-du",
+     "language": "vi",
+     "level": "word",
+     "text": "dù",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "주",
+       "meaning": "우산 (남부)",
+       "explanation": "dù: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "zoo",
+       "meaning": "umbrella (South)",
+       "explanation": "dù: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ズー",
+       "meaning": "傘(南部)",
+       "explanation": "dù: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-weather-nom",
+     "language": "vi",
+     "level": "word",
+     "text": "nồm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "놈",
+       "meaning": "습하고 눅눅한 날씨 (북부 봄)",
+       "explanation": "nồm: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "nohm",
+       "meaning": "damp, muggy weather (northern spring)",
+       "explanation": "nồm: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ノム",
+       "meaning": "じめじめした天気(北部の春)",
+       "explanation": "nồm: 低くゆっくり下がる (huyền)"
+      }
+     }
+    }
+   ]
+  },
+  {
    "id": "people",
    "level": "word",
    "title": {
@@ -5342,6 +6286,708 @@
        "pronunciation": "バック",
        "meaning": "伯父・伯母(親より年上)",
        "explanation": "bác: 高く上がる (sắc)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "body",
+   "level": "word",
+   "title": {
+    "ko": "몸",
+    "en": "Body",
+    "ja": "体",
+    "vi": "Cơ thể"
+   },
+   "items": [
+    {
+     "id": "vi-w-body-body",
+     "language": "vi",
+     "level": "word",
+     "text": "cơ thể",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "꺼 테",
+       "meaning": "몸",
+       "explanation": "cơ: 평평한 중간 높이 (ngang), thể: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "kuh teh",
+       "meaning": "body",
+       "explanation": "cơ: level, mid pitch (ngang), thể: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "クー テー",
+       "meaning": "体",
+       "explanation": "cơ: 平らな中くらいの高さ (ngang), thể: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-head",
+     "language": "vi",
+     "level": "word",
+     "text": "đầu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "더우",
+       "meaning": "머리",
+       "explanation": "đầu: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "dow",
+       "meaning": "head",
+       "explanation": "đầu: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ダウ",
+       "meaning": "頭",
+       "explanation": "đầu: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-hair",
+     "language": "vi",
+     "level": "word",
+     "text": "tóc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "똑",
+       "meaning": "머리카락",
+       "explanation": "tóc: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "tawk",
+       "meaning": "hair",
+       "explanation": "tóc: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "トック",
+       "meaning": "髪",
+       "explanation": "tóc: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-face",
+     "language": "vi",
+     "level": "word",
+     "text": "mặt",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "맛",
+       "meaning": "얼굴",
+       "explanation": "mặt: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "maht",
+       "meaning": "face",
+       "explanation": "mặt: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "マット",
+       "meaning": "顔",
+       "explanation": "mặt: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-eye",
+     "language": "vi",
+     "level": "word",
+     "text": "mắt",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "맛",
+       "meaning": "눈",
+       "explanation": "mắt: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "maht",
+       "meaning": "eye",
+       "explanation": "mắt: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "マット",
+       "meaning": "目",
+       "explanation": "mắt: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-ear",
+     "language": "vi",
+     "level": "word",
+     "text": "tai",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "따이",
+       "meaning": "귀",
+       "explanation": "tai: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "tie",
+       "meaning": "ear",
+       "explanation": "tai: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "タイ",
+       "meaning": "耳",
+       "explanation": "tai: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-nose",
+     "language": "vi",
+     "level": "word",
+     "text": "mũi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "무이",
+       "meaning": "코",
+       "explanation": "mũi: 올라가다 목에서 끊기듯 다시 올라감 (ngã)"
+      },
+      "en": {
+       "pronunciation": "mooy",
+       "meaning": "nose",
+       "explanation": "mũi: rising with a break in the voice (ngã)"
+      },
+      "ja": {
+       "pronunciation": "ムイ",
+       "meaning": "鼻",
+       "explanation": "mũi: 上がる途中で喉を詰めてまた上がる (ngã)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-mouth",
+     "language": "vi",
+     "level": "word",
+     "text": "miệng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "미엥",
+       "meaning": "입",
+       "explanation": "miệng: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "mee-eng",
+       "meaning": "mouth",
+       "explanation": "miệng: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ミエン",
+       "meaning": "口",
+       "explanation": "miệng: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-lip",
+     "language": "vi",
+     "level": "word",
+     "text": "môi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "모이",
+       "meaning": "입술",
+       "explanation": "môi: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "moy",
+       "meaning": "lip",
+       "explanation": "môi: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "モイ",
+       "meaning": "唇",
+       "explanation": "môi: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-tooth",
+     "language": "vi",
+     "level": "word",
+     "text": "răng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "장",
+       "meaning": "치아",
+       "explanation": "răng: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "zahng",
+       "meaning": "tooth",
+       "explanation": "răng: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ザン",
+       "meaning": "歯",
+       "explanation": "răng: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-tongue",
+     "language": "vi",
+     "level": "word",
+     "text": "lưỡi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "르어이",
+       "meaning": "혀",
+       "explanation": "lưỡi: 올라가다 목에서 끊기듯 다시 올라감 (ngã)"
+      },
+      "en": {
+       "pronunciation": "luh-uh-ee",
+       "meaning": "tongue",
+       "explanation": "lưỡi: rising with a break in the voice (ngã)"
+      },
+      "ja": {
+       "pronunciation": "ルオイ",
+       "meaning": "舌",
+       "explanation": "lưỡi: 上がる途中で喉を詰めてまた上がる (ngã)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-neck",
+     "language": "vi",
+     "level": "word",
+     "text": "cổ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "꼬",
+       "meaning": "목",
+       "explanation": "cổ: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "koh",
+       "meaning": "neck",
+       "explanation": "cổ: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "コー",
+       "meaning": "首",
+       "explanation": "cổ: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-throat",
+     "language": "vi",
+     "level": "word",
+     "text": "họng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "홍",
+       "meaning": "목구멍",
+       "explanation": "họng: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "hong",
+       "meaning": "throat",
+       "explanation": "họng: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ホン",
+       "meaning": "喉",
+       "explanation": "họng: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-shoulder",
+     "language": "vi",
+     "level": "word",
+     "text": "vai",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "바이",
+       "meaning": "어깨",
+       "explanation": "vai: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "vye",
+       "meaning": "shoulder",
+       "explanation": "vai: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ヴァイ",
+       "meaning": "肩",
+       "explanation": "vai: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-arm",
+     "language": "vi",
+     "level": "word",
+     "text": "cánh tay",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "까잉 따이",
+       "meaning": "팔",
+       "explanation": "cánh: 높게 올라감 (sắc), tay: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "kahn tie",
+       "meaning": "arm",
+       "explanation": "cánh: high, rising (sắc), tay: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "カイン タイ",
+       "meaning": "腕",
+       "explanation": "cánh: 高く上がる (sắc), tay: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-elbow",
+     "language": "vi",
+     "level": "word",
+     "text": "khuỷu tay",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠이우 따이",
+       "meaning": "팔꿈치",
+       "explanation": "khuỷu: 내려갔다가 다시 올라감 (hỏi), tay: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "kwee-oo tie",
+       "meaning": "elbow",
+       "explanation": "khuỷu: dipping, then rising (hỏi), tay: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "クイウ タイ",
+       "meaning": "肘",
+       "explanation": "khuỷu: 下がってから上がる (hỏi), tay: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-hand",
+     "language": "vi",
+     "level": "word",
+     "text": "bàn tay",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "반 따이",
+       "meaning": "손",
+       "explanation": "bàn: 낮게 천천히 내려감 (huyền), tay: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "bahn tie",
+       "meaning": "hand",
+       "explanation": "bàn: low, falling (huyền), tay: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "バン タイ",
+       "meaning": "手",
+       "explanation": "bàn: 低くゆっくり下がる (huyền), tay: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-finger",
+     "language": "vi",
+     "level": "word",
+     "text": "ngón tay",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응온 따이",
+       "meaning": "손가락",
+       "explanation": "ngón: 높게 올라감 (sắc), tay: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "ngawn tie",
+       "meaning": "finger",
+       "explanation": "ngón: high, rising (sắc), tay: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ゴン タイ",
+       "meaning": "指",
+       "explanation": "ngón: 高く上がる (sắc), tay: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-chest",
+     "language": "vi",
+     "level": "word",
+     "text": "ngực",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응윽",
+       "meaning": "가슴",
+       "explanation": "ngực: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "nguhk",
+       "meaning": "chest",
+       "explanation": "ngực: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "グック",
+       "meaning": "胸",
+       "explanation": "ngực: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-stomach",
+     "language": "vi",
+     "level": "word",
+     "text": "bụng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "붕",
+       "meaning": "배",
+       "explanation": "bụng: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "boong",
+       "meaning": "stomach",
+       "explanation": "bụng: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ブン",
+       "meaning": "お腹",
+       "explanation": "bụng: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-back-body",
+     "language": "vi",
+     "level": "word",
+     "text": "lưng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "릉",
+       "meaning": "등",
+       "explanation": "lưng: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "luhng",
+       "meaning": "back",
+       "explanation": "lưng: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ルン",
+       "meaning": "背中",
+       "explanation": "lưng: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-waist",
+     "language": "vi",
+     "level": "word",
+     "text": "eo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "애오",
+       "meaning": "허리",
+       "explanation": "eo: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "eh-oh",
+       "meaning": "waist",
+       "explanation": "eo: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "エオ",
+       "meaning": "腰",
+       "explanation": "eo: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-leg",
+     "language": "vi",
+     "level": "word",
+     "text": "chân",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쩐",
+       "meaning": "다리",
+       "explanation": "chân: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "chuhn",
+       "meaning": "leg",
+       "explanation": "chân: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "チャン",
+       "meaning": "脚",
+       "explanation": "chân: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-knee",
+     "language": "vi",
+     "level": "word",
+     "text": "đầu gối",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "더우 고이",
+       "meaning": "무릎",
+       "explanation": "đầu: 낮게 천천히 내려감 (huyền), gối: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "dow goy",
+       "meaning": "knee",
+       "explanation": "đầu: low, falling (huyền), gối: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ダウ ゴイ",
+       "meaning": "膝",
+       "explanation": "đầu: 低くゆっくり下がる (huyền), gối: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-foot",
+     "language": "vi",
+     "level": "word",
+     "text": "bàn chân",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "반 쩐",
+       "meaning": "발",
+       "explanation": "bàn: 낮게 천천히 내려감 (huyền), chân: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "bahn chuhn",
+       "meaning": "foot",
+       "explanation": "bàn: low, falling (huyền), chân: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "バン チャン",
+       "meaning": "足",
+       "explanation": "bàn: 低くゆっくり下がる (huyền), chân: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-toe",
+     "language": "vi",
+     "level": "word",
+     "text": "ngón chân",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응온 쩐",
+       "meaning": "발가락",
+       "explanation": "ngón: 높게 올라감 (sắc), chân: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "ngawn chuhn",
+       "meaning": "toe",
+       "explanation": "ngón: high, rising (sắc), chân: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ゴン チャン",
+       "meaning": "足の指",
+       "explanation": "ngón: 高く上がる (sắc), chân: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-skin",
+     "language": "vi",
+     "level": "word",
+     "text": "da",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "자",
+       "meaning": "피부",
+       "explanation": "da: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "zah",
+       "meaning": "skin",
+       "explanation": "da: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ザー",
+       "meaning": "肌",
+       "explanation": "da: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-bone",
+     "language": "vi",
+     "level": "word",
+     "text": "xương",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쓰엉",
+       "meaning": "뼈",
+       "explanation": "xương: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "suh-uhng",
+       "meaning": "bone",
+       "explanation": "xương: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "スオン",
+       "meaning": "骨",
+       "explanation": "xương: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-blood",
+     "language": "vi",
+     "level": "word",
+     "text": "máu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "마우",
+       "meaning": "피",
+       "explanation": "máu: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "mow",
+       "meaning": "blood",
+       "explanation": "máu: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "マウ",
+       "meaning": "血",
+       "explanation": "máu: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-body-heart",
+     "language": "vi",
+     "level": "word",
+     "text": "tim",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "띰",
+       "meaning": "심장",
+       "explanation": "tim: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "teem",
+       "meaning": "heart",
+       "explanation": "tim: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ティム",
+       "meaning": "心臓",
+       "explanation": "tim: 平らな中くらいの高さ (ngang)"
       }
      }
     }
@@ -6999,6 +8645,1663 @@
        "pronunciation": "セー マイ",
        "meaning": "バイク",
        "explanation": "xe: 平らな中くらいの高さ (ngang), máy: 高く上がる (sắc)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "emergency",
+   "level": "word",
+   "title": {
+    "ko": "긴급 상황",
+    "en": "Emergencies",
+    "ja": "緊急時",
+    "vi": "Khẩn cấp"
+   },
+   "items": [
+    {
+     "id": "vi-w-emergency-help",
+     "language": "vi",
+     "level": "word",
+     "text": "cứu tôi với",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "끄우 또이 버이",
+       "meaning": "도와주세요",
+       "explanation": "cứu: 높게 올라감 (sắc), tôi: 평평한 중간 높이 (ngang), với: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "kuh-oo toy vuh-ee",
+       "meaning": "help",
+       "explanation": "cứu: high, rising (sắc), tôi: level, mid pitch (ngang), với: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "クーウ トイ ヴォイ",
+       "meaning": "助けて",
+       "explanation": "cứu: 高く上がる (sắc), tôi: 平らな中くらいの高さ (ngang), với: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-emergency",
+     "language": "vi",
+     "level": "word",
+     "text": "khẩn cấp",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "컨 껍",
+       "meaning": "응급",
+       "explanation": "khẩn: 내려갔다가 다시 올라감 (hỏi), cấp: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "kuhn kuhp",
+       "meaning": "emergency",
+       "explanation": "khẩn: dipping, then rising (hỏi), cấp: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "カン カップ",
+       "meaning": "緊急",
+       "explanation": "khẩn: 下がってから上がる (hỏi), cấp: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-danger",
+     "language": "vi",
+     "level": "word",
+     "text": "nguy hiểm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응우이 히엠",
+       "meaning": "위험",
+       "explanation": "nguy: 평평한 중간 높이 (ngang), hiểm: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "ngwee hee-em",
+       "meaning": "danger",
+       "explanation": "nguy: level, mid pitch (ngang), hiểm: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "グイ ヒエム",
+       "meaning": "危険",
+       "explanation": "nguy: 平らな中くらいの高さ (ngang), hiểm: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-fire",
+     "language": "vi",
+     "level": "word",
+     "text": "cháy",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "짜이",
+       "meaning": "불",
+       "explanation": "cháy: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "chai",
+       "meaning": "fire",
+       "explanation": "cháy: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "チャイ",
+       "meaning": "火事",
+       "explanation": "cháy: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-police",
+     "language": "vi",
+     "level": "word",
+     "text": "cảnh sát",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "까잉 삿",
+       "meaning": "경찰",
+       "explanation": "cảnh: 내려갔다가 다시 올라감 (hỏi), sát: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "kahn saht",
+       "meaning": "police",
+       "explanation": "cảnh: dipping, then rising (hỏi), sát: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "カイン サット",
+       "meaning": "警察",
+       "explanation": "cảnh: 下がってから上がる (hỏi), sát: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-ambulance",
+     "language": "vi",
+     "level": "word",
+     "text": "xe cứu thương",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쌔 끄우 트엉",
+       "meaning": "구급차",
+       "explanation": "xe: 평평한 중간 높이 (ngang), cứu: 높게 올라감 (sắc), thương: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "seh kuh-oo tuh-uhng",
+       "meaning": "ambulance",
+       "explanation": "xe: level, mid pitch (ngang), cứu: high, rising (sắc), thương: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "セー クーウ トゥオン",
+       "meaning": "救急車",
+       "explanation": "xe: 平らな中くらいの高さ (ngang), cứu: 高く上がる (sắc), thương: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-doctor",
+     "language": "vi",
+     "level": "word",
+     "text": "bác sĩ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "박 시",
+       "meaning": "의사",
+       "explanation": "bác: 높게 올라감 (sắc), sĩ: 올라가다 목에서 끊기듯 다시 올라감 (ngã)"
+      },
+      "en": {
+       "pronunciation": "bahk see",
+       "meaning": "doctor",
+       "explanation": "bác: high, rising (sắc), sĩ: rising with a break in the voice (ngã)"
+      },
+      "ja": {
+       "pronunciation": "バック シー",
+       "meaning": "医者",
+       "explanation": "bác: 高く上がる (sắc), sĩ: 上がる途中で喉を詰めてまた上がる (ngã)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-nurse",
+     "language": "vi",
+     "level": "word",
+     "text": "y tá",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이 따",
+       "meaning": "간호사",
+       "explanation": "y: 평평한 중간 높이 (ngang), tá: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "ee tah",
+       "meaning": "nurse",
+       "explanation": "y: level, mid pitch (ngang), tá: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "イー ター",
+       "meaning": "看護師",
+       "explanation": "y: 平らな中くらいの高さ (ngang), tá: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-injury",
+     "language": "vi",
+     "level": "word",
+     "text": "vết thương",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "벳 트엉",
+       "meaning": "부상",
+       "explanation": "vết: 높게 올라감 (sắc), thương: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "vet tuh-uhng",
+       "meaning": "injury",
+       "explanation": "vết: high, rising (sắc), thương: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ヴェット トゥオン",
+       "meaning": "けが",
+       "explanation": "vết: 高く上がる (sắc), thương: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-pain",
+     "language": "vi",
+     "level": "word",
+     "text": "đau",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "다우",
+       "meaning": "통증",
+       "explanation": "đau: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "dow",
+       "meaning": "pain",
+       "explanation": "đau: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ダウ",
+       "meaning": "痛み",
+       "explanation": "đau: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-fever",
+     "language": "vi",
+     "level": "word",
+     "text": "sốt",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "솟",
+       "meaning": "열",
+       "explanation": "sốt: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "soht",
+       "meaning": "fever",
+       "explanation": "sốt: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ソット",
+       "meaning": "熱",
+       "explanation": "sốt: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-medicine",
+     "language": "vi",
+     "level": "word",
+     "text": "thuốc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "투옥",
+       "meaning": "약",
+       "explanation": "thuốc: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "too-ohk",
+       "meaning": "medicine",
+       "explanation": "thuốc: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "トゥオック",
+       "meaning": "薬",
+       "explanation": "thuốc: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-allergy",
+     "language": "vi",
+     "level": "word",
+     "text": "dị ứng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "지 응",
+       "meaning": "알레르기",
+       "explanation": "dị: 낮고 짧게 목을 막듯 끊음 (nặng), ứng: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "zee uhng",
+       "meaning": "allergy",
+       "explanation": "dị: low, short, with a catch in the throat (nặng), ứng: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ジー ウン",
+       "meaning": "アレルギー",
+       "explanation": "dị: 低く短く喉を詰める (nặng), ứng: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-accident",
+     "language": "vi",
+     "level": "word",
+     "text": "tai nạn",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "따이 난",
+       "meaning": "사고",
+       "explanation": "tai: 평평한 중간 높이 (ngang), nạn: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "tie nahn",
+       "meaning": "accident",
+       "explanation": "tai: level, mid pitch (ngang), nạn: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "タイ ナン",
+       "meaning": "事故",
+       "explanation": "tai: 平らな中くらいの高さ (ngang), nạn: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-earthquake",
+     "language": "vi",
+     "level": "word",
+     "text": "động đất",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "동 덧",
+       "meaning": "지진",
+       "explanation": "động: 낮고 짧게 목을 막듯 끊음 (nặng), đất: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "dohng duht",
+       "meaning": "earthquake",
+       "explanation": "động: low, short, with a catch in the throat (nặng), đất: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ドン ダット",
+       "meaning": "地震",
+       "explanation": "động: 低く短く喉を詰める (nặng), đất: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-flood",
+     "language": "vi",
+     "level": "word",
+     "text": "lũ lụt",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "루 룻",
+       "meaning": "홍수",
+       "explanation": "lũ: 올라가다 목에서 끊기듯 다시 올라감 (ngã), lụt: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "loo loot",
+       "meaning": "flood",
+       "explanation": "lũ: rising with a break in the voice (ngã), lụt: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ルー ルット",
+       "meaning": "洪水",
+       "explanation": "lũ: 上がる途中で喉を詰めてまた上がる (ngã), lụt: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-evacuation",
+     "language": "vi",
+     "level": "word",
+     "text": "sơ tán",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "서 딴",
+       "meaning": "대피",
+       "explanation": "sơ: 평평한 중간 높이 (ngang), tán: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "suh tahn",
+       "meaning": "evacuation",
+       "explanation": "sơ: level, mid pitch (ngang), tán: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ソー タン",
+       "meaning": "避難",
+       "explanation": "sơ: 平らな中くらいの高さ (ngang), tán: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-shelter",
+     "language": "vi",
+     "level": "word",
+     "text": "nơi trú ẩn",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "너이 쭈 언",
+       "meaning": "대피소",
+       "explanation": "nơi: 평평한 중간 높이 (ngang), trú: 높게 올라감 (sắc), ẩn: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "nuh-ee choo uhn",
+       "meaning": "shelter",
+       "explanation": "nơi: level, mid pitch (ngang), trú: high, rising (sắc), ẩn: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "ノイ チュー アン",
+       "meaning": "避難所",
+       "explanation": "nơi: 平らな中くらいの高さ (ngang), trú: 高く上がる (sắc), ẩn: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-emergency-exit",
+     "language": "vi",
+     "level": "word",
+     "text": "lối thoát hiểm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "로이 토앗 히엠",
+       "meaning": "비상구",
+       "explanation": "lối: 높게 올라감 (sắc), thoát: 높게 올라감 (sắc), hiểm: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "loy twaht hee-em",
+       "meaning": "emergency exit",
+       "explanation": "lối: high, rising (sắc), thoát: high, rising (sắc), hiểm: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "ロイ トアット ヒエム",
+       "meaning": "非常口",
+       "explanation": "lối: 高く上がる (sắc), thoát: 高く上がる (sắc), hiểm: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-extinguisher",
+     "language": "vi",
+     "level": "word",
+     "text": "bình chữa cháy",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "빙 쯔어 짜이",
+       "meaning": "소화기",
+       "explanation": "bình: 낮게 천천히 내려감 (huyền), chữa: 올라가다 목에서 끊기듯 다시 올라감 (ngã), cháy: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "bing chuh-uh chai",
+       "meaning": "fire extinguisher",
+       "explanation": "bình: low, falling (huyền), chữa: rising with a break in the voice (ngã), cháy: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ビン チュア チャイ",
+       "meaning": "消火器",
+       "explanation": "bình: 低くゆっくり下がる (huyền), chữa: 上がる途中で喉を詰めてまた上がる (ngã), cháy: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-thief",
+     "language": "vi",
+     "level": "word",
+     "text": "kẻ trộm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "깨 쫌",
+       "meaning": "도둑",
+       "explanation": "kẻ: 내려갔다가 다시 올라감 (hỏi), trộm: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "keh chohm",
+       "meaning": "thief",
+       "explanation": "kẻ: dipping, then rising (hỏi), trộm: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ケー チョム",
+       "meaning": "泥棒",
+       "explanation": "kẻ: 下がってから上がる (hỏi), trộm: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-lost-item",
+     "language": "vi",
+     "level": "word",
+     "text": "đồ thất lạc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "도 텃 락",
+       "meaning": "분실물",
+       "explanation": "đồ: 낮게 천천히 내려감 (huyền), thất: 높게 올라감 (sắc), lạc: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "doh tuht lahk",
+       "meaning": "lost item",
+       "explanation": "đồ: low, falling (huyền), thất: high, rising (sắc), lạc: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ドー タット ラック",
+       "meaning": "忘れ物",
+       "explanation": "đồ: 低くゆっくり下がる (huyền), thất: 高く上がる (sắc), lạc: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-passport",
+     "language": "vi",
+     "level": "word",
+     "text": "hộ chiếu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "호 찌에우",
+       "meaning": "여권",
+       "explanation": "hộ: 낮고 짧게 목을 막듯 끊음 (nặng), chiếu: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "hoh chee-ew",
+       "meaning": "passport",
+       "explanation": "hộ: low, short, with a catch in the throat (nặng), chiếu: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ホー チエウ",
+       "meaning": "パスポート",
+       "explanation": "hộ: 低く短く喉を詰める (nặng), chiếu: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-embassy",
+     "language": "vi",
+     "level": "word",
+     "text": "đại sứ quán",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "다이 스 꽌",
+       "meaning": "대사관",
+       "explanation": "đại: 낮고 짧게 목을 막듯 끊음 (nặng), sứ: 높게 올라감 (sắc), quán: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "dye suh kwahn",
+       "meaning": "embassy",
+       "explanation": "đại: low, short, with a catch in the throat (nặng), sứ: high, rising (sắc), quán: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ダイ スー クアン",
+       "meaning": "大使館",
+       "explanation": "đại: 低く短く喉を詰める (nặng), sứ: 高く上がる (sắc), quán: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-careful",
+     "language": "vi",
+     "level": "word",
+     "text": "cẩn thận",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "껀 턴",
+       "meaning": "조심하세요",
+       "explanation": "cẩn: 내려갔다가 다시 올라감 (hỏi), thận: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "kuhn tuhn",
+       "meaning": "be careful",
+       "explanation": "cẩn: dipping, then rising (hỏi), thận: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "カン タン",
+       "meaning": "気をつけて",
+       "explanation": "cẩn: 下がってから上がる (hỏi), thận: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-113",
+     "language": "vi",
+     "level": "word",
+     "text": "113",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "못 못 바",
+       "meaning": "113 (베트남 경찰)",
+       "explanation": "113: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "moht moht bah",
+       "meaning": "113 (police in Vietnam)",
+       "explanation": "113: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "モッ モッ バー",
+       "meaning": "113(ベトナムの警察)",
+       "explanation": "113: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-114",
+     "language": "vi",
+     "level": "word",
+     "text": "114",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "못 못 본",
+       "meaning": "114 (베트남 소방)",
+       "explanation": "114: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "moht moht bohn",
+       "meaning": "114 (fire in Vietnam)",
+       "explanation": "114: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "モッ モッ ボン",
+       "meaning": "114(ベトナムの消防)",
+       "explanation": "114: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-emergency-115",
+     "language": "vi",
+     "level": "word",
+     "text": "115",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "못 못 남",
+       "meaning": "115 (베트남 구급)",
+       "explanation": "115: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "moht moht nahm",
+       "meaning": "115 (ambulance in Vietnam)",
+       "explanation": "115: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "モッ モッ ナム",
+       "meaning": "115(ベトナムの救急)",
+       "explanation": "115: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "actions",
+   "level": "word",
+   "title": {
+    "ko": "행동",
+    "en": "Actions",
+    "ja": "動作",
+    "vi": "Hành động"
+   },
+   "items": [
+    {
+     "id": "vi-w-actions-go",
+     "language": "vi",
+     "level": "word",
+     "text": "đi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "디",
+       "meaning": "가다",
+       "explanation": "đi: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "dee",
+       "meaning": "go",
+       "explanation": "đi: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ディー",
+       "meaning": "行く",
+       "explanation": "đi: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-come",
+     "language": "vi",
+     "level": "word",
+     "text": "đến",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "덴",
+       "meaning": "오다",
+       "explanation": "đến: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "den",
+       "meaning": "come",
+       "explanation": "đến: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "デン",
+       "meaning": "来る",
+       "explanation": "đến: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-eat",
+     "language": "vi",
+     "level": "word",
+     "text": "ăn",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "안",
+       "meaning": "먹다",
+       "explanation": "ăn: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "ahn",
+       "meaning": "eat",
+       "explanation": "ăn: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "アン",
+       "meaning": "食べる",
+       "explanation": "ăn: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-drink",
+     "language": "vi",
+     "level": "word",
+     "text": "uống",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "우옹",
+       "meaning": "마시다",
+       "explanation": "uống: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "oo-ong",
+       "meaning": "drink",
+       "explanation": "uống: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ウオン",
+       "meaning": "飲む",
+       "explanation": "uống: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-see",
+     "language": "vi",
+     "level": "word",
+     "text": "xem",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쌤",
+       "meaning": "보다",
+       "explanation": "xem: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "sem",
+       "meaning": "see",
+       "explanation": "xem: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "セム",
+       "meaning": "見る",
+       "explanation": "xem: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-listen",
+     "language": "vi",
+     "level": "word",
+     "text": "nghe",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응애",
+       "meaning": "듣다",
+       "explanation": "nghe: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "ngeh",
+       "meaning": "listen",
+       "explanation": "nghe: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ゲー",
+       "meaning": "聞く",
+       "explanation": "nghe: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-speak",
+     "language": "vi",
+     "level": "word",
+     "text": "nói",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "노이",
+       "meaning": "말하다",
+       "explanation": "nói: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "noy",
+       "meaning": "speak",
+       "explanation": "nói: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ノイ",
+       "meaning": "話す",
+       "explanation": "nói: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-read",
+     "language": "vi",
+     "level": "word",
+     "text": "đọc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "독",
+       "meaning": "읽다",
+       "explanation": "đọc: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "dawk",
+       "meaning": "read",
+       "explanation": "đọc: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ドック",
+       "meaning": "読む",
+       "explanation": "đọc: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-write",
+     "language": "vi",
+     "level": "word",
+     "text": "viết",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "비엣",
+       "meaning": "쓰다",
+       "explanation": "viết: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "vee-et",
+       "meaning": "write",
+       "explanation": "viết: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ヴィエット",
+       "meaning": "書く",
+       "explanation": "viết: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-buy",
+     "language": "vi",
+     "level": "word",
+     "text": "mua",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "무어",
+       "meaning": "사다",
+       "explanation": "mua: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "moo-uh",
+       "meaning": "buy",
+       "explanation": "mua: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ムア",
+       "meaning": "買う",
+       "explanation": "mua: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-sell",
+     "language": "vi",
+     "level": "word",
+     "text": "bán",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "반",
+       "meaning": "팔다",
+       "explanation": "bán: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "bahn",
+       "meaning": "sell",
+       "explanation": "bán: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "バン",
+       "meaning": "売る",
+       "explanation": "bán: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-give",
+     "language": "vi",
+     "level": "word",
+     "text": "cho",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쪼",
+       "meaning": "주다",
+       "explanation": "cho: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "chaw",
+       "meaning": "give",
+       "explanation": "cho: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "チョー",
+       "meaning": "あげる",
+       "explanation": "cho: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-receive",
+     "language": "vi",
+     "level": "word",
+     "text": "nhận",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "년",
+       "meaning": "받다",
+       "explanation": "nhận: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "nyuhn",
+       "meaning": "receive",
+       "explanation": "nhận: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ニャン",
+       "meaning": "もらう",
+       "explanation": "nhận: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-make",
+     "language": "vi",
+     "level": "word",
+     "text": "tạo ra",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "따오 자",
+       "meaning": "만들다",
+       "explanation": "tạo: 낮고 짧게 목을 막듯 끊음 (nặng), ra: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "tow zah",
+       "meaning": "make",
+       "explanation": "tạo: low, short, with a catch in the throat (nặng), ra: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "タオ ザー",
+       "meaning": "作る",
+       "explanation": "tạo: 低く短く喉を詰める (nặng), ra: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-do",
+     "language": "vi",
+     "level": "word",
+     "text": "làm",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "람",
+       "meaning": "하다",
+       "explanation": "làm: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "lahm",
+       "meaning": "do",
+       "explanation": "làm: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ラム",
+       "meaning": "する",
+       "explanation": "làm: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-sleep",
+     "language": "vi",
+     "level": "word",
+     "text": "ngủ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응우",
+       "meaning": "자다",
+       "explanation": "ngủ: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "ngoo",
+       "meaning": "sleep",
+       "explanation": "ngủ: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "グー",
+       "meaning": "寝る",
+       "explanation": "ngủ: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-wake-up",
+     "language": "vi",
+     "level": "word",
+     "text": "thức dậy",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "특 저이",
+       "meaning": "일어나다",
+       "explanation": "thức: 높게 올라감 (sắc), dậy: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "tuhk zay",
+       "meaning": "wake up",
+       "explanation": "thức: high, rising (sắc), dậy: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "トゥック ゾイ",
+       "meaning": "起きる",
+       "explanation": "thức: 高く上がる (sắc), dậy: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-sit",
+     "language": "vi",
+     "level": "word",
+     "text": "ngồi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응오이",
+       "meaning": "앉다",
+       "explanation": "ngồi: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "ngoy",
+       "meaning": "sit",
+       "explanation": "ngồi: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ゴイ",
+       "meaning": "座る",
+       "explanation": "ngồi: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-stand",
+     "language": "vi",
+     "level": "word",
+     "text": "đứng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "등",
+       "meaning": "서다",
+       "explanation": "đứng: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "duhng",
+       "meaning": "stand",
+       "explanation": "đứng: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ドゥン",
+       "meaning": "立つ",
+       "explanation": "đứng: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-walk",
+     "language": "vi",
+     "level": "word",
+     "text": "đi bộ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "디 보",
+       "meaning": "걷다",
+       "explanation": "đi: 평평한 중간 높이 (ngang), bộ: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "dee boh",
+       "meaning": "walk",
+       "explanation": "đi: level, mid pitch (ngang), bộ: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ディー ボー",
+       "meaning": "歩く",
+       "explanation": "đi: 平らな中くらいの高さ (ngang), bộ: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-run",
+     "language": "vi",
+     "level": "word",
+     "text": "chạy",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "짜이",
+       "meaning": "달리다",
+       "explanation": "chạy: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "chai",
+       "meaning": "run",
+       "explanation": "chạy: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "チャイ",
+       "meaning": "走る",
+       "explanation": "chạy: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-wait",
+     "language": "vi",
+     "level": "word",
+     "text": "đợi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "더이",
+       "meaning": "기다리다",
+       "explanation": "đợi: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "duh-ee",
+       "meaning": "wait",
+       "explanation": "đợi: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ドイ",
+       "meaning": "待つ",
+       "explanation": "đợi: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-open",
+     "language": "vi",
+     "level": "word",
+     "text": "mở",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "머",
+       "meaning": "열다",
+       "explanation": "mở: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "muh",
+       "meaning": "open",
+       "explanation": "mở: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "モー",
+       "meaning": "開ける",
+       "explanation": "mở: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-close",
+     "language": "vi",
+     "level": "word",
+     "text": "đóng",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "동",
+       "meaning": "닫다",
+       "explanation": "đóng: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "dawng",
+       "meaning": "close",
+       "explanation": "đóng: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ドン",
+       "meaning": "閉める",
+       "explanation": "đóng: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-wash",
+     "language": "vi",
+     "level": "word",
+     "text": "rửa",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "즈어",
+       "meaning": "씻다",
+       "explanation": "rửa: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "zuh-uh",
+       "meaning": "wash",
+       "explanation": "rửa: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "ズア",
+       "meaning": "洗う",
+       "explanation": "rửa: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-wear",
+     "language": "vi",
+     "level": "word",
+     "text": "mặc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "막",
+       "meaning": "입다",
+       "explanation": "mặc: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "mahk",
+       "meaning": "wear",
+       "explanation": "mặc: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "マック",
+       "meaning": "着る",
+       "explanation": "mặc: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-take-off",
+     "language": "vi",
+     "level": "word",
+     "text": "cởi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "꺼이",
+       "meaning": "벗다",
+       "explanation": "cởi: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "kuh-ee",
+       "meaning": "take off",
+       "explanation": "cởi: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "コイ",
+       "meaning": "脱ぐ",
+       "explanation": "cởi: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-study",
+     "language": "vi",
+     "level": "word",
+     "text": "học",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "혹",
+       "meaning": "공부하다",
+       "explanation": "học: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "hawk",
+       "meaning": "study",
+       "explanation": "học: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ホック",
+       "meaning": "勉強する",
+       "explanation": "học: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-work",
+     "language": "vi",
+     "level": "word",
+     "text": "làm việc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "람 비엑",
+       "meaning": "일하다",
+       "explanation": "làm: 낮게 천천히 내려감 (huyền), việc: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "lahm vee-ek",
+       "meaning": "work",
+       "explanation": "làm: low, falling (huyền), việc: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ラム ヴィエック",
+       "meaning": "働く",
+       "explanation": "làm: 低くゆっくり下がる (huyền), việc: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-play",
+     "language": "vi",
+     "level": "word",
+     "text": "chơi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쩌이",
+       "meaning": "놀다",
+       "explanation": "chơi: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "chuh-ee",
+       "meaning": "play",
+       "explanation": "chơi: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "チョイ",
+       "meaning": "遊ぶ",
+       "explanation": "chơi: 平らな中くらいの高さ (ngang)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-rest",
+     "language": "vi",
+     "level": "word",
+     "text": "nghỉ",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "응이",
+       "meaning": "쉬다",
+       "explanation": "nghỉ: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "ngee",
+       "meaning": "rest",
+       "explanation": "nghỉ: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "ギー",
+       "meaning": "休む",
+       "explanation": "nghỉ: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-help-v",
+     "language": "vi",
+     "level": "word",
+     "text": "giúp",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "줍",
+       "meaning": "돕다",
+       "explanation": "giúp: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "zoop",
+       "meaning": "help",
+       "explanation": "giúp: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ズップ",
+       "meaning": "手伝う",
+       "explanation": "giúp: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-meet",
+     "language": "vi",
+     "level": "word",
+     "text": "gặp",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "갑",
+       "meaning": "만나다",
+       "explanation": "gặp: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "gahp",
+       "meaning": "meet",
+       "explanation": "gặp: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ガップ",
+       "meaning": "会う",
+       "explanation": "gặp: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-call",
+     "language": "vi",
+     "level": "word",
+     "text": "gọi điện",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "고이 디엔",
+       "meaning": "전화하다",
+       "explanation": "gọi: 낮고 짧게 목을 막듯 끊음 (nặng), điện: 낮고 짧게 목을 막듯 끊음 (nặng)"
+      },
+      "en": {
+       "pronunciation": "goy dee-en",
+       "meaning": "call",
+       "explanation": "gọi: low, short, with a catch in the throat (nặng), điện: low, short, with a catch in the throat (nặng)"
+      },
+      "ja": {
+       "pronunciation": "ゴイ ディエン",
+       "meaning": "電話する",
+       "explanation": "gọi: 低く短く喉を詰める (nặng), điện: 低く短く喉を詰める (nặng)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-know",
+     "language": "vi",
+     "level": "word",
+     "text": "biết",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "비엣",
+       "meaning": "알다",
+       "explanation": "biết: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "bee-et",
+       "meaning": "know",
+       "explanation": "biết: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ビエット",
+       "meaning": "知る",
+       "explanation": "biết: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-understand",
+     "language": "vi",
+     "level": "word",
+     "text": "hiểu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "히에우",
+       "meaning": "이해하다",
+       "explanation": "hiểu: 내려갔다가 다시 올라감 (hỏi)"
+      },
+      "en": {
+       "pronunciation": "hee-ew",
+       "meaning": "understand",
+       "explanation": "hiểu: dipping, then rising (hỏi)"
+      },
+      "ja": {
+       "pronunciation": "ヒエウ",
+       "meaning": "分かる",
+       "explanation": "hiểu: 下がってから上がる (hỏi)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-like",
+     "language": "vi",
+     "level": "word",
+     "text": "thích",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "틱",
+       "meaning": "좋아하다",
+       "explanation": "thích: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "tick",
+       "meaning": "like",
+       "explanation": "thích: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ティック",
+       "meaning": "好き",
+       "explanation": "thích: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-want",
+     "language": "vi",
+     "level": "word",
+     "text": "muốn",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "무온",
+       "meaning": "원하다",
+       "explanation": "muốn: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "moo-ohn",
+       "meaning": "want",
+       "explanation": "muốn: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ムオン",
+       "meaning": "欲しい",
+       "explanation": "muốn: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-live",
+     "language": "vi",
+     "level": "word",
+     "text": "sống",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "송",
+       "meaning": "살다",
+       "explanation": "sống: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "sohng",
+       "meaning": "live",
+       "explanation": "sống: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ソン",
+       "meaning": "住む",
+       "explanation": "sống: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-start",
+     "language": "vi",
+     "level": "word",
+     "text": "bắt đầu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "밧 더우",
+       "meaning": "시작하다",
+       "explanation": "bắt: 높게 올라감 (sắc), đầu: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "baht dow",
+       "meaning": "start",
+       "explanation": "bắt: high, rising (sắc), đầu: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "バット ダウ",
+       "meaning": "始める",
+       "explanation": "bắt: 高く上がる (sắc), đầu: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-finish",
+     "language": "vi",
+     "level": "word",
+     "text": "kết thúc",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "껫 툭",
+       "meaning": "끝나다",
+       "explanation": "kết: 높게 올라감 (sắc), thúc: 높게 올라감 (sắc)"
+      },
+      "en": {
+       "pronunciation": "ket tuhk",
+       "meaning": "finish",
+       "explanation": "kết: high, rising (sắc), thúc: high, rising (sắc)"
+      },
+      "ja": {
+       "pronunciation": "ケット トゥック",
+       "meaning": "終わる",
+       "explanation": "kết: 高く上がる (sắc), thúc: 高く上がる (sắc)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-enter",
+     "language": "vi",
+     "level": "word",
+     "text": "vào",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "바오",
+       "meaning": "들어가다",
+       "explanation": "vào: 낮게 천천히 내려감 (huyền)"
+      },
+      "en": {
+       "pronunciation": "vow",
+       "meaning": "enter",
+       "explanation": "vào: low, falling (huyền)"
+      },
+      "ja": {
+       "pronunciation": "ヴァオ",
+       "meaning": "入る",
+       "explanation": "vào: 低くゆっくり下がる (huyền)"
+      }
+     }
+    },
+    {
+     "id": "vi-w-actions-go-out",
+     "language": "vi",
+     "level": "word",
+     "text": "ra",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "자",
+       "meaning": "나가다",
+       "explanation": "ra: 평평한 중간 높이 (ngang)"
+      },
+      "en": {
+       "pronunciation": "zah",
+       "meaning": "go out",
+       "explanation": "ra: level, mid pitch (ngang)"
+      },
+      "ja": {
+       "pronunciation": "ザー",
+       "meaning": "出る",
+       "explanation": "ra: 平らな中くらいの高さ (ngang)"
       }
      }
     }

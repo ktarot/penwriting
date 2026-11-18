@@ -3472,6 +3472,396 @@
    ]
   },
   {
+   "id": "colors",
+   "level": "word",
+   "title": {
+    "ko": "색깔",
+    "en": "Colors",
+    "ja": "色",
+    "vi": "Màu sắc"
+   },
+   "items": [
+    {
+     "id": "ja-w-colors-color",
+     "language": "ja",
+     "level": "word",
+     "text": "色",
+     "standardReading": "いろ · iro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이로",
+       "meaning": "색깔"
+      },
+      "en": {
+       "pronunciation": "iro",
+       "meaning": "color"
+      },
+      "vi": {
+       "pronunciation": "i-rô",
+       "meaning": "màu"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-red",
+     "language": "ja",
+     "level": "word",
+     "text": "赤",
+     "standardReading": "あか · aka",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아카",
+       "meaning": "빨간색"
+      },
+      "en": {
+       "pronunciation": "aka",
+       "meaning": "red"
+      },
+      "vi": {
+       "pronunciation": "a-ca",
+       "meaning": "đỏ"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-orange",
+     "language": "ja",
+     "level": "word",
+     "text": "オレンジ",
+     "standardReading": "orenji",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오렌지",
+       "meaning": "주황색"
+      },
+      "en": {
+       "pronunciation": "orenji",
+       "meaning": "orange"
+      },
+      "vi": {
+       "pronunciation": "ô-rên-gi",
+       "meaning": "cam"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-yellow",
+     "language": "ja",
+     "level": "word",
+     "text": "黄色",
+     "standardReading": "きいろ · kiiro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "키이로",
+       "meaning": "노란색"
+      },
+      "en": {
+       "pronunciation": "kiiro",
+       "meaning": "yellow"
+      },
+      "vi": {
+       "pronunciation": "ki-i-rô",
+       "meaning": "vàng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-green",
+     "language": "ja",
+     "level": "word",
+     "text": "緑",
+     "standardReading": "みどり · midori",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "미도리",
+       "meaning": "초록색"
+      },
+      "en": {
+       "pronunciation": "midori",
+       "meaning": "green"
+      },
+      "vi": {
+       "pronunciation": "mi-đô-ri",
+       "meaning": "xanh lá"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-blue",
+     "language": "ja",
+     "level": "word",
+     "text": "青",
+     "standardReading": "あお · ao",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아오",
+       "meaning": "파란색"
+      },
+      "en": {
+       "pronunciation": "ao",
+       "meaning": "blue"
+      },
+      "vi": {
+       "pronunciation": "a-ô",
+       "meaning": "xanh dương"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-sky-blue",
+     "language": "ja",
+     "level": "word",
+     "text": "水色",
+     "standardReading": "みずいろ · mizuiro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "미즈이로",
+       "meaning": "하늘색"
+      },
+      "en": {
+       "pronunciation": "mizuiro",
+       "meaning": "sky blue"
+      },
+      "vi": {
+       "pronunciation": "mi-dư-i-rô",
+       "meaning": "xanh da trời"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-navy",
+     "language": "ja",
+     "level": "word",
+     "text": "紺色",
+     "standardReading": "こんいろ · kon'iro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "콘이로",
+       "meaning": "남색"
+      },
+      "en": {
+       "pronunciation": "kon'iro",
+       "meaning": "navy"
+      },
+      "vi": {
+       "pronunciation": "côn-i-rô",
+       "meaning": "xanh đậm"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-purple",
+     "language": "ja",
+     "level": "word",
+     "text": "紫",
+     "standardReading": "むらさき · murasaki",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "무라사키",
+       "meaning": "보라색"
+      },
+      "en": {
+       "pronunciation": "murasaki",
+       "meaning": "purple"
+      },
+      "vi": {
+       "pronunciation": "mư-ra-xa-ki",
+       "meaning": "tím"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-pink",
+     "language": "ja",
+     "level": "word",
+     "text": "ピンク",
+     "standardReading": "pinku",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "핑쿠",
+       "meaning": "분홍색"
+      },
+      "en": {
+       "pronunciation": "pinku",
+       "meaning": "pink"
+      },
+      "vi": {
+       "pronunciation": "ping-cư",
+       "meaning": "hồng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-brown",
+     "language": "ja",
+     "level": "word",
+     "text": "茶色",
+     "standardReading": "ちゃいろ · chairo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "챠이로",
+       "meaning": "갈색"
+      },
+      "en": {
+       "pronunciation": "chairo",
+       "meaning": "brown"
+      },
+      "vi": {
+       "pronunciation": "cha-i-rô",
+       "meaning": "nâu"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-black",
+     "language": "ja",
+     "level": "word",
+     "text": "黒",
+     "standardReading": "くろ · kuro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠로",
+       "meaning": "검은색"
+      },
+      "en": {
+       "pronunciation": "kuro",
+       "meaning": "black"
+      },
+      "vi": {
+       "pronunciation": "cư-rô",
+       "meaning": "đen"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-white",
+     "language": "ja",
+     "level": "word",
+     "text": "白",
+     "standardReading": "しろ · shiro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "시로",
+       "meaning": "흰색"
+      },
+      "en": {
+       "pronunciation": "shiro",
+       "meaning": "white"
+      },
+      "vi": {
+       "pronunciation": "si-rô",
+       "meaning": "trắng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-gray",
+     "language": "ja",
+     "level": "word",
+     "text": "灰色",
+     "standardReading": "はいいろ · haiiro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하이이로",
+       "meaning": "회색"
+      },
+      "en": {
+       "pronunciation": "haiiro",
+       "meaning": "gray"
+      },
+      "vi": {
+       "pronunciation": "ha-i-i-rô",
+       "meaning": "xám"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-gold",
+     "language": "ja",
+     "level": "word",
+     "text": "金色",
+     "standardReading": "きんいろ · kin'iro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "킨이로",
+       "meaning": "금색"
+      },
+      "en": {
+       "pronunciation": "kin'iro",
+       "meaning": "gold"
+      },
+      "vi": {
+       "pronunciation": "kin-i-rô",
+       "meaning": "vàng kim"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-silver",
+     "language": "ja",
+     "level": "word",
+     "text": "銀色",
+     "standardReading": "ぎんいろ · gin'iro",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "긴이로",
+       "meaning": "은색"
+      },
+      "en": {
+       "pronunciation": "gin'iro",
+       "meaning": "silver"
+      },
+      "vi": {
+       "pronunciation": "ghin-i-rô",
+       "meaning": "bạc"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-light",
+     "language": "ja",
+     "level": "word",
+     "text": "明るい",
+     "standardReading": "あかるい · akarui",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아카루이",
+       "meaning": "밝은"
+      },
+      "en": {
+       "pronunciation": "akarui",
+       "meaning": "light"
+      },
+      "vi": {
+       "pronunciation": "a-ca-rư-i",
+       "meaning": "sáng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-colors-dark",
+     "language": "ja",
+     "level": "word",
+     "text": "暗い",
+     "standardReading": "くらい · kurai",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠라이",
+       "meaning": "어두운"
+      },
+      "en": {
+       "pronunciation": "kurai",
+       "meaning": "dark"
+      },
+      "vi": {
+       "pronunciation": "cư-ra-i",
+       "meaning": "tối"
+      }
+     }
+    }
+   ]
+  },
+  {
    "id": "directions",
    "level": "word",
    "title": {
@@ -5566,6 +5956,480 @@
    ]
   },
   {
+   "id": "weather",
+   "level": "word",
+   "title": {
+    "ko": "날씨",
+    "en": "Weather",
+    "ja": "天気",
+    "vi": "Thời tiết"
+   },
+   "items": [
+    {
+     "id": "ja-w-weather-weather",
+     "language": "ja",
+     "level": "word",
+     "text": "天気",
+     "standardReading": "てんき · tenki",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "텡키",
+       "meaning": "날씨"
+      },
+      "en": {
+       "pronunciation": "tenki",
+       "meaning": "weather"
+      },
+      "vi": {
+       "pronunciation": "têng-ki",
+       "meaning": "thời tiết"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-sun",
+     "language": "ja",
+     "level": "word",
+     "text": "太陽",
+     "standardReading": "たいよう · taiyō",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "타이요오",
+       "meaning": "해"
+      },
+      "en": {
+       "pronunciation": "taiyō",
+       "meaning": "sun"
+      },
+      "vi": {
+       "pronunciation": "ta-i-iô",
+       "meaning": "mặt trời"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-cloud",
+     "language": "ja",
+     "level": "word",
+     "text": "雲",
+     "standardReading": "くも · kumo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠모",
+       "meaning": "구름"
+      },
+      "en": {
+       "pronunciation": "kumo",
+       "meaning": "cloud"
+      },
+      "vi": {
+       "pronunciation": "cư-mô",
+       "meaning": "mây"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-rain",
+     "language": "ja",
+     "level": "word",
+     "text": "雨",
+     "standardReading": "あめ · ame",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아메",
+       "meaning": "비"
+      },
+      "en": {
+       "pronunciation": "ame",
+       "meaning": "rain"
+      },
+      "vi": {
+       "pronunciation": "a-mê",
+       "meaning": "mưa"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-snow",
+     "language": "ja",
+     "level": "word",
+     "text": "雪",
+     "standardReading": "ゆき · yuki",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "유키",
+       "meaning": "눈"
+      },
+      "en": {
+       "pronunciation": "yuki",
+       "meaning": "snow"
+      },
+      "vi": {
+       "pronunciation": "iu-ki",
+       "meaning": "tuyết"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-wind",
+     "language": "ja",
+     "level": "word",
+     "text": "風",
+     "standardReading": "かぜ · kaze",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카제",
+       "meaning": "바람"
+      },
+      "en": {
+       "pronunciation": "kaze",
+       "meaning": "wind"
+      },
+      "vi": {
+       "pronunciation": "ca-dê",
+       "meaning": "gió"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-sunny",
+     "language": "ja",
+     "level": "word",
+     "text": "晴れ",
+     "standardReading": "はれ · hare",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하레",
+       "meaning": "맑음"
+      },
+      "en": {
+       "pronunciation": "hare",
+       "meaning": "sunny"
+      },
+      "vi": {
+       "pronunciation": "ha-rê",
+       "meaning": "nắng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-cloudy",
+     "language": "ja",
+     "level": "word",
+     "text": "曇り",
+     "standardReading": "くもり · kumori",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠모리",
+       "meaning": "흐림"
+      },
+      "en": {
+       "pronunciation": "kumori",
+       "meaning": "cloudy"
+      },
+      "vi": {
+       "pronunciation": "cư-mô-ri",
+       "meaning": "nhiều mây"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-typhoon",
+     "language": "ja",
+     "level": "word",
+     "text": "台風",
+     "standardReading": "たいふう · taifū",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "타이후우",
+       "meaning": "태풍"
+      },
+      "en": {
+       "pronunciation": "taifū",
+       "meaning": "typhoon"
+      },
+      "vi": {
+       "pronunciation": "ta-i-phư",
+       "meaning": "bão"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-thunder",
+     "language": "ja",
+     "level": "word",
+     "text": "雷",
+     "standardReading": "かみなり · kaminari",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카미나리",
+       "meaning": "천둥"
+      },
+      "en": {
+       "pronunciation": "kaminari",
+       "meaning": "thunder"
+      },
+      "vi": {
+       "pronunciation": "ca-mi-na-ri",
+       "meaning": "sấm"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-fog",
+     "language": "ja",
+     "level": "word",
+     "text": "霧",
+     "standardReading": "きり · kiri",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "키리",
+       "meaning": "안개"
+      },
+      "en": {
+       "pronunciation": "kiri",
+       "meaning": "fog"
+      },
+      "vi": {
+       "pronunciation": "ki-ri",
+       "meaning": "sương mù"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-temperature",
+     "language": "ja",
+     "level": "word",
+     "text": "気温",
+     "standardReading": "きおん · kion",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "키온",
+       "meaning": "기온"
+      },
+      "en": {
+       "pronunciation": "kion",
+       "meaning": "temperature"
+      },
+      "vi": {
+       "pronunciation": "ki-ôn",
+       "meaning": "nhiệt độ"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-hot",
+     "language": "ja",
+     "level": "word",
+     "text": "暑い",
+     "standardReading": "あつい · atsui",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아츠이",
+       "meaning": "덥다"
+      },
+      "en": {
+       "pronunciation": "atsui",
+       "meaning": "hot"
+      },
+      "vi": {
+       "pronunciation": "a-chư-i",
+       "meaning": "nóng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-cold",
+     "language": "ja",
+     "level": "word",
+     "text": "寒い",
+     "standardReading": "さむい · samui",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "사무이",
+       "meaning": "춥다"
+      },
+      "en": {
+       "pronunciation": "samui",
+       "meaning": "cold"
+      },
+      "vi": {
+       "pronunciation": "xa-mư-i",
+       "meaning": "lạnh"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-warm",
+     "language": "ja",
+     "level": "word",
+     "text": "暖かい",
+     "standardReading": "あたたかい · atatakai",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아타타카이",
+       "meaning": "따뜻하다"
+      },
+      "en": {
+       "pronunciation": "atatakai",
+       "meaning": "warm"
+      },
+      "vi": {
+       "pronunciation": "a-ta-ta-ca-i",
+       "meaning": "ấm"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-cool",
+     "language": "ja",
+     "level": "word",
+     "text": "涼しい",
+     "standardReading": "すずしい · suzushii",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스즈시이",
+       "meaning": "시원하다"
+      },
+      "en": {
+       "pronunciation": "suzushii",
+       "meaning": "cool"
+      },
+      "vi": {
+       "pronunciation": "xư-dư-si-i",
+       "meaning": "mát"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-humid",
+     "language": "ja",
+     "level": "word",
+     "text": "蒸し暑い",
+     "standardReading": "むしあつい · mushiatsui",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "무시아츠이",
+       "meaning": "습하다"
+      },
+      "en": {
+       "pronunciation": "mushiatsui",
+       "meaning": "humid"
+      },
+      "vi": {
+       "pronunciation": "mư-si-a-chư-i",
+       "meaning": "ẩm"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-forecast",
+     "language": "ja",
+     "level": "word",
+     "text": "天気予報",
+     "standardReading": "てんき よほう · tenki yohō",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "텡키 요호오",
+       "meaning": "일기예보"
+      },
+      "en": {
+       "pronunciation": "tenki yohō",
+       "meaning": "weather forecast"
+      },
+      "vi": {
+       "pronunciation": "têng-ki iô-hô",
+       "meaning": "dự báo thời tiết"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-umbrella",
+     "language": "ja",
+     "level": "word",
+     "text": "傘",
+     "standardReading": "かさ · kasa",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카사",
+       "meaning": "우산"
+      },
+      "en": {
+       "pronunciation": "kasa",
+       "meaning": "umbrella"
+      },
+      "vi": {
+       "pronunciation": "ca-xa",
+       "meaning": "ô"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-rainy-season",
+     "language": "ja",
+     "level": "word",
+     "text": "梅雨",
+     "standardReading": "つゆ · tsuyu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "츠유",
+       "meaning": "장마"
+      },
+      "en": {
+       "pronunciation": "tsuyu",
+       "meaning": "rainy season"
+      },
+      "vi": {
+       "pronunciation": "chư-iu",
+       "meaning": "mùa mưa"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-kafun",
+     "language": "ja",
+     "level": "word",
+     "text": "花粉",
+     "standardReading": "かふん · kafun",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카훈",
+       "meaning": "꽃가루 (알레르기 원인)"
+      },
+      "en": {
+       "pronunciation": "kafun",
+       "meaning": "pollen"
+      },
+      "vi": {
+       "pronunciation": "ca-phưn",
+       "meaning": "phấn hoa"
+      }
+     }
+    },
+    {
+     "id": "ja-w-weather-nettaiya",
+     "language": "ja",
+     "level": "word",
+     "text": "熱帯夜",
+     "standardReading": "ねったいや · nettaiya",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "넷타이야",
+       "meaning": "열대야"
+      },
+      "en": {
+       "pronunciation": "nettaiya",
+       "meaning": "tropical night (hot night)"
+      },
+      "vi": {
+       "pronunciation": "nêt-ta-i-ia",
+       "meaning": "đêm nhiệt đới (đêm nóng)"
+      }
+     }
+    }
+   ]
+  },
+  {
    "id": "people",
    "level": "word",
    "title": {
@@ -6328,6 +7192,648 @@
       "vi": {
        "pronunciation": "ô-nê-ê-xan",
        "meaning": "chị gái (của người khác, khi gọi)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "body",
+   "level": "word",
+   "title": {
+    "ko": "몸",
+    "en": "Body",
+    "ja": "体",
+    "vi": "Cơ thể"
+   },
+   "items": [
+    {
+     "id": "ja-w-body-body",
+     "language": "ja",
+     "level": "word",
+     "text": "体",
+     "standardReading": "からだ · karada",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카라다",
+       "meaning": "몸"
+      },
+      "en": {
+       "pronunciation": "karada",
+       "meaning": "body"
+      },
+      "vi": {
+       "pronunciation": "ca-ra-đa",
+       "meaning": "cơ thể"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-head",
+     "language": "ja",
+     "level": "word",
+     "text": "頭",
+     "standardReading": "あたま · atama",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아타마",
+       "meaning": "머리"
+      },
+      "en": {
+       "pronunciation": "atama",
+       "meaning": "head"
+      },
+      "vi": {
+       "pronunciation": "a-ta-ma",
+       "meaning": "đầu"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-hair",
+     "language": "ja",
+     "level": "word",
+     "text": "髪",
+     "standardReading": "かみ · kami",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카미",
+       "meaning": "머리카락"
+      },
+      "en": {
+       "pronunciation": "kami",
+       "meaning": "hair"
+      },
+      "vi": {
+       "pronunciation": "ca-mi",
+       "meaning": "tóc"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-face",
+     "language": "ja",
+     "level": "word",
+     "text": "顔",
+     "standardReading": "かお · kao",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카오",
+       "meaning": "얼굴"
+      },
+      "en": {
+       "pronunciation": "kao",
+       "meaning": "face"
+      },
+      "vi": {
+       "pronunciation": "ca-ô",
+       "meaning": "mặt"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-eye",
+     "language": "ja",
+     "level": "word",
+     "text": "目",
+     "standardReading": "め · me",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "메",
+       "meaning": "눈"
+      },
+      "en": {
+       "pronunciation": "me",
+       "meaning": "eye"
+      },
+      "vi": {
+       "pronunciation": "mê",
+       "meaning": "mắt"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-ear",
+     "language": "ja",
+     "level": "word",
+     "text": "耳",
+     "standardReading": "みみ · mimi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "미미",
+       "meaning": "귀"
+      },
+      "en": {
+       "pronunciation": "mimi",
+       "meaning": "ear"
+      },
+      "vi": {
+       "pronunciation": "mi-mi",
+       "meaning": "tai"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-nose",
+     "language": "ja",
+     "level": "word",
+     "text": "鼻",
+     "standardReading": "はな · hana",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하나",
+       "meaning": "코"
+      },
+      "en": {
+       "pronunciation": "hana",
+       "meaning": "nose"
+      },
+      "vi": {
+       "pronunciation": "ha-na",
+       "meaning": "mũi"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-mouth",
+     "language": "ja",
+     "level": "word",
+     "text": "口",
+     "standardReading": "くち · kuchi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠치",
+       "meaning": "입"
+      },
+      "en": {
+       "pronunciation": "kuchi",
+       "meaning": "mouth"
+      },
+      "vi": {
+       "pronunciation": "cư-chi",
+       "meaning": "miệng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-lip",
+     "language": "ja",
+     "level": "word",
+     "text": "唇",
+     "standardReading": "くちびる · kuchibiru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠치비루",
+       "meaning": "입술"
+      },
+      "en": {
+       "pronunciation": "kuchibiru",
+       "meaning": "lip"
+      },
+      "vi": {
+       "pronunciation": "cư-chi-bi-rư",
+       "meaning": "môi"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-tooth",
+     "language": "ja",
+     "level": "word",
+     "text": "歯",
+     "standardReading": "は · ha",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하",
+       "meaning": "치아"
+      },
+      "en": {
+       "pronunciation": "ha",
+       "meaning": "tooth"
+      },
+      "vi": {
+       "pronunciation": "ha",
+       "meaning": "răng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-tongue",
+     "language": "ja",
+     "level": "word",
+     "text": "舌",
+     "standardReading": "した · shita",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "시타",
+       "meaning": "혀"
+      },
+      "en": {
+       "pronunciation": "shita",
+       "meaning": "tongue"
+      },
+      "vi": {
+       "pronunciation": "si-ta",
+       "meaning": "lưỡi"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-neck",
+     "language": "ja",
+     "level": "word",
+     "text": "首",
+     "standardReading": "くび · kubi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠비",
+       "meaning": "목"
+      },
+      "en": {
+       "pronunciation": "kubi",
+       "meaning": "neck"
+      },
+      "vi": {
+       "pronunciation": "cư-bi",
+       "meaning": "cổ"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-throat",
+     "language": "ja",
+     "level": "word",
+     "text": "喉",
+     "standardReading": "のど · nodo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "노도",
+       "meaning": "목구멍"
+      },
+      "en": {
+       "pronunciation": "nodo",
+       "meaning": "throat"
+      },
+      "vi": {
+       "pronunciation": "nô-đô",
+       "meaning": "họng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-shoulder",
+     "language": "ja",
+     "level": "word",
+     "text": "肩",
+     "standardReading": "かた · kata",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카타",
+       "meaning": "어깨"
+      },
+      "en": {
+       "pronunciation": "kata",
+       "meaning": "shoulder"
+      },
+      "vi": {
+       "pronunciation": "ca-ta",
+       "meaning": "vai"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-arm",
+     "language": "ja",
+     "level": "word",
+     "text": "腕",
+     "standardReading": "うで · ude",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "우데",
+       "meaning": "팔"
+      },
+      "en": {
+       "pronunciation": "ude",
+       "meaning": "arm"
+      },
+      "vi": {
+       "pronunciation": "ư-đê",
+       "meaning": "cánh tay"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-elbow",
+     "language": "ja",
+     "level": "word",
+     "text": "肘",
+     "standardReading": "ひじ · hiji",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "히지",
+       "meaning": "팔꿈치"
+      },
+      "en": {
+       "pronunciation": "hiji",
+       "meaning": "elbow"
+      },
+      "vi": {
+       "pronunciation": "hi-gi",
+       "meaning": "khuỷu tay"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-hand",
+     "language": "ja",
+     "level": "word",
+     "text": "手",
+     "standardReading": "て · te",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "테",
+       "meaning": "손"
+      },
+      "en": {
+       "pronunciation": "te",
+       "meaning": "hand"
+      },
+      "vi": {
+       "pronunciation": "tê",
+       "meaning": "bàn tay"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-finger",
+     "language": "ja",
+     "level": "word",
+     "text": "指",
+     "standardReading": "ゆび · yubi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "유비",
+       "meaning": "손가락"
+      },
+      "en": {
+       "pronunciation": "yubi",
+       "meaning": "finger"
+      },
+      "vi": {
+       "pronunciation": "iu-bi",
+       "meaning": "ngón tay"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-chest",
+     "language": "ja",
+     "level": "word",
+     "text": "胸",
+     "standardReading": "むね · mune",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "무네",
+       "meaning": "가슴"
+      },
+      "en": {
+       "pronunciation": "mune",
+       "meaning": "chest"
+      },
+      "vi": {
+       "pronunciation": "mư-nê",
+       "meaning": "ngực"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-stomach",
+     "language": "ja",
+     "level": "word",
+     "text": "お腹",
+     "standardReading": "おなか · onaka",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오나카",
+       "meaning": "배"
+      },
+      "en": {
+       "pronunciation": "onaka",
+       "meaning": "stomach"
+      },
+      "vi": {
+       "pronunciation": "ô-na-ca",
+       "meaning": "bụng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-back-body",
+     "language": "ja",
+     "level": "word",
+     "text": "背中",
+     "standardReading": "せなか · senaka",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "세나카",
+       "meaning": "등"
+      },
+      "en": {
+       "pronunciation": "senaka",
+       "meaning": "back"
+      },
+      "vi": {
+       "pronunciation": "xê-na-ca",
+       "meaning": "lưng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-waist",
+     "language": "ja",
+     "level": "word",
+     "text": "腰",
+     "standardReading": "こし · koshi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "코시",
+       "meaning": "허리"
+      },
+      "en": {
+       "pronunciation": "koshi",
+       "meaning": "waist"
+      },
+      "vi": {
+       "pronunciation": "cô-si",
+       "meaning": "eo"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-leg",
+     "language": "ja",
+     "level": "word",
+     "text": "脚",
+     "standardReading": "あし · ashi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아시",
+       "meaning": "다리"
+      },
+      "en": {
+       "pronunciation": "ashi",
+       "meaning": "leg"
+      },
+      "vi": {
+       "pronunciation": "a-si",
+       "meaning": "chân"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-knee",
+     "language": "ja",
+     "level": "word",
+     "text": "膝",
+     "standardReading": "ひざ · hiza",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "히자",
+       "meaning": "무릎"
+      },
+      "en": {
+       "pronunciation": "hiza",
+       "meaning": "knee"
+      },
+      "vi": {
+       "pronunciation": "hi-da",
+       "meaning": "đầu gối"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-foot",
+     "language": "ja",
+     "level": "word",
+     "text": "足",
+     "standardReading": "あし · ashi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아시",
+       "meaning": "발"
+      },
+      "en": {
+       "pronunciation": "ashi",
+       "meaning": "foot"
+      },
+      "vi": {
+       "pronunciation": "a-si",
+       "meaning": "bàn chân"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-toe",
+     "language": "ja",
+     "level": "word",
+     "text": "足の指",
+     "standardReading": "あし の ゆび · ashi no yubi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아시 노 유비",
+       "meaning": "발가락"
+      },
+      "en": {
+       "pronunciation": "ashi no yubi",
+       "meaning": "toe"
+      },
+      "vi": {
+       "pronunciation": "a-si nô iu-bi",
+       "meaning": "ngón chân"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-skin",
+     "language": "ja",
+     "level": "word",
+     "text": "肌",
+     "standardReading": "はだ · hada",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하다",
+       "meaning": "피부"
+      },
+      "en": {
+       "pronunciation": "hada",
+       "meaning": "skin"
+      },
+      "vi": {
+       "pronunciation": "ha-đa",
+       "meaning": "da"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-bone",
+     "language": "ja",
+     "level": "word",
+     "text": "骨",
+     "standardReading": "ほね · hone",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "호네",
+       "meaning": "뼈"
+      },
+      "en": {
+       "pronunciation": "hone",
+       "meaning": "bone"
+      },
+      "vi": {
+       "pronunciation": "hô-nê",
+       "meaning": "xương"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-blood",
+     "language": "ja",
+     "level": "word",
+     "text": "血",
+     "standardReading": "ち · chi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "치",
+       "meaning": "피"
+      },
+      "en": {
+       "pronunciation": "chi",
+       "meaning": "blood"
+      },
+      "vi": {
+       "pronunciation": "chi",
+       "meaning": "máu"
+      }
+     }
+    },
+    {
+     "id": "ja-w-body-heart",
+     "language": "ja",
+     "level": "word",
+     "text": "心臓",
+     "standardReading": "しんぞう · shinzō",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "신조오",
+       "meaning": "심장"
+      },
+      "en": {
+       "pronunciation": "shinzō",
+       "meaning": "heart"
+      },
+      "vi": {
+       "pronunciation": "sin-dô",
+       "meaning": "tim"
       }
      }
     }
@@ -7843,6 +9349,1500 @@
       "vi": {
        "pronunciation": "cô-ban",
        "meaning": "đồn cảnh sát nhỏ"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "emergency",
+   "level": "word",
+   "title": {
+    "ko": "긴급 상황",
+    "en": "Emergencies",
+    "ja": "緊急時",
+    "vi": "Khẩn cấp"
+   },
+   "items": [
+    {
+     "id": "ja-w-emergency-help",
+     "language": "ja",
+     "level": "word",
+     "text": "助けて",
+     "standardReading": "たすけて · tasukete",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "타스케테",
+       "meaning": "도와주세요"
+      },
+      "en": {
+       "pronunciation": "tasukete",
+       "meaning": "help"
+      },
+      "vi": {
+       "pronunciation": "ta-xư-kê-tê",
+       "meaning": "cứu tôi với"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-emergency",
+     "language": "ja",
+     "level": "word",
+     "text": "緊急",
+     "standardReading": "きんきゅう · kinkyū",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "킹큐우",
+       "meaning": "응급"
+      },
+      "en": {
+       "pronunciation": "kinkyū",
+       "meaning": "emergency"
+      },
+      "vi": {
+       "pronunciation": "king-kiu",
+       "meaning": "khẩn cấp"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-danger",
+     "language": "ja",
+     "level": "word",
+     "text": "危険",
+     "standardReading": "きけん · kiken",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "키켄",
+       "meaning": "위험"
+      },
+      "en": {
+       "pronunciation": "kiken",
+       "meaning": "danger"
+      },
+      "vi": {
+       "pronunciation": "ki-kên",
+       "meaning": "nguy hiểm"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-fire",
+     "language": "ja",
+     "level": "word",
+     "text": "火事",
+     "standardReading": "かじ · kaji",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카지",
+       "meaning": "불"
+      },
+      "en": {
+       "pronunciation": "kaji",
+       "meaning": "fire"
+      },
+      "vi": {
+       "pronunciation": "ca-gi",
+       "meaning": "cháy"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-police",
+     "language": "ja",
+     "level": "word",
+     "text": "警察",
+     "standardReading": "けいさつ · keisatsu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "케에사츠",
+       "meaning": "경찰"
+      },
+      "en": {
+       "pronunciation": "keisatsu",
+       "meaning": "police"
+      },
+      "vi": {
+       "pronunciation": "kê-xa-chư",
+       "meaning": "cảnh sát"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-ambulance",
+     "language": "ja",
+     "level": "word",
+     "text": "救急車",
+     "standardReading": "きゅうきゅうしゃ · kyūkyūsha",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "큐우큐우샤",
+       "meaning": "구급차"
+      },
+      "en": {
+       "pronunciation": "kyūkyūsha",
+       "meaning": "ambulance"
+      },
+      "vi": {
+       "pronunciation": "kiu-kiu-xa",
+       "meaning": "xe cứu thương"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-doctor",
+     "language": "ja",
+     "level": "word",
+     "text": "医者",
+     "standardReading": "いしゃ · isha",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이샤",
+       "meaning": "의사"
+      },
+      "en": {
+       "pronunciation": "isha",
+       "meaning": "doctor"
+      },
+      "vi": {
+       "pronunciation": "i-xa",
+       "meaning": "bác sĩ"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-nurse",
+     "language": "ja",
+     "level": "word",
+     "text": "看護師",
+     "standardReading": "かんごし · kangoshi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "캉고시",
+       "meaning": "간호사"
+      },
+      "en": {
+       "pronunciation": "kangoshi",
+       "meaning": "nurse"
+      },
+      "vi": {
+       "pronunciation": "cang-gô-si",
+       "meaning": "y tá"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-injury",
+     "language": "ja",
+     "level": "word",
+     "text": "けが",
+     "standardReading": "kega",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "케가",
+       "meaning": "부상"
+      },
+      "en": {
+       "pronunciation": "kega",
+       "meaning": "injury"
+      },
+      "vi": {
+       "pronunciation": "kê-ga",
+       "meaning": "vết thương"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-pain",
+     "language": "ja",
+     "level": "word",
+     "text": "痛み",
+     "standardReading": "いたみ · itami",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이타미",
+       "meaning": "통증"
+      },
+      "en": {
+       "pronunciation": "itami",
+       "meaning": "pain"
+      },
+      "vi": {
+       "pronunciation": "i-ta-mi",
+       "meaning": "đau"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-fever",
+     "language": "ja",
+     "level": "word",
+     "text": "熱",
+     "standardReading": "ねつ · netsu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "네츠",
+       "meaning": "열"
+      },
+      "en": {
+       "pronunciation": "netsu",
+       "meaning": "fever"
+      },
+      "vi": {
+       "pronunciation": "nê-chư",
+       "meaning": "sốt"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-medicine",
+     "language": "ja",
+     "level": "word",
+     "text": "薬",
+     "standardReading": "くすり · kusuri",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠스리",
+       "meaning": "약"
+      },
+      "en": {
+       "pronunciation": "kusuri",
+       "meaning": "medicine"
+      },
+      "vi": {
+       "pronunciation": "cư-xư-ri",
+       "meaning": "thuốc"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-allergy",
+     "language": "ja",
+     "level": "word",
+     "text": "アレルギー",
+     "standardReading": "arerugī",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아레루기이",
+       "meaning": "알레르기"
+      },
+      "en": {
+       "pronunciation": "arerugī",
+       "meaning": "allergy"
+      },
+      "vi": {
+       "pronunciation": "a-rê-rư-ghi",
+       "meaning": "dị ứng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-accident",
+     "language": "ja",
+     "level": "word",
+     "text": "事故",
+     "standardReading": "じこ · jiko",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "지코",
+       "meaning": "사고"
+      },
+      "en": {
+       "pronunciation": "jiko",
+       "meaning": "accident"
+      },
+      "vi": {
+       "pronunciation": "gi-cô",
+       "meaning": "tai nạn"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-earthquake",
+     "language": "ja",
+     "level": "word",
+     "text": "地震",
+     "standardReading": "じしん · jishin",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "지신",
+       "meaning": "지진"
+      },
+      "en": {
+       "pronunciation": "jishin",
+       "meaning": "earthquake"
+      },
+      "vi": {
+       "pronunciation": "gi-sin",
+       "meaning": "động đất"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-flood",
+     "language": "ja",
+     "level": "word",
+     "text": "洪水",
+     "standardReading": "こうずい · kōzui",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "코오즈이",
+       "meaning": "홍수"
+      },
+      "en": {
+       "pronunciation": "kōzui",
+       "meaning": "flood"
+      },
+      "vi": {
+       "pronunciation": "cô-dư-i",
+       "meaning": "lũ lụt"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-evacuation",
+     "language": "ja",
+     "level": "word",
+     "text": "避難",
+     "standardReading": "ひなん · hinan",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "히난",
+       "meaning": "대피"
+      },
+      "en": {
+       "pronunciation": "hinan",
+       "meaning": "evacuation"
+      },
+      "vi": {
+       "pronunciation": "hi-nan",
+       "meaning": "sơ tán"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-shelter",
+     "language": "ja",
+     "level": "word",
+     "text": "避難所",
+     "standardReading": "ひなんじょ · hinanjo",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "히난죠",
+       "meaning": "대피소"
+      },
+      "en": {
+       "pronunciation": "hinanjo",
+       "meaning": "shelter"
+      },
+      "vi": {
+       "pronunciation": "hi-nan-giô",
+       "meaning": "nơi trú ẩn"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-emergency-exit",
+     "language": "ja",
+     "level": "word",
+     "text": "非常口",
+     "standardReading": "ひじょうぐち · hijōguchi",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "히죠오구치",
+       "meaning": "비상구"
+      },
+      "en": {
+       "pronunciation": "hijōguchi",
+       "meaning": "emergency exit"
+      },
+      "vi": {
+       "pronunciation": "hi-giô-gư-chi",
+       "meaning": "lối thoát hiểm"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-extinguisher",
+     "language": "ja",
+     "level": "word",
+     "text": "消火器",
+     "standardReading": "しょうかき · shōkaki",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쇼오카키",
+       "meaning": "소화기"
+      },
+      "en": {
+       "pronunciation": "shōkaki",
+       "meaning": "fire extinguisher"
+      },
+      "vi": {
+       "pronunciation": "xô-ca-ki",
+       "meaning": "bình chữa cháy"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-thief",
+     "language": "ja",
+     "level": "word",
+     "text": "泥棒",
+     "standardReading": "どろぼう · dorobō",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "도로보오",
+       "meaning": "도둑"
+      },
+      "en": {
+       "pronunciation": "dorobō",
+       "meaning": "thief"
+      },
+      "vi": {
+       "pronunciation": "đô-rô-bô",
+       "meaning": "kẻ trộm"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-lost-item",
+     "language": "ja",
+     "level": "word",
+     "text": "忘れ物",
+     "standardReading": "わすれもの · wasuremono",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "와스레모노",
+       "meaning": "분실물"
+      },
+      "en": {
+       "pronunciation": "wasuremono",
+       "meaning": "lost item"
+      },
+      "vi": {
+       "pronunciation": "oa-xư-rê-mô-nô",
+       "meaning": "đồ thất lạc"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-passport",
+     "language": "ja",
+     "level": "word",
+     "text": "パスポート",
+     "standardReading": "pasupōto",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "파스포오토",
+       "meaning": "여권"
+      },
+      "en": {
+       "pronunciation": "pasupōto",
+       "meaning": "passport"
+      },
+      "vi": {
+       "pronunciation": "pa-xư-pô-tô",
+       "meaning": "hộ chiếu"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-embassy",
+     "language": "ja",
+     "level": "word",
+     "text": "大使館",
+     "standardReading": "たいしかん · taishikan",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "타이시칸",
+       "meaning": "대사관"
+      },
+      "en": {
+       "pronunciation": "taishikan",
+       "meaning": "embassy"
+      },
+      "vi": {
+       "pronunciation": "ta-i-si-can",
+       "meaning": "đại sứ quán"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-careful",
+     "language": "ja",
+     "level": "word",
+     "text": "気をつけて",
+     "standardReading": "き を つけて · ki o tsukete",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "키 오 츠케테",
+       "meaning": "조심하세요"
+      },
+      "en": {
+       "pronunciation": "ki o tsukete",
+       "meaning": "be careful"
+      },
+      "vi": {
+       "pronunciation": "ki ô chư-kê-tê",
+       "meaning": "cẩn thận"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-110",
+     "language": "ja",
+     "level": "word",
+     "text": "110番",
+     "standardReading": "ひゃくとおばん · hyakutōban",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "햐쿠토오반",
+       "meaning": "110번 (일본 경찰)"
+      },
+      "en": {
+       "pronunciation": "hyakutōban",
+       "meaning": "110 (police in Japan)"
+      },
+      "vi": {
+       "pronunciation": "hia-cư-tô-ban",
+       "meaning": "110 (cảnh sát ở Nhật)"
+      }
+     }
+    },
+    {
+     "id": "ja-w-emergency-119",
+     "language": "ja",
+     "level": "word",
+     "text": "119番",
+     "standardReading": "ひゃくじゅうきゅうばん · hyakujūkyūban",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "햐쿠쥬우큐우반",
+       "meaning": "119번 (일본 소방·구급)"
+      },
+      "en": {
+       "pronunciation": "hyakujūkyūban",
+       "meaning": "119 (fire and ambulance in Japan)"
+      },
+      "vi": {
+       "pronunciation": "hia-cư-giu-kiu-ban",
+       "meaning": "119 (cứu hỏa, cấp cứu ở Nhật)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "actions",
+   "level": "word",
+   "title": {
+    "ko": "행동",
+    "en": "Actions",
+    "ja": "動作",
+    "vi": "Hành động"
+   },
+   "items": [
+    {
+     "id": "ja-w-actions-go",
+     "language": "ja",
+     "level": "word",
+     "text": "行く",
+     "standardReading": "いく · iku",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "이쿠",
+       "meaning": "가다"
+      },
+      "en": {
+       "pronunciation": "iku",
+       "meaning": "go"
+      },
+      "vi": {
+       "pronunciation": "i-cư",
+       "meaning": "đi"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-come",
+     "language": "ja",
+     "level": "word",
+     "text": "来る",
+     "standardReading": "くる · kuru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "쿠루",
+       "meaning": "오다"
+      },
+      "en": {
+       "pronunciation": "kuru",
+       "meaning": "come"
+      },
+      "vi": {
+       "pronunciation": "cư-rư",
+       "meaning": "đến"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-eat",
+     "language": "ja",
+     "level": "word",
+     "text": "食べる",
+     "standardReading": "たべる · taberu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "타베루",
+       "meaning": "먹다"
+      },
+      "en": {
+       "pronunciation": "taberu",
+       "meaning": "eat"
+      },
+      "vi": {
+       "pronunciation": "ta-bê-rư",
+       "meaning": "ăn"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-drink",
+     "language": "ja",
+     "level": "word",
+     "text": "飲む",
+     "standardReading": "のむ · nomu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "노무",
+       "meaning": "마시다"
+      },
+      "en": {
+       "pronunciation": "nomu",
+       "meaning": "drink"
+      },
+      "vi": {
+       "pronunciation": "nô-mư",
+       "meaning": "uống"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-see",
+     "language": "ja",
+     "level": "word",
+     "text": "見る",
+     "standardReading": "みる · miru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "미루",
+       "meaning": "보다"
+      },
+      "en": {
+       "pronunciation": "miru",
+       "meaning": "see"
+      },
+      "vi": {
+       "pronunciation": "mi-rư",
+       "meaning": "xem"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-listen",
+     "language": "ja",
+     "level": "word",
+     "text": "聞く",
+     "standardReading": "きく · kiku",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "키쿠",
+       "meaning": "듣다"
+      },
+      "en": {
+       "pronunciation": "kiku",
+       "meaning": "listen"
+      },
+      "vi": {
+       "pronunciation": "ki-cư",
+       "meaning": "nghe"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-speak",
+     "language": "ja",
+     "level": "word",
+     "text": "話す",
+     "standardReading": "はなす · hanasu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하나스",
+       "meaning": "말하다"
+      },
+      "en": {
+       "pronunciation": "hanasu",
+       "meaning": "speak"
+      },
+      "vi": {
+       "pronunciation": "ha-na-xư",
+       "meaning": "nói"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-read",
+     "language": "ja",
+     "level": "word",
+     "text": "読む",
+     "standardReading": "よむ · yomu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "요무",
+       "meaning": "읽다"
+      },
+      "en": {
+       "pronunciation": "yomu",
+       "meaning": "read"
+      },
+      "vi": {
+       "pronunciation": "iô-mư",
+       "meaning": "đọc"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-write",
+     "language": "ja",
+     "level": "word",
+     "text": "書く",
+     "standardReading": "かく · kaku",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카쿠",
+       "meaning": "쓰다"
+      },
+      "en": {
+       "pronunciation": "kaku",
+       "meaning": "write"
+      },
+      "vi": {
+       "pronunciation": "ca-cư",
+       "meaning": "viết"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-buy",
+     "language": "ja",
+     "level": "word",
+     "text": "買う",
+     "standardReading": "かう · kau",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "카우",
+       "meaning": "사다"
+      },
+      "en": {
+       "pronunciation": "kau",
+       "meaning": "buy"
+      },
+      "vi": {
+       "pronunciation": "ca-ư",
+       "meaning": "mua"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-sell",
+     "language": "ja",
+     "level": "word",
+     "text": "売る",
+     "standardReading": "うる · uru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "우루",
+       "meaning": "팔다"
+      },
+      "en": {
+       "pronunciation": "uru",
+       "meaning": "sell"
+      },
+      "vi": {
+       "pronunciation": "ư-rư",
+       "meaning": "bán"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-give",
+     "language": "ja",
+     "level": "word",
+     "text": "あげる",
+     "standardReading": "ageru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아게루",
+       "meaning": "주다"
+      },
+      "en": {
+       "pronunciation": "ageru",
+       "meaning": "give"
+      },
+      "vi": {
+       "pronunciation": "a-ghê-rư",
+       "meaning": "cho"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-receive",
+     "language": "ja",
+     "level": "word",
+     "text": "もらう",
+     "standardReading": "morau",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "모라우",
+       "meaning": "받다"
+      },
+      "en": {
+       "pronunciation": "morau",
+       "meaning": "receive"
+      },
+      "vi": {
+       "pronunciation": "mô-ra-ư",
+       "meaning": "nhận"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-make",
+     "language": "ja",
+     "level": "word",
+     "text": "作る",
+     "standardReading": "つくる · tsukuru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "츠쿠루",
+       "meaning": "만들다"
+      },
+      "en": {
+       "pronunciation": "tsukuru",
+       "meaning": "make"
+      },
+      "vi": {
+       "pronunciation": "chư-cư-rư",
+       "meaning": "tạo ra"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-do",
+     "language": "ja",
+     "level": "word",
+     "text": "する",
+     "standardReading": "suru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스루",
+       "meaning": "하다"
+      },
+      "en": {
+       "pronunciation": "suru",
+       "meaning": "do"
+      },
+      "vi": {
+       "pronunciation": "xư-rư",
+       "meaning": "làm"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-sleep",
+     "language": "ja",
+     "level": "word",
+     "text": "寝る",
+     "standardReading": "ねる · neru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "네루",
+       "meaning": "자다"
+      },
+      "en": {
+       "pronunciation": "neru",
+       "meaning": "sleep"
+      },
+      "vi": {
+       "pronunciation": "nê-rư",
+       "meaning": "ngủ"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-wake-up",
+     "language": "ja",
+     "level": "word",
+     "text": "起きる",
+     "standardReading": "おきる · okiru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오키루",
+       "meaning": "일어나다"
+      },
+      "en": {
+       "pronunciation": "okiru",
+       "meaning": "wake up"
+      },
+      "vi": {
+       "pronunciation": "ô-ki-rư",
+       "meaning": "thức dậy"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-sit",
+     "language": "ja",
+     "level": "word",
+     "text": "座る",
+     "standardReading": "すわる · suwaru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스와루",
+       "meaning": "앉다"
+      },
+      "en": {
+       "pronunciation": "suwaru",
+       "meaning": "sit"
+      },
+      "vi": {
+       "pronunciation": "xư-oa-rư",
+       "meaning": "ngồi"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-stand",
+     "language": "ja",
+     "level": "word",
+     "text": "立つ",
+     "standardReading": "たつ · tatsu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "타츠",
+       "meaning": "서다"
+      },
+      "en": {
+       "pronunciation": "tatsu",
+       "meaning": "stand"
+      },
+      "vi": {
+       "pronunciation": "ta-chư",
+       "meaning": "đứng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-walk",
+     "language": "ja",
+     "level": "word",
+     "text": "歩く",
+     "standardReading": "あるく · aruku",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아루쿠",
+       "meaning": "걷다"
+      },
+      "en": {
+       "pronunciation": "aruku",
+       "meaning": "walk"
+      },
+      "vi": {
+       "pronunciation": "a-rư-cư",
+       "meaning": "đi bộ"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-run",
+     "language": "ja",
+     "level": "word",
+     "text": "走る",
+     "standardReading": "はしる · hashiru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하시루",
+       "meaning": "달리다"
+      },
+      "en": {
+       "pronunciation": "hashiru",
+       "meaning": "run"
+      },
+      "vi": {
+       "pronunciation": "ha-si-rư",
+       "meaning": "chạy"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-wait",
+     "language": "ja",
+     "level": "word",
+     "text": "待つ",
+     "standardReading": "まつ · matsu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "마츠",
+       "meaning": "기다리다"
+      },
+      "en": {
+       "pronunciation": "matsu",
+       "meaning": "wait"
+      },
+      "vi": {
+       "pronunciation": "ma-chư",
+       "meaning": "đợi"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-open",
+     "language": "ja",
+     "level": "word",
+     "text": "開ける",
+     "standardReading": "あける · akeru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아케루",
+       "meaning": "열다"
+      },
+      "en": {
+       "pronunciation": "akeru",
+       "meaning": "open"
+      },
+      "vi": {
+       "pronunciation": "a-kê-rư",
+       "meaning": "mở"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-close",
+     "language": "ja",
+     "level": "word",
+     "text": "閉める",
+     "standardReading": "しめる · shimeru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "시메루",
+       "meaning": "닫다"
+      },
+      "en": {
+       "pronunciation": "shimeru",
+       "meaning": "close"
+      },
+      "vi": {
+       "pronunciation": "si-mê-rư",
+       "meaning": "đóng"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-wash",
+     "language": "ja",
+     "level": "word",
+     "text": "洗う",
+     "standardReading": "あらう · arau",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아라우",
+       "meaning": "씻다"
+      },
+      "en": {
+       "pronunciation": "arau",
+       "meaning": "wash"
+      },
+      "vi": {
+       "pronunciation": "a-ra-ư",
+       "meaning": "rửa"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-wear",
+     "language": "ja",
+     "level": "word",
+     "text": "着る",
+     "standardReading": "きる · kiru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "키루",
+       "meaning": "입다"
+      },
+      "en": {
+       "pronunciation": "kiru",
+       "meaning": "wear"
+      },
+      "vi": {
+       "pronunciation": "ki-rư",
+       "meaning": "mặc"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-take-off",
+     "language": "ja",
+     "level": "word",
+     "text": "脱ぐ",
+     "standardReading": "ぬぐ · nugu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "누구",
+       "meaning": "벗다"
+      },
+      "en": {
+       "pronunciation": "nugu",
+       "meaning": "take off"
+      },
+      "vi": {
+       "pronunciation": "nư-gư",
+       "meaning": "cởi"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-study",
+     "language": "ja",
+     "level": "word",
+     "text": "勉強する",
+     "standardReading": "べんきょう する · benkyō suru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "벵쿄오 스루",
+       "meaning": "공부하다"
+      },
+      "en": {
+       "pronunciation": "benkyō suru",
+       "meaning": "study"
+      },
+      "vi": {
+       "pronunciation": "bêng-kiô xư-rư",
+       "meaning": "học"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-work",
+     "language": "ja",
+     "level": "word",
+     "text": "働く",
+     "standardReading": "はたらく · hataraku",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하타라쿠",
+       "meaning": "일하다"
+      },
+      "en": {
+       "pronunciation": "hataraku",
+       "meaning": "work"
+      },
+      "vi": {
+       "pronunciation": "ha-ta-ra-cư",
+       "meaning": "làm việc"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-play",
+     "language": "ja",
+     "level": "word",
+     "text": "遊ぶ",
+     "standardReading": "あそぶ · asobu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아소부",
+       "meaning": "놀다"
+      },
+      "en": {
+       "pronunciation": "asobu",
+       "meaning": "play"
+      },
+      "vi": {
+       "pronunciation": "a-xô-bư",
+       "meaning": "chơi"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-rest",
+     "language": "ja",
+     "level": "word",
+     "text": "休む",
+     "standardReading": "やすむ · yasumu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "야스무",
+       "meaning": "쉬다"
+      },
+      "en": {
+       "pronunciation": "yasumu",
+       "meaning": "rest"
+      },
+      "vi": {
+       "pronunciation": "ia-xư-mư",
+       "meaning": "nghỉ"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-help-v",
+     "language": "ja",
+     "level": "word",
+     "text": "手伝う",
+     "standardReading": "てつだう · tetsudau",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "테츠다우",
+       "meaning": "돕다"
+      },
+      "en": {
+       "pronunciation": "tetsudau",
+       "meaning": "help"
+      },
+      "vi": {
+       "pronunciation": "tê-chư-đa-ư",
+       "meaning": "giúp"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-meet",
+     "language": "ja",
+     "level": "word",
+     "text": "会う",
+     "standardReading": "あう · au",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "아우",
+       "meaning": "만나다"
+      },
+      "en": {
+       "pronunciation": "au",
+       "meaning": "meet"
+      },
+      "vi": {
+       "pronunciation": "a-ư",
+       "meaning": "gặp"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-call",
+     "language": "ja",
+     "level": "word",
+     "text": "電話する",
+     "standardReading": "でんわ する · denwa suru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "덴와 스루",
+       "meaning": "전화하다"
+      },
+      "en": {
+       "pronunciation": "denwa suru",
+       "meaning": "call"
+      },
+      "vi": {
+       "pronunciation": "đên-oa xư-rư",
+       "meaning": "gọi điện"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-know",
+     "language": "ja",
+     "level": "word",
+     "text": "知る",
+     "standardReading": "しる · shiru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "시루",
+       "meaning": "알다"
+      },
+      "en": {
+       "pronunciation": "shiru",
+       "meaning": "know"
+      },
+      "vi": {
+       "pronunciation": "si-rư",
+       "meaning": "biết"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-understand",
+     "language": "ja",
+     "level": "word",
+     "text": "分かる",
+     "standardReading": "わかる · wakaru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "와카루",
+       "meaning": "이해하다"
+      },
+      "en": {
+       "pronunciation": "wakaru",
+       "meaning": "understand"
+      },
+      "vi": {
+       "pronunciation": "oa-ca-rư",
+       "meaning": "hiểu"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-like",
+     "language": "ja",
+     "level": "word",
+     "text": "好き",
+     "standardReading": "すき · suki",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스키",
+       "meaning": "좋아하다"
+      },
+      "en": {
+       "pronunciation": "suki",
+       "meaning": "like"
+      },
+      "vi": {
+       "pronunciation": "xư-ki",
+       "meaning": "thích"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-want",
+     "language": "ja",
+     "level": "word",
+     "text": "欲しい",
+     "standardReading": "ほしい · hoshii",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "호시이",
+       "meaning": "원하다"
+      },
+      "en": {
+       "pronunciation": "hoshii",
+       "meaning": "want"
+      },
+      "vi": {
+       "pronunciation": "hô-si-i",
+       "meaning": "muốn"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-live",
+     "language": "ja",
+     "level": "word",
+     "text": "住む",
+     "standardReading": "すむ · sumu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "스무",
+       "meaning": "살다"
+      },
+      "en": {
+       "pronunciation": "sumu",
+       "meaning": "live"
+      },
+      "vi": {
+       "pronunciation": "xư-mư",
+       "meaning": "sống"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-start",
+     "language": "ja",
+     "level": "word",
+     "text": "始める",
+     "standardReading": "はじめる · hajimeru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하지메루",
+       "meaning": "시작하다"
+      },
+      "en": {
+       "pronunciation": "hajimeru",
+       "meaning": "start"
+      },
+      "vi": {
+       "pronunciation": "ha-gi-mê-rư",
+       "meaning": "bắt đầu"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-finish",
+     "language": "ja",
+     "level": "word",
+     "text": "終わる",
+     "standardReading": "おわる · owaru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "오와루",
+       "meaning": "끝나다"
+      },
+      "en": {
+       "pronunciation": "owaru",
+       "meaning": "finish"
+      },
+      "vi": {
+       "pronunciation": "ô-oa-rư",
+       "meaning": "kết thúc"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-enter",
+     "language": "ja",
+     "level": "word",
+     "text": "入る",
+     "standardReading": "はいる · hairu",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "하이루",
+       "meaning": "들어가다"
+      },
+      "en": {
+       "pronunciation": "hairu",
+       "meaning": "enter"
+      },
+      "vi": {
+       "pronunciation": "ha-i-rư",
+       "meaning": "vào"
+      }
+     }
+    },
+    {
+     "id": "ja-w-actions-go-out",
+     "language": "ja",
+     "level": "word",
+     "text": "出る",
+     "standardReading": "でる · deru",
+     "nativeGuides": {
+      "ko": {
+       "pronunciation": "데루",
+       "meaning": "나가다"
+      },
+      "en": {
+       "pronunciation": "deru",
+       "meaning": "go out"
+      },
+      "vi": {
+       "pronunciation": "đê-rư",
+       "meaning": "ra"
       }
      }
     }
